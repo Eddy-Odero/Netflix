@@ -375,7 +375,7 @@ body {
 
 /* Movie Sections */
 .movie-sections {
-    margin-top:o;
+    margin-top:0;
     padding-bottom:0;
      padding-top: 0;
 }
@@ -452,7 +452,16 @@ body {
     top: 0;
     
 }
-
+.movie-list {
+  display: flex;
+  gap: 0.5rem; 
+  padding: 0;
+  margin: 0;
+}
+.movie-row {
+  margin-top: 0;
+  padding-top: 2rem; 
+}
 .movie-card:hover {
     transform: scale(1.05) translateY(-8px);
     z-index: 10;
@@ -460,7 +469,7 @@ body {
 
 .movie-image {
     width: 100%;
-    height: 135px;
+    height: 145px;
     object-fit: cover;
     transition: border-radius 0.3s ease;
 }
