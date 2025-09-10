@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-
+/* CSS Variables for Netflix Colors */
 :root {
     --netflix-red: #e50914;
     --netflix-black: #141414;
@@ -25,7 +25,7 @@ body {
     --netflix-transparent: rgba(0, 0, 0, 0.7);
 }
 
-
+/* Sidebar Styles */
 .sidebar {
     position: fixed;
     top: 0;
@@ -388,28 +388,34 @@ body {
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  width: 40px;
-  height: 40px;
-  background: rgba(0, 0, 0, 0.5);
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   border-radius: 50%;
   color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  opacity: 0.8;
-  transition: all 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
+
 .scroll-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-50%) scale(1.05);
 }
 
 .scroll-btn.left {
-  left: 10px;
+  left: 16px;
 }
 
 .scroll-btn.right {
-  right: 10px;
+  right: 16px;
 }
+
 .row-header {
     display: flex;
     align-items: center;
