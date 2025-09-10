@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <title>EDU-FLIX</title>
     <link rel="stylesheet" href="styles.css">
        <!-- Local Font Awesome 5 -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -15,7 +15,7 @@
     <!-- Sidebar Navigation -->
     <nav class="sidebar" id="sidebar">
         <div class="sidebar-header">
-            <div class="logo">  EDU-FLIX</div>
+            <div class="logo">N</div>
         </div>
         
         <div class="sidebar-content">
@@ -23,23 +23,23 @@
                 <input id="sidebarSearch" class="search-input" type="text" placeholder="Search..." autocomplete="off" />
             </div>
             <div class="nav-section">
-                <a href="#" class="nav-item active" data-target="home">
+                <a href="#home" class="nav-item active" data-target="home">
                  <i class="bi bi-house-door"></i>
                     <span class="nav-text">Home</span>
                 </a>
-                <a href="#" class="nav-item" data-target="tvRow">
+                <a href="#tvRow" class="nav-item" data-target="tvRow">
                    <i class="bi bi-tv"></i>
                     <span class="nav-text">TV Shows</span>
                 </a>
-                <a href="#" class="nav-item" data-target="moviesRow">
+                <a href="#moviesRow" class="nav-item" data-target="moviesRow">
                     <i class="bi bi-film"></i>
                     <span class="nav-text">Movies</span>
                 </a>
-                <a href="#" class="nav-item" data-target="newRow">
+                <a href="#newRow" class="nav-item" data-target="newRow">
                    <i class="bi bi-star"></i>
                     <span class="nav-text">New & Popular</span>
                 </a>
-                <a href="#" class="nav-item" data-target="myListRow">
+                <a href="#myListRow" class="nav-item" data-target="myListRow">
                    <i class="bi bi-plus"></i>
                     <span class="nav-text">My List</span>
                 </a>
@@ -109,6 +109,24 @@
                 </div>
             </div>
         </section>
+
+        <!-- Movie Rows -->
+        <div class="movie-sections">
+            <!-- Search Results (hidden by default) -->
+            <section class="movie-row" id="searchRow" style="display:none;">
+                <div class="row-header">
+                    <h2 class="row-title">Search Results</h2>
+                    <div class="row-controls">
+                        <button class="control-btn" onclick="scrollRow('searchResults', 'left')">
+                            <i class="bi bi-chevron-left"></i>
+                        </button>
+                        <button class="control-btn" onclick="scrollRow('searchResults', 'right')">
+                            <i class="bi bi-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="movie-list" id="searchResults"></div>
+            </section>
 
             <!-- My List -->
             <section class="movie-row" id="myListRow">
