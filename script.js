@@ -14,151 +14,7 @@ const movies = [
         ranking: 1,
         progress: 75
     },
-    {
-        id: 2,
-        title: "The Crown",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",
-        year: 2016,
-        duration: "6 Seasons",
-        genre: "Drama",
-        rating: "TV-MA",
-        categories: ["popular", "drama", "historical"],
-        progress: 45
-    },
-    {
-        id: 3,
-        title: "Wednesday",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while making new friends at Nevermore Academy.",
-        year: 2022,
-        duration: "1 Season",
-        genre: "Comedy Horror",
-        rating: "TV-14",
-        categories: ["trending", "comedy", "horror"],
-        ranking: 2,
-        progress: 30
-    },
-    {
-        id: 4,
-        title: "Bridgerton",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Wealth, lust, and betrayal set against the backdrop of Regency-era England, seen through the eyes of the powerful Bridgerton family.",
-        year: 2020,
-        duration: "3 Seasons",
-        genre: "Romance Drama",
-        rating: "TV-MA",
-        categories: ["popular", "romance", "drama"],
-        progress: 60
-    },
-    {
-        id: 5,
-        title: "The Witcher",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-        year: 2019,
-        duration: "3 Seasons",
-        genre: "Fantasy Action",
-        rating: "TV-MA",
-        categories: ["trending", "fantasy", "action"],
-        progress: 85
-    },
-    {
-        id: 6,
-        title: "Money Heist",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
-        year: 2017,
-        duration: "5 Parts",
-        genre: "Crime Drama",
-        rating: "TV-MA",
-        categories: ["popular", "crime", "thriller"],
-        progress: 90
-    },
-    {
-        id: 7,
-        title: "The Queen's Gambit",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA.",
-        year: 2020,
-        duration: "1 Season",
-        genre: "Drama",
-        rating: "TV-MA",
-        categories: ["popular", "drama"],
-        progress: 100
-    },
-    {
-        id: 8,
-        title: "Dark",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
-        year: 2017,
-        duration: "3 Seasons",
-        genre: "Sci-Fi Thriller",
-        rating: "TV-MA",
-        categories: ["trending", "sci-fi", "thriller"],
-        progress: 20
-    },
-    {
-        id: 9,
-        title: "Ozark",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder money to appease a drug boss.",
-        year: 2017,
-        duration: "4 Seasons",
-        genre: "Crime Drama",
-        rating: "TV-MA",
-        categories: ["popular", "crime", "drama"],
-        progress: 70
-    },
-    {
-        id: 10,
-        title: "The Umbrella Academy",
-        type: "series",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "On one day in 1989, forty-three infants are inexplicably born to random, unconnected women who showed no signs of pregnancy the day before.",
-        year: 2019,
-        duration: "3 Seasons",
-        genre: "Sci-Fi Action",
-        rating: "TV-14",
-        categories: ["trending", "sci-fi", "action"],
-        progress: 55
-    },
-    {
-        id: 11,
-        title: "The Irishman",
-        type: "movie",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Hitman Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family.",
-        year: 2019,
-        duration: "3h 29m",
-        genre: "Crime Drama",
-        rating: "R",
-        categories: ["popular", "crime", "drama"],
-        progress: 0
-    },
-    {
-        id: 12,
-        title: "Marriage Story",
-        type: "movie",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "Noah Baumbach's incisive and compassionate look at a marriage breaking up and a family staying together.",
-        year: 2019,
-        duration: "2h 17m",
-        genre: "Drama Romance",
-        rating: "R",
-        categories: ["popular", "drama", "romance"],
-        progress: 0
-    }
-];
+    ];
 
 // My List for user's saved content
 let myList = [];
@@ -445,6 +301,18 @@ function setupSidebar() {
         });
     });
 }
+const navItems = document.querySelectorAll('.nav-item');
+
+navItems.forEach(item => {
+  item.addEventLi
+  stener('click', () => {
+    // Remove 'active' from all items
+    navItems.forEach(i => i.classList.remove('active'));
+    // Add 'active' to the clicked item
+    item.classList.add('active');
+  });
+});
+
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
