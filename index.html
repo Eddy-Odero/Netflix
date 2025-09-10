@@ -11,25 +11,16 @@
 <style> 
    
 
-.hero-section {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.movie-row {
-  padding-left: 0;
-  margin-left: 0;
-}
-
 .movie-list {
   display: flex;
-  gap: 0.5rem; /* optional: adjust spacing between cards */
+  gap: 0.5rem; 
   padding: 0;
   margin: 0;
 }
-/* Fix space above the movie row */
+
 .movie-row {
   margin-top: 0;
-  padding-top: 2rem; /* Add only if you want space between rows */
+  padding-top: 2rem; 
 }
 
 /* Align row title and controls */
@@ -258,14 +249,7 @@
             <section class="movie-row" id="trendingRow">
                 <div class="row-header">
                     <h2 class="row-title">Trending Now</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('trending', 'left')">
-                            <i class="bi bi-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('trending', 'right')">
-                            <i class="bi bi-chevron-right"></i>
-                        </button>
-                    </div>
+                    
                 </div>
                 <div class="movie-list" id="trending"></div>
             </section>
@@ -274,13 +258,7 @@
             <section class="movie-row" id="popularRow">
                 <div class="row-header">
                     <h2 class="row-title">Popular on Netflix</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('popular', 'left')">
-                            <i class="bi bi-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('popular', 'right')">
-                            <i class="bi bi-chevron-right"></i>
-                        </button>
+                   
                     </div>
                 </div>
                 <div class="movie-list" id="popular"></div>
@@ -290,14 +268,7 @@
             <section class="movie-row" id="newRow">
                 <div class="row-header">
                     <h2 class="row-title">New Releases</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('new', 'left')">
-                            <i class="bi bi-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('new', 'right')">
-                            <i class="bi bi-chevron-right"></i>
-                        </button>
-                    </div>
+                   
                 </div>
                 <div class="movie-list" id="new"></div>
             </section>
@@ -306,14 +277,7 @@
             <section class="movie-row" id="tvRow">
                 <div class="row-header">
                     <h2 class="row-title">TV Shows</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('tvshows', 'left')">
-                            <i class="bi bi-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('tvshows', 'right')">
-                            <i class="bi bi-chevron-right"></i>
-                        </button>
-                    </div>
+                    
                 </div>
                 <div class="movie-list" id="tvshows"></div>
             </section>
@@ -322,14 +286,7 @@
             <section class="movie-row" id="moviesRow">
                 <div class="row-header">
                     <h2 class="row-title">Movies</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('movies', 'left')">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('movies', 'right')">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
+                    
                 </div>
                 <div class="movie-list" id="movies"></div>
             </section>
@@ -338,14 +295,7 @@
             <section class="movie-row" id="comedyRow">
                 <div class="row-header">
                     <h2 class="row-title">Comedy</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('comedy', 'left')">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('comedy', 'right')">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
+                    
                 </div>
                 <div class="movie-list" id="comedy"></div>
             </section>
@@ -354,14 +304,7 @@
             <section class="movie-row" id="thrillerRow">
                 <div class="row-header">
                     <h2 class="row-title">Thriller</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('thriller', 'left')">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('thriller', 'right')">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
+                    
                 </div>
                 <div class="movie-list" id="thriller"></div>
             </section>
@@ -370,14 +313,7 @@
             <section class="movie-row" id="horrorRow">
                 <div class="row-header">
                     <h2 class="row-title">Horror</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('horror', 'left')">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('horror', 'right')">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
+    
                 </div>
                 <div class="movie-list" id="horror"></div>
             </section>
@@ -386,14 +322,7 @@
             <section class="movie-row" id="actionRow">
                 <div class="row-header">
                     <h2 class="row-title">Action</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('action', 'left')">
-                            <i class="bi bi-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('action', 'right')">
-                            <i class="bi bi-chevron-right"></i>
-                        </button>
-                    </div>
+                   
                 </div>
                 <div class="movie-list" id="action"></div>
             </section>
