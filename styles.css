@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-/* CSS Variables for Netflix Colors */
+
 :root {
     --netflix-red: #e50914;
     --netflix-black: #141414;
@@ -25,7 +25,7 @@ body {
     --netflix-transparent: rgba(0, 0, 0, 0.7);
 }
 
-/* Sidebar Styles */
+
 .sidebar {
     position: fixed;
     top: 0;
