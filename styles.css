@@ -386,7 +386,8 @@ body {
   position: relative;
   overflow: hidden;
    padding-left: 0;
-  margin-left: 0; 
+  margin-left: 0;
+  padding-top: 0; 
 }
 /* Align row title and controls */
 .row-header {
@@ -460,16 +461,7 @@ body {
 }
 
 /* Movie Cards */
-.movie-card {
-    flex: 0 0 240px;
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-   
-    
-}
+
 .movie-list {
   display: flex;
   gap: 0.5rem; 
@@ -487,13 +479,23 @@ body {
     transform: scale(1.05) translateY(-8px);
     z-index: 10;
 }
+.movie-card {
+    width: 200px;
+    height: 205px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
 
 .movie-image {
     width: 100%;
-    height: 145px;
+    height: 100%;
     object-fit: cover;
-    transition: border-radius 0.3s ease;
+    object-position: center;
+    display: block;
 }
+
+
 
 .movie-card:hover .movie-image {
     border-radius: 8px 8px 0 0;
