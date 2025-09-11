@@ -405,28 +405,11 @@ function scrollRow(listId, direction) {
   if (!row) return;
 
   const card = row.querySelector(".movie-card");
-  const cardWidth = card ? card.offsetWidth + 10 : 220; // 1 card + gap
+  const cardWidth = card ? card.offsetWidth + 10 : 220; // width + gap
   const scrollAmount = cardWidth * 4; // scroll ~4 cards
 
   const left = direction === "left" ? -scrollAmount : scrollAmount;
 
   row.scrollBy({ left, behavior: "smooth" });
 }
-function updateRowUI(row) {
-  if (!row) return;
-
-  const section = row.closest(".movie-row");
-  const fadeLeft = section.querySelector(".row-fade.left");
-  const fadeRight = section.querySelector(".row-fade.right");
-
-  const maxScroll = row.scrollWidth - row.clientWidth;
-
-  if (fadeLeft) fadeLeft.style.opacity = row.scrollLeft > 5 ? "1" : "0";
-  if (fadeRight) fadeRight.style.opacity = row.scrollLeft < maxScroll - 5 ? "1" : "0";
-}
-
-document.querySelectorAll(".movie-list").forEach(row => {
-  row.addEventListener("scroll", () => updateRowUI(row));
-  updateRowUI(row);
-});
 
