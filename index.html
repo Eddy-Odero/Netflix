@@ -188,105 +188,139 @@
 <section class="movie-row" id="trendingRow">
   <div class="row-header">
     <h2 class="row-title">Trending Now</h2>
-  </div>
-
-  <!-- Row wrapper -->
-  <div class="row-wrapper">
-    <!-- Left fade with button -->
-    <div class="row-fade left">
-      <button class="scroll-btn left" onclick="scrollRow('trendingRow', 'left')">
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('trending', 'left')">
         <i class="bi bi-chevron-left"></i>
       </button>
-    </div>
-
-    <!-- Movie list (your static cards stay here) -->
-    <div class="movie-list">
-      <div class="movie-card">
-        <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-
-      <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-
-       <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-       <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-       <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-       <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-       <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-       <div class="movie-card">
-        <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
-        <div class="overlay-center">
-          <button class="play-btn">▶</button>
-        </div>
-        <div class="overlay-bottom">
-          <button class="info-btn">More Info</button>
-        </div>
-      </div>
-      <!-- More static movie cards… -->
-    </div>
-
-    <!-- Right fade with button -->
-    <div class="row-fade right">
-      <button class="scroll-btn right" onclick="scrollRow('trendingRow', 'right')">
+      <button class="scroll-btn right" onclick="scrollRow('trending', 'right')">
         <i class="bi bi-chevron-right"></i>
       </button>
     </div>
   </div>
-</section>
 
+  <!-- Gradient fades -->
+  <div class="row-fade left"></div>
+  <div class="row-fade right"></div>
+
+  <div class="movie-list" id="trending">
+    <!-- Card 1 -->
+    <div class="movie-card">
+      <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="movie-card">
+      <img src="images/Extraction_2.jpg" alt="Extraction 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+     <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+     <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+     <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
             <!-- Popular on Netflix -->

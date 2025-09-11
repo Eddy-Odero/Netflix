@@ -581,6 +581,13 @@ body {
   opacity: 0; /* hidden by default */
   z-index: 10; /* above fade */
 }
+.movie-row:hover .scroll-btn {
+  opacity: 1;
+}
+
+.scroll-btn:hover {
+  background: rgba(255,255,255,0.3);
+}
 .movie-row {
   position: relative;
 }
