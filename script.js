@@ -400,41 +400,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-function updateRowUI(row) {
-    if (!row) return;
+function scrollRow(listId, direction) {
+  const row = document.getElementById(listId);
+  if (!row) return;
 
-    const section = row.closest(".movie-row");
-    const fadeLeft = section.querySelector(".row-fade.left");
-    const fadeRight = section.querySelector(".row-fade.right");
-
-    const maxScroll = row.scrollWidth - row.clientWidth;
-
-    // Show/hide fades
-    if (fadeLeft) fadeLeft.style.opacity = row.scrollLeft > 5 ? "1" : "0";
-    if (fadeRight) fadeRight.style.opacity = row.scrollLeft < maxScroll - 5 ? "1" : "0";
-}
-
-// Attach listeners
-document.querySelectorAll(".movie-list").forEach(row => {
-    row.addEventListener("scroll", () => updateRowUI(row));
-    // Run once on load
-    updateRowUI(row);
-});
-function scrollRow(rowId, direction) {
-  const section = document.getElementById(rowId);
-  if (!section) return;
-
-  const row = section.querySelector(".movie-list");
   const card = row.querySelector(".movie-card");
-  const cardWidth = card ? card.offsetWidth + 10 : 220; // 1 card width + gap
+  const cardWidth = card ? card.offsetWidth + 10 : 220; // 1 card + gap
   const scrollAmount = cardWidth * 4; // scroll ~4 cards
 
   const left = direction === "left" ? -scrollAmount : scrollAmount;
+
   row.scrollBy({ left, behavior: "smooth" });
 }
-
 function updateRowUI(row) {
   if (!row) return;
+
   const section = row.closest(".movie-row");
   const fadeLeft = section.querySelector(".row-fade.left");
   const fadeRight = section.querySelector(".row-fade.right");
@@ -447,6 +427,6 @@ function updateRowUI(row) {
 
 document.querySelectorAll(".movie-list").forEach(row => {
   row.addEventListener("scroll", () => updateRowUI(row));
-  updateRowUI(row); // run at load
+  updateRowUI(row);
 });
 
