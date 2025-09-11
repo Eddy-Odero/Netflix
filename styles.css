@@ -561,15 +561,26 @@ body {
 .row-fade.left {
   left: 0;
   background: linear-gradient(to right, #141414, transparent);
-  opacity: 0; /* hidden at start */
+  opacity: 0;
 }
-
 .row-fade.right {
   right: 0;
   background: linear-gradient(to left, #141414, transparent);
-  opacity: 1; /* visible at start */
+  opacity: 1;
 }
-
+.scroll-btn {
+  pointer-events: auto; /* make button clickable */
+  border: none;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* hidden by default */
+  z-index: 10; /* above fade */
+}
 .movie-row {
   position: relative;
 }
