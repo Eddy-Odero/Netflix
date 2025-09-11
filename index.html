@@ -133,90 +133,87 @@
             </section>
 
             <!-- My List -->
-            <section class="movie-row" id="myListRow">
-                <div class="row-header">
-                    <h2 class="row-title">My List</h2>
-                    <div class="row-controls">
-                          <button class="scroll-btn left" onclick="scrollRow('myList', 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow('myList', 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-                    </div>
-                </div>
-                <div class="movie-list" id="myList">
-  <div class="movie-card">
-    <img class="movie-image" src="https://image.tmdb.org/t/p/w500/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" alt="Extraction 2" />
-    <div class="movie-overlay">
-      <div class="movie-actions">
-        <button class="action-btn"><i class="bi bi-plus"></i></button>
-        <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i></button>
-      </div>
-      <div class="movie-info">
-        <h4 class="movie-title">Extraction 2</h4>
-        <div class="movie-meta">
-          <span>2023</span>
-          <span class="rating">TV-MA</span>
-          <span>2h 3m</span>
-        </div>
-        <div class="movie-genres">Action • Thriller</div>
-      </div>
+<!-- Trending Now -->
+<section class="movie-row" id="myListRow">
+  <div class="row-header">
+    <h2 class="row-title">My List</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('trending', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('trending', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
     </div>
   </div>
 
-  <div class="movie-card">
-   <img class="movie-image" src="images/john-wick-4.jpg" alt="John Wick 4" />
-    <div class="movie-overlay">
-      <div class="movie-actions">
-        <button class="action-btn"><i class="bi bi-plus"></i></button>
-        <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i></button>
+  <div class="movie-list" id="trending">
+    <!-- Card 1 -->
+    <div class="movie-card">
+      <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
       </div>
-      <div class="movie-info">
-        <h4 class="movie-title">John Wick 4</h4>
-        <div class="movie-meta">
-          <span>2023</span>
-          <span class="rating">R</span>
-          <span>2h 49m</span>
-        </div>
-        <div class="movie-genres">Action • Crime</div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="movie-card">
+      <img src="images/Extraction_2_poster.jpg" alt="Extraction 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">more Info</button>
+      </div>
+    </div>
+    
+    <!-- Add more cards here -->
+  </div>
+</section>
+
+
+
+<section class="movie-row" id="trendingRow">
+  <div class="row-header">
+    <h2 class="row-title">Trending Now</h2>
+  </div>
+
+  <div class="movie-list" id="trending">
+    <div class="movie-card">
+      <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
       </div>
     </div>
   </div>
-
-  <div class="movie-card">
-    <img class="movie-image" src="https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Avatar 2" />
-    <div class="movie-overlay">
-      <div class="movie-actions">
-        <button class="action-btn"><i class="bi bi-plus"></i></button>
-        <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i></button>
-      </div>
-      <div class="movie-info">
-        <h4 class="movie-title">Avatar: The Way of Water</h4>
-        <div class="movie-meta">
-          <span>2022</span>
-          <span class="rating">PG-13</span>
-          <span>3h 12m</span>
-        </div>
-        <div class="movie-genres">Sci-Fi • Adventure</div>
-      </div>
-    </div>
-  </div>
-</div>
-   </section>
-
-            <!-- Trending Now -->
-           <div class="movie-card">
-  <img 
-    src="images/john-wick-4.jpg" 
-    alt="Movie Title" 
-    class="movie-image" 
-  />
-  <div class="movie-overlay">
-    <button class="play-btn">▶</button>
-    <button class="info-btn">ℹ</button>
-  </div>
-</div>
+</section>
 
             <!-- Popular on Netflix -->
             <section class="movie-row" id="popularRow">
