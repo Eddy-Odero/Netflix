@@ -549,9 +549,12 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 60px;
-  z-index: 5;
-  pointer-events: none; /* allow clicks through */
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5; /* fade background */
+  pointer-events: none; /* fade itself is not clickable */
   transition: opacity 0.3s ease;
 }
 
