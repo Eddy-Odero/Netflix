@@ -531,10 +531,46 @@ body {
 }
 
 .movie-card:hover {
-  transform: scale(1.15) translateY(-8px);
-  z-index: 10;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05) translateY(-8px);
+    z-index: 10;
 }
+
+/* Hide scrollbar for all browsers */
+.movie-list {
+  -ms-overflow-style: none;  /* IE + Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.movie-list::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari */
+}
+/* Fade edges like Netflix */
+.row-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  z-index: 5;
+  pointer-events: none; /* allow clicks through */
+  transition: opacity 0.3s ease;
+}
+
+.row-fade.left {
+  left: 0;
+  background: linear-gradient(to right, #141414, transparent);
+  opacity: 0; /* hidden at start */
+}
+
+.row-fade.right {
+  right: 0;
+  background: linear-gradient(to left, #141414, transparent);
+  opacity: 1; /* visible at start */
+}
+
+.movie-row {
+  position: relative;
+}
+
 
 .movie-card img {
   width: 100%;
