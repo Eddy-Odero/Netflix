@@ -568,6 +568,29 @@ body {
   background: linear-gradient(to left, #141414, transparent);
   opacity: 1;
 }
+/* Ensure row is relative so arrows can be positioned */
+.movie-row {
+  position: relative;
+  overflow: hidden; /* prevent hover expansion from escaping */
+}
+
+/* Cards hover scaling */
+.movie-card:hover {
+  transform: scale(1.05) translateY(-8px);
+  z-index: 5; /* card raises, but below arrows */
+}
+
+/* Fades */
+.row-fade {
+  z-index: 6; /* above cards */
+}
+
+/* Arrows */
+.row-fade .scroll-btn {
+  z-index: 10; /* absolute top layer */
+  pointer-events: auto;
+}
+
 .scroll-btn {
   pointer-events: auto; /* make button clickable */
   border: none;
