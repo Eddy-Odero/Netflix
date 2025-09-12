@@ -449,4 +449,24 @@ function initRowFades() {
 
 // Run when DOM is ready
 document.addEventListener("DOMContentLoaded", initRowFades);
+document.addEventListener("DOMContentLoaded", () => {
+  const video = document.getElementById("heroVideo");
+  const fallback = document.getElementById("heroFallback");
+
+  if (video) {
+    video.addEventListener("canplay", () => {
+      // Hide fallback when video is ready
+      if (fallback) {
+        fallback.style.display = "none";
+      }
+    });
+
+    // If video fails completely, show the fallback
+    video.addEventListener("error", () => {
+      if (fallback) {
+        fallback.style.display = "block";
+      }
+    });
+  }
+});
 

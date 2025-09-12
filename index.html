@@ -17,7 +17,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -3; /* keep behind gradient & content */
+  z-index: -3;
 }
 
 .hero-img {
@@ -28,7 +28,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -4; /* only shows if video fails */
+  z-index: -4;
 }
 
 
@@ -98,15 +98,15 @@
             </div>
         </header>
 
-     <section class="hero" id="home">
+        <section class="hero" id="home">
   <div class="hero-background">
     <!-- Video background -->
-    <video autoplay muted loop playsinline class="hero-video">
+    <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
       <source src="videos/Predator_ Badlands _ Official Trailer.mp4" type="video/mp4" />
     </video>
 
-    <!-- Fallback image (shows if video fails) -->
-    <img src="images/stranger-things.jpg" alt="Stranger Things" class="hero-img" />
+    <!-- Fallback image -->
+    <img src="images/stranger-things.jpg" alt="Stranger Things" class="hero-img" id="heroFallback" />
 
     <!-- Gradient overlay -->
     <div class="hero-gradient"></div>
@@ -143,7 +143,6 @@
 
   <div class="hero-fade"></div>
 </section>
-
 
         <!-- Movie Rows -->
         <div class="movie-sections">
