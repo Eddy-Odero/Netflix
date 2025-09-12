@@ -453,18 +453,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const video = document.getElementById("heroVideo");
   const fallback = document.getElementById("heroFallback");
 
+  // If mobile device → disable video and show fallback
+  if (/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || window.innerWidth < 768) {
+    if (video) {
+      video.style.display = "none";
+    }
+    if (fallback) {
+      fallback.style.display = "block";
+    }
+    return; // stop here, we don’t even try the video
+  }
+
+  // Otherwise (desktop/TV) → try to play video
   if (video) {
     video.addEventListener("canplay", () => {
-      // Hide fallback when video is ready
       if (fallback) {
-        fallback.style.display = "none";
+        fallback.style.display = "none"; // hide image if video loads
       }
     });
 
-    // If video fails completely, show the fallback
     video.addEventListener("error", () => {
       if (fallback) {
-        fallback.style.display = "block";
+        fallback.style.display = "block"; // keep image if video fails
       }
     });
   }
