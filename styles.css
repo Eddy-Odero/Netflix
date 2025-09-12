@@ -556,17 +556,14 @@ body {
 .movie-list::-webkit-scrollbar {
   display: none;             /* Chrome, Safari */
 }
-/* Fade edges like Netflix */
+
 .row-fade {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 5; /* fade background */
-  pointer-events: none; /* fade itself is not clickable */
+  z-index: 5;
+  pointer-events: none;
   transition: opacity 0.3s ease;
 }
 
@@ -575,11 +572,13 @@ body {
   background: linear-gradient(to right, #141414, transparent);
   opacity: 0;
 }
+
 .row-fade.right {
   right: 0;
   background: linear-gradient(to left, #141414, transparent);
   opacity: 1;
 }
+
 /* Ensure row is relative so arrows can be positioned */
 .movie-row {
   position: relative;

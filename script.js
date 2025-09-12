@@ -419,4 +419,34 @@ function scrollRow(button, direction) {
 
   list.scrollBy({ left, behavior: "smooth" });
 }
+function updateFades(row) {
+  const list = row.querySelector(".movie-list");
+  const fadeLeft = row.querySelector(".row-fade.left");
+  const fadeRight = row.querySelector(".row-fade.right");
+
+  if (!list || !fadeLeft || !fadeRight) return;
+
+  // If at the start → hide left fade
+  fadeLeft.style.opacity = list.scrollLeft > 0 ? "1" : "0";
+
+  // If at the end → hide right fade
+  const maxScroll = list.scrollWidth - list.clientWidth - 5;
+  fadeRight.style.opacity = list.scrollLeft < maxScroll ? "1" : "0";
+}
+
+function initRowFades() {
+  document.querySelectorAll(".movie-row").forEach((row) => {
+    const list = row.querySelector(".movie-list");
+    if (!list) return;
+
+    // Update fades on load
+    updateFades(row);
+
+    // Update fades when scrolling
+    list.addEventListener("scroll", () => updateFades(row));
+  });
+}
+
+// Run when DOM is ready
+document.addEventListener("DOMContentLoaded", initRowFades);
 
