@@ -376,32 +376,41 @@
   </div>
 </section>
 
-            <!-- Movies -->
-            <section class="movie-row" id="moviesRow">
-                <div class="row-header">
-                    <h2 class="row-title">Movies</h2>
-                    
-                </div>
-                <div class="movie-list" id="movies"></div>
-            </section>
+<!-- Movies -->
+<section class="movie-row" id="moviesRow">
+  <div class="row-header">
+    <h2 class="row-title">Movies</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('movies', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('movies', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="movies">
+    <!-- Cards go here -->
+  </div>
+</section>
 
-            <!-- Comedy -->
-            <section class="movie-row" id="comedyRow">
-                <div class="row-header">
-                    <h2 class="row-title">Comedy</h2>
-                    
-                </div>
-                <div class="movie-list" id="comedy"></div>
-            </section>
-
-            <!-- Thriller -->
-            <section class="movie-row" id="thrillerRow">
-                <div class="row-header">
-                    <h2 class="row-title">Thriller</h2>
-                    
-                </div>
-                <div class="movie-list" id="thriller"></div>
-            </section>
+           <!-- Comedy -->
+<section class="movie-row" id="comedyRow">
+  <div class="row-header">
+    <h2 class="row-title">Comedy</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('comedy', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('comedy', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="comedy">
+    <!-- Cards go here -->
+  </div>
+</section>
 
             <!-- Horror -->
             <section class="movie-row" id="horrorRow">
