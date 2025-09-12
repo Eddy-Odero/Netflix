@@ -137,14 +137,15 @@
 <section class="movie-row" id="myListRow">
   <div class="row-header">
     <h2 class="row-title">My List</h2>
-    <div class="row-controls">
-      <button class="scroll-btn left" onclick="scrollRow('myList', 'left')">
-        <i class="bi bi-chevron-left"></i>
-      </button>
-      <button class="scroll-btn right" onclick="scrollRow('myList', 'right')">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
+   <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
   </div>
 
   <div class="movie-list" id="mylist">
@@ -189,14 +190,15 @@
 <section class="movie-row" id="trendingRow">
   <div class="row-header">
     <h2 class="row-title">Trending Now</h2>
-    <div class="row-controls">
-      <button class="scroll-btn left" onclick="scrollRow('trending', 'left')">
-        <i class="bi bi-chevron-left"></i>
-      </button>
-      <button class="scroll-btn right" onclick="scrollRow('trending', 'right')">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
+   <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+ 
   </div>
 
   <!-- Gradient fades -->
@@ -448,15 +450,23 @@
   </div>
 </section>
 
-            <!-- Action -->
-            <section class="movie-row" id="actionRow">
-                <div class="row-header">
-                    <h2 class="row-title">Action</h2>
-                   
-                </div>
-                <div class="movie-list" id="action"></div>
-            </section>
-        </div>
+           <!-- Action -->
+<section class="movie-row" id="actionRow">
+  <div class="row-header">
+    <h2 class="row-title">Action</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('action', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('action', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="action">
+    <!-- Cards go here -->
+  </div>
+</section>
 
         <!-- Footer -->
         <footer class="footer">

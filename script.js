@@ -400,16 +400,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-function scrollRow(listId, direction) {
-  const row = document.getElementById(listId);
+function scrollRow(button, direction) {
+  // Find the row this button belongs to
+  const row = button.closest(".movie-row");
   if (!row) return;
 
-  const card = row.querySelector(".movie-card");
-  const cardWidth = card ? card.offsetWidth + 10 : 220; // width + gap
-  const scrollAmount = cardWidth * 4; // scroll ~4 cards
+  // Find the movie-list inside this row
+  const list = row.querySelector(".movie-list");
+  if (!list) return;
 
+  // Get one card's width + gap
+  const card = list.querySelector(".movie-card");
+  const cardWidth = card ? card.offsetWidth + 10 : 220;
+
+  // Scroll by ~4 cards
+  const scrollAmount = cardWidth * 4;
   const left = direction === "left" ? -scrollAmount : scrollAmount;
 
-  row.scrollBy({ left, behavior: "smooth" });
+  list.scrollBy({ left, behavior: "smooth" });
 }
 
