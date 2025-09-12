@@ -323,34 +323,58 @@
   </div>
 </section>
 
+<!-- Popular -->
+<section class="movie-row" id="popularRow">
+  <div class="row-header">
+    <h2 class="row-title">Popular on Netflix</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('popular', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('popular', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="popular">
+    <!-- Cards go here -->
+  </div>
+</section>
+<!-- New Releases -->
+<section class="movie-row" id="newRow">
+  <div class="row-header">
+    <h2 class="row-title">New Releases</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('new', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('new', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="new">
+    <!-- Cards go here -->
+  </div>
+</section>
 
-            <!-- Popular on Netflix -->
-            <section class="movie-row" id="popularRow">
-                <div class="row-header">
-                    <h2 class="row-title">Popular on Netflix</h2>
-                   
-                    </div>
-                </div>
-                <div class="movie-list" id="popular"></div>
-            </section>
-
-            <!-- New Releases -->
-            <section class="movie-row" id="newRow">
-                <div class="row-header">
-                    <h2 class="row-title">New Releases</h2>
-                   
-                </div>
-                <div class="movie-list" id="new"></div>
-            </section>
-
-            <!-- TV Shows -->
-            <section class="movie-row" id="tvRow">
-                <div class="row-header">
-                    <h2 class="row-title">TV Shows</h2>
-                    
-                </div>
-                <div class="movie-list" id="tvshows"></div>
-            </section>
+          <!-- TV Shows -->
+<section class="movie-row" id="tvRow">
+  <div class="row-header">
+    <h2 class="row-title">TV Shows</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('tvshows', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('tvshows', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="tvshows">
+    <!-- Cards go here -->
+  </div>
+</section>
 
             <!-- Movies -->
             <section class="movie-row" id="moviesRow">
