@@ -479,4 +479,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+let currentPromo = 0;
+const promos = document.querySelectorAll('.promo');
+
+function showNextPromo() {
+  promos[currentPromo].classList.remove('active');
+  currentPromo = (currentPromo + 1) % promos.length;
+  promos[currentPromo].classList.add('active');
+}
+
+setInterval(showNextPromo, 8000); // switch every 8s
 
