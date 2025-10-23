@@ -498,10 +498,9 @@ body {
 
 /* Movie Cards */
 
-/* Ensure movie-list makes cards align horizontally */
 .movie-list {
   display: flex;
-  flex-direction: row;   /* force horizontal alignment */
+  flex-direction: row;   
   gap: 10px;             /* spacing between cards */
   overflow-x: auto;
   overflow-y: hidden;
