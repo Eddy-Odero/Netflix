@@ -538,23 +538,23 @@ body {
 /* Hide scrollbar for all browsers */
 .movie-list {
   display: flex;
-  flex-direction: row;   /* force horizontal layout */
-  gap: 10px;             /* spacing between cards */
-  overflow-x: auto;      /* allow horizontal scrolling */
-  overflow-y: hidden;    /* block vertical scroll */
+  flex-direction: row;   
+  gap: 10px;             
+  overflow-x: auto;     
+  overflow-y: hidden;    
   scroll-behavior: smooth;
 
   /* hide scrollbar */
-  -ms-overflow-style: none;  /* IE + Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
 }
 .movie-list::-webkit-scrollbar {
-  display: none;  /* Chrome, Safari, Opera */
+  display: none;  
 }
 
 
 .movie-list::-webkit-scrollbar {
-  display: none;             /* Chrome, Safari */
+  display: none;             
 }
 
 .row-fade {
