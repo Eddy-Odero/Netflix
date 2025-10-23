@@ -501,7 +501,7 @@ body {
 .movie-list {
   display: flex;
   flex-direction: row;   
-  gap: 10px;             /* spacing between cards */
+  gap: 10px;            
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
