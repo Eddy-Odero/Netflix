@@ -262,7 +262,7 @@ body {
   right: 0;
   height: 100px; /* adjust how tall the fade looks */
   background: linear-gradient(to top, #141414, transparent);
-  pointer-events: none; /* let clicks pass through */
+  pointer-events: none; 
 }
 .hero-background {
   position: absolute;
