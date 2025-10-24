@@ -82,7 +82,7 @@ body {
 
 /* When scrolled, solid background */
 .navbar.scrolled {
-  background: #141414; /* Netflix black */
+  background: #141414; 
 }
 
 .nav-section {
