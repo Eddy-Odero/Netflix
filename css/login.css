@@ -35,8 +35,8 @@ nav {
   font-size: 2rem;             
   font-weight: 900;           
   letter-spacing: -1px;        
-  text-transform: uppercase;   /* optional: ALL CAPS */
-  text-decoration: none;       /* remove underline */
+  text-transform: uppercase;  
+  text-decoration: none;       
   font-family: 'Roboto', sans-serif; /* or your main site font */
 }
 
