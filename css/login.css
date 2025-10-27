@@ -33,8 +33,8 @@ nav {
 .logo-text {
   color: #e50914;             
   font-size: 2rem;             
-  font-weight: 900;            /* bold and strong */
-  letter-spacing: -1px;        /* slightly condensed look */
+  font-weight: 900;           
+  letter-spacing: -1px;        
   text-transform: uppercase;   /* optional: ALL CAPS */
   text-decoration: none;       /* remove underline */
   font-family: 'Roboto', sans-serif; /* or your main site font */
