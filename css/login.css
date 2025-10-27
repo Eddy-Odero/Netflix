@@ -44,7 +44,28 @@ nav {
   color: #c11119; 
 }
 
+ /* --- ADDITIONAL STYLES FOR TOGGLING AND ANIMATION --- */
 
+    .hidden {
+      display: none;
+    }
+
+    /* The entry animation (slides up + fades in) */
+    @keyframes slideUpFade {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -30%);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    /* Apply the animation whenever a form becomes visible */
+    .form-wrapper.animate {
+      animation: slideUpFade 0.5s ease-out forwards;
+    }
 .form-wrapper {
     position: absolute;
     left: 50%;
