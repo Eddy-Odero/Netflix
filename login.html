@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Login & Sign Up | CodingNepal</title>
+  <link rel="stylesheet" href="login.css" />
+  <style>
+    /* --- ADDITIONAL STYLES FOR TOGGLING AND ANIMATION --- */
+
+    .hidden {
+      display: none;
+    }
+
+    /* The entry animation (slides up + fades in) */
+    @keyframes slideUpFade {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -30%);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    /* Apply the animation whenever a form becomes visible */
+    .form-wrapper.animate {
+      animation: slideUpFade 0.5s ease-out forwards;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#"><img src="images/logo.svg" alt="Netflix logo" /></a>
+  </nav>
+
+  <!-- SIGN IN FORM -->
+  <div class="form-wrapper animate" id="signin-form">
+    <h2>Sign In</h2>
+    <form action="#">
+      <div class="form-control">
+        <input type="text" required />
+        <label>Email or phone number</label>
+      </div>
+      <div class="form-control">
+        <input type="password" required />
+        <label>Password</label>
+      </div>
+      <button type="submit">Sign In</button>
+
+      <div class="form-help">
+        <div class="remember-me">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">Remember me</label>
+        </div>
+        <a href="#">Need help?</a>
+      </div>
+    </form>
+
+    <p>New to Netflix? <a href="#" id="show-signup">Sign up now</a></p>
+    <small>
+      This page is protected by Google reCAPTCHA to ensure you're not a bot.
+      <a href="#">Learn more.</a>
+    </small>
+  </div>
+
+  <!-- SIGN UP FORM -->
+  <div class="form-wrapper hidden" id="signup-form">
+    <h2>Sign Up</h2>
+    <form action="#">
+      <div class="form-control">
+        <input type="text" required />
+        <label>Full Name</label>
+      </div>
+      <div class="form-control">
+        <input type="email" required />
+        <label>Email</label>
+      </div>
+      <div class="form-control">
+        <input type="password" required />
+        <label>Password</label>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="#" id="show-signin">Sign In</a></p>
+  </div>
+
+  <script>
+    // Toggle between Sign In and Sign Up forms
+    const signinForm = document.getElementById("signin-form");
+    const signupForm = document.getElementById("signup-form");
+    const showSignup = document.getElementById("show-signup");
+    const showSignin = document.getElementById("show-signin");
+
+    // Function to handle the animation toggle
+    function showForm(show, hide) {
+      hide.classList.add("hidden");
+      hide.classList.remove("animate");
+      show.classList.remove("hidden");
+      
+      // restart animation
+      void show.offsetWidth;
+      show.classList.add("animate");
+    }
+
+    showSignup.addEventListener("click", (e) => {
+      e.preventDefault();
+      showForm(signupForm, signinForm);
+    });
+
+    showSignin.addEventListener("click", (e) => {
+      e.preventDefault();
+      showForm(signinForm, signupForm);
+    });
+  </script>
+</body>
+</html>

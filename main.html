@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDU-FLIX</title>
+    <link rel="stylesheet" href="styles.css">
+       <!-- Local Font Awesome 5 -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style> 
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.hero-img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  object-position: center 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -4;
+}
+
+</style>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">EDU-FLIX</div>
+        </div>
+        
+        <div class="sidebar-content">
+            <div class="search-box">
+                <input id="sidebarSearch" class="search-input" type="text" placeholder="Search..." autocomplete="off" />
+            </div>
+            <div class="nav-section">
+                <a href="#home" class="nav-item active" data-target="home">
+                 <i class="bi bi-house-door"></i>
+                    <span class="nav-text">Home</span>
+                </a>
+                <a href="#tvRow" class="nav-item" data-target="tvRow">
+                   <i class="bi bi-tv"></i>
+                    <span class="nav-text">TV Shows</span>
+                </a>
+                <a href="#moviesRow" class="nav-item" data-target="moviesRow">
+                    <i class="bi bi-film"></i>
+                    <span class="nav-text">Movies</span>
+                </a>
+                <a href="#newRow" class="nav-item" data-target="newRow">
+                   <i class="bi bi-star"></i>
+                    <span class="nav-text">New & Popular</span>
+                </a>
+                <a href="#myListRow" class="nav-item" data-target="myListRow">
+                   <i class="bi bi-plus"></i>
+                    <span class="nav-text">My List</span>
+                </a>
+            </div>
+        </div>
+
+         <div class="sidebar-footer">
+  <a href="#" class="nav-item">
+    <i class="bi bi-gear"></i>
+    <span class="nav-text">Settings</span>
+  </a>
+  <a href="#" class="nav-item">
+    <i class="bi bi-box-arrow-right"></i>
+    <span class="nav-text">Logout</span>
+  </a>
+</div>
+
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Top Header -->
+        <header class="top-header">
+            <div class="header-left">
+                <div class="breadcrumb">Home</div>
+            </div>
+            <div class="header-right">
+                <button class="header-btn">
+                   <i class="bi bi-bell"></i>
+                </button>
+                <button class="profile-btn">
+                    <i class="fas fa-user"></i>
+                </button>
+            </div>
+        </header>
+
+        <section class="hero" id="home">
+  <div class="hero-background">
+    <!-- Video background -->
+    <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
+      <source src="videos/Predator_ Badlands _ Official Trailer.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Fallback image -->
+    <img src="images/stranger-things.jpg" alt="Stranger Things" class="hero-img" id="heroFallback" />
+
+    <!-- Gradient overlay -->
+    <div class="hero-gradient"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-info">
+      <div class="hero-type">SERIES</div>
+      <h1 class="hero-title">STRANGER THINGS</h1>
+      <div class="hero-badge">TOP 10</div>
+      <div class="hero-ranking">#1 in TV Shows Today</div>
+      <div class="hero-meta">
+        <span class="rating">TV-14</span>
+        <span class="year">2016</span>
+        <span class="duration">4 Seasons</span>
+        <span class="genre">Drama, Fantasy, Horror</span>
+      </div>
+      <p class="hero-description">
+        When a young boy vanishes, a small town uncovers a mystery involving secret experiments,
+        terrifying supernatural forces and one strange little girl.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-play">
+          <i class="fas fa-play"></i>
+          Play
+        </button>
+        <button class="btn btn-info">
+          <i class="fas fa-info-circle"></i>
+          More Info
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="hero-fade"></div>
+</section>
+    <!-- Movie Rows -->
+        <div class="movie-sections">
+            <!-- Search Results (hidden by default) -->
+            <section class="movie-row" id="searchRow" style="display:none;">
+                <div class="row-header">
+                    <h2 class="row-title">Search Results</h2>
+                    <div class="row-controls">
+                        <button class="control-btn" onclick="scrollRow('searchResults', 'left')">
+                            <i class="bi bi-chevron-left"></i>
+                        </button>
+                        <button class="control-btn" onclick="scrollRow('searchResults', 'right')">
+                            <i class="bi bi-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="movie-list" id="searchResults"></div>
+            </section>
+
+            <!-- My List -->
+
+<section class="movie-row" id="myListRow">
+  <div class="row-header">
+    <h2 class="row-title">My List</h2>
+   <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+
+  <div class="movie-list" id="mylist">
+    <!-- Card 1 -->
+    <div class="movie-card">
+      <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="movie-card">
+      <img src="images/Extraction_2.jpg" alt="Extraction 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">more Info</button>
+      </div>
+    </div>
+    
+    <!-- Add more cards here -->
+  </div>
+</section>
+
+<!-- Trending Now -->
+<section class="movie-row" id="trendingRow">
+  <div class="row-header">
+    <h2 class="row-title">Trending Now</h2>
+   <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+  </div>
+
+  <!-- Gradient fades -->
+  <div class="row-fade left"></div>
+  <div class="row-fade right"></div>
+
+  <div class="movie-list" id="trending">
+    <!-- Card 1 -->
+    <div class="movie-card">
+      <img src="images/john-wick-4.jpg" alt="John Wick 4" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="movie-card">
+      <img src="images/Extraction_2.jpg" alt="Extraction 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+     <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+     <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+     <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+ <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="images/avatar2.jpg" alt="Avatar 2" class="movie-image" />
+      <div class="overlay-center">
+        <button class="play-btn">▶</button>
+      </div>
+      <div class="overlay-bottom">
+        <button class="info-btn">More Info</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Popular -->
+<section class="movie-row" id="popularRow">
+  <div class="row-header">
+    <h2 class="row-title">Popular on Netflix</h2>
+    <div class="row-controls">
+      <button class="scroll-btn left" onclick="scrollRow('popular', 'left')">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="scroll-btn right" onclick="scrollRow('popular', 'right')">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="movie-list" id="popular">
+    <!-- Cards go here -->
+  </div>
+</section>
+<!-- New Releases -->
+<section class="movie-row" id="newRow">
+  <div class="row-header">
+    <h2 class="row-title">New Releases</h2>
+    <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="new">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+          <!-- TV Shows -->
+<section class="movie-row" id="tvRow">
+  <div class="row-header">
+    <h2 class="row-title">TV Shows</h2>
+   <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="tvshows">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+<!-- Movies -->
+<section class="movie-row" id="moviesRow">
+  <div class="row-header">
+    <h2 class="row-title">Movies</h2>
+    <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="movies">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+           <!-- Comedy -->
+<section class="movie-row" id="comedyRow">
+  <div class="row-header">
+    <h2 class="row-title">Comedy</h2>
+    <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="comedy">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+<!-- Thriller -->
+<section class="movie-row" id="thrillerRow">
+  <div class="row-header">
+    <h2 class="row-title">Thriller</h2>
+   <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="thriller">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+<!-- Horror -->
+<section class="movie-row" id="horrorRow">
+  <div class="row-header">
+    <h2 class="row-title">Horror</h2>
+    <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="horror">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+           <!-- Action -->
+<section class="movie-row" id="actionRow">
+  <div class="row-header">
+    <h2 class="row-title">Action</h2>
+    <div class="row-controls">
+  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
+  </div>
+  <div class="movie-list" id="action">
+    <!-- Cards go here -->
+  </div>
+</section>
+
+        <!-- Footer -->
+        <footer class="footer">
+  <div class="footer-content">
+
+    <div class="footer-links">
+      <a href="#" class="footer-link">Audio and Subtitles</a>
+      <a href="#" class="footer-link">Media Center</a>
+      <a href="#" class="footer-link">Privacy</a>
+      <a href="#" class="footer-link">Contact Us</a>
+      <a href="#" class="footer-link">Help Center</a>
+      <a href="#" class="footer-link">Jobs</a>
+      <a href="#" class="footer-link">Legal Notices</a>
+      <a href="#" class="footer-link">Cookie Preferences</a>
+    </div>
+
+    <div class="footer-socials">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter-x"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-youtube"></i></a>
+    </div>
+
+    <div class="footer-copyright">
+      © 2025 Netflix Clone by You. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+    </main>
+
+    <!-- Detail Modal -->
+    <div id="detailModal" class="modal" style="display:none;">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="Close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-hero" id="modalHero">
+                <div class="modal-hero-gradient"></div>
+                <div class="modal-hero-content">
+                    <div class="modal-badge" id="modalBadge">TOP 10</div>
+                    <h2 class="modal-title" id="modalTitle">Title</h2>
+                    <div class="modal-meta" id="modalMeta"></div>
+                    <div class="modal-buttons">
+                        <button class="btn btn-play" id="modalPlay">
+                            <i class="fas fa-play"></i>
+                            Play
+                        </button>
+                        <button class="btn btn-info" id="modalList">
+                            <i class="fas fa-plus"></i>
+                            My List
+                        </button>
+                        <button class="btn btn-info" id="modalLike">
+                            <i class="far fa-thumbs-up"></i>
+                            Like
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description" id="modalDescription"></p>
+                <div class="modal-tags" id="modalTags"></div>
+            </div>
+        </div>
+    </div>
+<script>
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
