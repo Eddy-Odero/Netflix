@@ -37,7 +37,7 @@ nav {
   letter-spacing: -1px;        
   text-transform: uppercase;  
   text-decoration: none;       
-  font-family: 'Roboto', sans-serif; /* or your main site font */
+  font-family: 'Roboto', sans-serif; 
 }
 
 .logo-text:hover {
