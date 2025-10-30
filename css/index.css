@@ -51,7 +51,7 @@ body {
 }
 .category-row {
   -ms-overflow-style: none; 
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none; 
 }
 .trending-swiper .swiper-slide {
   width: auto;
