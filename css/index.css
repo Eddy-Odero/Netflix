@@ -50,7 +50,7 @@ body {
   display: none; 
 }
 .category-row {
-  -ms-overflow-style: none; /* IE and Edge */
+  -ms-overflow-style: none; 
   scrollbar-width: none; /* Firefox */
 }
 .trending-swiper .swiper-slide {
