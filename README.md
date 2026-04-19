@@ -35,30 +35,6 @@ A beautiful, responsive Netflix clone built with vanilla HTML, CSS, and JavaScri
 2. Open `index.html` in your web browser
 3. That's it! The Netflix clone is ready to use
 
-### Alternative: Using a Local Server
-
-For the best experience, you can run it on a local server:
-
-1. **Using Python (if installed):**
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # Python 2
-   python -m SimpleHTTPServer 8000
-   ```
-
-2. **Using Node.js (if installed):**
-   ```bash
-   npx http-server
-   ```
-
-3. **Using Live Server (VS Code extension):**
-   - Install the "Live Server" extension
-   - Right-click on `index.html` and select "Open with Live Server"
-
-Then open your browser and navigate to `http://localhost:8000`
-
 ## Project Structure
 
 ```
@@ -93,59 +69,6 @@ netflix-clone/
 - Search, notifications, and profile buttons
 - Transparent to solid background transition on scroll
 
-## Customization
-
-### Adding New Movies
-
-Edit the `movies` array in `script.js`:
-
-```javascript
-{
-    id: 11,
-    title: "Your Movie Title",
-    description: "Movie description here...",
-    year: 2024,
-    rating: "TV-MA",
-    duration: "2h 15m",
-    genre: ["Action", "Drama"],
-    image: "your-image-url.jpg"
-}
-```
-
-### Changing Colors
-
-Modify the CSS custom properties in `styles.css`:
-
-```css
-:root {
-    --netflix-red: #E50914;
-    --netflix-black: #141414;
-    --netflix-dark: #000000;
-    --netflix-gray: #808080;
-    --netflix-light-gray: #E5E5E5;
-}
-```
-
-### Adding New Movie Rows
-
-1. Add a new section in `index.html`:
-```html
-<section class="movie-row">
-    <div class="row-header">
-        <h2 class="row-title">Your Category</h2>
-        <div class="row-controls">
-            <button class="control-btn" onclick="scrollRow('your-category', 'left')">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <button class="control-btn" onclick="scrollRow('your-category', 'right')">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-        </div>
-    </div>
-    <div class="movie-list" id="your-category">
-        <!-- Movies will be populated by JavaScript -->
-    </div>
-</section>
 ```
 
 2. Update the `populateMovieRows()` function in `script.js` to include your new category.
@@ -175,18 +98,6 @@ Modify the CSS custom properties in `styles.css`:
 - [ ] Backend API integration
 - [ ] Database integration
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - Netflix for the design inspiration
@@ -197,8 +108,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 If you encounter any issues or have questions, please open an issue on the repository or contact the maintainers.
-
----
 
 **Note**: This is a frontend-only clone for educational purposes. It does not include actual video streaming functionality or real Netflix content.
 
