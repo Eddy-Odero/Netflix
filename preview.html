@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Style Page</title>
+
+  <style>
+    /* =========================
+       GLOBAL STYLE (NETFLIX THEME)
+    ========================== */
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #141414;
+      color: #fff;
+    }
+
+    /* =========================
+       HERO SECTION
+    ========================== */
+    .hero {
+      position: relative;
+      height: 85vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .bg-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    /* Netflix-style gradient overlays */
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to top, #141414 10%, transparent 60%),
+        linear-gradient(to right, rgba(0,0,0,0.9) 25%, transparent 70%);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 550px;
+      margin-left: 60px;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .meta {
+      color: #b3b3b3;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      color: #e5e5e5;
+      line-height: 1.5;
+      font-size: 1.05rem;
+    }
+
+    /* =========================
+       BUTTONS
+    ========================== */
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons button {
+      border: none;
+      padding: 12px 24px;
+      margin-right: 10px;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .play {
+      background: #e90c0c;
+      color: #000;
+    }
+
+    .list {
+      background: rgba(109,109,110,0.7);
+      color: #fff;
+    }
+
+    .list:hover {
+      background: rgba(109,109,110,0.5);
+    }
+
+    /* =========================
+       DETAILS SECTION
+    ========================== */
+    .details {
+      display: flex;
+      padding: 40px 60px;
+      gap: 50px;
+      background: #141414;
+    }
+
+    .details .left {
+      flex: 2;
+      color: #d2d2d2;
+      line-height: 1.6;
+    }
+
+    .details .right {
+      flex: 1;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    /* =========================
+       ROW SECTION
+    ========================== */
+    .row {
+      padding: 20px 60px;
+    }
+
+    .row h2 {
+      margin-bottom: 10px;
+    }
+
+    .row-container {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+    }
+
+    .row-container::-webkit-scrollbar {
+      display: none;
+    }
+
+    .card {
+      min-width: 160px;
+      height: 240px;
+      background: #222;
+      border-radius: 4px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .row-container:hover .card {
+      opacity: 0.5;
+    }
+
+    .row-container .card:hover {
+      transform: scale(1.1);
+      opacity: 1;
+      z-index: 5;
+    }
+
+    /* =========================
+       MODAL (TRAILER)
+    ========================== */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.95);
+      z-index: 9999;
+    }
+
+    .modal-content {
+      position: relative;
+      width: 80%;
+      max-width: 900px;
+      margin: 5% auto;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 8px;
+    }
+
+    .close {
+      position: absolute;
+      right: 10px;
+      top: -40px;
+      font-size: 40px;
+      cursor: pointer;
+      color: #fff;
+    }
+    /* =========================
+   CAST SECTION (NEW)
+========================== */
+.cast {
+  padding: 20px 60px;
+}
+
+.cast h2 {
+  margin-bottom: 10px;
+}
+
+.cast-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.cast-container::-webkit-scrollbar {
+  display: none;
+}
+
+.cast-card {
+  min-width: 120px;
+  text-align: center;
+}
+
+.cast-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+}
+
+.cast-card p {
+  font-size: 0.8rem;
+  color: #ccc;
+  margin-top: 5px;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source src="videos/Predator_ Badlands _ Official Trailer.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>Predator: Badlands</h1>
+
+      <p class="meta">2026 • 16+ • 2h 10m • Action</p>
+
+      <p class="description">
+        A ruthless alien hunter returns to Earth in a war-torn future where survival is no longer guaranteed.
+      </p>
+
+      <div class="buttons">
+        <button class="playmovie">▶ Play</button>
+        <button class="play">Watch Trailer</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- DETAILS -->
+  <section class="details">
+    <div class="left">
+      A deeper story breakdown goes here. You can expand this into full synopsis, production notes, or story arcs depending on your project.
+    </div>
+
+    <!-- CAST -->
+     
+  <h2>Cast</h2>
+
+  <div class="cast-container">
+
+    <div class="cast-card">
+      <img src="https://i.pravatar.cc/100?img=12">
+      <p>Actor 1</p>
+    </div>
+
+    <div class="cast-card">
+      <img src="https://i.pravatar.cc/100?img=32">
+      <p>Actor 2</p>
+    </div>
+
+    <div class="cast-card">
+      <img src="https://i.pravatar.cc/100?img=45">
+      <p>Actor 3</p>
+    </div>
+
+    <div class="cast-card">
+      <img src="https://i.pravatar.cc/100?img=5">
+      <p>Actor 4</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ROW -->
+  <section class="row">
+    <h2>More Like This</h2>
+    <div class="row-container">
+        <div class="card" style="background:url('images/fallout.jpg') center/cover;"></div>
+        <div class="card" style="background:url('images/foundation.jpg') center/cover;"></div>
+        <div class="card" style="background:url('images/3body.jpg') center/cover;"></div>
+        <div class="card" style="background:url('images/peace.jpg') center/cover;"></div>
+      
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal" id="trailerModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe
+  id="trailerFrame"
+  src=""
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+    </div>
+  </div>
+
+  <script>
+    const playBtn = document.querySelector(".play");
+const modal = document.getElementById("trailerModal");
+const closeBtn = document.querySelector(".close");
+const iframe = document.getElementById("trailerFrame");
+
+playBtn.addEventListener("click", () => {
+  modal.style.display = "block";
+iframe.src = "https://www.youtube.com/embed/43R9l7EkJwE?autoplay=1&mute=1";
+});
+
+function closeModal() {
+  modal.style.display = "none";
+  iframe.src = "";
+}
+
+closeBtn.addEventListener("click", closeModal);
+
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    closeModal();
+  }
+});
+  </script>
+
+</body>
+</html>
