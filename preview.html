@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Netflix Style Page</title>
-<link
-    rel="shortcut icon"
-    href="images/logo.webp"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- ✅ FIX #1: Viewport meta tag — this is why mobile wasn't rendering -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predator: Badlands</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <style>
+    /* =====================
+       BASE
+    ===================== */
+    *, *::before, *::after { box-sizing: border-box; }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +20,9 @@
       color: #fff;
     }
 
-    /* HERO */
+    /* =====================
+       HERO
+    ===================== */
     .hero {
       position: relative;
       height: 85vh;
@@ -26,29 +31,27 @@
       overflow: hidden;
     }
 
-    /* fallback image */
-.bg-fallback {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: 0;
-}
+    .bg-fallback {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+    }
 
-/* video stays on top of image */
-.bg-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-  z-index: 1;
-}
+    .bg-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      z-index: 1;
+    }
 
     .overlay {
       position: absolute;
@@ -56,12 +59,12 @@
       background:
         linear-gradient(to top, #141414 10%, transparent 60%),
         linear-gradient(to right, rgba(0,0,0,0.9) 25%, transparent 70%);
-      z-index: 1;
+      z-index: 2;
     }
 
     .hero-content {
       position: relative;
-      z-index: 2;
+      z-index: 3;
       max-width: 550px;
       margin-left: 60px;
     }
@@ -84,89 +87,83 @@
       font-size: 1.05rem;
     }
 
-    /* BUTTONS */
-   .buttons {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: nowrap; /* keep one line */
-}
-
-.buttons button {
-  border: none;
-  padding: 12px 24px;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-
-  margin: 0;            /* IMPORTANT: remove old spacing */
-  white-space: nowrap;  /* prevents text wrapping */
-  flex-shrink: 0;       /* prevents buttons shrinking weirdly */
-}
-
-    .play {
-      background: #e90c0c;
-      color: #000;
+    /* =====================
+       BUTTONS — desktop
+    ===================== */
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: nowrap;
     }
 
-    .playmovie {
-      background: #fff;
-      color: #000;
+    .buttons button {
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
-    .list {
+    .play     { background: #e90c0c; color: #0f0f0f; }
+    .playmovie { background: #fff;   color: #000; }
+    .list, .like {
       background: rgba(109,109,110,0.7);
       color: #fff;
+      transition: background 0.2s;
+    }
+    .list:hover, .like:hover {
+      background: rgba(109,109,110,1);
     }
 
-    /* DETAILS */
-   .details {
-  display: block; /* remove side-by-side layout */
-  padding: 40px 60px;
-  background: #141414;
-}
+    /* =====================
+       DETAILS
+    ===================== */
+    .details {
+      padding: 40px 60px;
+      background: #141414;
+    }
 
-.details .left {
-  color: #d2d2d2;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-.details .right {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
+    .details .left {
+      color: #d2d2d2;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
 
-/* pill style */
-.meta-chip {
-  padding: 6px 14px;
-  border-radius: 999px;
+    .details .right {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
 
-  background: rgba(255,255,255,0.08);
-  color: #e5e5e5;
+    .meta-chip {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      color: #e5e5e5;
+      font-size: 0.85rem;
+      white-space: nowrap;
+      transition: 0.2s ease;
+    }
 
-  font-size: 0.85rem;
-  white-space: nowrap;
+    .meta-chip:hover {
+      background: rgba(255,255,255,0.15);
+      transform: scale(1.05);
+    }
 
-  transition: 0.2s ease;
-}
-
-.meta-chip:hover {
-  background: rgba(255,255,255,0.15);
-  transform: scale(1.05);
-}
-
-    /* CAST */
+    /* =====================
+       CAST
+    ===================== */
     .cast {
       padding: 20px 60px;
       margin-top: 10px;
     }
 
-    .cast h2 {
-      margin-bottom: 10px;
-    }
+    .cast h2 { margin-bottom: 10px; }
 
     .cast-container {
       display: flex;
@@ -175,13 +172,12 @@
       scroll-behavior: smooth;
     }
 
-    .cast-container::-webkit-scrollbar {
-      display: none;
-    }
+    .cast-container::-webkit-scrollbar { display: none; }
 
     .cast-card {
       min-width: 120px;
       text-align: center;
+      flex-shrink: 0;
     }
 
     .cast-card img {
@@ -198,10 +194,10 @@
       margin-top: 5px;
     }
 
-    /* ROW */
-    .row {
-      padding: 20px 60px;
-    }
+    /* =====================
+       ROW
+    ===================== */
+    .row { padding: 20px 60px; }
 
     .row-container {
       display: flex;
@@ -210,85 +206,77 @@
       scroll-behavior: smooth;
     }
 
-    .row-container::-webkit-scrollbar {
-      display: none;
-    }
+    .row-container::-webkit-scrollbar { display: none; }
 
     .card {
-  position: relative;
-  min-width: 160px;
-  height: 240px;
-  border-radius: 4px;
-  overflow: hidden;
-  cursor: pointer;
-}
+      position: relative;
+      min-width: 160px;
+      height: 240px;
+      border-radius: 4px;
+      overflow: hidden;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
 
-.card-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-/* hidden by default */
-.overlay-center,
-.overlay-bottom {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
 
-/* center play */
-.overlay-center {
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
+    .overlay-center,
+    .overlay-bottom {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
 
-.play-btn {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  background: rgba(241, 232, 232, 0.849);
-  color: #111111;
-  font-size: 20px;
-  cursor: pointer;
-}
+    .overlay-center {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
 
-/* bottom info */
-.overlay-bottom {
-  bottom: 10px;
-}
+    .overlay-bottom { bottom: 10px; }
 
-.info-btn {
-  padding: 6px 14px;
-  border-radius: 999px;
-  border: none;
-  background: rgba(245, 236, 236, 0.856);
-  color: #0e0d0d;
-  font-size: 0.75rem;
-  cursor: pointer;
-}
+    .play-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(241,232,232,0.85);
+      color: #111;
+      font-size: 20px;
+      cursor: pointer;
+    }
 
-/* hover effect */
-.card:hover .overlay-center,
-.card:hover .overlay-bottom {
-  opacity: 1;
-}
+    .info-btn {
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: none;
+      background: rgba(245,236,236,0.856);
+      color: #0e0d0d;
+      font-size: 0.75rem;
+      cursor: pointer;
+    }
 
-.card:hover .card-img {
-  transform: scale(1.08);
-}
+    .card:hover .overlay-center,
+    .card:hover .overlay-bottom { opacity: 1; }
 
-    /* MODAL */
+    .card:hover .card-img { transform: scale(1.08); }
+
+    /* =====================
+       MODAL
+    ===================== */
     .modal {
       display: none;
       position: fixed;
       inset: 0;
       background: rgba(0,0,0,0.95);
       z-index: 9999;
-      
+      overflow-y: auto;
     }
 
     .modal-content {
@@ -302,483 +290,361 @@
       width: 100%;
       height: 500px;
       border-radius: 8px;
+      border: none;
     }
 
     .close {
       position: absolute;
-      right: 10px;
-      top: -40px;
-      font-size: 40px;
+      right: 5px;
+      top: -35px;
+      font-size: 30px;
       cursor: pointer;
       color: #fff;
     }
 
-  .close {
-    font-size: 30px;
-    top: -35px;
-    right: 5px;
-  }
-   #modalList,
-#modalLike {
-  background: rgba(109, 109, 110, 0.4); /* translucent */
-  color: #fff;
-  transition: 0.2s ease;
-}
-@media (max-width: 768px) {
+    #modalList,
+    #modalLike {
+      background: rgba(109,109,110,0.4);
+      color: #fff;
+      transition: 0.2s ease;
+    }
 
-  /* =========================
-     HARD RESET (IMPORTANT FIXES)
-  ========================== */
-  .hero-content {
-    margin-left: 0 !important;
-  }
+    /* =====================
+       MOBILE  ≤ 768px
+       ✅ FIX #2: all rules now INSIDE the query
+    ===================== */
+    @media (max-width: 768px) {
 
-  .buttons {
-    flex-wrap: nowrap;
-  }
+      /* — Hero — */
+      .hero {
+        height: 60vh;
+        align-items: flex-end;
+        padding: 0 16px 20px;
+      }
 
-  .card {
-    min-width: unset !important;
-  }
+      .hero-content {
+        margin-left: 0 !important;
+        margin: 0;
+        max-width: 100%;
+      }
 
-  .row-container {
-    gap: 12px;
-  }
+      .hero-content h1 { font-size: 1.6rem; }
 
-  /* =========================
-     HERO
-  ========================== */
-  .hero {
-    height: 60vh;
-    align-items: flex-end;
-    padding: 0 16px 20px;
-  }
+      .overlay {
+        background: linear-gradient(to top, #141414 30%, transparent 80%);
+      }
 
-  .hero-content {
-    margin: 0;
-    max-width: 100%;
-  }
+      .bg-video { display: none; }
 
-  .hero-content h1 {
-    font-size: 1.6rem;
-  }
+      /* ✅ FIX #3: buttons stay side-by-side (Netflix style), not stacked */
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 100%;
+        margin-top: 16px;
+      }
 
-  .overlay {
-    background: linear-gradient(to top, #141414 30%, transparent 80%);
-  }
+      /* Play Movie + Watch Trailer share the first row */
+      .playmovie {
+        flex: 3;
+        padding: 12px 10px;
+        font-size: 0.85rem;
+        border-radius: 4px;
+        min-width: 0;
+      }
 
-  .bg-video {
-    display: none;
-  }
+      .play {
+        flex: 2;
+        padding: 12px 10px;
+        font-size: 0.85rem;
+        border-radius: 4px;
+        min-width: 0;
+      }
 
-  /* =========================
-     BUTTON SYSTEM (FULL MOBILE UI)
-  ========================== */
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 100%;
-  }
+      /* My List + Like sit below, equal width */
+      #modalList,
+      #modalLike {
+        flex: 1;
+        padding: 10px 6px;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        min-width: 0;
+        text-align: center;
+      }
 
-  .buttons button {
-    width: 100%;
-    padding: 14px;
-    font-size: 0.95rem;
-    border-radius: 8px;
-  }
+      /* — Details — */
+      .details { padding: 16px; }
 
-  /* =========================
-     DETAILS
-  ========================== */
-  .details {
-    padding: 16px;
-  }
+      .details .left {
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
 
-  .details .left {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
+      /* — Cast — */
+      .cast { padding: 16px; }
 
-  /* =========================
-     CAST
-  ========================== */
-  .cast {
-    padding: 16px;
-  }
+      .cast-card { min-width: 80px; }
 
-  .cast-card {
-    min-width: 80px;
-    text-align: center;
-  }
+      .cast-card img {
+        width: 60px;
+        height: 60px;
+      }
 
-  .cast-card img {
-    width: 60px;
-    height: 60px;
-  }
+      .cast-card p { font-size: 0.7rem; }
 
-  .cast-card p {
-    font-size: 0.7rem;
-  }
+      /* — Row / Cards — */
+      .row { padding: 12px 16px; }
 
-  /* =========================
-     ROW SYSTEM (mobile swipe feed)
-  ========================== */
-  .row {
-    padding: 16px;
-  }
+      .row-container {
+        gap: 10px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 10px;
+      }
 
-  .row-container {
-    display: flex;
-    gap: 12px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 10px;
-  }
+      /* ✅ FIX #4: 42% shows ~2.3 cards (Netflix feel) instead of 75% (1 card) */
+      .card {
+        flex: 0 0 42%;
+        min-width: unset !important;
+        height: 180px;
+        scroll-snap-align: start;
+        border-radius: 6px;
+      }
 
-  .card {
-    flex: 0 0 75%;
-    height: 200px;
-    scroll-snap-align: start;
-    border-radius: 8px;
-  }
+      /* always-on overlays on touch */
+      .overlay-center,
+      .overlay-bottom { opacity: 1; }
 
-  /* disable hover on mobile */
-  .row-container:hover .card {
-    opacity: 1;
-  }
+      /* kill desktop hover dim */
+      .row-container:hover .card { opacity: 1; }
 
-  /* always show overlays on mobile */
-  .overlay-center,
-  .overlay-bottom {
-    opacity: 1;
-  }
+      /* — Modal — */
+      .modal-content {
+        width: 95%;
+        margin: 15% auto;
+        border-radius: 10px;
+      }
 
-  /* =========================
-     MODAL
-  ========================== */
-  .modal-content {
-    width: 95%;
-    margin: 20% auto;
-    border-radius: 10px;
-  }
+      iframe { height: 220px; }
 
-  iframe {
-    height: 220px;
-  }
-
-  .close {
-    top: -30px;
-    font-size: 26px;
-  }
-
-  /* =========================
-     PERFORMANCE
-  ========================== */
-  .bg-video {
-    display: none;
-  }
-}
+      .close {
+        position: absolute;
+        right: 10px;
+        top: -30px;
+        font-size: 26px;
+        color: #fff;
+      }
+    }
   </style>
 </head>
-
 <body>
 
   <!-- HERO -->
   <section class="hero">
-<img src="images/predator.jpeg" class="bg-fallback" alt="Movie Poster">
+    <img src="images/predator.jpeg" class="bg-fallback" alt="Movie Poster">
     <video class="bg-video" autoplay muted loop playsinline>
       <source src="videos/predator.mp4" type="video/mp4">
     </video>
-
     <div class="overlay"></div>
-
     <div class="hero-content">
       <h1>Predator: Badlands</h1>
-
       <p class="meta">2026 • 16+ • 2h 10m • Action</p>
-
       <p class="description">
         A ruthless alien hunter returns to Earth in a war-torn future where survival is no longer guaranteed.
       </p>
-
       <div class="buttons">
-<button class="playmovie"
-  data-local="videos/predator.mp4"
-  data-embed="https://www.youtube.com/embed/nm4dHuyYrQk">
-  ▶ Play Movie
-</button>
-        <button class="play">▶ Watch Trailer</button>  
-        <button class="btn btn-info" id="modalList">
-                <i class="fas fa-plus"></i>
-                      My List
-                     </button>
-             <button class="btn btn-info" id="modalLike">
-               <i class="far fa-thumbs-up"></i>
-                           Like
-                      </button>
-                 </div>
-              </div>
-
+        <button class="playmovie"
+          data-local="videos/predator.mp4"
+          data-embed="https://www.youtube.com/embed/nm4dHuyYrQk">
+          ▶ Play Movie
+        </button>
+        <button class="play">▶ Trailer</button>
+        <button class="buttons-icon" id="modalList">
+          <i class="fas fa-plus"></i> My List
+        </button>
+        <button class="buttons-icon" id="modalLike">
+          <i class="far fa-thumbs-up"></i> Like
+        </button>
+      </div>
+    </div>
   </section>
 
   <!-- DETAILS -->
- <section class="details">
-  <div class="left">
-   The story follows Dek, a young exiled Yautja,
-    who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator
-    Dek faces numerous dangers from Genna's flora and fauna,
-     losing almost all of his gear. He reluctantly allies with Thia, a damaged Weyland-Yutani Corporation android,
-      whose team was destroyed by the Kalisk. Thia offers to help Dek track the Kalisk
-  </div>
+  <section class="details">
+    <div class="left">
+      The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet and must
+      prove himself worthy of the hunt by killing an apex predator. Dek faces numerous dangers from
+      Genna's flora and fauna, losing almost all of his gear. He reluctantly allies with Thia, a
+      damaged Weyland-Yutani Corporation android, whose team was destroyed by the Kalisk. Thia offers
+      to help Dek track the Kalisk.
+    </div>
+    <div class="right">
+      <div class="meta-chip">Horror</div>
+      <div class="meta-chip">Sci-Fi</div>
+      <div class="meta-chip">Action</div>
+      <div class="meta-chip">2hrs 10min</div>
+    </div>
+  </section>
 
-  <div class="right">
-    <div class="meta-chip">Horror</div>
-    <div class="meta-chip">Sci-Fi</div>
-    <div class="meta-chip">Action</div>
-    <div class="meta-chip">2hrs 10min</div>
-  </div>
-</section>
-
-  <!-- CAST (FIXED STRUCTURE) -->
+  <!-- CAST -->
   <section class="cast">
-
     <h2>Cast</h2>
-
     <div class="cast-container">
-
       <div class="cast-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPFJMATuk9ZTe_VwkuCNh1Pe8dfKE8jf5TOPgEWOH80JDQHxHlpZLVWDk2aJFc4SIyd4KPh5SXL6l897YZMUCpueR8IvUd0xYdmlY7zwg&s=10">
-        <p>Elle </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPFJMATuk9ZTe_VwkuCNh1Pe8dfKE8jf5TOPgEWOH80JDQHxHlpZLVWDk2aJFc4SIyd4KPh5SXL6l897YZMUCpueR8IvUd0xYdmlY7zwg&s=10" alt="Elle">
+        <p>Elle</p>
       </div>
-
       <div class="cast-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4MP8AZEkVwKEp2II5IOeIxYzGwF-VAf2Cgpz0jKgJ9IJgoC78n7264pY5zHQdOJxfFPoRcMSJcp1-YDFvMWBHWPsbN9RZwDC0Lbkwc2LNg&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4MP8AZEkVwKEp2II5IOeIxYzGwF-VAf2Cgpz0jKgJ9IJgoC78n7264pY5zHQdOJxfFPoRcMSJcp1-YDFvMWBHWPsbN9RZwDC0Lbkwc2LNg&s=10" alt="Mike">
         <p>Mike</p>
       </div>
-
       <div class="cast-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEjhzNNQOXvRSrVGZ-iHUA8t1TgbR1zbgCzNn4OGzc1mW8b1vLcMuzhajzz2-B3mqEGDQUKUMU_bhMXaeQKqgDnn3sV22rjeBTJn9zHXx&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEjhzNNQOXvRSrVGZ-iHUA8t1TgbR1zbgCzNn4OGzc1mW8b1vLcMuzhajzz2-B3mqEGDQUKUMU_bhMXaeQKqgDnn3sV22rjeBTJn9zHXx&s=10" alt="Allison">
         <p>Allison</p>
       </div>
-
       <div class="cast-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42CzK-SLoKJmhdyYA2rLXwm-_WvD1Ib-tcATyEirl0c8bDqxjyP5cI5D16GShhDQZhuS2p3nIJoe5cwkm4JLBCCuLUTb2MerbGSn6Pg8oxQ&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42CzK-SLoKJmhdyYA2rLXwm-_WvD1Ib-tcATyEirl0c8bDqxjyP5cI5D16GShhDQZhuS2p3nIJoe5cwkm4JLBCCuLUTb2MerbGSn6Pg8oxQ&s=10" alt="Dimitrius">
         <p>Dimitrius</p>
       </div>
-
     </div>
-
   </section>
 
   <!-- ROW -->
   <section class="row">
     <h2>More Like This</h2>
-
     <div class="row-container">
-     <div class="card">
-  <img src="images/fallout.jpg" class="card-img" />
-
-  <div class="overlay-center">
-    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-  </div>
-
-  <div class="overlay-bottom">
-    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-  </div>
-</div>
       <div class="card">
-  <img src="images/foundation.jpg" class="card-img" />
-
-  <div class="overlay-center">
-    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-  </div>
-
-  <div class="overlay-bottom">
-    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-  </div>
-</div>
-
-<div class="card">
-  <img src="images/peace.jpg" class="card-img" />
-
-  <div class="overlay-center">
-    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-  </div>
-
-  <div class="overlay-bottom">
-    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-  </div>
-</div>
-
-<div class="card">
-  <img src="images/avata4.jpg" class="card-img" />
-
-  <div class="overlay-center">
-    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-  </div>
-
-  <div class="overlay-bottom">
-    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-  </div>
-</div>
+        <img src="images/fallout.jpg" class="card-img" alt="Fallout">
+        <div class="overlay-center">
+          <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+        </div>
+        <div class="overlay-bottom">
+          <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/foundation.jpg" class="card-img" alt="Foundation">
+        <div class="overlay-center">
+          <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+        </div>
+        <div class="overlay-bottom">
+          <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/peace.jpg" class="card-img" alt="Peace">
+        <div class="overlay-center">
+          <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+        </div>
+        <div class="overlay-bottom">
+          <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/avata4.jpg" class="card-img" alt="Avatar">
+        <div class="overlay-center">
+          <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+        </div>
+        <div class="overlay-bottom">
+          <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- MODAL -->
- <div class="modal" id="trailerModal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-
-    <!-- LOCAL VIDEO -->
-    <video id="moviePlayer" controls style="display:none; width:100%;">
-      <source id="movieSource" src="" type="video/mp4">
-    </video>
-
-    <!-- YOUTUBE / EMBED -->
-    <iframe
-      id="trailerFrame"
-      src=""
-      style="display:none;"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-
+  <div class="modal" id="trailerModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <video id="moviePlayer" controls style="display:none; width:100%; border-radius:8px;">
+        <source id="movieSource" src="" type="video/mp4">
+      </video>
+      <iframe
+        id="trailerFrame"
+        src=""
+        style="display:none;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
-</div>
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
 
-  /* =========================
-     ELEMENTS
-  ========================== */
-  const modal = document.getElementById("trailerModal");
-  const closeBtn = document.querySelector(".close");
+      const modal       = document.getElementById("trailerModal");
+      const closeBtn    = document.querySelector(".close");
+      const iframe      = document.getElementById("trailerFrame");
+      const video       = document.getElementById("moviePlayer");
+      const videoSource = document.getElementById("movieSource");
+      const trailerBtn  = document.querySelector(".play");
+      const movieBtn    = document.querySelector(".playmovie");
 
-  const iframe = document.getElementById("trailerFrame");
-  const video = document.getElementById("moviePlayer");
-  const videoSource = document.getElementById("movieSource");
+      /* — Trailer — */
+      if (trailerBtn) {
+        trailerBtn.addEventListener("click", () => {
+          openModal();
+          hideVideo();
+          showIframe();
+          iframe.src = "https://www.youtube.com/embed/nm4dHuyYrQk";
+        });
+      }
 
-  const trailerBtn = document.querySelector(".play");       // trailer button (UNCHANGED LOGIC)
-  const movieBtn = document.querySelector(".playmovie");    // play movie button
+      /* — Play Movie — */
+      if (movieBtn) {
+        movieBtn.addEventListener("click", () => {
+          openModal();
+          hideIframe();
+          showVideo();
+          videoSource.src = "videos/predator.mp4";
+          video.load();
+          video.play().catch(err => console.log("Autoplay blocked:", err));
+        });
+      }
 
-  /* =========================
-     OPEN TRAILER (SAFE)
-     - uses iframe only
-  ========================== */
-  if (trailerBtn) {
-    trailerBtn.addEventListener("click", () => {
-      openModal();
+      /* — Close — */
+      function closeModal() {
+        modal.style.display = "none";
+        iframe.src = "";
+        video.pause();
+        video.currentTime = 0;
+        videoSource.src = "";
+      }
 
-      hideVideo();
-      showIframe();
-
-      // ⚠️ replace with real embed when ready
-      iframe.src = "videos/predator.mp4";// for trailer
-    });
-  }
-
-  /* =========================
-     PLAY MOVIE (LOCAL VIDEO)
-  ========================== */
-  if (movieBtn) {
-    movieBtn.addEventListener("click", () => {
-      openModal();
-
-      hideIframe();
-      showVideo();
-
-      videoSource.src = "videos/predator.mp4";// for movie
-      video.load();
-
-      video.play().catch(err => {
-        console.log("Autoplay blocked:", err);
+      closeBtn.addEventListener("click", closeModal);
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) closeModal();
       });
+
+      /* — Helpers — */
+      function openModal()  { modal.style.display = "block"; }
+      function showIframe() { iframe.style.display = "block"; }
+      function hideIframe() { iframe.style.display = "none"; iframe.src = ""; }
+      function showVideo()  { video.style.display = "block"; }
+      function hideVideo()  { video.style.display = "none"; video.pause(); }
     });
-  }
 
-  /* =========================
-     CLOSE MODAL
-  ========================== */
-  function closeModal() {
-    modal.style.display = "none";
+    /* — My List — */
+    const modalList = document.getElementById("modalList");
+    let inList = false;
+    modalList.addEventListener("click", () => {
+      inList = !inList;
+      modalList.innerHTML = inList
+        ? `<i class="fas fa-check"></i> Added`
+        : `<i class="fas fa-plus"></i> My List`;
+    });
 
-    // reset iframe
-    iframe.src = "";
-
-    // reset video
-    video.pause();
-    video.currentTime = 0;
-    videoSource.src = "";
-  }
-
-  closeBtn.addEventListener("click", closeModal);
-
-  window.addEventListener("click", (e) => {
-    if (e.target === modal) closeModal();
-  });
-
-  /* =========================
-     HELPERS
-  ========================== */
-  function openModal() {
-    modal.style.display = "block";
-  }
-
-  function showIframe() {
-    iframe.style.display = "block";
-  }
-
-  function hideIframe() {
-    iframe.style.display = "none";
-    iframe.src = "";
-  }
-
-  function showVideo() {
-    video.style.display = "block";
-  }
-
-  function hideVideo() {
-    video.style.display = "none";
-    video.pause();
-  }
-
-});
-  /* MY LIST BUTTON */
-const modalList = document.getElementById("modalList");
-const listIcon = modalList.querySelector("i");
-
-let inList = false;
-
-modalList.addEventListener("click", () => {
-  inList = !inList;
-
-  if (inList) {
-    listIcon.classList.remove("fa-plus");
-    listIcon.classList.add("fa-check");
-    modalList.innerHTML = `<i class="fas fa-check"></i> Added`;
-  } else {
-    modalList.innerHTML = `<i class="fas fa-plus"></i> My List`;
-  }
-});
-
-
-/* LIKE BUTTON */
-const modalLike = document.getElementById("modalLike");
-let liked = false;
-
-modalLike.addEventListener("click", () => {
-  liked = !liked;
-
-  if (liked) {
-    modalLike.innerHTML = `<i class="fas fa-thumbs-up"></i> Liked`;
-  } else {
-    modalLike.innerHTML = `<i class="far fa-thumbs-up"></i> Like`;
-  }
-});
+    /* — Like — */
+    const modalLike = document.getElementById("modalLike");
+    let liked = false;
+    modalLike.addEventListener("click", () => {
+      liked = !liked;
+      modalLike.innerHTML = liked
+        ? `<i class="fas fa-thumbs-up"></i> Liked`
+        : `<i class="far fa-thumbs-up"></i> Like`;
+    });
   </script>
-
 </body>
 </html>
