@@ -327,7 +327,26 @@
 @media (max-width: 768px) {
 
   /* =========================
-     HERO (mobile-first layout)
+     HARD RESET (IMPORTANT FIXES)
+  ========================== */
+  .hero-content {
+    margin-left: 0 !important;
+  }
+
+  .buttons {
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    min-width: unset !important;
+  }
+
+  .row-container {
+    gap: 12px;
+  }
+
+  /* =========================
+     HERO
   ========================== */
   .hero {
     height: 60vh;
@@ -370,7 +389,7 @@
   }
 
   /* =========================
-     DETAILS (clean mobile text block)
+     DETAILS
   ========================== */
   .details {
     padding: 16px;
@@ -382,7 +401,7 @@
   }
 
   /* =========================
-     CAST (horizontal chips style)
+     CAST
   ========================== */
   .cast {
     padding: 16px;
@@ -419,13 +438,13 @@
   }
 
   .card {
-    flex: 0 0 75%; /* 👈 main mobile focus card */
+    flex: 0 0 75%;
     height: 200px;
     scroll-snap-align: start;
     border-radius: 8px;
   }
 
-  /* disable hover behavior on mobile */
+  /* disable hover on mobile */
   .row-container:hover .card {
     opacity: 1;
   }
@@ -437,7 +456,7 @@
   }
 
   /* =========================
-     MODAL (mobile video player)
+     MODAL
   ========================== */
   .modal-content {
     width: 95%;
@@ -455,10 +474,10 @@
   }
 
   /* =========================
-     VIDEO PERFORMANCE
+     PERFORMANCE
   ========================== */
   .bg-video {
-    display: none; /* important for performance */
+    display: none;
   }
 }
   </style>
