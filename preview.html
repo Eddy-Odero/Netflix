@@ -6,7 +6,9 @@
 <link
     rel="shortcut icon"
     href="images/logo.webp"
-  />
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       margin: 0;
@@ -24,16 +26,29 @@
       overflow: hidden;
     }
 
-    .bg-video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      transform: translate(-50%, -50%);
-      object-fit: cover;
-      z-index: 0;
-    }
+    /* fallback image */
+.bg-fallback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+/* video stays on top of image */
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 1;
+}
 
     .overlay {
       position: absolute;
@@ -70,19 +85,26 @@
     }
 
     /* BUTTONS */
-    .buttons {
-      margin-top: 20px;
-    }
+   .buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap; /* keep one line */
+}
 
-    .buttons button {
-      border: none;
-      padding: 12px 24px;
-      margin-right: 10px;
-      font-size: 1rem;
-      border-radius: 4px;
-      cursor: pointer;
-      font-weight: bold;
-    }
+.buttons button {
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+  margin: 0;            /* IMPORTANT: remove old spacing */
+  white-space: nowrap;  /* prevents text wrapping */
+  flex-shrink: 0;       /* prevents buttons shrinking weirdly */
+}
 
     .play {
       background: #e90c0c;
@@ -100,24 +122,41 @@
     }
 
     /* DETAILS */
-    .details {
-      display: flex;
-      padding: 40px 60px;
-      gap: 50px;
-      background: #141414;
-    }
+   .details {
+  display: block; /* remove side-by-side layout */
+  padding: 40px 60px;
+  background: #141414;
+}
 
-    .details .left {
-      flex: 2;
-      color: #d2d2d2;
-      line-height: 1.6;
-    }
+.details .left {
+  color: #d2d2d2;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.details .right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-    .details .right {
-      flex: 1;
-      color: #999;
-      font-size: 0.9rem;
-    }
+/* pill style */
+.meta-chip {
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.08);
+  color: #e5e5e5;
+
+  font-size: 0.85rem;
+  white-space: nowrap;
+
+  transition: 0.2s ease;
+}
+
+.meta-chip:hover {
+  background: rgba(255,255,255,0.15);
+  transform: scale(1.05);
+}
 
     /* CAST */
     .cast {
@@ -201,6 +240,7 @@
       inset: 0;
       background: rgba(0,0,0,0.95);
       z-index: 9999;
+      
     }
 
     .modal-content {
@@ -224,9 +264,19 @@
       cursor: pointer;
       color: #fff;
     }
-    /* =========================
-   MOBILE OPTIMIZATION
-========================= */
+
+  .close {
+    font-size: 30px;
+    top: -35px;
+    right: 5px;
+  }
+   #modalList,
+#modalLike {
+  background: rgba(109, 109, 110, 0.4); /* translucent */
+  color: #fff;
+  transition: 0.2s ease;
+}
+
 @media (max-width: 768px) {
 
   /* BODY */
@@ -256,21 +306,6 @@
     font-size: 0.9rem;
     line-height: 1.4;
   }
-
-  /* BUTTONS */
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .buttons button {
-    flex: 1;
-    padding: 10px;
-    font-size: 0.85rem;
-    border-radius: 3px;
-  }
-
   /* DETAILS */
   .details {
     flex-direction: column;
@@ -331,29 +366,11 @@
     transform: scale(1.05); /* smaller zoom for mobile */
   }
 
-  /* REMOVE HOVER TEXT (no hover on phones) */
   .card::after {
     display: none;
   }
 
-  /* MODAL */
-  .modal-content {
-    width: 95%;
-    margin: 25% auto;
-  }
-
-  .modal-content video {
-    width: 100%;
-    height: auto;
-    max-height: 60vh;
-    border-radius: 6px;
-  }
-
-  .close {
-    font-size: 30px;
-    top: -35px;
-    right: 5px;
-  }
+  
 }
   </style>
 </head>
@@ -362,7 +379,7 @@
 
   <!-- HERO -->
   <section class="hero">
-
+<img src="images/predator.jpeg" class="bg-fallback" alt="Movie Poster">
     <video class="bg-video" autoplay muted loop playsinline>
       <source src="videos/predator.mp4" type="video/mp4">
     </video>
@@ -380,24 +397,34 @@
 
       <div class="buttons">
         <button class="playmovie">▶ Play Movie</button>
-        <button class="play">▶ Watch Trailer</button>
-      </div>
-    </div>
+        <button class="play">▶ Watch Trailer</button>  
+        <button class="btn btn-info" id="modalList">
+                <i class="fas fa-plus"></i>
+                      My List
+                     </button>
+             <button class="btn btn-info" id="modalLike">
+               <i class="far fa-thumbs-up"></i>
+                           Like
+                      </button>
+                 </div>
+              </div>
 
   </section>
 
   <!-- DETAILS -->
-  <section class="details">
-    <div class="left">
-      A deeper story breakdown goes here. You can expand this into full synopsis, production notes, or story arcs depending on your project.
-    </div>
+ <section class="details">
+  <div class="left">
+   The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator
+    Dek faces numerous dangers from Genna's flora and fauna, losing almost all of his gear. He reluctantly allies with Thia, a damaged Weyland-Yutani Corporation android, whose team was destroyed by the Kalisk. Thia offers to help Dek track the Kalisk
+  </div>
 
-    <div class="right">
-      <p><strong>Genre:</strong> Action</p>
-      <p><strong>Language:</strong> English</p>
-      <p><strong>Runtime:</strong> 2h 10m</p>
-    </div>
-  </section>
+  <div class="right">
+    <div class="meta-chip">Horror</div>
+    <div class="meta-chip">Sci-Fi</div>
+    <div class="meta-chip">Action</div>
+    <div class="meta-chip">2hrs 10min</div>
+  </div>
+</section>
 
   <!-- CAST (FIXED STRUCTURE) -->
   <section class="cast">
@@ -407,23 +434,23 @@
     <div class="cast-container">
 
       <div class="cast-card">
-        <img src="https://i.pravatar.cc/100?img=12">
-        <p>Actor 1</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPFJMATuk9ZTe_VwkuCNh1Pe8dfKE8jf5TOPgEWOH80JDQHxHlpZLVWDk2aJFc4SIyd4KPh5SXL6l897YZMUCpueR8IvUd0xYdmlY7zwg&s=10">
+        <p>Elle </p>
       </div>
 
       <div class="cast-card">
-        <img src="https://i.pravatar.cc/100?img=32">
-        <p>Actor 2</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4MP8AZEkVwKEp2II5IOeIxYzGwF-VAf2Cgpz0jKgJ9IJgoC78n7264pY5zHQdOJxfFPoRcMSJcp1-YDFvMWBHWPsbN9RZwDC0Lbkwc2LNg&s=10">
+        <p>Mike</p>
       </div>
 
       <div class="cast-card">
-        <img src="https://i.pravatar.cc/100?img=45">
-        <p>Actor 3</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEjhzNNQOXvRSrVGZ-iHUA8t1TgbR1zbgCzNn4OGzc1mW8b1vLcMuzhajzz2-B3mqEGDQUKUMU_bhMXaeQKqgDnn3sV22rjeBTJn9zHXx&s=10">
+        <p>Allison</p>
       </div>
 
       <div class="cast-card">
-        <img src="https://i.pravatar.cc/100?img=5">
-        <p>Actor 4</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42CzK-SLoKJmhdyYA2rLXwm-_WvD1Ib-tcATyEirl0c8bDqxjyP5cI5D16GShhDQZhuS2p3nIJoe5cwkm4JLBCCuLUTb2MerbGSn6Pg8oxQ&s=10">
+        <p>Dimitrius</p>
       </div>
 
     </div>
@@ -478,6 +505,38 @@
     window.addEventListener("click", (e) => {
       if (e.target === modal) closeModal();
     });
+    /* MY LIST BUTTON */
+const modalList = document.getElementById("modalList");
+const listIcon = modalList.querySelector("i");
+
+let inList = false;
+
+modalList.addEventListener("click", () => {
+  inList = !inList;
+
+  if (inList) {
+    listIcon.classList.remove("fa-plus");
+    listIcon.classList.add("fa-check");
+    modalList.innerHTML = `<i class="fas fa-check"></i> Added`;
+  } else {
+    modalList.innerHTML = `<i class="fas fa-plus"></i> My List`;
+  }
+});
+
+
+/* LIKE BUTTON */
+const modalLike = document.getElementById("modalLike");
+let liked = false;
+
+modalLike.addEventListener("click", () => {
+  liked = !liked;
+
+  if (liked) {
+    modalLike.innerHTML = `<i class="fas fa-thumbs-up"></i> Liked`;
+  } else {
+    modalLike.innerHTML = `<i class="far fa-thumbs-up"></i> Like`;
+  }
+});
   </script>
 
 </body>

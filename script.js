@@ -88,13 +88,22 @@ function addToList(movieId) {
     populateMyList();
 }
 
-// Like movie function
-function likeMovie(movieId) {
-    const movieCard = document.querySelector(`[data-movie-id="${movieId}"]`);
-    const likeBtn = movieCard.querySelector('.action-btn:nth-child(2) i');
-    likeBtn.classList.toggle('fas');
-    likeBtn.classList.toggle('far');
-}
+const modalLike = document.getElementById("modalLike");
+const icon = modalLike.querySelector("i");
+
+modalLike.addEventListener("click", () => {
+  const isLiked = modalLike.classList.toggle("liked");
+
+  if (isLiked) {
+    icon.classList.remove("far");
+    icon.classList.add("fas");
+    modalLike.childNodes[1].nodeValue = " Liked";
+  } else {
+    icon.classList.remove("fas");
+    icon.classList.add("far");
+    modalLike.childNodes[1].nodeValue = " Like";
+  }
+});
 
 // Show movie details modal
 function showDetails(movieId) {
