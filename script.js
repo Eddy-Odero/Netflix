@@ -2,12 +2,12 @@
 const movies = [
     {
         id: 1,
-        title: "Stranger Things",
+        title: "Predator Badlands",
         type: "series",
-        image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-        description: "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-        year: 2016,
-        duration: "4 Seasons",
+        image: "images/predator.jpeg",
+        description: " The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator.",
+        year: 2026,
+        duration: "2 hours 10 mins ",
         genre: "Sci-Fi Horror",
         rating: "TV-14",
         categories: ["trending", "sci-fi", "horror"],

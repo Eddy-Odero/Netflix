@@ -224,6 +224,137 @@
       cursor: pointer;
       color: #fff;
     }
+    /* =========================
+   MOBILE OPTIMIZATION
+========================= */
+@media (max-width: 768px) {
+
+  /* BODY */
+  body {
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-content {
+    margin: 0 20px;
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .meta {
+    font-size: 0.8rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* BUTTONS */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 3px;
+  }
+
+  /* DETAILS */
+  .details {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  /* CAST */
+  .cast {
+    padding: 20px;
+  }
+
+  .cast-container {
+    gap: 10px;
+  }
+
+  .cast-card {
+    min-width: 100px;
+  }
+
+  .cast-card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .cast-card p {
+    font-size: 0.7rem;
+  }
+
+  /* ROW */
+  .row {
+    padding: 20px;
+  }
+
+  .row h2 {
+    font-size: 1rem;
+  }
+
+  .row-container {
+    gap: 8px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .row-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* CARDS */
+  .card {
+    min-width: 120px;
+    height: 180px;
+    scroll-snap-align: start;
+    border-radius: 3px;
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* smaller zoom for mobile */
+  }
+
+  /* REMOVE HOVER TEXT (no hover on phones) */
+  .card::after {
+    display: none;
+  }
+
+  /* MODAL */
+  .modal-content {
+    width: 95%;
+    margin: 25% auto;
+  }
+
+  .modal-content video {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    border-radius: 6px;
+  }
+
+  .close {
+    font-size: 30px;
+    top: -35px;
+    right: 5px;
+  }
+}
   </style>
 </head>
 
@@ -334,7 +465,7 @@
 
     playBtn.addEventListener("click", () => {
       modal.style.display = "block";
-      iframe.src = "https://www.youtube.com/embed/43R9l7EkJwE?autoplay=1&mute=1";
+      iframe.src = "videos/predator.mp4";
     });
 
     function closeModal() {
