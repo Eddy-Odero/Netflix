@@ -215,23 +215,71 @@
     }
 
     .card {
-      min-width: 160px;
-      height: 240px;
-      background-size: cover;
-      background-position: center;
-      border-radius: 4px;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-    }
+  position: relative;
+  min-width: 160px;
+  height: 240px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
 
-    .row-container:hover .card {
-      opacity: 0.5;
-    }
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+/* hidden by default */
+.overlay-center,
+.overlay-bottom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
-    .row-container .card:hover {
-      transform: scale(1.1);
-      opacity: 1;
-      z-index: 5;
-    }
+/* center play */
+.overlay-center {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(241, 232, 232, 0.849);
+  color: #111111;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* bottom info */
+.overlay-bottom {
+  bottom: 10px;
+}
+
+.info-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(245, 236, 236, 0.856);
+  color: #0e0d0d;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+/* hover effect */
+.card:hover .overlay-center,
+.card:hover .overlay-bottom {
+  opacity: 1;
+}
+
+.card:hover .card-img {
+  transform: scale(1.08);
+}
 
     /* MODAL */
     .modal {
@@ -276,21 +324,17 @@
   color: #fff;
   transition: 0.2s ease;
 }
-
 @media (max-width: 768px) {
 
-  /* BODY */
-  body {
-    font-size: 14px;
-  }
-
-  /* HERO */
+  /* HERO FIX */
   .hero {
     height: 60vh;
+    align-items: flex-end;
+    padding-bottom: 20px;
   }
 
   .hero-content {
-    margin: 0 20px;
+    margin: 0 15px;
     max-width: 100%;
   }
 
@@ -298,28 +342,34 @@
     font-size: 1.8rem;
   }
 
-  .meta {
-    font-size: 0.8rem;
+  .overlay {
+    background: linear-gradient(to top, #141414 30%, transparent 80%);
   }
 
-  .description {
-    font-size: 0.9rem;
-    line-height: 1.4;
+  /* VIDEO OFF (important for mobile performance) */
+  .bg-video {
+    display: none;
   }
-  /* DETAILS */
+
+  /* BUTTON FIX (your main issue) */
+  .buttons {
+    flex-wrap: wrap; /* was nowrap → breaks layout */
+    gap: 8px;
+  }
+
+  .buttons button {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+
+  /* DETAILS SPACING */
   .details {
-    flex-direction: column;
     padding: 20px;
-    gap: 20px;
   }
 
   /* CAST */
   .cast {
     padding: 20px;
-  }
-
-  .cast-container {
-    gap: 10px;
   }
 
   .cast-card {
@@ -331,17 +381,9 @@
     height: 70px;
   }
 
-  .cast-card p {
-    font-size: 0.7rem;
-  }
-
-  /* ROW */
+  /* ROW FIX */
   .row {
     padding: 20px;
-  }
-
-  .row h2 {
-    font-size: 1rem;
   }
 
   .row-container {
@@ -350,27 +392,34 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  .row-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* CARDS */
   .card {
     min-width: 120px;
     height: 180px;
     scroll-snap-align: start;
-    border-radius: 3px;
+  }
+  .overlay-center,
+  .overlay-bottom {
+    opacity: 1; /* no hover on mobile */
+  }
+  /* REMOVE DESKTOP HOVER EFFECTS */
+  .row-container:hover .card {
+    opacity: 1;
   }
 
-  .card:hover {
-    transform: scale(1.05); /* smaller zoom for mobile */
+  /* MODAL FIX */
+  .modal-content {
+    width: 95%;
+    margin: 25% auto;
   }
 
-  .card::after {
-    display: none;
+  iframe {
+    height: 220px;
   }
 
-  
+  .close {
+    top: -30px;
+    font-size: 26px;
+  }
 }
   </style>
 </head>
@@ -396,7 +445,11 @@
       </p>
 
       <div class="buttons">
-        <button class="playmovie">▶ Play Movie</button>
+<button class="playmovie"
+  data-local="videos/predator.mp4"
+  data-embed="https://www.youtube.com/embed/nm4dHuyYrQk">
+  ▶ Play Movie
+</button>
         <button class="play">▶ Watch Trailer</button>  
         <button class="btn btn-info" id="modalList">
                 <i class="fas fa-plus"></i>
@@ -414,8 +467,11 @@
   <!-- DETAILS -->
  <section class="details">
   <div class="left">
-   The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator
-    Dek faces numerous dangers from Genna's flora and fauna, losing almost all of his gear. He reluctantly allies with Thia, a damaged Weyland-Yutani Corporation android, whose team was destroyed by the Kalisk. Thia offers to help Dek track the Kalisk
+   The story follows Dek, a young exiled Yautja,
+    who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator
+    Dek faces numerous dangers from Genna's flora and fauna,
+     losing almost all of his gear. He reluctantly allies with Thia, a damaged Weyland-Yutani Corporation android,
+      whose team was destroyed by the Kalisk. Thia offers to help Dek track the Kalisk
   </div>
 
   <div class="right">
@@ -462,50 +518,176 @@
     <h2>More Like This</h2>
 
     <div class="row-container">
-      <div class="card" style="background-image:url('images/fallout.jpg')"></div>
-      <div class="card" style="background-image:url('images/foundation.jpg')"></div>
-      <div class="card" style="background-image:url('images/3body.jpg')"></div>
-      <div class="card" style="background-image:url('images/peace.jpg')"></div>
+     <div class="card">
+  <img src="images/fallout.jpg" class="card-img" />
+
+  <div class="overlay-center">
+    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+  </div>
+
+  <div class="overlay-bottom">
+    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+  </div>
+</div>
+      <div class="card">
+  <img src="images/foundation.jpg" class="card-img" />
+
+  <div class="overlay-center">
+    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+  </div>
+
+  <div class="overlay-bottom">
+    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/peace.jpg" class="card-img" />
+
+  <div class="overlay-center">
+    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+  </div>
+
+  <div class="overlay-bottom">
+    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/avata4.jpg" class="card-img" />
+
+  <div class="overlay-center">
+    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+  </div>
+
+  <div class="overlay-bottom">
+    <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
+  </div>
+</div>
     </div>
   </section>
 
   <!-- MODAL -->
-  <div class="modal" id="trailerModal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
+ <div class="modal" id="trailerModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
 
-      <iframe
-        id="trailerFrame"
-        src=""
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
+    <!-- LOCAL VIDEO -->
+    <video id="moviePlayer" controls style="display:none; width:100%;">
+      <source id="movieSource" src="" type="video/mp4">
+    </video>
 
-    </div>
+    <!-- YOUTUBE / EMBED -->
+    <iframe
+      id="trailerFrame"
+      src=""
+      style="display:none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+
   </div>
+</div>
 
   <script>
-    const playBtn = document.querySelector(".play");
-    const modal = document.getElementById("trailerModal");
-    const closeBtn = document.querySelector(".close");
-    const iframe = document.getElementById("trailerFrame");
+    document.addEventListener("DOMContentLoaded", () => {
 
-    playBtn.addEventListener("click", () => {
-      modal.style.display = "block";
-      iframe.src = "videos/predator.mp4";
+  /* =========================
+     ELEMENTS
+  ========================== */
+  const modal = document.getElementById("trailerModal");
+  const closeBtn = document.querySelector(".close");
+
+  const iframe = document.getElementById("trailerFrame");
+  const video = document.getElementById("moviePlayer");
+  const videoSource = document.getElementById("movieSource");
+
+  const trailerBtn = document.querySelector(".play");       // trailer button (UNCHANGED LOGIC)
+  const movieBtn = document.querySelector(".playmovie");    // play movie button
+
+  /* =========================
+     OPEN TRAILER (SAFE)
+     - uses iframe only
+  ========================== */
+  if (trailerBtn) {
+    trailerBtn.addEventListener("click", () => {
+      openModal();
+
+      hideVideo();
+      showIframe();
+
+      // ⚠️ replace with real embed when ready
+      iframe.src = "videos/predator.mp4";// for trailer
     });
+  }
 
-    function closeModal() {
-      modal.style.display = "none";
-      iframe.src = "";
-    }
+  /* =========================
+     PLAY MOVIE (LOCAL VIDEO)
+  ========================== */
+  if (movieBtn) {
+    movieBtn.addEventListener("click", () => {
+      openModal();
 
-    closeBtn.addEventListener("click", closeModal);
+      hideIframe();
+      showVideo();
 
-    window.addEventListener("click", (e) => {
-      if (e.target === modal) closeModal();
+      videoSource.src = "videos/predator.mp4";// for movie
+      video.load();
+
+      video.play().catch(err => {
+        console.log("Autoplay blocked:", err);
+      });
     });
-    /* MY LIST BUTTON */
+  }
+
+  /* =========================
+     CLOSE MODAL
+  ========================== */
+  function closeModal() {
+    modal.style.display = "none";
+
+    // reset iframe
+    iframe.src = "";
+
+    // reset video
+    video.pause();
+    video.currentTime = 0;
+    videoSource.src = "";
+  }
+
+  closeBtn.addEventListener("click", closeModal);
+
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  /* =========================
+     HELPERS
+  ========================== */
+  function openModal() {
+    modal.style.display = "block";
+  }
+
+  function showIframe() {
+    iframe.style.display = "block";
+  }
+
+  function hideIframe() {
+    iframe.style.display = "none";
+    iframe.src = "";
+  }
+
+  function showVideo() {
+    video.style.display = "block";
+  }
+
+  function hideVideo() {
+    video.style.display = "none";
+    video.pause();
+  }
+
+});
+  /* MY LIST BUTTON */
 const modalList = document.getElementById("modalList");
 const listIcon = modalList.querySelector("i");
 
