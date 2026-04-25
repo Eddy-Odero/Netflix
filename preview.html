@@ -8,9 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
-    /* =====================
-       BASE
-    ===================== */
     *, *::before, *::after { box-sizing: border-box; }
 
     body {
@@ -19,10 +16,6 @@
       background: #141414;
       color: #fff;
     }
-
-    /* =====================
-       HERO
-    ===================== */
     .hero {
       position: relative;
       height: 85vh;
@@ -86,10 +79,6 @@
       line-height: 1.5;
       font-size: 1.05rem;
     }
-
-    /* =====================
-       BUTTONS — desktop
-    ===================== */
     .buttons {
       margin-top: 20px;
       display: flex;
@@ -109,7 +98,7 @@
       flex-shrink: 0;
     }
 
-    .play     { background: #e90c0c; color: #0f0f0f; }
+    .play     { background: #e90c0c; color: #080808; }
     .playmovie { background: #fff;   color: #000; }
     .list, .like {
       background: rgba(109,109,110,0.7);
@@ -119,10 +108,6 @@
     .list:hover, .like:hover {
       background: rgba(109,109,110,1);
     }
-
-    /* =====================
-       DETAILS
-    ===================== */
     .details {
       padding: 40px 60px;
       background: #141414;
@@ -154,10 +139,6 @@
       background: rgba(255,255,255,0.15);
       transform: scale(1.05);
     }
-
-    /* =====================
-       CAST
-    ===================== */
     .cast {
       padding: 20px 60px;
       margin-top: 10px;
@@ -266,10 +247,6 @@
     .card:hover .overlay-bottom { opacity: 1; }
 
     .card:hover .card-img { transform: scale(1.08); }
-
-    /* =====================
-       MODAL
-    ===================== */
     .modal {
       display: none;
       position: fixed;
@@ -308,11 +285,6 @@
       color: #fff;
       transition: 0.2s ease;
     }
-
-    /* =====================
-       MOBILE  ≤ 768px
-       ✅ FIX #2: all rules now INSIDE the query
-    ===================== */
     @media (max-width: 768px) {
 
       /* — Hero — */
@@ -336,42 +308,24 @@
 
       .bg-video { display: none; }
 
-      /* ✅ FIX #3: buttons stay side-by-side (Netflix style), not stacked */
+      /* Mobile buttons — all 4 stacked vertically, full width */
       .buttons {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 8px;
+        flex-direction: column;
+        gap: 10px;
         width: 100%;
         margin-top: 16px;
       }
 
-      /* Play Movie + Watch Trailer share the first row */
-      .playmovie {
-        flex: 3;
-        padding: 12px 10px;
-        font-size: 0.85rem;
-        border-radius: 4px;
-        min-width: 0;
-      }
-
-      .play {
-        flex: 2;
-        padding: 12px 10px;
-        font-size: 0.85rem;
-        border-radius: 4px;
-        min-width: 0;
-      }
-
-      /* My List + Like sit below, equal width */
-      #modalList,
-      #modalLike {
-        flex: 1;
-        padding: 10px 6px;
-        font-size: 0.8rem;
-        border-radius: 4px;
-        min-width: 0;
+      .buttons button,
+      .buttons #modalList,
+      .buttons #modalLike {
+        width: 100%;
+        padding: 14px;
+        font-size: 0.95rem;
+        border-radius: 6px;
         text-align: center;
+        flex: unset;
       }
 
       /* — Details — */
@@ -381,8 +335,6 @@
         font-size: 0.9rem;
         line-height: 1.5;
       }
-
-      /* — Cast — */
       .cast { padding: 16px; }
 
       .cast-card { min-width: 80px; }
@@ -403,8 +355,6 @@
         -webkit-overflow-scrolling: touch;
         padding-bottom: 10px;
       }
-
-      /* ✅ FIX #4: 42% shows ~2.3 cards (Netflix feel) instead of 75% (1 card) */
       .card {
         flex: 0 0 42%;
         min-width: unset !important;
@@ -416,8 +366,6 @@
       /* always-on overlays on touch */
       .overlay-center,
       .overlay-bottom { opacity: 1; }
-
-      /* kill desktop hover dim */
       .row-container:hover .card { opacity: 1; }
 
       /* — Modal — */
@@ -582,19 +530,21 @@
       const trailerBtn  = document.querySelector(".play");
       const movieBtn    = document.querySelector(".playmovie");
 
-      /* — Trailer — */
-      if (trailerBtn) {
-        trailerBtn.addEventListener("click", () => {
+      /*  Play Movie — uses embed/YouTube link from data-embed attribute */
+      if (movieBtn) {
+        movieBtn.addEventListener("click", () => {
           openModal();
           hideVideo();
           showIframe();
-          iframe.src = "https://www.youtube.com/embed/nm4dHuyYrQk";
+          const embedUrl = movieBtn.getAttribute("data-embed");
+          // append params to reduce YouTube restrictions
+          iframe.src = embedUrl + "?autoplay=1&rel=0&modestbranding=1";
         });
       }
 
-      /* — Play Movie — */
-      if (movieBtn) {
-        movieBtn.addEventListener("click", () => {
+      /* Trailer — plays local video file */
+      if (trailerBtn) {
+        trailerBtn.addEventListener("click", () => {
           openModal();
           hideIframe();
           showVideo();
@@ -604,7 +554,7 @@
         });
       }
 
-      /* — Close — */
+      /* Close  */
       function closeModal() {
         modal.style.display = "none";
         iframe.src = "";
@@ -626,7 +576,7 @@
       function hideVideo()  { video.style.display = "none"; video.pause(); }
     });
 
-    /* — My List — */
+    /* My List */
     const modalList = document.getElementById("modalList");
     let inList = false;
     modalList.addEventListener("click", () => {
@@ -636,7 +586,7 @@
         : `<i class="fas fa-plus"></i> My List`;
     });
 
-    /* — Like — */
+    /*  Like  */
     const modalLike = document.getElementById("modalLike");
     let liked = false;
     modalLike.addEventListener("click", () => {
