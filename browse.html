@@ -6,10 +6,7 @@
   <title>EDU-FLIX</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-   <link
-    rel="shortcut icon"
-    href="images/logo.webp"
-  />
+  <link rel="shortcut icon" href="images/logo.webp"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -87,7 +84,6 @@
     }
 
     .nav-search input::placeholder { color: var(--muted); }
-
     .nav-search i { color: var(--muted); font-size: 0.85rem; }
 
     .nav-home {
@@ -96,8 +92,6 @@
       font-size: 0.9rem;
       transition: color 0.2s;
     }
-
-    .nav-home:hover { color: var(--text); }
 
     /* ── LAYOUT ── */
     .layout {
@@ -150,10 +144,7 @@
       text-align: left;
     }
 
-    .filter-btn:hover {
-      background: rgba(255,255,255,0.05);
-      color: var(--text);
-    }
+    .filter-btn:hover { background: rgba(255,255,255,0.05); color: var(--text); }
 
     .filter-btn.active {
       background: rgba(229,9,20,0.12);
@@ -180,7 +171,6 @@
       margin: 4px 20px 20px;
     }
 
-    /* genre checkboxes */
     .genre-list { display: flex; flex-direction: column; gap: 8px; }
 
     .genre-item {
@@ -197,8 +187,7 @@
 
     .genre-item input[type="checkbox"] {
       appearance: none;
-      width: 16px;
-      height: 16px;
+      width: 16px; height: 16px;
       border: 1px solid var(--border);
       border-radius: 4px;
       cursor: pointer;
@@ -215,24 +204,17 @@
     .genre-item input[type="checkbox"]:checked::after {
       content: '✓';
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
       color: #fff;
       font-size: 10px;
     }
 
-    /* year range */
-    .year-range {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
+    .year-range { display: flex; flex-direction: column; gap: 8px; }
 
     .year-range input[type="range"] {
       -webkit-appearance: none;
-      width: 100%;
-      height: 3px;
+      width: 100%; height: 3px;
       background: var(--border);
       border-radius: 3px;
       outline: none;
@@ -240,8 +222,7 @@
 
     .year-range input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none;
-      width: 16px;
-      height: 16px;
+      width: 16px; height: 16px;
       border-radius: 50%;
       background: var(--text);
       cursor: pointer;
@@ -254,7 +235,6 @@
       justify-content: space-between;
     }
 
-    /* rating */
     .rating-btns { display: flex; gap: 6px; flex-wrap: wrap; }
 
     .rating-chip {
@@ -280,7 +260,10 @@
       gap: 4px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 28px;
+      overflow-x: auto;
     }
+
+    .tabs::-webkit-scrollbar { display: none; }
 
     .tab-btn {
       padding: 10px 20px;
@@ -295,14 +278,11 @@
       transition: all 0.2s;
       margin-bottom: -1px;
       white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .tab-btn { color: var(--text); }
-
-    .tab-btn.active {
-      color: var(--text);
-      border-bottom-color: var(--text);
-    }
+    .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
 
     /* ── RESULTS BAR ── */
     .results-bar {
@@ -312,11 +292,7 @@
       margin-bottom: 20px;
     }
 
-    .results-count {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
+    .results-count { font-size: 0.85rem; color: var(--muted); }
     .results-count span { color: var(--text); font-weight: 500; }
 
     .sort-select {
@@ -332,12 +308,7 @@
     }
 
     /* ── ACTIVE FILTERS ── */
-    .active-filters {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 20px;
-    }
+    .active-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
 
     .active-tag {
       display: flex;
@@ -352,13 +323,9 @@
     }
 
     .active-tag button {
-      background: none;
-      border: none;
-      color: var(--accent);
-      cursor: pointer;
-      font-size: 0.85rem;
-      line-height: 1;
-      padding: 0;
+      background: none; border: none;
+      color: var(--accent); cursor: pointer;
+      font-size: 0.85rem; line-height: 1; padding: 0;
     }
 
     /* ── GRID ── */
@@ -385,14 +352,7 @@
       z-index: 2;
     }
 
-    .card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.3s ease;
-    }
-
+    .card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease; }
     .card:hover img { transform: scale(1.06); }
 
     .card-overlay {
@@ -409,31 +369,21 @@
     .card:hover .card-overlay { opacity: 1; }
 
     .card-play {
-      width: 52px;
-      height: 52px;
+      width: 52px; height: 52px;
       border-radius: 50%;
       background: rgba(255,255,255,0.95);
-      border: none;
-      color: #111;
-      font-size: 18px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      border: none; color: #111;
+      font-size: 18px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
       transition: transform 0.2s, background 0.2s;
       padding-left: 4px;
     }
 
-    .card-play:hover {
-      background: var(--accent);
-      color: #fff;
-      transform: scale(1.1);
-    }
+    .card-play:hover { background: var(--accent); color: #fff; transform: scale(1.1); }
 
     .card-badge {
       position: absolute;
-      top: 8px;
-      left: 8px;
+      top: 8px; left: 8px;
       padding: 3px 8px;
       border-radius: 4px;
       font-size: 0.65rem;
@@ -446,33 +396,73 @@
     .badge-trend  { background: var(--accent2); color: #fff; }
     .badge-series { background: #1a6fb5;         color: #fff; }
 
+    /* ── MY LIST heart button on card ── */
+    .card-list-btn {
+      position: absolute;
+      top: 8px; right: 8px;
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.6);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s, transform 0.2s;
+      z-index: 3;
+    }
+
+    .card-list-btn:hover { background: var(--accent); transform: scale(1.1); }
+    .card-list-btn.in-list { background: var(--accent); border-color: var(--accent); }
+
     .card-title {
       position: absolute;
-      bottom: 10px;
-      left: 10px;
-      right: 10px;
-      font-size: 0.8rem;
-      font-weight: 500;
-      opacity: 0;
-      transform: translateY(4px);
+      bottom: 10px; left: 10px; right: 10px;
+      font-size: 0.8rem; font-weight: 500;
+      opacity: 0; transform: translateY(4px);
       transition: opacity 0.25s, transform 0.25s;
       text-shadow: 0 1px 4px rgba(0,0,0,0.8);
     }
 
     .card:hover .card-title { opacity: 1; transform: translateY(0); }
 
-    /* no results */
+    /* empty state */
     .empty-state {
-      grid-column: 1 / -1;
+      grid-column: 1/-1;
       text-align: center;
       padding: 80px 20px;
       color: var(--muted);
     }
 
     .empty-state i { font-size: 3rem; margin-bottom: 16px; display: block; }
-    .empty-state p { font-size: 1rem; }
 
-    /* ── MOBILE SIDEBAR TOGGLE ── */
+    /* mylist empty */
+    .mylist-empty {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--muted);
+    }
+
+    .mylist-empty i { font-size: 3rem; margin-bottom: 16px; display: block; color: var(--accent); }
+    .mylist-empty p { font-size: 1rem; margin-bottom: 8px; color: var(--text); }
+    .mylist-empty small { font-size: 0.85rem; }
+
+    /* skeleton */
+    .skeleton {
+      background: linear-gradient(90deg, var(--card-bg) 25%, #222 50%, var(--card-bg) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 8px;
+      aspect-ratio: 2/3;
+    }
+
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* mobile sidebar toggle */
     .sidebar-toggle {
       display: none;
       align-items: center;
@@ -488,30 +478,14 @@
       margin-bottom: 16px;
     }
 
-    /* ── SKELETON LOADER ── */
-    .skeleton {
-      background: linear-gradient(90deg, var(--card-bg) 25%, #222 50%, var(--card-bg) 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.4s infinite;
-      border-radius: 8px;
-      aspect-ratio: 2/3;
-    }
-
-    @keyframes shimmer {
-      0%   { background-position: 200% 0; }
-      100% { background-position: -200% 0; }
-    }
-
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       nav { padding: 0 16px; }
-
       .nav-search input { width: 130px; }
 
       .sidebar {
         position: fixed;
-        top: 60px;
-        left: 0;
+        top: 60px; left: 0;
         height: calc(100vh - 60px);
         z-index: 90;
         transform: translateX(-100%);
@@ -531,15 +505,10 @@
       }
 
       .sidebar-backdrop.open { display: block; }
-
       .sidebar-toggle { display: flex; }
 
       .main { padding: 16px; }
-
       .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
-
-      .tabs { overflow-x: auto; padding-bottom: 2px; }
-      .tabs::-webkit-scrollbar { display: none; }
     }
   </style>
 </head>
@@ -565,7 +534,6 @@
   <!-- SIDEBAR -->
   <aside class="sidebar" id="sidebar">
 
-    <!-- TYPE -->
     <div class="sidebar-section">
       <div class="sidebar-label">Browse</div>
       <div class="filter-group">
@@ -583,17 +551,13 @@
 
     <div class="sidebar-divider"></div>
 
-    <!-- GENRE -->
     <div class="sidebar-section">
       <div class="sidebar-label">Genre</div>
-      <div class="genre-list" id="genreList">
-        <!-- populated by JS -->
-      </div>
+      <div class="genre-list" id="genreList"></div>
     </div>
 
     <div class="sidebar-divider"></div>
 
-    <!-- YEAR -->
     <div class="sidebar-section">
       <div class="sidebar-label">Year</div>
       <div class="year-range">
@@ -607,7 +571,6 @@
 
     <div class="sidebar-divider"></div>
 
-    <!-- RATING -->
     <div class="sidebar-section">
       <div class="sidebar-label">Min Rating</div>
       <div class="rating-btns">
@@ -624,24 +587,36 @@
   <!-- MAIN -->
   <main class="main">
 
-    <!-- mobile sidebar toggle -->
     <button class="sidebar-toggle" id="sidebarToggle">
       <i class="fas fa-sliders-h"></i> Filters
     </button>
 
-    <!-- TABS -->
+    <!-- ✅ TABS — My List added -->
     <div class="tabs">
       <button class="tab-btn active" data-tab="all">All</button>
       <button class="tab-btn" data-tab="movie">Movies</button>
       <button class="tab-btn" data-tab="series">Series</button>
       <button class="tab-btn" data-tab="trending">Trending</button>
       <button class="tab-btn" data-tab="new">New Releases</button>
+      <button class="tab-btn" data-tab="mylist">
+        <i class="fas fa-plus" style="font-size:0.75rem;margin-right:4px;"></i>My List
+        <span id="mylist-count" style="
+          display:inline-block;
+          margin-left:6px;
+          background:var(--accent);
+          color:#fff;
+          font-size:0.65rem;
+          padding:1px 6px;
+          border-radius:20px;
+          vertical-align:middle;
+          min-width:18px;
+          text-align:center;
+        ">0</span>
+      </button>
     </div>
 
-    <!-- ACTIVE FILTER TAGS -->
     <div class="active-filters" id="activeTags"></div>
 
-    <!-- RESULTS BAR -->
     <div class="results-bar">
       <p class="results-count">Showing <span id="resultCount">0</span> titles</p>
       <select class="sort-select" id="sortSelect">
@@ -653,9 +628,7 @@
       </select>
     </div>
 
-    <!-- GRID -->
     <div class="grid" id="grid">
-      <!-- skeletons while loading -->
       <div class="skeleton"></div>
       <div class="skeleton"></div>
       <div class="skeleton"></div>
@@ -669,34 +642,51 @@
 
 <script>
   let allMovies = [];
+
+  /* ── MY LIST — persisted in localStorage ── */
+  let myList = JSON.parse(localStorage.getItem('eduflix_mylist') || '[]');
+
+  function saveMyList() {
+    localStorage.setItem('eduflix_mylist', JSON.stringify(myList));
+    document.getElementById('mylist-count').textContent = myList.length;
+  }
+
+  function isInList(id) { return myList.includes(id); }
+
+  function toggleList(id, event) {
+    event.stopPropagation();
+    if (isInList(id)) {
+      myList = myList.filter(x => x !== id);
+    } else {
+      myList.push(id);
+    }
+    saveMyList();
+    render(); // re-render so button state and mylist tab update
+  }
+
   let state = {
-    tab:     'all',
-    type:    'all',
-    genres:  [],
-    yearFrom: 2000,
-    minRating: 0,
-    search:  '',
-    sort:    'default'
+    tab: 'all', type: 'all', genres: [],
+    yearFrom: 2000, minRating: 0, search: '', sort: 'default'
   };
 
-  /* ── FETCH DATA ── */
+  /* ── LOAD DATA ── */
   async function loadData() {
     try {
       const res  = await fetch('movies.json');
       const data = await res.json();
       allMovies  = data.movies;
-    } catch (e) {
-      // fallback demo data if JSON not found yet
+    } catch {
       allMovies = [
-        { id:1, title:"Predator: Badlands", type:"movie",  genre:["Action","Sci-Fi"],  year:2026, rating:7.8, poster:"images/predator.jpeg", trending:true,  newRelease:true  },
-        { id:2, title:"Fallout",            type:"series", genre:["Action","Drama"],   year:2024, rating:8.5, poster:"images/fallout.jpg",   trending:true,  newRelease:false },
-        { id:3, title:"Foundation",         type:"series", genre:["Sci-Fi","Drama"],   year:2024, rating:8.1, poster:"images/foundation.jpg",trending:false, newRelease:true  },
-        { id:4, title:"Peacemaker",         type:"series", genre:["Action","Comedy"],  year:2024, rating:8.3, poster:"images/peace.jpg",     trending:true,  newRelease:true  },
-        { id:5, title:"Avatar 4",           type:"movie",  genre:["Sci-Fi","Adventure"],year:2026,rating:0,  poster:"images/avata4.jpg",    trending:false, newRelease:true  }
+        { id:1, title:"Predator: Badlands", type:"movie",  genre:["Action","Sci-Fi"],    year:2026, rating:7.8, poster:"images/predator.jpeg", trending:true,  newRelease:true  },
+        { id:2, title:"Fallout",            type:"series", genre:["Action","Drama"],     year:2024, rating:8.5, poster:"images/fallout.jpg",   trending:true,  newRelease:false },
+        { id:3, title:"Foundation",         type:"series", genre:["Sci-Fi","Drama"],     year:2024, rating:8.1, poster:"images/foundation.jpg",trending:false, newRelease:true  },
+        { id:4, title:"Peacemaker",         type:"series", genre:["Action","Comedy"],    year:2024, rating:8.3, poster:"images/peace.jpg",     trending:true,  newRelease:true  },
+        { id:5, title:"Avatar 4",           type:"movie",  genre:["Sci-Fi","Adventure"], year:2026, rating:0,   poster:"images/avata4.jpg",    trending:false, newRelease:true  }
       ];
     }
     buildGenreList();
     updateCounts();
+    saveMyList(); // update badge count on load
     render();
   }
 
@@ -707,68 +697,70 @@
     list.innerHTML = genres.map(g => `
       <label class="genre-item">
         <input type="checkbox" value="${g}" class="genre-check"> ${g}
-      </label>
-    `).join('');
-
+      </label>`).join('');
     list.querySelectorAll('.genre-check').forEach(cb => {
       cb.addEventListener('change', () => {
         state.genres = [...list.querySelectorAll('.genre-check:checked')].map(c => c.value);
-        render();
-        updateActiveTags();
+        render(); updateActiveTags();
       });
     });
   }
 
-  /* ── UPDATE SIDEBAR COUNTS ── */
+  /* ── COUNTS ── */
   function updateCounts() {
     document.getElementById('count-all').textContent    = allMovies.length;
-    document.getElementById('count-movie').textContent  = allMovies.filter(m => m.type === 'movie').length;
-    document.getElementById('count-series').textContent = allMovies.filter(m => m.type === 'series').length;
+    document.getElementById('count-movie').textContent  = allMovies.filter(m => m.type==='movie').length;
+    document.getElementById('count-series').textContent = allMovies.filter(m => m.type==='series').length;
   }
 
   /* ── FILTER & SORT ── */
   function getFiltered() {
     let list = [...allMovies];
 
-    // tab
-    if (state.tab === 'movie')    list = list.filter(m => m.type === 'movie');
-    if (state.tab === 'series')   list = list.filter(m => m.type === 'series');
+    // My List tab — ignore all other filters except search/sort
+    if (state.tab === 'mylist') {
+      list = list.filter(m => isInList(m.id));
+      if (state.search) list = list.filter(m => m.title.toLowerCase().includes(state.search.toLowerCase()));
+      if (state.sort === 'year-desc')   list.sort((a,b) => b.year   - a.year);
+      if (state.sort === 'year-asc')    list.sort((a,b) => a.year   - b.year);
+      if (state.sort === 'rating-desc') list.sort((a,b) => b.rating - a.rating);
+      if (state.sort === 'title-asc')   list.sort((a,b) => a.title.localeCompare(b.title));
+      return list;
+    }
+
+    if (state.tab === 'movie')    list = list.filter(m => m.type==='movie');
+    if (state.tab === 'series')   list = list.filter(m => m.type==='series');
     if (state.tab === 'trending') list = list.filter(m => m.trending);
     if (state.tab === 'new')      list = list.filter(m => m.newRelease);
-
-    // sidebar type (synced with tabs)
-    if (state.type === 'movie')   list = list.filter(m => m.type === 'movie');
-    if (state.type === 'series')  list = list.filter(m => m.type === 'series');
-
-    // genre
-    if (state.genres.length)
-      list = list.filter(m => state.genres.every(g => m.genre.includes(g)));
-
-    // year
+    if (state.type === 'movie')   list = list.filter(m => m.type==='movie');
+    if (state.type === 'series')  list = list.filter(m => m.type==='series');
+    if (state.genres.length)      list = list.filter(m => state.genres.every(g => m.genre.includes(g)));
     list = list.filter(m => m.year >= state.yearFrom);
-
-    // rating
-    if (state.minRating > 0)
-      list = list.filter(m => m.rating >= state.minRating);
-
-    // search
-    if (state.search)
-      list = list.filter(m => m.title.toLowerCase().includes(state.search.toLowerCase()));
-
-    // sort
-    if (state.sort === 'year-desc')    list.sort((a,b) => b.year   - a.year);
-    if (state.sort === 'year-asc')     list.sort((a,b) => a.year   - b.year);
-    if (state.sort === 'rating-desc')  list.sort((a,b) => b.rating - a.rating);
-    if (state.sort === 'title-asc')    list.sort((a,b) => a.title.localeCompare(b.title));
-
+    if (state.minRating > 0)      list = list.filter(m => m.rating >= state.minRating);
+    if (state.search)             list = list.filter(m => m.title.toLowerCase().includes(state.search.toLowerCase()));
+    if (state.sort === 'year-desc')   list.sort((a,b) => b.year   - a.year);
+    if (state.sort === 'year-asc')    list.sort((a,b) => a.year   - b.year);
+    if (state.sort === 'rating-desc') list.sort((a,b) => b.rating - a.rating);
+    if (state.sort === 'title-asc')   list.sort((a,b) => a.title.localeCompare(b.title));
     return list;
   }
 
-  /* ── RENDER GRID ── */
+  /* ── RENDER ── */
   function render() {
     const filtered = getFiltered();
-    const grid     = document.getElementById('grid');
+    const grid = document.getElementById('grid');
     document.getElementById('resultCount').textContent = filtered.length;
+
+    // My List empty state
+    if (state.tab === 'mylist' && !filtered.length) {
+      grid.innerHTML = `
+        <div class="mylist-empty">
+          <i class="fas fa-plus-circle"></i>
+          <p>Your list is empty</p>
+          <small>Click the + button on any title to add it here</small>
+        </div>`;
+      return;
+    }
 
     if (!filtered.length) {
       grid.innerHTML = `
@@ -781,15 +773,25 @@
 
     grid.innerHTML = filtered.map(m => {
       let badge = '';
-      if (m.newRelease) badge = `<span class="card-badge badge-new">New</span>`;
-      else if (m.trending) badge = `<span class="card-badge badge-trend">🔥 Hot</span>`;
+      if (m.newRelease)    badge  = `<span class="card-badge badge-new">New</span>`;
+      else if (m.trending) badge  = `<span class="card-badge badge-trend">🔥 Hot</span>`;
       if (m.type === 'series') badge += `<span class="card-badge badge-series" style="top:${m.newRelease||m.trending?'32px':'8px'}">Series</span>`;
+
+      const inList = isInList(m.id);
 
       return `
         <div class="card" onclick="window.location.href='preview.html'">
           <img src="${m.poster}" alt="${m.title}" loading="lazy"
                onerror="this.style.background='#222';this.removeAttribute('src')">
           ${badge}
+          <!-- ✅ My List toggle button -->
+          <button
+            class="card-list-btn ${inList ? 'in-list' : ''}"
+            onclick="toggleList(${m.id}, event)"
+            title="${inList ? 'Remove from My List' : 'Add to My List'}"
+          >
+            <i class="fas ${inList ? 'fa-check' : 'fa-plus'}"></i>
+          </button>
           <div class="card-overlay">
             <button class="card-play" onclick="event.stopPropagation(); window.location.href='preview.html'">
               &#9654;
@@ -805,65 +807,53 @@
     const container = document.getElementById('activeTags');
     const tags = [];
 
-    if (state.genres.length)
-      state.genres.forEach(g => tags.push({ label: g, clear: () => {
-        state.genres = state.genres.filter(x => x !== g);
-        document.querySelectorAll('.genre-check').forEach(cb => {
-          if (cb.value === g) cb.checked = false;
-        });
-        render(); updateActiveTags();
-      }}));
+    state.genres.forEach(g => tags.push({ label: g, clear: () => {
+      state.genres = state.genres.filter(x => x !== g);
+      document.querySelectorAll('.genre-check').forEach(cb => { if (cb.value===g) cb.checked=false; });
+      render(); updateActiveTags();
+    }}));
 
-    if (state.yearFrom > 2000)
-      tags.push({ label: `From ${state.yearFrom}`, clear: () => {
-        state.yearFrom = 2000;
-        document.getElementById('yearRange').value = 2000;
-        document.getElementById('yearFrom').textContent = 2000;
-        render(); updateActiveTags();
-      }});
+    if (state.yearFrom > 2000) tags.push({ label:`From ${state.yearFrom}`, clear: () => {
+      state.yearFrom=2000;
+      document.getElementById('yearRange').value=2000;
+      document.getElementById('yearFrom').textContent=2000;
+      render(); updateActiveTags();
+    }});
 
-    if (state.minRating > 0)
-      tags.push({ label: `${state.minRating}+ Stars`, clear: () => {
-        state.minRating = 0;
-        document.querySelectorAll('.rating-chip').forEach(c => c.classList.remove('active'));
-        document.querySelector('[data-rating="0"]').classList.add('active');
-        render(); updateActiveTags();
-      }});
+    if (state.minRating > 0) tags.push({ label:`${state.minRating}+ Stars`, clear: () => {
+      state.minRating=0;
+      document.querySelectorAll('.rating-chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('[data-rating="0"]').classList.add('active');
+      render(); updateActiveTags();
+    }});
 
     container.innerHTML = tags.map((t,i) =>
-      `<div class="active-tag">${t.label}<button data-i="${i}">&times;</button></div>`
-    ).join('');
-
-    container.querySelectorAll('button').forEach(btn => {
-      btn.addEventListener('click', () => tags[+btn.dataset.i].clear());
-    });
+      `<div class="active-tag">${t.label}<button data-i="${i}">&times;</button></div>`).join('');
+    container.querySelectorAll('button').forEach(btn =>
+      btn.addEventListener('click', () => tags[+btn.dataset.i].clear()));
   }
 
-  /* ── EVENT LISTENERS ── */
-
-  // tabs
+  /* ── TABS ── */
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       state.tab = btn.dataset.tab;
-      // sync sidebar type buttons
+
       if (['movie','series'].includes(state.tab)) {
         state.type = state.tab;
-        document.querySelectorAll('[data-filter="type"]').forEach(b => {
-          b.classList.toggle('active', b.dataset.value === state.type);
-        });
+        document.querySelectorAll('[data-filter="type"]').forEach(b =>
+          b.classList.toggle('active', b.dataset.value===state.type));
       } else {
         state.type = 'all';
-        document.querySelectorAll('[data-filter="type"]').forEach(b => {
-          b.classList.toggle('active', b.dataset.value === 'all');
-        });
+        document.querySelectorAll('[data-filter="type"]').forEach(b =>
+          b.classList.toggle('active', b.dataset.value==='all'));
       }
       render();
     });
   });
 
-  // sidebar type
+  /* ── SIDEBAR TYPE ── */
   document.querySelectorAll('[data-filter="type"]').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('[data-filter="type"]').forEach(b => b.classList.remove('active'));
@@ -873,38 +863,36 @@
     });
   });
 
-  // year
+  /* ── YEAR ── */
   document.getElementById('yearRange').addEventListener('input', e => {
     state.yearFrom = +e.target.value;
     document.getElementById('yearFrom').textContent = e.target.value;
-    render();
-    updateActiveTags();
+    render(); updateActiveTags();
   });
 
-  // rating
+  /* ── RATING ── */
   document.querySelectorAll('.rating-chip').forEach(chip => {
     chip.addEventListener('click', () => {
       document.querySelectorAll('.rating-chip').forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
       state.minRating = +chip.dataset.rating;
-      render();
-      updateActiveTags();
+      render(); updateActiveTags();
     });
   });
 
-  // search
+  /* ── SEARCH ── */
   document.getElementById('searchInput').addEventListener('input', e => {
     state.search = e.target.value;
     render();
   });
 
-  // sort
+  /* ── SORT ── */
   document.getElementById('sortSelect').addEventListener('change', e => {
     state.sort = e.target.value;
     render();
   });
 
-  // mobile sidebar
+  /* ── MOBILE SIDEBAR ── */
   const sidebar   = document.getElementById('sidebar');
   const backdrop  = document.getElementById('sidebarBackdrop');
   const toggleBtn = document.getElementById('sidebarToggle');
@@ -919,8 +907,33 @@
     backdrop.classList.remove('open');
   });
 
+  /* ── ✅ HASH ROUTING — reads URL hash on load and activates matching tab ── */
+  function activateFromHash() {
+    const hash = window.location.hash.replace('#', '').toLowerCase();
+    if (!hash) return;
+
+    const hashMap = {
+      series:   'series',
+      tv:       'series',
+      tvshows:  'series',
+      movie:    'movie',
+      movies:   'movie',
+      trending: 'trending',
+      new:      'new',
+      popular:  'new',
+      mylist:   'mylist',
+      list:     'mylist'
+    };
+
+    const tab = hashMap[hash];
+    if (!tab) return;
+
+    const btn = document.querySelector(`.tab-btn[data-tab="${tab}"]`);
+    if (btn) btn.click();
+  }
+
   /* ── INIT ── */
-  loadData();
+  loadData().then(activateFromHash);
 </script>
 </body>
 </html>
