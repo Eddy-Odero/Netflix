@@ -1,1140 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDU-FLIX</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link
-    rel="shortcut icon"
-    href="images/logo.webp"
-  />
-       <!-- Local Font Awesome 5 -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style> 
-.hero-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -3;
-}
-.hero-img {
-  width: 100%;
-  height: 120%;
-  object-fit: cover;
-  object-position: center 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -4;
-}
-
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDU-FLIX</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/logo.webp"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .hero-video {
+      width: 100%; height: 100%;
+      object-fit: cover; object-position: center 20%;
+      position: absolute; top: 0; left: 0; z-index: -3;
+    }
+    .hero-img {
+      width: 100%; height: 120%;
+      object-fit: cover; object-position: center 20%;
+      position: absolute; top: 0; left: 0; z-index: -4;
+    }
+  </style>
+</head>
 <body>
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <div class="logo">EDU-FLIX</div>
+
+<!-- ── SIDEBAR ── -->
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="logo">EDU-FLIX</div>
+  </div>
+  <div class="sidebar-content">
+    <div class="search-box">
+      <input id="sidebarSearch" class="search-input" type="text" placeholder="Search..." autocomplete="off"/>
+    </div>
+    <div class="nav-section">
+      <a href="#home" class="nav-item active" data-target="home">
+        <i class="bi bi-house-door"></i>
+        <span class="nav-text">Home</span>
+      </a>
+      <a href="browse.html#series" class="nav-item">
+        <i class="bi bi-tv"></i>
+        <span class="nav-text">TV Shows</span>
+      </a>
+      <a href="browse.html#movies" class="nav-item">
+        <i class="bi bi-film"></i>
+        <span class="nav-text">Movies</span>
+      </a>
+      <a href="browse.html#new" class="nav-item">
+        <i class="bi bi-star"></i>
+        <span class="nav-text">New &amp; Popular</span>
+      </a>
+      <a href="browse.html#mylist" class="nav-item">
+        <i class="bi bi-plus"></i>
+        <span class="nav-text">My List</span>
+      </a>
+    </div>
+  </div>
+  <div class="sidebar-footer">
+    <a href="#" class="nav-item">
+      <i class="bi bi-gear"></i>
+      <span class="nav-text">Settings</span>
+    </a>
+    <a href="index.html" class="nav-item">
+      <i class="bi bi-box-arrow-right"></i>
+      <span class="nav-text">Logout</span>
+    </a>
+  </div>
+</nav>
+
+<!-- ── MAIN CONTENT ── -->
+<main class="main-content">
+
+  <!-- Top Header -->
+  <header class="top-header">
+    <div class="header-left">
+      <div class="breadcrumb">Home</div>
+    </div>
+    <div class="header-right">
+      <button class="header-btn"><i class="bi bi-bell"></i></button>
+      <button class="profile-btn"><i class="fas fa-user"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-background">
+      <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
+        <source src="videos/predator.mp4" type="video/mp4"/>
+      </video>
+      <img src="images/predator.jpeg" alt="Predator Badlands" class="hero-img" id="heroFallback"/>
+      <div class="hero-gradient"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-info">
+        <div class="hero-type">SERIES</div>
+        <h1 class="hero-title">PREDATOR BADLANDS</h1>
+        <div class="hero-badge">TOP 10</div>
+        <div class="hero-ranking">#1 in TV Shows Today</div>
+        <div class="hero-meta">
+          <span class="rating">TV-14</span>
+          <span class="year">2026</span>
+          <span class="duration">2 hours</span>
+          <span class="genre">Action, Fantasy, Drama</span>
         </div>
-        
-        <div class="sidebar-content">
-            <div class="search-box">
-                <input id="sidebarSearch" class="search-input" type="text" placeholder="Search..." autocomplete="off" />
-            </div>
-            <div class="nav-section">
-                <a href="#home" class="nav-item active" data-target="home">
-                 <i class="bi bi-house-door"></i>
-                    <span class="nav-text">Home</span>
-                </a>
-                <a href="browse.html#series" class="nav-item" data-target="tvRow">
-                   <i class="bi bi-tv"></i>
-                    <span class="nav-text">TV Shows</span>
-                </a>
-                <a href="browse.html#movies" class="nav-item" data-target="moviesRow">
-                    <i class="bi bi-film"></i>
-                    <span class="nav-text">Movies</span>
-                </a>
-                <a href="browse.html#treding" class="nav-item" data-target="popularRow">
-                   <i class="bi bi-star"></i>
-                    <span class="nav-text">New & Popular</span>
-                </a>
-                <a href="browse.html#myList" class="nav-item" data-target="myListRow">
-                   <i class="bi bi-plus"></i>
-                    <span class="nav-text">My List</span>
-                </a>
-            </div>
+        <p class="hero-description">
+          The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet
+          and must prove himself worthy of the hunt by killing an apex predator.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-play" onclick="window.location.href='preview.html'">
+            <i class="fas fa-play"></i> Play
+          </button>
+          <button class="btn btn-info">
+            <i class="fas fa-info-circle"></i> More Info
+          </button>
         </div>
-
-         <div class="sidebar-footer">
-  <a href="#" class="nav-item">
-    <i class="bi bi-gear"></i>
-    <span class="nav-text">Settings</span>
-  </a>
-  <a href="index.html" class="nav-item">
-    <i class="bi bi-box-arrow-right"></i>
-    <span class="nav-text">Logout</span>
-  </a>
-</div>
-
-    </nav>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Top Header -->
-        <header class="top-header">
-            <div class="header-left">
-                <div class="breadcrumb">Home</div>
-            </div>
-            <div class="header-right">
-                <button class="header-btn">
-                   <i class="bi bi-bell"></i>
-                </button>
-                <button class="profile-btn">
-                    <i class="fas fa-user"></i>
-                </button>
-            </div>
-        </header>
-
-        <section class="hero" id="home">
-  <div class="hero-background">
-    <!-- Video background -->
-    <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
-      <source src="videos/predator.mp4" type="video/mp4" />
-    </video>
-
-    <!-- Fallback image -->
-    <img src="images/predator.jpeg" alt="Stranger Things" class="hero-img" id="heroFallback" />
-
-    <!-- Gradient overlay -->
-    <div class="hero-gradient"></div>
-  </div>
-  <div class="hero-content">
-    <div class="hero-info">
-      <div class="hero-type">SERIES</div>
-      <h1 class="hero-title">PREDATOR BADLANDS</h1>
-      <div class="hero-badge">TOP 10</div>
-      <div class="hero-ranking">#1 in TV Shows Today</div>
-      <div class="hero-meta">
-        <span class="rating">TV-14</span>
-        <span class="year">2026</span>
-        <span class="duration">2 hours</span>
-        <span class="genre">Action, Fantasy, Drama</span>
-      </div>
-      <p class="hero-description">
-       The story follows Dek, a young exiled Yautja,
-       who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator,
-      </p>
-      <div class="hero-buttons">
-  <button class="btn btn-play" onclick="window.location.href='preview.html'">
-    <i class="fas fa-play"></i>
-    Play
-  </button>
-        <button class="btn btn-info">
-          <i class="fas fa-info-circle"></i>
-          More Info
-        </button>
       </div>
     </div>
-  </div>
-  <div class="hero-fade"></div>
-</section>
-    <!-- Movie Rows -->
-        <div class="movie-sections">
-            <!-- Search Results (hidden by default) -->
-            <section class="movie-row" id="searchRow" style="display:none;">
-                <div class="row-header">
-                    <h2 class="row-title">Search Results</h2>
-                    <div class="row-controls">
-                        <button class="control-btn" onclick="scrollRow('searchResults', 'left')">
-                            <i class="bi bi-chevron-left"></i>
-                        </button>
-                        <button class="control-btn" onclick="scrollRow('searchResults', 'right')">
-                            <i class="bi bi-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="movie-list" id="searchResults"></div>
-            </section>
+    <div class="hero-fade"></div>
+  </section>
 
-            <!-- My List -->
+  <!-- Movie Rows -->
+  <div class="movie-sections">
 
-<section class="movie-row" id="myListRow">
-  <div class="row-header">
-    <h2 class="row-title">My List</h2>
-   <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-
-  <div class="movie-list" id="mylist">
-    <!-- Card 1 -->
-   <div class="movie-card">
-  <img src="images/romulus.jpg" alt="John Wick 4" class="movie-image" />
-
-  <div class="overlay-center">
-    <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-  </div>
-
-  <div class="overlay-bottom">
-    <button class="info-btn" onclick="window.location.href='preview.html'">
-      More Info
-    </button>
-  </div>
-</div>
-
-    <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/IT .jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+    <!-- Search Results (hidden by default) -->
+    <section class="movie-row" id="searchRow" style="display:none;">
+      <div class="row-header">
+        <h2 class="row-title">Search Results</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
       </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
+      <!-- id="searchResults" — populated by search -->
+      <div class="movie-list" id="searchResults"></div>
+    </section>
 
-    <!-- Card 3 -->
-    <div class="movie-card">
-      <img src="images/spider.jpg" alt="Extraction 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
+    <!-- My List -->
+    <section class="movie-row" id="myListRow">
+      <div class="row-header">
+        <h2 class="row-title">My List</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
       </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">more Info</button>
-      </div>
-    </div>
-    
-    <!-- Add more cards here -->
-      <!-- Card 3 -->
-    <div class="movie-card">
-      <img src="images/dune.jpg" alt="Extraction 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">more Info</button>
-      </div>
-    </div>
-  </div>
-</section>
+      <!-- id="mylist" — populated by JS from localStorage -->
+      <div class="movie-list" id="mylist"></div>
+    </section>
 
-<!-- Trending Now -->
-<section class="movie-row" id="trendingRow">
-    <div class="row-header">
+    <!-- Trending Now -->
+    <section class="movie-row" id="trendingRow">
+      <div class="row-header">
         <h2 class="row-title">Trending Now</h2>
-    <div class="row-controls">
-        <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-            <i class="bi bi-chevron-left"></i>
-        </button>
-        <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-      </div>
-  </div>
-
-  <!-- Gradient fades -->
-  <div class="row-fade left"></div>
-  <div class="row-fade right"></div>
-
-  <div class="movie-list" id="trending">
-    <!-- Card 1 -->
-    <div class="movie-card">
-      <img src="images/theboys.jpg" alt="John Wick 4" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/avata4.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="movie-card">
-      <img src="images/fallout.jpg" alt="Extraction 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-
-     <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/invincible.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-
-     <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/batman.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-
-     <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/odyssey.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
- <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/romulus.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
- <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/spider.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
- <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/seven.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
- <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/scream.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
- <!-- Card 2 -->
-    <div class="movie-card">
-      <img src="images/silo.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- Popular -->
-<section class="movie-row" id="popularRow">
-  <div class="row-header">
-    <h2 class="row-title">Popular on EDU-FLIX</h2>
-    <div class="row-controls">
-      <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-        <i class="bi bi-chevron-left"></i>
-      </button>
-      <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
-  </div>
-  <div class="movie-list" id="popular">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/house.jpeg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/3body.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/firstkill.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/about.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/aang.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/sadman.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/wednesday.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/furies.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/all of us.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/avata4.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/sinners.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    </div>
-</section>
-<!-- Drama-->
-<section class="movie-row" id="newRow">
-  <div class="row-header">
-    <h2 class="row-title">Drama</h2>
-    <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-  <div class="movie-list" id="new">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/unnamed.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/euphoria.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/ginny.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/heartbreak.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/cruel.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/rebelde.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/bell.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/never.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-          <!-- TV Shows -->
-<section class="movie-row" id="tvRow">
-    <div class="row-header">
-       <h2 class="row-title">TV Shows</h2>
-   <div class="row-controls">
-      <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-          <i class="bi bi-chevron-left"></i>
-       </button>
-       <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-          <i class="bi bi-chevron-right"></i>
-       </button>
-      </div>
-
-  </div>
-  <div class="movie-list" id="tvshows">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/fallout2.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/wheel.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/bell.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/ringsofpower.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/carnival.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/foundation.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/fate.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-     <div class="movie-card">
-      <img src="images/cursed.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Movies -->
-<section class="movie-row" id="moviesRow">
-  <div class="row-header">
-    <h2 class="row-title">Movies</h2>
-    <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-  <div class="movie-list" id="movies">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/g20.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/john-wick-4.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/atlas.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/doomsday.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/gladiator.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/Extraction_2.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/upgrade.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-           <!-- Comedy -->
-<section class="movie-row" id="comedyRow">
-  <div class="row-header">
-    <h2 class="row-title">Comedy</h2>
-    <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-  <div class="movie-list" id="comedy">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/umbrela.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/peace.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/dangeons.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/onepiece.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/wonder.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/percy.jpeg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Thriller -->
-<section class="movie-row" id="thrillerRow">
-  <div class="row-header">
-    <h2 class="row-title">Thriller</h2>
-   <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-  <div class="movie-list" id="thriller">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/you.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/joker-2019.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/witcher.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/night.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/therain.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/oa.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/after.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Horror -->
-<section class="movie-row" id="horrorRow">
-  <div class="row-header">
-    <h2 class="row-title">Horror</h2>
-    <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-  <div class="movie-list" id="horror">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/IT .jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/scream.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/blackphone.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/devil.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/sinners.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/old.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/romulus.jpg" alt="Avatar" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/all of us.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-           <!-- Action -->
-<section class="movie-row" id="actionRow">
-  <div class="row-header">
-    <h2 class="row-title">Action</h2>
-    <div class="row-controls">
-  <button class="scroll-btn left" onclick="scrollRow(this, 'left')">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="scroll-btn right" onclick="scrollRow(this, 'right')">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>
-
-  </div>
-  <div class="movie-list" id="action">
-    <!-- Cards go here -->
-     <div class="movie-card">
-      <img src="images/terminal list.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/cintadel.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/jackal.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/blood.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/hanna.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-    <div class="movie-card">
-      <img src="images/cintadeldiana.jpg" alt="Avatar 2" class="movie-image" />
-      <div class="overlay-center">
-        <button class="play-btn" onclick="window.location.href='preview.html'">▶</button>
-      </div>
-      <div class="overlay-bottom">
-        <button class="info-btn" onclick="window.location.href='preview.html'">More Info</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-        <!-- Footer -->
-        <footer class="footer">
-  <div class="footer-content">
-
-    <div class="footer-links">
-      <a href="#" class="footer-link">Audio and Subtitles</a>
-      <a href="#" class="footer-link">Media Center</a>
-      <a href="#" class="footer-link">Privacy</a>
-      <a href="#" class="footer-link">Contact Us</a>
-      <a href="#" class="footer-link">Help Center</a>
-      <a href="#" class="footer-link">Jobs</a>
-      <a href="#" class="footer-link">Legal Notices</a>
-      <a href="#" class="footer-link">Cookie Preferences</a>
-    </div>
-
-    <div class="footer-socials">
-      <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-      <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
-    </div>
-
-    <div class="footer-copyright">
-      © 2025 EDU-FLIX. All rights reserved.
-    </div>
-
-  </div>
-</footer>
-
-    </main>
-
-    <!-- Detail Modal -->
-    <div id="detailModal" class="modal" style="display:none;">
-        <div class="modal-backdrop"></div>
-        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-            <button class="modal-close" id="modalClose" aria-label="Close">
-                <i class="fas fa-times"></i>
-            </button>
-            <div class="modal-hero" id="modalHero">
-                <div class="modal-hero-gradient"></div>
-                <div class="modal-hero-content">
-                    <div class="modal-badge" id="modalBadge">TOP 10</div>
-                    <h2 class="modal-title" id="modalTitle">Title</h2>
-                    <div class="modal-meta" id="modalMeta"></div>
-                    <div class="modal-buttons">
-                        <button class="btn btn-play" id="modalPlay"
-                         onclick="window.location.href='preview.html'">
-                          <i class="fas fa-play"></i>
-                                  Play
-                            </button>
-                        <button class="btn btn-info" id="modalList">
-                            <i class="fas fa-plus"></i>
-                            My List
-                        </button>
-                        <button class="btn btn-info" id="modalLike">
-                            <i class="far fa-thumbs-up"></i>
-                            Like
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <p class="modal-description" id="modalDescription"></p>
-                <div class="modal-tags" id="modalTags"></div>
-            </div>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
         </div>
+      </div>
+      <div class="row-fade left"></div>
+      <div class="row-fade right"></div>
+      <!-- id="trending" — populated from movies.json category: trending -->
+      <div class="movie-list" id="trending"></div>
+    </section>
+
+    <!-- Popular -->
+    <section class="movie-row" id="popularRow">
+      <div class="row-header">
+        <h2 class="row-title">Popular on EDU-FLIX</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="popular" — populated from movies.json category: popular -->
+      <div class="movie-list" id="popular"></div>
+    </section>
+
+    <!-- Drama -->
+    <section class="movie-row" id="newRow">
+      <div class="row-header">
+        <h2 class="row-title">Drama</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="new" — populated from movies.json category: drama -->
+      <div class="movie-list" id="new"></div>
+    </section>
+
+    <!-- TV Shows -->
+    <section class="movie-row" id="tvRow">
+      <div class="row-header">
+        <h2 class="row-title">TV Shows</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="tvshows" — populated from movies.json category: tv-shows -->
+      <div class="movie-list" id="tvshows"></div>
+    </section>
+
+    <!-- Movies -->
+    <section class="movie-row" id="moviesRow">
+      <div class="row-header">
+        <h2 class="row-title">Movies</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="movies" — populated from movies.json category: movies -->
+      <div class="movie-list" id="movies"></div>
+    </section>
+
+    <!-- Comedy -->
+    <section class="movie-row" id="comedyRow">
+      <div class="row-header">
+        <h2 class="row-title">Comedy</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="comedy" — populated from movies.json category: comedy -->
+      <div class="movie-list" id="comedy"></div>
+    </section>
+
+    <!-- Thriller -->
+    <section class="movie-row" id="thrillerRow">
+      <div class="row-header">
+        <h2 class="row-title">Thriller</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="thriller" — populated from movies.json category: thriller -->
+      <div class="movie-list" id="thriller"></div>
+    </section>
+
+    <!-- Horror -->
+    <section class="movie-row" id="horrorRow">
+      <div class="row-header">
+        <h2 class="row-title">Horror</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="horror" — populated from movies.json category: horror -->
+      <div class="movie-list" id="horror"></div>
+    </section>
+
+    <!-- Action -->
+    <section class="movie-row" id="actionRow">
+      <div class="row-header">
+        <h2 class="row-title">Action</h2>
+        <div class="row-controls">
+          <button class="scroll-btn left" onclick="scrollRow(this,'left')"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-btn right" onclick="scrollRow(this,'right')"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <!-- id="action" — populated from movies.json category: action -->
+      <div class="movie-list" id="action"></div>
+    </section>
+
+  </div><!-- /movie-sections -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#" class="footer-link">Audio and Subtitles</a>
+        <a href="#" class="footer-link">Media Center</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Contact Us</a>
+        <a href="#" class="footer-link">Help Center</a>
+        <a href="#" class="footer-link">Jobs</a>
+        <a href="#" class="footer-link">Legal Notices</a>
+        <a href="#" class="footer-link">Cookie Preferences</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+        <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+      </div>
+      <div class="footer-copyright">© 2025 EDU-FLIX. All rights reserved.</div>
     </div>
-<script>
-</script>
-    <script src="script.js"></script>
+  </footer>
+
+</main><!-- /main-content -->
+
+<!-- Detail Modal -->
+<div id="detailModal" class="modal" style="display:none;">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="modal-hero" id="modalHero">
+      <div class="modal-hero-gradient"></div>
+      <div class="modal-hero-content">
+        <div class="modal-badge" id="modalBadge">TOP 10</div>
+        <h2 class="modal-title" id="modalTitle">Title</h2>
+        <div class="modal-meta" id="modalMeta"></div>
+        <div class="modal-buttons">
+          <button class="btn btn-play" id="modalPlay" onclick="window.location.href='preview.html'">
+            <i class="fas fa-play"></i> Play
+          </button>
+          <button class="btn btn-info" id="modalList">
+            <i class="fas fa-plus"></i> My List
+          </button>
+          <button class="btn btn-info" id="modalLike">
+            <i class="far fa-thumbs-up"></i> Like
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <p class="modal-description" id="modalDescription"></p>
+      <div class="modal-tags" id="modalTags"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

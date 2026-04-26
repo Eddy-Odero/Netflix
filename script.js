@@ -1,501 +1,380 @@
-// Movie data with categories and types
-const movies = [
-    {
-        id: 1,
-        title: "Predator Badlands",
-        type: "series",
-        image: "images/predator.jpeg",
-        description: " The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator.",
-        year: 2026,
-        duration: "2 hours 10 mins ",
-        genre: "Sci-Fi Horror",
-        rating: "TV-14",
-        categories: ["trending", "sci-fi", "horror"],
-        ranking: 1,
-        progress: 75
-    },
-   
-];
+/* ==========================================================
+   EDU-FLIX — script.js
+   Works with movies.json to populate all rows in main.html
+========================================================== */
 
-// My List for user's saved content
-let myList = [];
+let movies = [];
+let myList = JSON.parse(localStorage.getItem('eduflix_mylist') || '[]');
 
-// Helper function to get movies by category
-function getMoviesByCategory(category) {
-    return movies.filter(movie => movie.categories.includes(category));
+// ── HELPERS ─────────────────────────────────────────────
+function getByCategory(cat) {
+  return movies.filter(m => m.categories.includes(cat));
+}
+function getByType(type) {
+  return movies.filter(m => m.type === type);
 }
 
-// Helper function to get movies by type
-function getMoviesByType(type) {
-    return movies.filter(movie => movie.type === type);
-}
-
-// Create movie card with progress bar
+// ── CARD FACTORY ────────────────────────────────────────
 function createMovieCard(movie) {
-    const isInMyList = myList.includes(movie.id);
-    const progressWidth = movie.progress || 0;
-    
-    return `
-        <div class="movie-card" data-movie-id="${movie.id}">
-            <img src="${movie.image}" alt="${movie.title}" class="movie-image">
-            <div class="progress-bar">
-                <div class="progress-fill" style="width: ${progressWidth}%"></div>
-            </div>
-            <div class="movie-overlay">
-                <div class="movie-actions">
-                    <button class="action-btn" onclick="addToList(${movie.id})">
-                        <i class="fas ${isInMyList ? 'fa-check' : 'fa-plus'}"></i>
-                    </button>
-                    <button class="action-btn" onclick="likeMovie(${movie.id})">
-                        <i class="far fa-thumbs-up"></i>
-                    </button>
-                    <button class="action-btn" onclick="showDetails(${movie.id})">
-                        <i class="fas fa-info"></i>
-                    </button>
-                </div>
-                <div class="movie-info">
-                    <div class="movie-title">${movie.title}</div>
-                    <div class="movie-meta">
-                        <span class="rating">${movie.rating}</span>
-                        <span class="duration">${movie.duration}</span>
-                        <span class="genre">${movie.genre}</span>
-                    </div>
-                    <div class="movie-genres">${movie.categories.join(' • ')}</div>
-                </div>
-            </div>
+  const inList = myList.includes(movie.id);
+
+  const progressBar = movie.progress
+    ? `<div class="progress-bar">
+         <div class="progress-fill" style="width:${movie.progress}%"></div>
+       </div>`
+    : '';
+
+  return `
+    <div class="movie-card" data-movie-id="${movie.id}">
+
+      <img src="${movie.image}" alt="${movie.title}" class="movie-image"
+           onerror="this.src='images/fallback.jpg'">
+
+      ${progressBar}
+
+      <!-- ✅ CENTER PLAY BUTTON -->
+      <div class="overlay-center">
+        <button class="play-btn"
+          onclick="event.stopPropagation(); window.location.href='preview.html?id=${movie.id}'">
+          ▶
+        </button>
+      </div>
+
+      <!-- ✅ BOTTOM INFO BUTTON -->
+      <div class="overlay-bottom">
+        <button class="info-btn"
+          onclick="event.stopPropagation(); showDetails(${movie.id})">
+          More Info
+        </button>
+      </div>
+
+      <!-- EXISTING OVERLAY (keep your actions too if you want) -->
+      <div class="movie-overlay">
+        <div class="movie-actions">
+          <button class="action-btn" onclick="event.stopPropagation(); addToList(${movie.id})">
+            <i class="fas ${inList ? 'fa-check' : 'fa-plus'}"></i>
+          </button>
+          <button class="action-btn" onclick="event.stopPropagation(); likeMovie(${movie.id})">
+            <i class="far fa-thumbs-up"></i>
+          </button>
+          <button class="action-btn" onclick="event.stopPropagation(); showDetails(${movie.id})">
+            <i class="fas fa-info"></i>
+          </button>
         </div>
-    `;
+
+        <div class="movie-info">
+          <div class="movie-title">${movie.title}</div>
+          <div class="movie-meta">
+            <span class="rating">${movie.rating}</span>
+            <span class="duration">${movie.duration}</span>
+            <span class="genre">${movie.genre}</span>
+          </div>
+          <div class="movie-genres">${movie.categories.join(' • ')}</div>
+        </div>
+      </div>
+
+    </div>`;
 }
 
-// Add/remove from My List
+// ── POPULATE — targets the direct list div by its id ────
+// listId = the id on the <div class="movie-list"> element
+function populateList(listId, items) {
+  const el = document.getElementById(listId);
+  if (!el) return;
+  el.innerHTML = items.length
+    ? items.map(createMovieCard).join('')
+    : '<p style="color:#888;padding:20px;font-size:0.9rem">Nothing here yet.</p>';
+}
+
+// ── MY LIST ─────────────────────────────────────────────
+function saveMyList() {
+  localStorage.setItem('eduflix_mylist', JSON.stringify(myList));
+}
+
 function addToList(movieId) {
-    const index = myList.indexOf(movieId);
-    if (index > -1) {
-        myList.splice(index, 1);
-    } else {
-        myList.push(movieId);
-    }
-    
-    // Save to localStorage
-    localStorage.setItem('netflixMyList', JSON.stringify(myList));
-    
-    // Update the button icon
-    const movieCard = document.querySelector(`[data-movie-id="${movieId}"]`);
-    const listBtn = movieCard.querySelector('.action-btn i');
-    listBtn.className = myList.includes(movieId) ? 'fas fa-check' : 'fas fa-plus';
-    
-    // Update My List section
-    populateMyList();
-}
+  const idx = myList.indexOf(movieId);
+  idx > -1 ? myList.splice(idx, 1) : myList.push(movieId);
+  saveMyList();
 
-const modalLike = document.getElementById("modalLike");
-const icon = modalLike.querySelector("i");
-
-modalLike.addEventListener("click", () => {
-  const isLiked = modalLike.classList.toggle("liked");
-
-  if (isLiked) {
-    icon.classList.remove("far");
-    icon.classList.add("fas");
-    modalLike.childNodes[1].nodeValue = " Liked";
-  } else {
-    icon.classList.remove("fas");
-    icon.classList.add("far");
-    modalLike.childNodes[1].nodeValue = " Like";
-  }
-});
-
-// Show movie details modal
-function showDetails(movieId) {
-    const movie = movies.find(m => m.id === movieId);
-    if (!movie) return;
-    
-    const modal = document.getElementById('detailModal');
-    const modalHero = document.getElementById('modalHero');
-    const modalTitle = document.getElementById('modalTitle');
-    const modalBadge = document.getElementById('modalBadge');
-    const modalMeta = document.getElementById('modalMeta');
-    const modalDescription = document.getElementById('modalDescription');
-    const modalTags = document.getElementById('modalTags');
-    const modalListBtn = document.getElementById('modalList');
-    const modalLikeBtn = document.getElementById('modalLike');
-    
-    // Set modal content
-    modalHero.style.backgroundImage = `url(${movie.image})`;
-    modalTitle.textContent = movie.title;
-    modalBadge.textContent = movie.ranking ? `#${movie.ranking} in TV Shows Today` : movie.type.toUpperCase();
-    modalMeta.innerHTML = `
-        <span class="rating">${movie.rating}</span>
-        <span class="year">${movie.year}</span>
-        <span class="duration">${movie.duration}</span>
-        <span class="genre">${movie.genre}</span>
-    `;
-    modalDescription.textContent = movie.description;
-    modalTags.innerHTML = movie.categories.map(cat => `<span class="modal-tag">${cat}</span>`).join('');
-    
-    // Update modal buttons
-    const isInMyList = myList.includes(movie.id);
-    modalListBtn.innerHTML = `<i class="fas ${isInMyList ? 'fa-check' : 'fa-plus'}"></i> My List`;
-    modalLikeBtn.innerHTML = `<i class="far fa-thumbs-up"></i> Like`;
-    
-    // Show modal
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-    
-    // Add event listeners for modal buttons
-    modalListBtn.onclick = () => {
-        addToList(movie.id);
-        modalListBtn.innerHTML = `<i class="fas ${myList.includes(movie.id) ? 'fa-check' : 'fa-plus'}"></i> My List`;
-    };
-    
-    modalLikeBtn.onclick = () => {
-        const icon = modalLikeBtn.querySelector('i');
-        icon.classList.toggle('fas');
-        icon.classList.toggle('far');
-    };
-}
-
-// Close modal
-function closeModal() {
-    const modal = document.getElementById('detailModal');
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
-}
-
-// Populate movie sections
-function populateSection(sectionId, movies, title) {
-    const section = document.getElementById(sectionId);
-    if (!section) return;
-    
-    const movieList = section.querySelector('.movie-list');
-    if (movieList) {
-        movieList.innerHTML = movies.map(movie => createMovieCard(movie)).join('');
-    }
-}
-
-// Populate My List section
-function populateMyList() {
-    const myListMovies = movies.filter(movie => myList.includes(movie.id));
-    populateSection('my-list-section', myListMovies, 'My List');
-}
-
-// Filter movies for search
-function filterMovies(query) {
-    if (!query.trim()) return [];
-    
-    const searchTerm = query.toLowerCase();
-    return movies.filter(movie => 
-        movie.title.toLowerCase().includes(searchTerm) ||
-        movie.genre.toLowerCase().includes(searchTerm) ||
-        movie.categories.some(cat => cat.toLowerCase().includes(searchTerm))
-    );
-}
-
-// Update breadcrumb
-function updateBreadcrumb(text) {
-    const breadcrumb = document.querySelector('.breadcrumb');
-    if (breadcrumb) {
-        breadcrumb.textContent = text;
-    }
-}
-
-// Setup sidebar search functionality
-function setupSidebarSearch() {
-    const searchInput = document.querySelector('.search-input');
-    if (!searchInput) return;
-    
-    let searchTimeout;
-    
-    searchInput.addEventListener('input', (e) => {
-        clearTimeout(searchTimeout);
-        const query = e.target.value;
-        
-        searchTimeout = setTimeout(() => {
-            if (query.trim()) {
-                const results = filterMovies(query);
-                populateSection('search-results-section', results, `Search Results for "${query}"`);
-                updateBreadcrumb(`Search: "${query}"`);
-                
-                // Show search results section
-                const searchSection = document.getElementById('search-results-section');
-                if (searchSection) {
-                    searchSection.style.display = 'block';
-                    searchSection.scrollIntoView({ behavior: 'smooth' });
-                }
-            } else {
-                // Hide search results when query is empty
-                const searchSection = document.getElementById('search-results-section');
-                if (searchSection) {
-                    searchSection.style.display = 'none';
-                }
-                updateBreadcrumb('Home');
-            }
-        }, 300);
-    });
-}
-
-// Populate all movie rows
-function populateMovieRows() {
-    // Home sections
-    populateSection('trending-section', getMoviesByCategory('trending'), 'Trending Now');
-    populateSection('popular-section', getMoviesByCategory('popular'), 'Popular on Netflix');
-    populateSection('new-releases-section', movies.slice(0, 8), 'New Releases');
-    
-    // Genre sections
-    populateSection('comedy-section', getMoviesByCategory('comedy'), 'Comedy');
-    populateSection('thriller-section', getMoviesByCategory('thriller'), 'Thriller');
-    populateSection('horror-section', getMoviesByCategory('horror'), 'Horror');
-    populateSection('action-section', getMoviesByCategory('action'), 'Action');
-    
-    // Type sections
-    populateSection('tv-shows-section', getMoviesByType('series'), 'TV Shows');
-    populateSection('movies-section', getMoviesByType('movie'), 'Movies');
-    
-    // My List section
-    populateMyList();
-}
-
-// Sidebar functionality
-let sidebarTimeout;
-
-function setupSidebar() {
-    const sidebar = document.getElementById('sidebar');
-    const mainContent = document.querySelector('.main-content');
-    
-    if (!sidebar || !mainContent) return;
-    
-    // Desktop: hover to expand
-    sidebar.addEventListener('mouseenter', () => {
-        clearTimeout(sidebarTimeout);
-        sidebar.classList.add('expanded');
-        mainContent.classList.add('expanded');
-    });
-    
-    sidebar.addEventListener('mouseleave', () => {
-        sidebarTimeout = setTimeout(() => {
-            sidebar.classList.remove('expanded');
-            mainContent.classList.remove('expanded');
-        }, 300);
-    });
-    
-    // Mobile: click to toggle
-    sidebar.addEventListener('click', (e) => {
-        if (window.innerWidth <= 768) {
-            sidebar.classList.toggle('expanded');
-            mainContent.classList.toggle('expanded');
-        }
-    });
-    
-    // Navigation items
-    const navItems = sidebar.querySelectorAll('.nav-item');
-    navItems.forEach(item => {
-        item.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const navText = item.querySelector('.nav-text');
-            if (navText) {
-                updateBreadcrumb(navText.textContent);
-                
-                // Scroll to section if it exists
-                const sectionId = navText.textContent.toLowerCase().replace(/\s+/g, '-') + '-section';
-                const section = document.getElementById(sectionId);
-                if (section) {
-                    section.scrollIntoView({ behavior: 'smooth' });
-                }
-            }
-            
-            // Close sidebar on mobile after navigation
-            if (window.innerWidth <= 768) {
-                sidebar.classList.remove('expanded');
-                mainContent.classList.remove('expanded');
-            }
-        });
-    });
-}
-
-const navItems = document.querySelectorAll('.nav-item');
-
-navItems.forEach(item => {
-  item.addEventListener('click', () => {
-    // Remove 'active' from all items
-    navItems.forEach(i => i.classList.remove('active'));
-    // Add 'active' to the clicked item
-    item.classList.add('active');
+  // update icon on all visible cards with this id
+  document.querySelectorAll(`[data-movie-id="${movieId}"]`).forEach(card => {
+    const icon = card.querySelector('.action-btn:first-child i');
+    if (icon) icon.className = `fas ${myList.includes(movieId) ? 'fa-check' : 'fa-plus'}`;
   });
-});
 
-// Initialize everything when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    // Load My List from localStorage
-    const savedMyList = localStorage.getItem('netflixMyList');
-    if (savedMyList) {
-        myList = JSON.parse(savedMyList);
-    }
-    
-    // Setup sidebar
-    setupSidebar();
-    
-    // Setup search
-    setupSidebarSearch();
-    
-    // Populate movie rows
-    populateMovieRows();
-    
-    // Setup modal close
-    const modalClose = document.getElementById('modalClose');
-    const modal = document.getElementById('detailModal');
-    
-    if (modalClose) {
-        modalClose.addEventListener('click', closeModal);
-    }
-    
-    if (modal) {
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                closeModal();
-            }
-        });
-    }
-    
-    // Setup header buttons
-    const searchBtn = document.querySelector('.header-btn[aria-label="Search"]');
-    const notificationBtn = document.querySelector('.header-btn[aria-label="Notifications"]');
-    const profileBtn = document.querySelector('.profile-btn');
-    
-    if (searchBtn) {
-        searchBtn.addEventListener('click', () => {
-            // Focus on sidebar search
-            const sidebarSearch = document.querySelector('.search-input');
-            if (sidebarSearch) {
-                sidebarSearch.focus();
-            }
-        });
-    }
-    
-    if (notificationBtn) {
-        notificationBtn.addEventListener('click', () => {
-            alert('Notifications feature coming soon!');
-        });
-    }
-    
-    if (profileBtn) {
-        profileBtn.addEventListener('click', () => {
-            alert('Profile settings coming soon!');
-        });
-    }
-    
-    // Setup movie row controls
-    const controlBtns = document.querySelectorAll('.control-btn');
-    controlBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const movieList = e.target.closest('.movie-row').querySelector('.movie-list');
-            const scrollAmount = 240; // Width of one movie card
-            
-            if (e.target.classList.contains('control-left')) {
-                movieList.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-            } else if (e.target.classList.contains('control-right')) {
-                movieList.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-            }
-        });
-    });
-    
-    // Setup More Info button
-    const moreInfoBtn = document.querySelector('.btn-info');
-    if (moreInfoBtn) {
-        moreInfoBtn.addEventListener('click', () => {
-            // Show details for the hero movie (Stranger Things)
-            showDetails(1);
-        });
-    }
-
-});
-
-function scrollRow(button, direction) {
-  // Find the row this button belongs to
-  const row = button.closest(".movie-row");
-  if (!row) return;
-
-  // Find the movie-list inside this row
-  const list = row.querySelector(".movie-list");
-  if (!list) return;
-
-  // Get one card's width + gap
-  const card = list.querySelector(".movie-card");
-  const cardWidth = card ? card.offsetWidth + 10 : 220;
-
-  // Scroll by ~4 cards
-  const scrollAmount = cardWidth * 4;
-  const left = direction === "left" ? -scrollAmount : scrollAmount;
-
-  list.scrollBy({ left, behavior: "smooth" });
+  populateMyList();
 }
+
+function likeMovie(movieId) {
+  const cards = document.querySelectorAll(`[data-movie-id="${movieId}"]`);
+  cards.forEach(card => {
+    const icons = card.querySelectorAll('.action-btn i');
+    if (icons[1]) {
+      icons[1].classList.toggle('far');
+      icons[1].classList.toggle('fas');
+    }
+  });
+}
+
+function populateMyList() {
+  const myListMovies = movies.filter(m => myList.includes(m.id));
+  const el = document.getElementById('mylist');
+  if (!el) return;
+  el.innerHTML = myListMovies.length
+    ? myListMovies.map(createMovieCard).join('')
+    : `<p style="color:#888;padding:20px;font-size:0.9rem">
+        Add titles by clicking <i class="fas fa-plus"></i> on any card.
+      </p>`;
+}
+
+// ── MODAL ───────────────────────────────────────────────
+function showDetails(movieId) {
+  const movie = movies.find(m => m.id === movieId);
+  if (!movie) return;
+
+  const g = id => document.getElementById(id);
+  const modal    = g('detailModal');
+  const heroEl   = g('modalHero');
+  const titleEl  = g('modalTitle');
+  const badgeEl  = g('modalBadge');
+  const metaEl   = g('modalMeta');
+  const descEl   = g('modalDescription');
+  const tagsEl   = g('modalTags');
+  const listBtn  = g('modalList');
+  const likeBtn  = g('modalLike');
+
+  if (heroEl)  heroEl.style.backgroundImage = `url(${movie.image})`;
+  if (titleEl) titleEl.textContent = movie.title;
+  if (badgeEl) badgeEl.textContent = movie.ranking ? `#${movie.ranking} in TV Shows Today` : movie.type.toUpperCase();
+  if (metaEl)  metaEl.innerHTML = `
+    <span class="rating">${movie.rating}</span>
+    <span class="year">${movie.year}</span>
+    <span class="duration">${movie.duration}</span>
+    <span class="genre">${movie.genre}</span>`;
+  if (descEl)  descEl.textContent = movie.description;
+  if (tagsEl)  tagsEl.innerHTML = movie.categories.map(c => `<span class="modal-tag">${c}</span>`).join('');
+
+  if (listBtn) {
+    listBtn.innerHTML = `<i class="fas ${myList.includes(movie.id) ? 'fa-check' : 'fa-plus'}"></i> My List`;
+    listBtn.onclick = () => {
+      addToList(movie.id);
+      listBtn.innerHTML = `<i class="fas ${myList.includes(movie.id) ? 'fa-check' : 'fa-plus'}"></i> My List`;
+    };
+  }
+
+  if (likeBtn) {
+    likeBtn.innerHTML = `<i class="far fa-thumbs-up"></i> Like`;
+    likeBtn.onclick = () => {
+      const icon = likeBtn.querySelector('i');
+      const liked = icon.classList.contains('fas');
+      likeBtn.innerHTML = `<i class="${liked ? 'far' : 'fas'} fa-thumbs-up"></i> ${liked ? 'Like' : 'Liked'}`;
+    };
+  }
+
+  if (modal) { modal.style.display = 'flex'; document.body.style.overflow = 'hidden'; }
+}
+
+function closeModal() {
+  const modal = document.getElementById('detailModal');
+  if (modal) modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
+// ── SEARCH ──────────────────────────────────────────────
+function setupSearch() {
+  const input = document.getElementById('sidebarSearch');
+  if (!input) return;
+  let timer;
+
+  input.addEventListener('input', e => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      const q         = e.target.value.trim();
+      const searchRow  = document.getElementById('searchRow');
+      const searchList = document.getElementById('searchResults');
+
+      if (q) {
+        const q2 = q.toLowerCase();
+        const results = movies.filter(m =>
+          m.title.toLowerCase().includes(q2) ||
+          m.genre.toLowerCase().includes(q2) ||
+          m.categories.some(c => c.toLowerCase().includes(q2))
+        );
+        if (searchList) searchList.innerHTML = results.length
+          ? results.map(createMovieCard).join('')
+          : `<p style="color:#888;padding:20px">No results for "${q}"</p>`;
+        if (searchRow) searchRow.style.display = 'block';
+        updateBreadcrumb(`Search: "${q}"`);
+      } else {
+        if (searchRow) searchRow.style.display = 'none';
+        updateBreadcrumb('Home');
+      }
+    }, 300);
+  });
+}
+
+function updateBreadcrumb(text) {
+  const bc = document.querySelector('.breadcrumb');
+  if (bc) bc.textContent = text;
+}
+
+// ── SIDEBAR ─────────────────────────────────────────────
+let sidebarTimeout;
+function setupSidebar() {
+  const sidebar     = document.getElementById('sidebar');
+  const mainContent = document.querySelector('.main-content');
+  if (!sidebar || !mainContent) return;
+
+  sidebar.addEventListener('mouseenter', () => {
+    clearTimeout(sidebarTimeout);
+    sidebar.classList.add('expanded');
+    mainContent.classList.add('expanded');
+  });
+
+  sidebar.addEventListener('mouseleave', () => {
+    sidebarTimeout = setTimeout(() => {
+      sidebar.classList.remove('expanded');
+      mainContent.classList.remove('expanded');
+    }, 300);
+  });
+
+  if (window.innerWidth <= 768) {
+    sidebar.addEventListener('click', () => {
+      sidebar.classList.toggle('expanded');
+      mainContent.classList.toggle('expanded');
+    });
+  }
+}
+
+function setupNavItems() {
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('click', () => {
+      document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      const label = item.querySelector('.nav-text');
+      if (label) updateBreadcrumb(label.textContent.trim());
+    });
+  });
+}
+
+// ── SCROLL & FADES ──────────────────────────────────────
+function scrollRow(button, direction) {
+  const row  = button.closest('.movie-row');
+  if (!row) return;
+  const list = row.querySelector('.movie-list');
+  if (!list) return;
+  const card = list.querySelector('.movie-card');
+  const cardWidth = card ? card.offsetWidth + 10 : 220;
+  list.scrollBy({ left: direction === 'left' ? -(cardWidth * 4) : cardWidth * 4, behavior: 'smooth' });
+}
+
 function updateFades(row) {
-  const list = row.querySelector(".movie-list");
-  const fadeLeft = row.querySelector(".row-fade.left");
-  const fadeRight = row.querySelector(".row-fade.right");
-
+  const list      = row.querySelector('.movie-list');
+  const fadeLeft  = row.querySelector('.row-fade.left');
+  const fadeRight = row.querySelector('.row-fade.right');
   if (!list || !fadeLeft || !fadeRight) return;
-
-  // If at the start → hide left fade
-  fadeLeft.style.opacity = list.scrollLeft > 0 ? "1" : "0";
-
-  // If at the end → hide right fade
-  const maxScroll = list.scrollWidth - list.clientWidth - 5;
-  fadeRight.style.opacity = list.scrollLeft < maxScroll ? "1" : "0";
+  fadeLeft.style.opacity  = list.scrollLeft > 0 ? '1' : '0';
+  fadeRight.style.opacity = list.scrollLeft < (list.scrollWidth - list.clientWidth - 5) ? '1' : '0';
 }
 
 function initRowFades() {
-  document.querySelectorAll(".movie-row").forEach((row) => {
-    const list = row.querySelector(".movie-list");
+  document.querySelectorAll('.movie-row').forEach(row => {
+    const list = row.querySelector('.movie-list');
     if (!list) return;
-
-    // Update fades on load
     updateFades(row);
-
-    // Update fades when scrolling
-    list.addEventListener("scroll", () => updateFades(row));
+    list.addEventListener('scroll', () => updateFades(row));
   });
 }
 
-// Run when DOM is ready
-document.addEventListener("DOMContentLoaded", initRowFades);
-document.addEventListener("DOMContentLoaded", () => {
-  const video = document.getElementById("heroVideo");
-  const fallback = document.getElementById("heroFallback");
+// ── HERO VIDEO ──────────────────────────────────────────
+function setupHeroVideo() {
+  const video    = document.getElementById('heroVideo');
+  const fallback = document.getElementById('heroFallback');
+  const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || window.innerWidth < 768;
 
-  // If mobile device → disable video and show fallback
-  if (/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || window.innerWidth < 768) {
-    if (video) {
-      video.style.display = "none";
-    }
-    if (fallback) {
-      fallback.style.display = "block";
-    }
-    return; // stop here, we don’t even try the video
+  if (isMobile) {
+    if (video)    video.style.display    = 'none';
+    if (fallback) fallback.style.display = 'block';
+    return;
   }
-
-  // Otherwise (desktop/TV) → try to play video
   if (video) {
-    video.addEventListener("canplay", () => {
-      if (fallback) {
-        fallback.style.display = "none"; // hide image if video loads
-      }
-    });
-
-    video.addEventListener("error", () => {
-      if (fallback) {
-        fallback.style.display = "block"; // keep image if video fails
-      }
-    });
+    video.addEventListener('canplay', () => { if (fallback) fallback.style.display = 'none'; });
+    video.addEventListener('error',   () => { if (fallback) fallback.style.display = 'block'; });
   }
-});
-let currentPromo = 0;
-const promos = document.querySelectorAll('.promo');
-
-function showNextPromo() {
-  promos[currentPromo].classList.remove('active');
-  currentPromo = (currentPromo + 1) % promos.length;
-  promos[currentPromo].classList.add('active');
 }
 
-setInterval(showNextPromo, 8000); // switch every 8s
+// ── PROMO ROTATOR ───────────────────────────────────────
+function setupPromos() {
+  const promos = document.querySelectorAll('.promo');
+  if (!promos.length) return;
+  let current = 0;
+  setInterval(() => {
+    promos[current].classList.remove('active');
+    current = (current + 1) % promos.length;
+    promos[current].classList.add('active');
+  }, 8000);
+}
 
+// ── POPULATE ALL ROWS ───────────────────────────────────
+// These IDs match the <div class="movie-list" id="..."> in your main.html exactly
+function populateAllRows() {
+  populateList('trending',  getByCategory('trending'));
+  populateList('popular',   getByCategory('popular'));
+  populateList('new',       getByCategory('drama'));      // Drama row list id="new"
+  populateList('tvshows',   getByCategory('tv-shows'));
+  populateList('movies',    getByCategory('movies'));
+  populateList('comedy',    getByCategory('comedy'));
+  populateList('thriller',  getByCategory('thriller'));
+  populateList('horror',    getByCategory('horror'));
+  populateList('action',    getByCategory('action'));
+  populateMyList(); // targets id="mylist"
+}
+
+// ── BOOT ────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', async () => {
+
+  // Try loading movies.json from multiple paths (handles files/ subfolder etc.)
+  const paths = ['movies.json', 'files/movies.json', 'files/movies.json', 'files/movies.json'];
+  for (const path of paths) {
+    try {
+      const res = await fetch(path);
+      if (!res.ok) continue;
+      const data = await res.json();
+      if (data.movies && data.movies.length) {
+        movies = data.movies;
+        console.log('✅ Loaded movies from:', path);
+        break;
+      }
+    } catch (e) { /* try next path */ }
+  }
+
+  if (!movies.length) {
+    console.error('❌ Could not load movies.json. Check the file path.');
+    return;
+  }
+
+  setupSidebar();
+  setupNavItems();
+  setupSearch();
+  setupHeroVideo();
+  setupPromos();
+  populateAllRows();
+  initRowFades();
+
+  // Modal close
+  const modalClose = document.getElementById('modalClose');
+  const modal      = document.getElementById('detailModal');
+  if (modalClose) modalClose.addEventListener('click', closeModal);
+  if (modal) modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+
+  // Hero More Info button → show details for movie id 1
+  document.querySelectorAll('.btn-info').forEach(btn => {
+    if (!btn.id) btn.addEventListener('click', () => showDetails(1));
+  });
+
+  // Header buttons
+  const notifBtn   = document.querySelector('.header-btn');
+  const profileBtn = document.querySelector('.profile-btn');
+  if (notifBtn)   notifBtn.addEventListener('click',   () => alert('Notifications coming soon!'));
+  if (profileBtn) profileBtn.addEventListener('click', () => alert('Profile settings coming soon!'));
+});

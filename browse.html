@@ -672,7 +672,7 @@
   /* ── LOAD DATA ── */
   async function loadData() {
     try {
-      const res  = await fetch('movies.json');
+      const res  = await fetch('files/movies.json');
       const data = await res.json();
       allMovies  = data.movies;
     } catch {
@@ -781,7 +781,7 @@
 
       return `
         <div class="card" onclick="window.location.href='preview.html'">
-          <img src="${m.poster}" alt="${m.title}" loading="lazy"
+          <img src="${m.image}" alt="${m.title}" loading="lazy"
                onerror="this.style.background='#222';this.removeAttribute('src')">
           ${badge}
           <!-- ✅ My List toggle button -->
