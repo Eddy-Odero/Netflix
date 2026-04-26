@@ -1,0 +1,123 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Predator: Badlands",
+      "type": "movie",
+      "genre": ["Action", "Sci-Fi"],
+      "year": 2026,
+      "rating": 7.8,
+      "duration": "2h 10m",
+      "ageRating": "16+",
+      "poster": "images/predator.jpeg",
+      "video": "videos/predator.mp4",
+      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
+      "description": "A ruthless alien hunter returns to Earth in a war-torn future where survival is no longer guaranteed.",
+      "trending": true,
+      "newRelease": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Fallout",
+      "type": "series",
+      "genre": ["Action", "Sci-Fi", "Drama"],
+      "year": 2024,
+      "rating": 8.5,
+      "duration": "1h per episode",
+      "ageRating": "18+",
+      "poster": "images/fallout.jpg",
+      "video": "",
+      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
+      "description": "Based on the acclaimed video game series, Fallout follows the survivors of a nuclear apocalypse.",
+      "trending": true,
+      "newRelease": false,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Foundation",
+      "type": "series",
+      "genre": ["Sci-Fi", "Drama"],
+      "year": 2024,
+      "rating": 8.1,
+      "duration": "1h per episode",
+      "ageRating": "16+",
+      "poster": "images/foundation.jpg",
+      "video": "",
+      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
+      "description": "A complex saga of humans scattered on planets throughout the galaxy.",
+      "trending": false,
+      "newRelease": true,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Peacemaker",
+      "type": "series",
+      "genre": ["Action", "Comedy"],
+      "year": 2024,
+      "rating": 8.3,
+      "duration": "45min per episode",
+      "ageRating": "18+",
+      "poster": "images/peace.jpg",
+      "video": "",
+      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
+      "description": "Peacemaker returns for an all-new mission with his reluctant team of misfits.",
+      "trending": true,
+      "newRelease": true,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Avatar 4",
+      "type": "movie",
+      "genre": ["Sci-Fi", "Adventure"],
+      "year": 2026,
+      "rating": 0,
+      "duration": "TBA",
+      "ageRating": "PG-13",
+      "poster": "images/avata4.jpg",
+      "video": "",
+      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
+      "description": "The next chapter in the epic Avatar saga continues on Pandora.",
+      "trending": false,
+      "newRelease": true,
+      "featured": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@site.com",
+      "role": "admin",
+      "joined": "2024-01-01",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "user",
+      "joined": "2025-03-15",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "user",
+      "joined": "2025-11-20",
+      "status": "inactive"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Action",    "count": 3 },
+    { "id": 2, "name": "Sci-Fi",    "count": 4 },
+    { "id": 3, "name": "Drama",     "count": 2 },
+    { "id": 4, "name": "Comedy",    "count": 1 },
+    { "id": 5, "name": "Adventure", "count": 1 },
+    { "id": 6, "name": "Horror",    "count": 0 }
+  ]
+}
