@@ -379,8 +379,8 @@
     },
     {
       "id": 23,
-      "title": "Unnamed",
-      "type": "movie",
+      "title": "Beauty in Black",
+      "type": "series",
       "image": "images/unnamed.jpg",
       "description": "A gripping drama about choices that change everything.",
       "year": 2024,
@@ -448,7 +448,7 @@
     },
     {
       "id": 27,
-      "title": "Cruel Summer",
+      "title": "Cruel Intention",
       "type": "series",
       "image": "images/cruel.jpg",
       "description": "A popular teen disappears, and an unpopular girl rises to take her place — but one is hiding a dark secret.",
