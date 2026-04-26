@@ -822,12 +822,12 @@
     },
     {
       "id": 49,
-      "title": "Wonder",
-      "type": "movie",
+      "title": "Wonderman",
+      "type": "series",
       "image": "images/wonder.jpg",
-      "description": "A boy born with facial differences enters fifth grade for the first time.",
-      "year": 2017,
-      "duration": "1 hour 53 mins",
+      "description": "This gem of a series, about an actor with superpowers, is a clever, tender take on male friendship and the film industry.",
+      "year": 2026,
+      "duration": "45 mins per episode",
       "genre": "Drama Comedy",
       "rating": "PG",
       "categories": ["comedy", "drama"],
@@ -1150,6 +1150,7 @@
       "name": "Admin",
       "email": "admin@eduflix.com",
       "role": "admin",
+       "password": "1234",
       "joined": "2024-01-01",
       "status": "active"
     }

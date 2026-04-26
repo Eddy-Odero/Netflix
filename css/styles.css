@@ -688,10 +688,13 @@ body {
 }
 
 .info-btn:hover {
-  background: rgba(8, 8, 8, 0.993);
+  background:#e50914 ;
   color: #ecdada;
 }
-
+.play-btn:hover {
+    background :#e50914;
+    color: #ecdada;
+}
 /* Progress Bar */
 .progress-bar {
     position: absolute;

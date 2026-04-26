@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin — EDU-FLIX</title>
+  <link rel="shortcut icon" href="images/logo.webp"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script>
+const user = JSON.parse(localStorage.getItem("user"));
 
+if (!user || user.role !== "admin") {
+  window.location.href = "login.html";
+}
+</script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -1129,7 +1136,7 @@
   /* ── LOAD DATA ── */
   async function loadData() {
     try {
-      const res = await fetch('movies.json');
+      const res = await fetch('files/movies.json');
       data = await res.json();
     } catch {
       data = {
@@ -1182,7 +1189,7 @@
 
     return `
       <tr>
-        <td><img src="${m.poster}" class="poster-thumb" onerror="this.style.background='#222';this.removeAttribute('src')"></td>
+        <td><img src="${m.image}" class="poster-thumb" onerror="this.style.background='#222';this.removeAttribute('src')"></td>
         <td>
           <div class="title-cell">
             ${m.title}
