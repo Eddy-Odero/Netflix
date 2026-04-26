@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDU-FLIX</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+   <link
+    rel="shortcut icon"
+    href="images/logo.webp"
+  />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d0d0d;
+      --surface:   #161616;
+      --border:    #2a2a2a;
+      --accent:    #e50914;
+      --accent2:   #ff6b35;
+      --text:      #f0f0f0;
+      --muted:     #888;
+      --card-bg:   #1a1a1a;
+      --sidebar-w: 240px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,13,13,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      height: 60px;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      color: var(--accent);
+      letter-spacing: 2px;
+      text-decoration: none;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-search {
+      display: flex;
+      align-items: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 12px;
+      gap: 8px;
+      transition: border-color 0.2s;
+    }
+
+    .nav-search:focus-within { border-color: var(--accent); }
+
+    .nav-search input {
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      width: 200px;
+    }
+
+    .nav-search input::placeholder { color: var(--muted); }
+
+    .nav-search i { color: var(--muted); font-size: 0.85rem; }
+
+    .nav-home {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .nav-home:hover { color: var(--text); }
+
+    /* ── LAYOUT ── */
+    .layout {
+      display: flex;
+      min-height: calc(100vh - 60px);
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      width: var(--sidebar-w);
+      background: var(--bg);
+      border-right: 1px solid var(--border);
+      padding: 24px 0;
+      position: sticky;
+      top: 60px;
+      height: calc(100vh - 60px);
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    .sidebar-section { padding: 0 20px 24px; }
+
+    .sidebar-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+
+    .filter-group { display: flex; flex-direction: column; gap: 6px; }
+
+    .filter-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      background: none;
+      color: var(--muted);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: left;
+    }
+
+    .filter-btn:hover {
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+    }
+
+    .filter-btn.active {
+      background: rgba(229,9,20,0.12);
+      border-color: rgba(229,9,20,0.3);
+      color: var(--accent);
+    }
+
+    .filter-count {
+      font-size: 0.75rem;
+      background: var(--border);
+      padding: 2px 7px;
+      border-radius: 20px;
+      color: var(--muted);
+    }
+
+    .filter-btn.active .filter-count {
+      background: rgba(229,9,20,0.2);
+      color: var(--accent);
+    }
+
+    .sidebar-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 4px 20px 20px;
+    }
+
+    /* genre checkboxes */
+    .genre-list { display: flex; flex-direction: column; gap: 8px; }
+
+    .genre-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 0.875rem;
+      color: var(--muted);
+      transition: color 0.15s;
+    }
+
+    .genre-item:hover { color: var(--text); }
+
+    .genre-item input[type="checkbox"] {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+
+    .genre-item input[type="checkbox"]:checked {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .genre-item input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 10px;
+    }
+
+    /* year range */
+    .year-range {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .year-range input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 3px;
+      background: var(--border);
+      border-radius: 3px;
+      outline: none;
+    }
+
+    .year-range input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--text);
+      cursor: pointer;
+    }
+
+    .year-display {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* rating */
+    .rating-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+
+    .rating-chip {
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: none;
+      color: var(--muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      transition: all 0.15s;
+    }
+
+    .rating-chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+    /* ── MAIN ── */
+    .main { flex: 1; padding: 28px 32px; min-width: 0; }
+
+    /* ── TABS ── */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+
+    .tab-btn {
+      padding: 10px 20px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--muted);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: -1px;
+      white-space: nowrap;
+    }
+
+    .tab-btn { color: var(--text); }
+
+    .tab-btn.active {
+      color: var(--text);
+      border-bottom-color: var(--text);
+    }
+
+    /* ── RESULTS BAR ── */
+    .results-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .results-count {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .results-count span { color: var(--text); font-weight: 500; }
+
+    .sort-select {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* ── ACTIVE FILTERS ── */
+    .active-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .active-tag {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px 4px 12px;
+      background: rgba(229,9,20,0.12);
+      border: 1px solid rgba(229,9,20,0.3);
+      border-radius: 20px;
+      font-size: 0.8rem;
+      color: var(--accent);
+    }
+
+    .active-tag button {
+      background: none;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      font-size: 0.85rem;
+      line-height: 1;
+      padding: 0;
+    }
+
+    /* ── GRID ── */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 14px;
+    }
+
+    /* ── CARD ── */
+    .card {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      aspect-ratio: 2/3;
+      background: var(--card-bg);
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.04);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+      z-index: 2;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img { transform: scale(1.06); }
+
+    .card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.9) 30%, transparent 70%);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card:hover .card-overlay { opacity: 1; }
+
+    .card-play {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.95);
+      border: none;
+      color: #111;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, background 0.2s;
+      padding-left: 4px;
+    }
+
+    .card-play:hover {
+      background: var(--accent);
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    .card-badge {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .badge-new    { background: var(--accent);  color: #fff; }
+    .badge-trend  { background: var(--accent2); color: #fff; }
+    .badge-series { background: #1a6fb5;         color: #fff; }
+
+    .card-title {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 0.25s, transform 0.25s;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+    }
+
+    .card:hover .card-title { opacity: 1; transform: translateY(0); }
+
+    /* no results */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--muted);
+    }
+
+    .empty-state i { font-size: 3rem; margin-bottom: 16px; display: block; }
+    .empty-state p { font-size: 1rem; }
+
+    /* ── MOBILE SIDEBAR TOGGLE ── */
+    .sidebar-toggle {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 16px;
+    }
+
+    /* ── SKELETON LOADER ── */
+    .skeleton {
+      background: linear-gradient(90deg, var(--card-bg) 25%, #222 50%, var(--card-bg) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 8px;
+      aspect-ratio: 2/3;
+    }
+
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav { padding: 0 16px; }
+
+      .nav-search input { width: 130px; }
+
+      .sidebar {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: calc(100vh - 60px);
+        z-index: 90;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        width: 280px;
+      }
+
+      .sidebar.open { transform: translateX(0); }
+
+      .sidebar-backdrop {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.6);
+        z-index: 89;
+        top: 60px;
+      }
+
+      .sidebar-backdrop.open { display: block; }
+
+      .sidebar-toggle { display: flex; }
+
+      .main { padding: 16px; }
+
+      .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
+
+      .tabs { overflow-x: auto; padding-bottom: 2px; }
+      .tabs::-webkit-scrollbar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="main.html" class="nav-logo">EDU-FLIX</a>
+  <div class="nav-right">
+    <div class="nav-search">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchInput" placeholder="Search titles...">
+    </div>
+    <a href="main.html" class="nav-home"><i class="fas fa-home"></i></a>
+  </div>
+</nav>
+
+<!-- SIDEBAR BACKDROP -->
+<div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+
+    <!-- TYPE -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">Browse</div>
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="type" data-value="all">
+          All <span class="filter-count" id="count-all">0</span>
+        </button>
+        <button class="filter-btn" data-filter="type" data-value="movie">
+          Movies <span class="filter-count" id="count-movie">0</span>
+        </button>
+        <button class="filter-btn" data-filter="type" data-value="series">
+          Series <span class="filter-count" id="count-series">0</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <!-- GENRE -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">Genre</div>
+      <div class="genre-list" id="genreList">
+        <!-- populated by JS -->
+      </div>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <!-- YEAR -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">Year</div>
+      <div class="year-range">
+        <input type="range" id="yearRange" min="2000" max="2026" value="2000" step="1">
+        <div class="year-display">
+          <span id="yearFrom">2000</span>
+          <span>— 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <!-- RATING -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">Min Rating</div>
+      <div class="rating-btns">
+        <button class="rating-chip active" data-rating="0">All</button>
+        <button class="rating-chip" data-rating="6">6+</button>
+        <button class="rating-chip" data-rating="7">7+</button>
+        <button class="rating-chip" data-rating="8">8+</button>
+        <button class="rating-chip" data-rating="9">9+</button>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- mobile sidebar toggle -->
+    <button class="sidebar-toggle" id="sidebarToggle">
+      <i class="fas fa-sliders-h"></i> Filters
+    </button>
+
+    <!-- TABS -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="all">All</button>
+      <button class="tab-btn" data-tab="movie">Movies</button>
+      <button class="tab-btn" data-tab="series">Series</button>
+      <button class="tab-btn" data-tab="trending">Trending</button>
+      <button class="tab-btn" data-tab="new">New Releases</button>
+    </div>
+
+    <!-- ACTIVE FILTER TAGS -->
+    <div class="active-filters" id="activeTags"></div>
+
+    <!-- RESULTS BAR -->
+    <div class="results-bar">
+      <p class="results-count">Showing <span id="resultCount">0</span> titles</p>
+      <select class="sort-select" id="sortSelect">
+        <option value="default">Sort: Default</option>
+        <option value="year-desc">Newest First</option>
+        <option value="year-asc">Oldest First</option>
+        <option value="rating-desc">Highest Rated</option>
+        <option value="title-asc">A – Z</option>
+      </select>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid" id="grid">
+      <!-- skeletons while loading -->
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+  let allMovies = [];
+  let state = {
+    tab:     'all',
+    type:    'all',
+    genres:  [],
+    yearFrom: 2000,
+    minRating: 0,
+    search:  '',
+    sort:    'default'
+  };
+
+  /* ── FETCH DATA ── */
+  async function loadData() {
+    try {
+      const res  = await fetch('movies.json');
+      const data = await res.json();
+      allMovies  = data.movies;
+    } catch (e) {
+      // fallback demo data if JSON not found yet
+      allMovies = [
+        { id:1, title:"Predator: Badlands", type:"movie",  genre:["Action","Sci-Fi"],  year:2026, rating:7.8, poster:"images/predator.jpeg", trending:true,  newRelease:true  },
+        { id:2, title:"Fallout",            type:"series", genre:["Action","Drama"],   year:2024, rating:8.5, poster:"images/fallout.jpg",   trending:true,  newRelease:false },
+        { id:3, title:"Foundation",         type:"series", genre:["Sci-Fi","Drama"],   year:2024, rating:8.1, poster:"images/foundation.jpg",trending:false, newRelease:true  },
+        { id:4, title:"Peacemaker",         type:"series", genre:["Action","Comedy"],  year:2024, rating:8.3, poster:"images/peace.jpg",     trending:true,  newRelease:true  },
+        { id:5, title:"Avatar 4",           type:"movie",  genre:["Sci-Fi","Adventure"],year:2026,rating:0,  poster:"images/avata4.jpg",    trending:false, newRelease:true  }
+      ];
+    }
+    buildGenreList();
+    updateCounts();
+    render();
+  }
+
+  /* ── BUILD GENRE CHECKBOXES ── */
+  function buildGenreList() {
+    const genres = [...new Set(allMovies.flatMap(m => m.genre))].sort();
+    const list   = document.getElementById('genreList');
+    list.innerHTML = genres.map(g => `
+      <label class="genre-item">
+        <input type="checkbox" value="${g}" class="genre-check"> ${g}
+      </label>
+    `).join('');
+
+    list.querySelectorAll('.genre-check').forEach(cb => {
+      cb.addEventListener('change', () => {
+        state.genres = [...list.querySelectorAll('.genre-check:checked')].map(c => c.value);
+        render();
+        updateActiveTags();
+      });
+    });
+  }
+
+  /* ── UPDATE SIDEBAR COUNTS ── */
+  function updateCounts() {
+    document.getElementById('count-all').textContent    = allMovies.length;
+    document.getElementById('count-movie').textContent  = allMovies.filter(m => m.type === 'movie').length;
+    document.getElementById('count-series').textContent = allMovies.filter(m => m.type === 'series').length;
+  }
+
+  /* ── FILTER & SORT ── */
+  function getFiltered() {
+    let list = [...allMovies];
+
+    // tab
+    if (state.tab === 'movie')    list = list.filter(m => m.type === 'movie');
+    if (state.tab === 'series')   list = list.filter(m => m.type === 'series');
+    if (state.tab === 'trending') list = list.filter(m => m.trending);
+    if (state.tab === 'new')      list = list.filter(m => m.newRelease);
+
+    // sidebar type (synced with tabs)
+    if (state.type === 'movie')   list = list.filter(m => m.type === 'movie');
+    if (state.type === 'series')  list = list.filter(m => m.type === 'series');
+
+    // genre
+    if (state.genres.length)
+      list = list.filter(m => state.genres.every(g => m.genre.includes(g)));
+
+    // year
+    list = list.filter(m => m.year >= state.yearFrom);
+
+    // rating
+    if (state.minRating > 0)
+      list = list.filter(m => m.rating >= state.minRating);
+
+    // search
+    if (state.search)
+      list = list.filter(m => m.title.toLowerCase().includes(state.search.toLowerCase()));
+
+    // sort
+    if (state.sort === 'year-desc')    list.sort((a,b) => b.year   - a.year);
+    if (state.sort === 'year-asc')     list.sort((a,b) => a.year   - b.year);
+    if (state.sort === 'rating-desc')  list.sort((a,b) => b.rating - a.rating);
+    if (state.sort === 'title-asc')    list.sort((a,b) => a.title.localeCompare(b.title));
+
+    return list;
+  }
+
+  /* ── RENDER GRID ── */
+  function render() {
+    const filtered = getFiltered();
+    const grid     = document.getElementById('grid');
+    document.getElementById('resultCount').textContent = filtered.length;
+
+    if (!filtered.length) {
+      grid.innerHTML = `
+        <div class="empty-state">
+          <i class="fas fa-film"></i>
+          <p>No titles match your filters.</p>
+        </div>`;
+      return;
+    }
+
+    grid.innerHTML = filtered.map(m => {
+      let badge = '';
+      if (m.newRelease) badge = `<span class="card-badge badge-new">New</span>`;
+      else if (m.trending) badge = `<span class="card-badge badge-trend">🔥 Hot</span>`;
+      if (m.type === 'series') badge += `<span class="card-badge badge-series" style="top:${m.newRelease||m.trending?'32px':'8px'}">Series</span>`;
+
+      return `
+        <div class="card" onclick="window.location.href='preview.html'">
+          <img src="${m.poster}" alt="${m.title}" loading="lazy"
+               onerror="this.style.background='#222';this.removeAttribute('src')">
+          ${badge}
+          <div class="card-overlay">
+            <button class="card-play" onclick="event.stopPropagation(); window.location.href='preview.html'">
+              &#9654;
+            </button>
+          </div>
+          <div class="card-title">${m.title}</div>
+        </div>`;
+    }).join('');
+  }
+
+  /* ── ACTIVE FILTER TAGS ── */
+  function updateActiveTags() {
+    const container = document.getElementById('activeTags');
+    const tags = [];
+
+    if (state.genres.length)
+      state.genres.forEach(g => tags.push({ label: g, clear: () => {
+        state.genres = state.genres.filter(x => x !== g);
+        document.querySelectorAll('.genre-check').forEach(cb => {
+          if (cb.value === g) cb.checked = false;
+        });
+        render(); updateActiveTags();
+      }}));
+
+    if (state.yearFrom > 2000)
+      tags.push({ label: `From ${state.yearFrom}`, clear: () => {
+        state.yearFrom = 2000;
+        document.getElementById('yearRange').value = 2000;
+        document.getElementById('yearFrom').textContent = 2000;
+        render(); updateActiveTags();
+      }});
+
+    if (state.minRating > 0)
+      tags.push({ label: `${state.minRating}+ Stars`, clear: () => {
+        state.minRating = 0;
+        document.querySelectorAll('.rating-chip').forEach(c => c.classList.remove('active'));
+        document.querySelector('[data-rating="0"]').classList.add('active');
+        render(); updateActiveTags();
+      }});
+
+    container.innerHTML = tags.map((t,i) =>
+      `<div class="active-tag">${t.label}<button data-i="${i}">&times;</button></div>`
+    ).join('');
+
+    container.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => tags[+btn.dataset.i].clear());
+    });
+  }
+
+  /* ── EVENT LISTENERS ── */
+
+  // tabs
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.tab = btn.dataset.tab;
+      // sync sidebar type buttons
+      if (['movie','series'].includes(state.tab)) {
+        state.type = state.tab;
+        document.querySelectorAll('[data-filter="type"]').forEach(b => {
+          b.classList.toggle('active', b.dataset.value === state.type);
+        });
+      } else {
+        state.type = 'all';
+        document.querySelectorAll('[data-filter="type"]').forEach(b => {
+          b.classList.toggle('active', b.dataset.value === 'all');
+        });
+      }
+      render();
+    });
+  });
+
+  // sidebar type
+  document.querySelectorAll('[data-filter="type"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter="type"]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.type = btn.dataset.value;
+      render();
+    });
+  });
+
+  // year
+  document.getElementById('yearRange').addEventListener('input', e => {
+    state.yearFrom = +e.target.value;
+    document.getElementById('yearFrom').textContent = e.target.value;
+    render();
+    updateActiveTags();
+  });
+
+  // rating
+  document.querySelectorAll('.rating-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.rating-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      state.minRating = +chip.dataset.rating;
+      render();
+      updateActiveTags();
+    });
+  });
+
+  // search
+  document.getElementById('searchInput').addEventListener('input', e => {
+    state.search = e.target.value;
+    render();
+  });
+
+  // sort
+  document.getElementById('sortSelect').addEventListener('change', e => {
+    state.sort = e.target.value;
+    render();
+  });
+
+  // mobile sidebar
+  const sidebar   = document.getElementById('sidebar');
+  const backdrop  = document.getElementById('sidebarBackdrop');
+  const toggleBtn = document.getElementById('sidebarToggle');
+
+  toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('open');
+    backdrop.classList.toggle('open');
+  });
+
+  backdrop.addEventListener('click', () => {
+    sidebar.classList.remove('open');
+    backdrop.classList.remove('open');
+  });
+
+  /* ── INIT ── */
+  loadData();
+</script>
+</body>
+</html>
