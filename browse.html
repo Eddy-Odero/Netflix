@@ -782,7 +782,7 @@
       const inList = isInList(m.id);
 
       return `
-        <div class="card" onclick="window.location.href='preview.html'">
+      <div class="card" onclick="window.location.href='preview.html?id=${m.id}'">
           <img src="${m.image}" alt="${m.title}" loading="lazy"
                onerror="this.style.background='#222';this.removeAttribute('src')">
           ${badge}
@@ -795,7 +795,7 @@
             <i class="fas ${inList ? 'fa-check' : 'fa-plus'}"></i>
           </button>
           <div class="card-overlay">
-            <button class="card-play" onclick="event.stopPropagation(); window.location.href='preview.html'">
+            <button class="card-play" onclick="event.stopPropagation(); window.location.href='preview.html?id=${m.id}'">
               &#9654;
             </button>
           </div>

@@ -42,7 +42,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -72,7 +77,7 @@
       "id": 3,
       "title": "Avatar 4",
       "type": "movie",
-      "image": "images/avata4.jpg",
+      "image": "images/avatar4.jpg",
       "description": "The next chapter in the epic Avatar saga continues on Pandora.",
       "year": 2026,
       "duration": "TBA",
@@ -85,7 +90,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/avatar-fire-and-ash-imax-trailer-1-4k-prores",
       "video": "",
-      "cast": [],
+      "cast": [ 
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -105,7 +115,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [ 
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -139,7 +154,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -169,13 +189,18 @@
       "genre": "Action Thriller",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["trending", "action"],
+      "categories": ["action", "crime"],
       "ranking": 6,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -189,13 +214,18 @@
       "genre": "Sci-Fi Adventure",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["trending"],
+      "categories": ["trending","adventure"],
       "ranking": 7,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -215,7 +245,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -235,27 +270,37 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
       "id": 10,
-      "title": "Se7en",
-      "type": "movie",
+      "title": "knight of the seven kingdoms",
+      "type": "series",
       "image": "images/seven.jpg",
-      "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives.",
-      "year": 1995,
-      "duration": "2 hours 7 mins",
-      "genre": "Crime Thriller",
+      "description": "A century before the events of Game of Thrones a young and naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg, face a series of dangerous exploits.",
+      "year": 2026,
+      "duration": "50min per episode",
+      "genre": "Adventure Thriller",
       "rating": "R",
       "ageRating": "18+",
-      "categories": ["trending", "thriller"],
+      "categories": ["trending", "Fantasy"],
       "ranking": 10,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "Peter Claffey",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQML75i7C5vj7hZZEP_ApkZVYUEERxHU3QOF7_bKWb0g0JOKAANQDclCY3rQzEXojkOWrt1w_yrpMu8n6NxhSRZ2VvvoB0yBQWf7H9OCbRCSA&s=10" },
+        { "name": "Dexter Sol",       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NPgdsB0-iRbWxpFBAvVALvQ38XYFxtvr87I3R6wiUk27LVJ9So3L3HKWqXBgbM1XelOx0yoZziJdvLQmEPX9Mv13dlf3uR5M4nuXnGNk&s=10" },
+        { "name": "Finn Bennett",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpQu6mnYNPqRpS6w-FOAuKREkYPB1Cby9Tw1o4WN_1beO-rtzuqRFiTUZRktz21B_csDRQSFH-Wx6Rz8WcRKhobWEdncLTyDHJruSCcErKA&s=10" },
+        { "name": "Rowan Robinson",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdeG9Og7FSl33jVzbK5Xh89CW_2baRBa6IXrefRV8cRM5WQ_LhV1PIVBj7MxSO7mhkGQBQjET_e3XpLQ0pfKm7Z_P3jDVbjaYZqpJyN6-ODA&s=10" }
+      ],
       "seasons": []
     },
     {
@@ -275,7 +320,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+         { "name": "",     "image": "" },
+         { "name": "",     "image": "" },
+          { "name": "",     "image": "" },
+          { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -295,7 +345,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -324,7 +379,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -359,7 +419,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -416,7 +481,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -436,7 +506,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -465,7 +540,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -485,7 +565,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -513,7 +598,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -533,7 +623,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -561,7 +656,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -581,7 +681,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -609,7 +714,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -643,7 +753,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -671,7 +786,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -699,7 +819,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -727,7 +852,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -754,7 +884,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -782,7 +917,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -809,7 +949,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 2,
@@ -836,7 +981,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -864,7 +1014,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -891,7 +1046,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -918,7 +1078,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -945,7 +1110,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -972,7 +1142,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -999,7 +1174,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1019,7 +1199,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1039,7 +1224,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1059,7 +1249,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1079,7 +1274,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [ 
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1099,7 +1299,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1119,7 +1324,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1139,7 +1349,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1166,7 +1381,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1193,7 +1413,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1213,7 +1438,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1240,7 +1470,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1267,7 +1502,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1294,7 +1534,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1328,7 +1573,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1348,7 +1598,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1375,7 +1630,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1402,7 +1662,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1429,7 +1694,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1456,7 +1726,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1476,7 +1751,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1496,7 +1776,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1516,7 +1801,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1543,7 +1833,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1563,7 +1858,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1590,7 +1890,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1617,7 +1922,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1644,7 +1954,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": []
     },
     {
@@ -1664,7 +1979,12 @@
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [ 
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
@@ -1691,7 +2011,12 @@
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
-      "cast": [],
+      "cast": [
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" },
+        { "name": "",     "image": "" }
+      ],
       "seasons": [
         {
           "season": 1,
