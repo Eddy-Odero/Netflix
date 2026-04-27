@@ -504,20 +504,30 @@
     });
 
     /* ── HERO BUTTONS ── */
-    function setupButtons() {
-      // Play Movie — use embed (archive.org link)
-      document.getElementById('btnPlayMovie').addEventListener('click', () => {
-        if (movie.video) playLocal(movie.video);
-        else if (movie.embed) playEmbed(movie.embed);
-        else alert('No video source set yet. Add an Archive.org embed URL to movies.json.');
-      });
+   function setupButtons() {
 
-      // Trailer — plays local video file
-      document.getElementById('btnTrailer').addEventListener('click', () => {
-        if (movie.video) playLocal(movie.video);
-        else alert('No trailer file set yet.');
-      });
+  const playBtn = document.getElementById('btnPlayMovie');
+  const trailerBtn = document.getElementById('btnTrailer');
 
+  if (playBtn) {
+    playBtn.addEventListener('click', () => {
+      const source = movie?.embed?.trim()
+        ? playEmbed(movie.embed)
+        : movie?.video?.trim()
+          ? playLocal(movie.video)
+          : alert('No movie source available');
+    });
+  }
+
+  if (trailerBtn) {
+    trailerBtn.addEventListener('click', () => {
+      if (movie?.video?.trim()) {
+        playLocal(movie.video);
+      } else {
+        alert('No trailer file set yet.');
+      }
+    });
+  }
       // My List
       document.getElementById('btnMyList').addEventListener('click', () => {
         inList = !inList;
