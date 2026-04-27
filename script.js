@@ -81,8 +81,11 @@ function createMovieCard(movie) {
 function populateList(listId, items) {
   const el = document.getElementById(listId);
   if (!el) return;
-  el.innerHTML = items.length
-    ? items.map(createMovieCard).join('')
+
+  const limitedItems = items.slice(0, 12); // ✅ limit to 12
+
+  el.innerHTML = limitedItems.length
+    ? limitedItems.map(createMovieCard).join('')
     : '<p style="color:#888;padding:20px;font-size:0.9rem">Nothing here yet.</p>';
 }
 
@@ -133,6 +136,7 @@ function showDetails(movieId) {
   if (!movie) return;
 
   const g = id => document.getElementById(id);
+
   const modal    = g('detailModal');
   const heroEl   = g('modalHero');
   const titleEl  = g('modalTitle');
@@ -142,7 +146,14 @@ function showDetails(movieId) {
   const tagsEl   = g('modalTags');
   const listBtn  = g('modalList');
   const likeBtn  = g('modalLike');
+  const playBtn  = g('modalPlay'); // ✅ NOW here
 
+  // ✅ FIX: assign click AFTER movie exists
+  if (playBtn) {
+    playBtn.onclick = () => {
+      window.location.href = `preview.html?id=${movie.id}`;
+    };
+  }
   if (heroEl)  heroEl.style.backgroundImage = `url(${movie.image})`;
   if (titleEl) titleEl.textContent = movie.title;
   if (badgeEl) badgeEl.textContent = movie.ranking ? `#${movie.ranking} in TV Shows Today` : movie.type.toUpperCase();
@@ -320,14 +331,18 @@ function setupPromos() {
 function populateAllRows() {
   populateList('trending',  getByCategory('trending'));
   populateList('popular',   getByCategory('popular'));
-  populateList('new',       getByCategory('drama'));      // Drama row list id="new"
-  populateList('tvshows',   getByCategory('tv-shows'));
-  populateList('movies',    getByCategory('movies'));
+  populateList('new',       getByCategory('drama')); // only if "drama" exists
+
+  // ✅ FIXED
+  populateList('tvshows',   getByType('series'));
+  populateList('movies',    getByType('movie'));
+
   populateList('comedy',    getByCategory('comedy'));
   populateList('thriller',  getByCategory('thriller'));
   populateList('horror',    getByCategory('horror'));
   populateList('action',    getByCategory('action'));
-  populateMyList(); // targets id="mylist"
+
+  populateMyList();
 }
 
 // ── BOOT ────────────────────────────────────────────────
@@ -378,3 +393,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (notifBtn)   notifBtn.addEventListener('click',   () => alert('Notifications coming soon!'));
   if (profileBtn) profileBtn.addEventListener('click', () => alert('Profile settings coming soon!'));
 });
+function getMovieIdFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('id');
+}

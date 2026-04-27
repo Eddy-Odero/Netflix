@@ -8,14 +8,22 @@
       "description": "The story follows Dek, a young exiled Yautja, who crash-lands on a hostile planet and must prove himself worthy of the hunt by killing an apex predator.",
       "year": 2026,
       "duration": "2 hours 10 mins",
-      "genre": "Sci-Fi Horror",
+      "genre": "Sci-Fi",
       "rating": "TV-14",
+      "ageRating": "16+",
       "categories": ["trending", "horror"],
       "ranking": 1,
       "progress": 75,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "videos/predator.mp4"
+      "video": "videos/predator.mp4",
+      "cast": [
+        { "name": "Elle Fanning",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPFJMATuk9ZTe_VwkuCNh1Pe8dfKE8jf5TOPgEWOH80JDQHxHlpZLVWDk2aJFc4SIyd4KPh5SXL6l897YZMUCpueR8IvUd0xYdmlY7zwg&s=10" },
+        { "name": "Mike Faist",       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4MP8AZEkVwKEp2II5IOeIxYzGwF-VAf2Cgpz0jKgJ9IJgoC78n7264pY5zHQdOJxfFPoRcMSJcp1-YDFvMWBHWPsbN9RZwDC0Lbkwc2LNg&s=10" },
+        { "name": "Allison Williams",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEjhzNNQOXvRSrVGZ-iHUA8t1TgbR1zbgCzNn4OGzc1mW8b1vLcMuzhajzz2-B3mqEGDQUKUMU_bhMXaeQKqgDnn3sV22rjeBTJn9zHXx&s=10" },
+        { "name": "Dimitrius Pulido",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42CzK-SLoKJmhdyYA2rLXwm-_WvD1Ib-tcATyEirl0c8bDqxjyP5cI5D16GShhDQZhuS2p3nIJoe5cwkm4JLBCCuLUTb2MerbGSn6Pg8oxQ&s=10" }
+      ],
+      "seasons": []
     },
     {
       "id": 2,
@@ -27,12 +35,38 @@
       "duration": "1 hour per episode",
       "genre": "Action Comedy",
       "rating": "TV-MA",
-      "categories": ["trending", "action"],
+      "ageRating": "18+",
+      "categories": ["popular", "action"],
       "ranking": 2,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The Name of the Game", "duration": "61 min", "description": "Hughie's life is turned upside down when a Supe kills his girlfriend.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+            { "ep": 2, "title": "Cherry",               "duration": "57 min", "description": "Butcher recruits Hughie for a dangerous mission inside Vought.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+            { "ep": 3, "title": "Get Some",             "duration": "60 min", "description": "The Boys dig deeper into Vought's secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+          ]
+        },
+        {
+          "season": 2,
+          "episodes": [
+            { "ep": 1, "title": "The Big Ride",       "duration": "62 min", "description": "The Boys are on the run while a new Supe terrorizes the country.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+            { "ep": 2, "title": "Proper Preparation", "duration": "58 min", "description": "Homelander tightens his grip on The Seven.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+          ]
+        },
+        {
+          "season": 3,
+          "episodes": [
+            { "ep": 1, "title": "Payback",        "duration": "65 min", "description": "Butcher and the Boys get new government jobs hunting rogue Supes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+            { "ep": 2, "title": "The Only Man...", "duration": "59 min", "description": "A dangerous new weapon could change everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 3,
@@ -44,12 +78,15 @@
       "duration": "TBA",
       "genre": "Sci-Fi Adventure",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["trending", "popular"],
       "ranking": 3,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 4,
@@ -61,12 +98,29 @@
       "duration": "1 hour per episode",
       "genre": "Sci-Fi Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["trending", "popular"],
       "ranking": 4,
       "progress": 30,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The End",       "duration": "67 min", "description": "Lucy leaves the vault for the first time and encounters the wasteland.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 2, "title": "The Target",    "duration": "55 min", "description": "Lucy pursues her kidnapped father across a dangerous wasteland.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 3, "title": "The Head",      "duration": "57 min", "description": "A mysterious head holds secrets that could change everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 4, "title": "The Ghouls",    "duration": "52 min", "description": "The Cooper Howard story begins to unfold.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 5, "title": "The Past",      "duration": "59 min", "description": "Secrets from before the bombs dropped are revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 6, "title": "The Trap",      "duration": "54 min", "description": "Lucy and The Ghoul face a deadly trap set by Moldaver.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 7, "title": "The Radio",     "duration": "56 min", "description": "A radio signal may lead to salvation or destruction.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+            { "ep": 8, "title": "The Beginning", "duration": "61 min", "description": "All threads converge in the explosive season finale.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 5,
@@ -78,12 +132,31 @@
       "duration": "45 mins per episode",
       "genre": "Action Sci-Fi",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["trending", "action"],
       "ranking": 5,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "It's About Time",       "duration": "45 min", "description": "Mark Grayson discovers his superpowers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+            { "ep": 2, "title": "Here Goes Nothing",     "duration": "44 min", "description": "Mark begins his superhero training.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+            { "ep": 3, "title": "Who You Calling Ugly?", "duration": "47 min", "description": "Mark faces his first real villain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+          ]
+        },
+        {
+          "season": 2,
+          "episodes": [
+            { "ep": 1, "title": "A Lesson for Your Next Life", "duration": "50 min", "description": "Mark deals with the fallout from the Guardians massacre.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+            { "ep": 2, "title": "In About Six Hours",          "duration": "48 min", "description": "A new threat emerges from another dimension.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 6,
@@ -95,12 +168,15 @@
       "duration": "2 hours 56 mins",
       "genre": "Action Thriller",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["trending", "action"],
       "ranking": 6,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 7,
@@ -112,12 +188,15 @@
       "duration": "2 hours 20 mins",
       "genre": "Sci-Fi Adventure",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["trending"],
       "ranking": 7,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 8,
@@ -129,12 +208,15 @@
       "duration": "1 hour 59 mins",
       "genre": "Sci-Fi Horror",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["trending", "horror", "popular"],
       "ranking": 8,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 9,
@@ -146,12 +228,15 @@
       "duration": "2 hours 28 mins",
       "genre": "Action Adventure",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["trending", "action"],
       "ranking": 9,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 10,
@@ -163,12 +248,15 @@
       "duration": "2 hours 7 mins",
       "genre": "Crime Thriller",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["trending", "thriller"],
       "ranking": 10,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 11,
@@ -180,12 +268,15 @@
       "duration": "1 hour 54 mins",
       "genre": "Horror Thriller",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["trending", "horror", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 12,
@@ -197,12 +288,24 @@
       "duration": "1 hour per episode",
       "genre": "Sci-Fi Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["trending", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Freedom Day",    "duration": "57 min", "description": "Sheriff Holston makes a shocking decision.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+            { "ep": 2, "title": "Holston's Pick", "duration": "52 min", "description": "Engineer Juliette investigates the sheriff's fate.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+            { "ep": 3, "title": "Machines",       "duration": "55 min", "description": "Juliette uncovers a deeper conspiracy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 13,
@@ -214,12 +317,30 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["popular", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The Heirs of the Dragon", "duration": "66 min", "description": "King Viserys hosts a tournament to celebrate the birth of his heir.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+            { "ep": 2, "title": "The Rogue Prince",        "duration": "54 min", "description": "Daemon steals a dragon egg and threatens open conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" }
+          ]
+        },
+        {
+          "season": 2,
+          "episodes": [
+            { "ep": 1, "title": "A Son for a Son",    "duration": "60 min", "description": "The Dance of Dragons begins in earnest.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+            { "ep": 2, "title": "Rhaenyra the Cruel", "duration": "58 min", "description": "Rhaenyra faces the consequences of Blood and Cheese.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" }
+          ]
+        }
+      ]
     },
     {
       "id": 14,
@@ -231,13 +352,24 @@
       "duration": "1 hour per episode",
       "genre": "Sci-Fi Drama",
       "rating": "TV-MA",
-      "categories": ["popular", "drama"],
+      "ageRating": "18+",
+      "categories": ["popular", "drama", "trending"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "trending":true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Countdown", "duration": "60 min", "description": "A mysterious countdown appears in the vision of scientists worldwide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+            { "ep": 2, "title": "Red Coast", "duration": "55 min", "description": "The origins of the signal are traced to the Cultural Revolution.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+            { "ep": 3, "title": "The Lord",  "duration": "57 min", "description": "The San-Ti reveal their intentions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 15,
@@ -249,12 +381,23 @@
       "duration": "45 mins per episode",
       "genre": "Fantasy Horror",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["popular", "horror"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "First Kill",  "duration": "44 min", "description": "Juliette targets Calliope for her first kill — but falls for her instead.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+            { "ep": 2, "title": "First Blood", "duration": "42 min", "description": "Both families discover what happened and react with shock.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 16,
@@ -266,12 +409,15 @@
       "duration": "1 hour 32 mins",
       "genre": "Romance Comedy",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["popular", "comedy"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 17,
@@ -283,13 +429,24 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Adventure",
       "rating": "TV-PG",
-      "categories": ["popular", "action"],
+      "ageRating": "PG",
+      "categories": ["popular", "action", "trending"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "trending":true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Aang",        "duration": "52 min", "description": "Two siblings discover the Avatar frozen in ice.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/aang.jpg" },
+            { "ep": 2, "title": "Warriors",    "duration": "50 min", "description": "Aang and friends visit a Kyoshi Warrior island.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/aang.jpg" },
+            { "ep": 3, "title": "Omashu",      "duration": "48 min", "description": "The group travels to the great city of Omashu.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/aang.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 18,
@@ -301,12 +458,15 @@
       "duration": "1 hour 45 mins",
       "genre": "Drama",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["popular", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 19,
@@ -318,12 +478,23 @@
       "duration": "45 mins per episode",
       "genre": "Mystery Comedy",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["popular", "comedy", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Wednesday's Child Is Full of Woe", "duration": "49 min", "description": "Wednesday is expelled and sent to Nevermore Academy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+            { "ep": 2, "title": "Woe Is the Loneliest Number",     "duration": "44 min", "description": "Wednesday investigates a monster attack in Jericho.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 20,
@@ -335,12 +506,15 @@
       "duration": "1 hour 56 mins",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["popular", "action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 21,
@@ -352,12 +526,23 @@
       "duration": "1 hour per episode",
       "genre": "Horror Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["popular", "horror", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "A virus breaks out at Hyosan High School.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+            { "ep": 2, "title": "Episode 2", "duration": "62 min", "description": "Survivors barricade themselves as the infection spreads.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 22,
@@ -369,13 +554,15 @@
       "duration": "2 hours 17 mins",
       "genre": "Horror Thriller",
       "rating": "R",
-      "categories": ["popular", "horror", "thriller"],
+      "ageRating": "18+",
+      "categories": ["popular", "horror", "thriller", "trending"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "trnding":true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 23,
@@ -384,15 +571,26 @@
       "image": "images/unnamed.jpg",
       "description": "A gripping drama about choices that change everything.",
       "year": 2024,
-      "duration": "2 hours",
+      "duration": "1 hour per episode",
       "genre": "Drama",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "Choices are made that will change lives forever.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+            { "ep": 2, "title": "Episode 2", "duration": "52 min", "description": "Consequences begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 24,
@@ -404,13 +602,29 @@
       "duration": "1 hour per episode",
       "genre": "Drama",
       "rating": "TV-MA",
-      "categories": ["drama"],
+      "ageRating": "18+",
+      "categories": ["drama", "trending"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-       "trnding":true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Pilot",           "duration": "60 min", "description": "Rue returns from rehab and meets Jules.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+            { "ep": 2, "title": "Stuntin' Like...", "duration": "57 min", "description": "Rue tries to navigate life post-rehab.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
+          ]
+        },
+        {
+          "season": 2,
+          "episodes": [
+            { "ep": 1, "title": "Trying to Get to Heaven...", "duration": "75 min", "description": "Rue starts the new year with a dangerous secret.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 25,
@@ -422,12 +636,23 @@
       "duration": "1 hour per episode",
       "genre": "Drama Comedy",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["drama", "comedy"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Pilot",          "duration": "52 min", "description": "Georgia and Ginny arrive in Wellsbury for a fresh start.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+            { "ep": 2, "title": "It's a Face, Not a Mask", "duration": "48 min", "description": "Ginny navigates her new school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 26,
@@ -439,12 +664,23 @@
       "duration": "45 mins per episode",
       "genre": "Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A sex map causes chaos at Hartley High.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+            { "ep": 2, "title": "Episode 2", "duration": "44 min", "description": "The fallout from the sex map continues.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 27,
@@ -456,12 +692,23 @@
       "duration": "45 mins per episode",
       "genre": "Thriller Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["drama", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "44 min", "description": "The game of manipulation begins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+            { "ep": 2, "title": "Episode 2", "duration": "42 min", "description": "Stakes rise as secrets are uncovered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 28,
@@ -473,12 +720,22 @@
       "duration": "45 mins per episode",
       "genre": "Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "40 min", "description": "New students arrive at Elite Way School.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 29,
@@ -490,12 +747,23 @@
       "duration": "45 mins per episode",
       "genre": "Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["drama", "tv-shows"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Dreams and Nightmares", "duration": "52 min", "description": "Will arrives in Bel-Air and faces a new world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+            { "ep": 2, "title": "Strictly Business",     "duration": "48 min", "description": "Will tries to adapt to his new lifestyle.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 30,
@@ -507,12 +775,22 @@
       "duration": "30 mins per episode",
       "genre": "Comedy Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["drama", "comedy"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "...had to be on my best behavior", "duration": "28 min", "description": "Devi vows to reinvent herself and get a boyfriend.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 31,
@@ -524,12 +802,22 @@
       "duration": "1 hour per episode",
       "genre": "Sci-Fi Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["tv-shows", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 2,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "The wasteland story continues.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout2.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 32,
@@ -541,12 +829,23 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["tv-shows", "drama", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Leavetaking",    "duration": "60 min", "description": "Moiraine arrives in the Two Rivers seeking the Dragon Reborn.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+            { "ep": 2, "title": "Shadow's Waiting","duration": "55 min", "description": "The group flees toward Shadar Logoth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 33,
@@ -558,12 +857,22 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["tv-shows", "drama", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "A Shadow of the Past", "duration": "60 min", "description": "Galadriel pursues a dark threat across Middle-earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 34,
@@ -575,12 +884,22 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["tv-shows", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Some Dark God Wakes", "duration": "59 min", "description": "A detective investigates a series of murders in the Row.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 35,
@@ -592,12 +911,22 @@
       "duration": "1 hour per episode",
       "genre": "Sci-Fi Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["tv-shows", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The Emperor's Peace", "duration": "59 min", "description": "Hari Seldon predicts the fall of the Galactic Empire.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 36,
@@ -609,12 +938,22 @@
       "duration": "45 mins per episode",
       "genre": "Fantasy Drama",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["tv-shows", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "To the Waters and the Wild", "duration": "44 min", "description": "Bloom arrives at Alfea and discovers she has fire powers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 37,
@@ -626,12 +965,22 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Action",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["tv-shows", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Nimue", "duration": "50 min", "description": "Nimue is tasked with returning a sword to Merlin.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 38,
@@ -643,12 +992,15 @@
       "duration": "1 hour 50 mins",
       "genre": "Action Thriller",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["movies", "action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 39,
@@ -660,12 +1012,15 @@
       "duration": "2 hours 49 mins",
       "genre": "Action Thriller",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["movies", "action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 40,
@@ -677,12 +1032,15 @@
       "duration": "1 hour 58 mins",
       "genre": "Sci-Fi Action",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["movies", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 41,
@@ -694,12 +1052,15 @@
       "duration": "2 hours 5 mins",
       "genre": "Action Thriller",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["movies", "action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 42,
@@ -711,12 +1072,15 @@
       "duration": "2 hours 28 mins",
       "genre": "Action Drama",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["movies", "action", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 43,
@@ -728,12 +1092,15 @@
       "duration": "2 hours 3 mins",
       "genre": "Action Thriller",
       "rating": "R",
-      "categories": ["movies", "action", "thriller"],
+      "ageRating": "18+",
+      "categories": ["movies"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 44,
@@ -745,12 +1112,15 @@
       "duration": "1 hour 40 mins",
       "genre": "Sci-Fi Action",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["movies", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 45,
@@ -762,12 +1132,22 @@
       "duration": "1 hour per episode",
       "genre": "Sci-Fi Comedy",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["comedy", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "We Only See Each Other at Weddings and Funerals", "duration": "55 min", "description": "The siblings reunite after their father's death.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 46,
@@ -779,12 +1159,22 @@
       "duration": "45 mins per episode",
       "genre": "Action Comedy",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["comedy", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Better Goff Dead", "duration": "45 min", "description": "Peacemaker is released from hospital and recruited for a secret mission.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 47,
@@ -796,12 +1186,15 @@
       "duration": "2 hours 14 mins",
       "genre": "Fantasy Comedy",
       "rating": "PG-13",
-      "categories": ["movies","comedy", "action"],
+      "ageRating": "PG-13",
+      "categories": ["movies", "comedy", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 48,
@@ -813,12 +1206,22 @@
       "duration": "1 hour per episode",
       "genre": "Adventure Comedy",
       "rating": "TV-14",
+      "ageRating": "14+",
       "categories": ["comedy", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Romance Dawn", "duration": "65 min", "description": "Luffy sets sail to become King of the Pirates.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepiece.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 49,
@@ -830,12 +1233,22 @@
       "duration": "45 mins per episode",
       "genre": "Drama Comedy",
       "rating": "PG",
+      "ageRating": "PG",
       "categories": ["comedy", "drama"],
       "ranking": 0,
       "progress": 0,
-      "newRelease": false,
+      "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "Simon Williams discovers he has superpowers and tries to balance his acting career.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonder.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 50,
@@ -847,12 +1260,22 @@
       "duration": "45 mins per episode",
       "genre": "Fantasy Adventure",
       "rating": "TV-PG",
+      "ageRating": "PG",
       "categories": ["comedy", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "I Accidentally Vaporize My Pre-Algebra Teacher", "duration": "45 min", "description": "Percy discovers he is a demigod.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" }
+          ]
+        }
+      ]
     },
     {
       "id": 51,
@@ -864,12 +1287,29 @@
       "duration": "1 hour per episode",
       "genre": "Thriller Drama",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["thriller", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Pilot",             "duration": "44 min", "description": "Joe meets Beck and becomes obsessed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+            { "ep": 2, "title": "The Last Nice Guy",  "duration": "45 min", "description": "Joe digs deeper into Beck's life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+          ]
+        },
+        {
+          "season": 4,
+          "episodes": [
+            { "ep": 1, "title": "Joe Takes a Holiday", "duration": "56 min", "description": "Joe starts a new life in London under a new identity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 52,
@@ -881,12 +1321,15 @@
       "duration": "2 hours 2 mins",
       "genre": "Thriller Drama",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["thriller", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 53,
@@ -898,12 +1341,22 @@
       "duration": "1 hour per episode",
       "genre": "Fantasy Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["thriller", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The End's Beginning", "duration": "60 min", "description": "Geralt of Rivia encounters a cursed princess.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 54,
@@ -915,12 +1368,22 @@
       "duration": "1 hour per episode",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["thriller", "action"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The Reach", "duration": "55 min", "description": "Peter Sutherland answers a hotline call that changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 55,
@@ -932,12 +1395,22 @@
       "duration": "45 mins per episode",
       "genre": "Sci-Fi Thriller",
       "rating": "TV-MA",
-      "categories": ["thriller", "drama"],
+      "ageRating": "18+",
+      "categories": ["thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Stay Inside", "duration": "44 min", "description": "A virus carried by rain kills most of Scandinavia's population.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 56,
@@ -949,12 +1422,22 @@
       "duration": "1 hour per episode",
       "genre": "Mystery Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["thriller", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Homecoming", "duration": "71 min", "description": "Prairie Johnson returns after missing for seven years.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/oa.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 57,
@@ -966,16 +1449,19 @@
       "duration": "1 hour 45 mins",
       "genre": "Romance Drama",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["thriller", "drama"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 58,
-      "title": "IT",
+      "title": "IT welcome to Derry",
       "type": "movie",
       "image": "images/IT .jpg",
       "description": "A group of kids face their biggest fears when a shapeshifting monster emerges from the sewers of Derry.",
@@ -983,12 +1469,15 @@
       "duration": "2 hours 15 mins",
       "genre": "Horror Drama",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["horror"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 59,
@@ -1000,16 +1489,19 @@
       "duration": "1 hour 42 mins",
       "genre": "Horror Thriller",
       "rating": "R",
-      "categories": ["horror", "thriller"],
+      "ageRating": "18+",
+      "categories": ["horror"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 60,
-      "title": "The Devil's Plan",
+      "title": "The Devil may cry",
       "type": "series",
       "image": "images/devil.jpg",
       "description": "Twelve players compete in a battle of wit and strategy for a prize.",
@@ -1017,12 +1509,22 @@
       "duration": "1 hour per episode",
       "genre": "Reality Thriller",
       "rating": "TV-14",
-      "categories": ["horror", "thriller"],
+      "ageRating": "14+",
+      "categories": ["horror"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "Twelve contestants meet and the first round begins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 61,
@@ -1034,12 +1536,15 @@
       "duration": "1 hour 48 mins",
       "genre": "Horror Mystery",
       "rating": "PG-13",
+      "ageRating": "PG-13",
       "categories": ["horror", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 62,
@@ -1051,12 +1556,22 @@
       "duration": "1 hour per episode",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Context", "duration": "58 min", "description": "Commander James Reece returns home after a mission goes wrong.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 63,
@@ -1068,12 +1583,22 @@
       "duration": "1 hour per episode",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "The Human Enigma", "duration": "60 min", "description": "Two former spies are pulled back into action.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cintadel.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 64,
@@ -1085,12 +1610,22 @@
       "duration": "1 hour per episode",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "The Jackal accepts a dangerous new contract.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 65,
@@ -1102,12 +1637,15 @@
       "duration": "1 hour 28 mins",
       "genre": "Horror Action",
       "rating": "R",
+      "ageRating": "18+",
       "categories": ["action", "horror"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": []
     },
     {
       "id": 66,
@@ -1119,12 +1657,22 @@
       "duration": "1 hour per episode",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Forest", "duration": "50 min", "description": "Hanna lives in the Polish wilderness with her father.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" }
+          ]
+        }
+      ]
     },
     {
       "id": 67,
@@ -1136,12 +1684,22 @@
       "duration": "45 mins per episode",
       "genre": "Action Thriller",
       "rating": "TV-MA",
+      "ageRating": "18+",
       "categories": ["action", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": ""
+      "video": "",
+      "cast": [],
+      "seasons": [
+        {
+          "season": 1,
+          "episodes": [
+            { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "Agent Diana Cavalieri is pulled into a web of international espionage.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cintadeldiana.jpg" }
+          ]
+        }
+      ]
     }
   ],
   "users": [
@@ -1150,20 +1708,19 @@
       "name": "Admin",
       "email": "admin@eduflix.com",
       "role": "admin",
-       "password": "1234",
       "joined": "2024-01-01",
       "status": "active"
     }
   ],
   "categories": [
-    { "id": 1,  "name": "Trending",  "key": "trending"  },
-    { "id": 2,  "name": "Popular",   "key": "popular"   },
-    { "id": 3,  "name": "Drama",     "key": "drama"     },
-    { "id": 4,  "name": "TV Shows",  "key": "tv-shows"  },
-    { "id": 5,  "name": "Movies",    "key": "movies"    },
-    { "id": 6,  "name": "Comedy",    "key": "comedy"    },
-    { "id": 7,  "name": "Thriller",  "key": "thriller"  },
-    { "id": 8,  "name": "Horror",    "key": "horror"    },
-    { "id": 9,  "name": "Action",    "key": "action"    }
+    { "id": 1, "name": "Trending",  "key": "trending"  },
+    { "id": 2, "name": "Popular",   "key": "popular"   },
+    { "id": 3, "name": "Drama",     "key": "drama"     },
+    { "id": 4, "name": "TV Shows",  "key": "tv-shows"  },
+    { "id": 5, "name": "Movies",    "key": "movies"    },
+    { "id": 6, "name": "Comedy",    "key": "comedy"    },
+    { "id": 7, "name": "Thriller",  "key": "thriller"  },
+    { "id": 8, "name": "Horror",    "key": "horror"    },
+    { "id": 9, "name": "Action",    "key": "action"    }
   ]
 }

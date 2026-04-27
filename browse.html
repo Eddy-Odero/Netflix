@@ -730,7 +730,9 @@
 
     if (state.tab === 'movie')    list = list.filter(m => m.type==='movie');
     if (state.tab === 'series')   list = list.filter(m => m.type==='series');
-    if (state.tab === 'trending') list = list.filter(m => m.trending);
+    if (state.tab === 'trending') {
+  list = list.filter(m => m.categories.includes('trending'));
+}
     if (state.tab === 'new')      list = list.filter(m => m.newRelease);
     if (state.type === 'movie')   list = list.filter(m => m.type==='movie');
     if (state.type === 'series')  list = list.filter(m => m.type==='series');
