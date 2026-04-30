@@ -8,21 +8,21 @@
       "description": " Michael is a 2026 biographical film directed by Antoine Fuqua and written by John Logan.It follows the life of the American singer Michael Jackson",
            
       "year": 2026,
-      "duration": "2 hours 10 mins",
+      "duration": "2 hrs 10 mins",
       "genre": "Drama",
       "rating": "TV-14",
       "ageRating": "16+",
-      "categories": ["trending", "historical", "musical"],
+      "categories": ["trending", "drama", "musical"],
       "ranking": 1,
       "progress": 75,
       "newRelease": true,
       "embed": "https://www.youtube.com/embed/",
       "video": "videos/michael.mp4",
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",       "image": "" },
-        { "name": "",  "image": "" },
-        { "name": "",  "image": "" }
+        { "name": "Jaafar Jackson",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQQmnHxGh6E5-RYCiIZcgAl8N9W7jUcvZzYO-34GoYccpuphSBZHV3NPHbPUQtM72L9gYK5NOPxlhO7M2AkEV0jy6D7cCH2uK26IPoC-imdnexgLpRMSgOe5wwSXJRPVkqytsBWB_C7&s=19" },
+        { "name": "Miles Teller",       "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQW5Q_cpysxEAhXUBL6MOs5x-kmXItMISaZl0Je7LnwOpUirrnX0egikACBfwJFEL2ZLL_8bdKLSp-NJKAVWU2W_35Wco7ipH34NfycDq8Pl5_UT19TsHpHLCVIkk7zNMBs9zRTr3Qs&s=19" },
+        { "name": "Laura Harrie",  "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTGQji66el5tcU6Ju0UMLFUvYH_Ce5BMmwDwLIDD9VX3s3-uS60JPyzqm8Mv3s25FgCCGkhpVl8oa75ERtaPvGkYEPqc-6drdDyzqdJCMI8nNhgK2egMvmlznl1FDI11raihVx6S-1aiEo&s=19" },
+        { "name": "Colman Dolingo",  "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQIVyRoKf4Oa0-pF5_3jYzk2CIn_rPZpuegLfurnm8HhZ1Pkk7A2EYFzE0Bjt7U9fSfSds8qEDSPCyAROYK7Y6f0QyK6_R_nh1v7W99QLa62VWkDkMJ-EGDs24GRUI3lkeSeEYOK1wbqc-0&s=19" }
       ],
       "seasons": []
     },
@@ -37,17 +37,17 @@
       "genre": "Action Comedy",
       "rating": "TV-MA",
       "ageRating": "18+",
-      "categories": ["popular", "action"],
+      "categories": ["popular", "action", "sci-fi"],
       "ranking": 2,
       "progress": 0,
       "newRelease": false,
       "embed": "https://archive.org/embed/YOUR_ITEM_ID",
       "video": "",
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Antony Staar",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAM7dnNu1jAqMQN7YtztO9kdCnbHRxRSBwXcsmnJL81lGSJPXJt0-mm1wOfpYCh-4FMe54hE0iVA-3r7gUPbvyjVcoNqlqSsO6W__RHcH&s=10" },
+        { "name": "Karl Urban",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSHDNwOpY51h2aMaankxcStwBvlfoc1MEFXk90fN1T7aVxMW5FOc-m6VOYchdNBXQz5t0f9UVDYR4zSH3CplRuqEd3dQOb5uSgbtMxV-jHiPWgvh2YzOQ10iSVgPKrdU_TVOY-MGx2xJh0x&s=19" },
+        { "name": "Karen Fukuhara",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT5yjh0UdxX7C51oHdy0xZCm0JsSB7RS5HJkQ15SlrImJGgdxa82KBUIEX6yCk-cX4iTbqUj7uLvilRyijf8Z3NIOcaTpYdyWA2YZ2NQwUFfslmd9FJAvXij6yAsKVOh1MAOoIHoiuLWHtL&s=19" },
+        { "name": "Jack Quaid",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRhsYSOhgKi5oj-FMYzc_VYBnT-qdjtD1zQXVcrXGDMAkvlZNMrC79vWHCrbU-yPRCB8YZqHkbBecY729_wF_I6Tl7ww9_QDb_KheiSh1SzTefspEq_NgQTY4Lk8fa_KAT_2Wwag3KTY7Pf&s=19" }
       ],
       "seasons": [
         {
@@ -81,21 +81,21 @@
       "image": "images/avatar4.jpg",
       "description": "The next chapter in the epic Avatar saga continues on Pandora.",
       "year": 2026,
-      "duration": "TBA",
+      "duration": "3hrs 35mins",
       "genre": "Sci-Fi Adventure",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["trending"],
+      "categories": ["trending", "action","adventure"],
       "ranking": 3,
       "progress": 0,
       "newRelease": true,
       "embed": "https://archive.org/embed/avatar-fire-and-ash-imax-trailer-1-4k-prores",
       "video": "",
       "cast": [ 
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Sam Worthington",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQoH0kRN1_g1mzZYKwaydPn9InyI7Ccd3NMDSs2Z9nAgQNI4rx4YiPm83PHFvdRJ-MFkDIoASRvmvCOR1BIgxyvfr4H8Ivs6eunnR3TscCkg&s=10" },
+        { "name": "Zoe Saldaña",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuE0xUMXVRGITh0XVemHRo7dAkS4WV8M-rpQSPDuhSfqiWQJMxQAFNCaIXAmy6yWnxDm_g-GFvn_0esXiWl-O0LqYnoTfoyrEpJXlGjekK&s=10" },
+        { "name": "Stephen Lang",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTgW9fKgujPbc6axnYsRVzhcLAMaaDG22a7rQejSd1l-CrsWw9xUc5WcYhSZ9Nq5zAAfdNz1YQf0vhDPHA61RO4VI6Tmcme-Lg4vpfkZagrJA83VdJ3r8QXtI58FtliJqKc8vrwMdmAqjM&s=19" },
+        { "name": "Oona Chaplin",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fd8o2aawpgBS6oFSp99GCCUPaFmEFK92sl-Qp1_dVjy1dzvQ7ykQM3APqxYSIXuBe4QtzAcKHp9RcAZNPLEI6tgfOR4Jf4UGtEXujh0UVQ&s=10" }
       ],
       "seasons": []
     },
@@ -492,9 +492,9 @@
     },
     {
       "id": 17,
-      "title": "Avatar: The Last Airbender",
+      "title": "Avatar: The Last Airbender live action",
       "type": "series",
-      "image": "images/aang.jpg",
+      "image": "images/avatar.webp",
       "description": "A young Avatar must master all four elements to save the world from the Fire Nation.",
       "year": 2024,
       "duration": "1 hour per episode",
@@ -505,21 +505,27 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
+      "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+AANG.mp4",
       "video": "",
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Gordon Cormier",     "image": "https://m.media-amazon.com/images/M/MV5BNWNmYzYyMWMtNTE0MS00MGJjLWE5MGYtMWE2MjI5MDM4NGNmXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" },
+        { "name": "Kiawentiio",     "image": "https://m.media-amazon.com/images/M/MV5BYWNiOWYxZWYtMzdmNi00YmYxLTgxMGYtMTlhYTVlOTYxMjk5XkEyXkFqcGc@._V1_CR20,83,1176,1764_QL75_UX280_CR0,24,280,280_.jpg" },
+        { "name": "Ian Ousley",     "image": "https://m.media-amazon.com/images/M/MV5BNGM2MjBlZjUtMmM4Yy00YmUwLTgxN2UtODQyM2Y2NWRlZjNhXkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg" },
+        { "name": "Momona Tamada",     "image": "https://m.media-amazon.com/images/M/MV5BMjRkMjEyM2YtZDA2Yy00MDk1LTkxMTEtODAwY2MzNGUwZDNmXkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg" }
       ],
       "seasons": [
         {
           "season": 1,
           "episodes": [
-            { "ep": 1, "title": "Aang",        "duration": "52 min", "description": "Two siblings discover the Avatar frozen in ice.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/aang.jpg" },
-            { "ep": 2, "title": "Warriors",    "duration": "50 min", "description": "Aang and friends visit a Kyoshi Warrior island.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/aang.jpg" },
-            { "ep": 3, "title": "Omashu",      "duration": "48 min", "description": "The group travels to the great city of Omashu.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/aang.jpg" }
+            { "ep": 1, "title": "Aang",        "duration": "1hr 3min", "description": "Two siblings discover the Avatar frozen in ice.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+AANG.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 2, "title": "Warriors",    "duration": "47 min", "description": "Aang and friends visit a Kyoshi Warrior island.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+EL+NORTE.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 3, "title": "Omashu",      "duration": "51 min", "description": "The group travels to the great city of Omashu.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+EL+VIAJE+AL+MUNDO+DE+LOS+ESPÍRITUS.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 4, "title": "Into the Dark", "duration": "55 min", "description": "While Aang is held captive, Katara and Sokka navigate a dark, dangerous tunnel.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+EN+LA+OSCURIDAD.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 5, "title": "Spirited Away", "duration": "48 min", "description": "The group enters the Spirit World, facing dangerous threats and personal, painful memories.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+GUERREROS.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 6, "title": "Masks", "duration": "48 min", "description": "A desperate Aang visits Avatar Roku for guidance while the Fire Nation closes in.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+LEYENDAS.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 7, "title": "The North",   "duration": "56 min", "description": " The group arrives at the Northern Water Tribe to find aid, but find it under threat.", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+MÁSCARAS.mp4", "thumb": "images/avatar.webp" },
+            { "ep": 8, "title": "Legends",  "duration": "52 min", "description": " Zhao leads a massive Fire Nation attack on the North, leading Aang to enter a powerful state", "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+OMASHU.mp4", "thumb": "images/avatar.webp" }
+
           ]
         }
       ]
