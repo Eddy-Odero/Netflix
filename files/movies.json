@@ -16,8 +16,16 @@
       "ranking": 1,
       "progress": 75,
       "newRelease": true,
-      "embed": "https://www.youtube.com/embed/",
-      "video": "videos/michael.mp4",
+
+  "trailer": {
+    "local": "videos/michael.mp4",
+    "embed": "https://youtube.com/embed/3zOLzsbOleM"
+  },
+    "movie": {
+    "local": "videos/michael-full.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+
       "cast": [
         { "name": "Jaafar Jackson",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQQmnHxGh6E5-RYCiIZcgAl8N9W7jUcvZzYO-34GoYccpuphSBZHV3NPHbPUQtM72L9gYK5NOPxlhO7M2AkEV0jy6D7cCH2uK26IPoC-imdnexgLpRMSgOe5wwSXJRPVkqytsBWB_C7&s=19" },
         { "name": "Miles Teller",       "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQW5Q_cpysxEAhXUBL6MOs5x-kmXItMISaZl0Je7LnwOpUirrnX0egikACBfwJFEL2ZLL_8bdKLSp-NJKAVWU2W_35Wco7ipH34NfycDq8Pl5_UT19TsHpHLCVIkk7zNMBs9zRTr3Qs&s=19" },
@@ -41,8 +49,14 @@
       "ranking": 2,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "https://www.youtube.com/embed/XNQbH1SDPRk",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/XNQbH1SDPRk"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "Antony Staar",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAM7dnNu1jAqMQN7YtztO9kdCnbHRxRSBwXcsmnJL81lGSJPXJt0-mm1wOfpYCh-4FMe54hE0iVA-3r7gUPbvyjVcoNqlqSsO6W__RHcH&s=10" },
         { "name": "Karl Urban",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSHDNwOpY51h2aMaankxcStwBvlfoc1MEFXk90fN1T7aVxMW5FOc-m6VOYchdNBXQz5t0f9UVDYR4zSH3CplRuqEd3dQOb5uSgbtMxV-jHiPWgvh2YzOQ10iSVgPKrdU_TVOY-MGx2xJh0x&s=19" },
@@ -89,8 +103,14 @@
       "ranking": 3,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/avatar-fire-and-ash-imax-trailer-1-4k-prores",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/nb_fFj_0rq8"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [ 
         { "name": "Sam Worthington",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQoH0kRN1_g1mzZYKwaydPn9InyI7Ccd3NMDSs2Z9nAgQNI4rx4YiPm83PHFvdRJ-MFkDIoASRvmvCOR1BIgxyvfr4H8Ivs6eunnR3TscCkg&s=10" },
         { "name": "Zoe Saldaña",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuE0xUMXVRGITh0XVemHRo7dAkS4WV8M-rpQSPDuhSfqiWQJMxQAFNCaIXAmy6yWnxDm_g-GFvn_0esXiWl-O0LqYnoTfoyrEpJXlGjekK&s=10" },
@@ -114,13 +134,19 @@
       "ranking": 4,
       "progress": 30,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/ECI3eCAxRGw"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [ 
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Ella Purnell",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvulGwdeQYouSfgE5qt72Yn9WgVl9zkl0cKX8vvAzBGScMFLkrHf-yHUBlogKSUBXDwST1IuUW58KZiqtRV982dlbraNunwV2SaISXZUxy&s=10" },
+        { "name": "Walton Goggins",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ez_wYkdaJU6xHiYXZNQbxnGjCtERg6eQrctjsrap6idqfWly1m5Zl78QFL9COCfYQFBJFoA_g5BngB7OjXjKxJ4zeF4sYRZ3SfOsARq1-w&s=10" },
+        { "name": "Aaron Moten", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dm-hiLvZPI_lu6g9xOFLV51iTRvxSCC_rAKqqTWg5-mFdzOktuNANcUzf42bB9G54XVQWoFEjgthC8fcfi3sDRjMQZ3hmlivJpqET4cv&s=10" },
+        { "name": "Moisés Arias",  "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTbg_MsUfB6KUrXYJ4qpeznbWhEYoQsGi5VW0U4HaikgmPBAjTdWRRMe6s8hwWmgmvPdy0Hg8JV5if1vNvad_YJyDUHimJ5q6OknZPHlF5e4IlhmNVSgp8sqBsurvqfbe9tzU1OxZMnFRvi&s=19" }
       ],
       "seasons": [
         {
@@ -149,17 +175,23 @@
       "genre": "Action Sci-Fi",
       "rating": "TV-MA",
       "ageRating": "18+",
-      "categories": ["trending", "action"],
+      "categories": ["trending", "action","adventure","animation"],
       "ranking": 5,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/ZnfUeVeMKjY"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Steven Yeun", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rI_jR6fj_gKPXehEN7DCoYqLBq0S7TEOU5B95yu71d62W6X8FSvy3dyMhRywk3U_V2tvfn3To0ynYThhROX5wKqPb50VTOzCgJMeo_3xiQ&s=10" },
+        { "name": "Gillian Jacobs", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEVLCm57YclaEQ4RhTOYRa5ShaoeA-hLchwQUfUlIoJ5-XRTb8NNwm3w2FrLkjEDTnYBdW4R6QJRCGCvn2o-ojjmLWiG8GETXdks_S0AHb2A&s=10" },
+        { "name": "Seth Rogen", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT2avAqmK3VKDLCypjRySuErVwdHGS5WgKxtEMT2jtp9I7OWdB1P11pyph1hHamX5FlldvtbKSalauYXqIuXmNzvJEifwaXSq-72rFIAgvswQZj6GT9bR1F1H0LGqwzbVlIqBPwjrMLst0&s=19" },
+        { "name": "Lauren Cohan","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5GbatXx9gAJsziyR49pGjEyfFQwdzdy-4lDQ3lMblQ3BiCgyzz6kZ3l7mx8sZ7XLJfAOdlR6xkPBcQreveXABJq5EXzErMsb3RrWjMGz&s=10" }
       ],
       "seasons": [
         {
@@ -190,17 +222,23 @@
       "genre": "Action Thriller",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["action", "crime"],
+      "categories": ["action", "crime","Mystery"],
       "ranking": 6,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/mqqft2x_Aa4"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Robert Pattinson",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSNc0Lmgit9HRFaMszQxmiA6xeIco9szBOQ8xk0JMcpq_FqonqE64STJGgJKOEHvn1fM3BJsHakGS0fQQAS6p-jMTYBAWricvkcTz9VT6YU2eEDqcPI4t5R4Ljfp1qehFIBK8iOGhJgw9Q&s=19" },
+        { "name": "Zoë Kravitz",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSlfSoLr9WtTDHRVuRMOhjphuE5LErBSMk1cVmsvJ1x9dJ1OzMh40HqrIXWdFyCWFGaD1XGNPyI82S0GNpemq_RHdAYgCzQ0C7bRfTKNkR&s=10" },
+        { "name": "Andy Serkis",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKh92Xl_-El1F6A1gDoojJxo3_9hn5u-5YW9hGl21TZtG-W9OXsQxLnxrE60O8gT_bqYooZwF8a7GJnjMS4noYTQHq-pxuexqNEIjId-8pA&s=10" },
+        { "name": "Jayme Lawson",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpkRvjard1JatjpLPriS3SGq1XHJ15X3fqYHQjILE4-zis_784sNZarDzniLoyrcZe0XJzTeMt_lx5Qf1CD66rrTlosS1Is5KQuOb6YZAo&s=10" }
       ],
       "seasons": []
     },
@@ -209,23 +247,29 @@
       "title": "Odyssey",
       "type": "movie",
       "image": "images/odyssey.jpg",
-      "description": "An epic space adventure across the cosmos.",
-      "year": 2025,
+      "description": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Circe along the way",
+      "year": 2026,
       "duration": "2 hours 20 mins",
       "genre": "Sci-Fi Adventure",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["trending","adventure"],
+      "categories": ["trending","adventure","fantasy"],
       "ranking": 7,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/Mzw2ttJD2qQ"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Matt Damon",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNble9bdU79tZgoaKg2qVTpODioD25Zi01GkMuDE4r77-OHQ8Hu3yDsLp7uHD0CrnxZ57x5bD_VxcgIHPm8uyIDyiOzeRTEACMqlECLk8jw&s=10" },
+        { "name": "Tom Holland",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1ieRsKqXhVoJWhA2ca_sx0tPn0C_mtYiTmerYBINXGGfkaPEU4iV1xl6stOZ9STwxud7c1CzUstGWP8JMaCViQSSqjViGKEvGdOJQNjj&s=10" },
+        { "name": "Elliot Page",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKESki19GNhAn4Sp_RGRTJzHLpSuAk-0BvpiHt7KDnUDV4T1l29pldz-tH92R-GCDRlagYeaRAblKAXzkAYIj5LCKV0O1AaIORguRsMKa9A&s=10" },
+        { "name": "Robert Pattinson",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSNc0Lmgit9HRFaMszQxmiA6xeIco9szBOQ8xk0JMcpq_FqonqE64STJGgJKOEHvn1fM3BJsHakGS0fQQAS6p-jMTYBAWricvkcTz9VT6YU2eEDqcPI4t5R4Ljfp1qehFIBK8iOGhJgw9Q&s=19" }
       ],
       "seasons": []
     },
@@ -240,17 +284,23 @@
       "genre": "Sci-Fi Horror",
       "rating": "R",
       "ageRating": "18+",
-      "categories": [ "horror"],
+      "categories": [ "horror","sci-fi"],
       "ranking": 8,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/OzY2r2JXsDM"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Cailee Spaeny",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHpwFFuIjOvRh4ykhLmxDEUUB6dd4jTd1NBFWii2OiCjXF23OWlriuXz3_fvhb3sb63WwJhkSHSy3Ctj7QUkNin2K7QZ1xqC2TXzclMiH&s=10" },
+        { "name": "Robert Bobroczkyi",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT320h6FPr16yXnLcPubXrd33BRMFX0c_QxBSy7fVEwSs9KnXD70Kq70ELeh291_yMc30WiTNYh7kSSxw0JWPi8HDssDtJl249mlLl3WTA_PQ&s=10" },
+        { "name": "Isabela Merced",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0tBXJwn38AbdbZB3L8YRd6GAjU0nn-kDvGYrOu_msOMpA70-Bbj7JjCK2MHTD4XHzX4EOp5IcJTVeMru2lPpXklTkB3bxZsmy3jwsL-f&s=10" },
+        { "name": "David Jonsson",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT-35ULKcwKGrf9ggNmWdGacK_59tVgMdXAqrgwYBfHDvdeHB7DTrZ2FnG_dP4oMEVjF_KSUeWV-GvUerdqJUpbgoTH3jY9OA_mnxyWB7&s=10" }
       ],
       "seasons": []
     },
@@ -265,17 +315,23 @@
       "genre": "Action Adventure",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["trending", "action"],
+      "categories": ["trending", "action","sci-fi"],
       "ranking": 9,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/aBlsrtxuwss"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Sadie Sink",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIeNAaS2XHRtGvW6fXEaonnkl-mKMOZAWvGJBAOc3SiPveD4YYvxu_vOaymg-3eyevuoTGibZbDj3m2q-oUHZb5y7cym2Ty09SseJ0FtnSaw&s=10" },
+        { "name": "Tom Holland",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1ieRsKqXhVoJWhA2ca_sx0tPn0C_mtYiTmerYBINXGGfkaPEU4iV1xl6stOZ9STwxud7c1CzUstGWP8JMaCViQSSqjViGKEvGdOJQNjj&s=10" },
+        { "name": "Zendaya",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSGk8UXv9BrA6sJxZpKqhuaFuQDEJwJRFxE-GQ9QGbE0JD-xt0y_ONwiVCgPGM8B_Tek19tfHOt9zMECn4foBj5r_ZcSjXNbYwnkdLtETV57FqYJBLw-qWoFleMojjcd-IdzjQ4z1gbEhLK&s=19" },
+        { "name": "Jon Bernthal",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeUMVW_dNlsU5khRRNHBrhbQFJKayX90M43VZLpqvIgkVCRjW29Ea2uJXkVB3pH-kldNJnIpkRvxA_vhlG3GGF1rojQYYoLTRNTCxFhJ_5w&s=10" }
       ],
       "seasons": []
     },
@@ -290,12 +346,18 @@
       "genre": "Adventure Thriller",
       "rating": "R",
       "ageRating": "18+",
-      "categories": ["trending", "fantasy"],
+      "categories": ["trending", "fantasy","adventure"],
       "ranking": 10,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/sItUCKJQLTU"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "Peter Claffey",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQML75i7C5vj7hZZEP_ApkZVYUEERxHU3QOF7_bKWb0g0JOKAANQDclCY3rQzEXojkOWrt1w_yrpMu8n6NxhSRZ2VvvoB0yBQWf7H9OCbRCSA&s=10" },
         { "name": "Dexter Sol",       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NPgdsB0-iRbWxpFBAvVALvQ38XYFxtvr87I3R6wiUk27LVJ9So3L3HKWqXBgbM1XelOx0yoZziJdvLQmEPX9Mv13dlf3uR5M4nuXnGNk&s=10" },
@@ -306,7 +368,7 @@
     },
     {
       "id": 11,
-      "title": "Scream",
+      "title": "Scream7",
       "type": "movie",
       "image": "images/scream.jpg",
       "description": "A masked killer terrorizes a small town, targeting teens who love scary movies.",
@@ -319,13 +381,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/UJrghaPJ0RY"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/"
+      },
       "cast": [
-         { "name": "",     "image": "" },
-         { "name": "",     "image": "" },
-          { "name": "",     "image": "" },
-          { "name": "",     "image": "" }
+         { "name": "Neve Campbell",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkCFAQnq-jAxf16ZJhbKjkk9ZVZc1IkJNHMjqmN3mL7NOYKimLi_Mt3enBnUe2EDdMXKAo-a15S23xkpwJe7fUUuyD1tuFJoqzEeUlYdaTQ&s=10" },
+         { "name": "Mckenna Grace",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgt9zukB-PSe7qTopupdzh1UfeutFJSwd55LrdQeqDzPfou6UWqWeXrMN6fCywWtReuYlr4Qc-W87BChvD1LkRrLmVAmTprQfHgrYNT6du&s=10" },
+          { "name": "Matthew Lillard",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlmdBFHJKK8Sc3qIunDcYnSsuvUwiCd2VBXMOJbs_FzJZDyYRor4AQAtEV4evkoEAmDQrGcJHnCJxn_xDpF2tbx2ZKiiDv_bvGcZDEujkv&s=10" },
+          { "name": "Asa Germann",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNVVmoHakCowz4uP4bsG48nAoVcJdgIfJi9BWuv20NTCVBbG48i4S66LXR8S_DgcGUWv2mkr8dgFcULkNKml8UlIsOSels82pkzPGqOCkW_w&s=10" }
       ],
       "seasons": []
     },
@@ -340,17 +408,23 @@
       "genre": "Sci-Fi Drama",
       "rating": "TV-MA",
       "ageRating": "18+",
-      "categories": ["trending", "drama"],
+      "categories": ["trending", "drama","thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/CLJDR-vFUdY"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Rebecca Ferguson",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTNJvRa-EHDYyOuPM93Y9hohEli6lqltzW1j-qF4DQY9i4OWg5zkqhxGqxLNObXBQoIppwNrR2apKF6l8NmwQYxvf3BhtsuT7YsxzhpV1MSuWiuAuht_BTYjWSf3yRj3taFNSbQTNYl_tw&s=19" },
+        { "name": "Steve Zahn",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0eK9tT8paK5dcoAvGDlnC9IM1amCkTqeNHm_vrx4oc2okotpmJ7k8yQs5xYhfaUlBv3Zz3TNbHRbsWMyDSgC6PlbjfgeCxfKGNNnH3KxTHQ&s=10" },
+        { "name": "Rashida Jones",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVyE_1d4yVTy2kqFdcCUiRiDYWYlb4bK-OQ_e-8tjMaEbbUtXsZy4Qcz2y4LhAnKmdWu4jAzJx2kWtdsA14y8Jf3hU0IH0w7AAle1Ygh9jQ&s=10" },
+        { "name": "Iain Glen",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtqYykdQvU9SmXElaZ3aqtR_3-lwiuug4IeyDS-v6hXg9yAE0n0KFNKtGtCvOPM28Rynz2d9G2GqisGK2elplAi4H0IMXrtjrmVY9MnRwD&s=10" }
       ],
       "seasons": [
         {
@@ -374,17 +448,23 @@
       "genre": "Fantasy Drama",
       "rating": "TV-MA",
       "ageRating": "18+",
-      "categories": ["popular" ,"adventure"],
+      "categories": ["popular" ,"adventure","fantasy","trending"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/5X1dMFuHZhc"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Emma D’Arcy",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpRcqM4mjZAgVNXpr7DMNW9OTDdLVFG7qnt_z5iswIkAtcK5r0C1sjL4bxWydZgkyNbrLUFH6DK6hhYuyqla-OoiKblL6Y_9qEx-Qh8_udyQ&s=10" },
+        { "name": "Olivia Cooke",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHzV6I-NePrxozHi0KEn8dU4E6z_uQXO8ohs3d7oEoWT12VbLc_q6d7LyiG4S-zUhWx0TIVZMQeMX3KIjVruxNbzcBdY2yL7WgPDmwgwrb&s=10" },
+        { "name": "Matt Smith",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_4N0g9_ncVrzqBwCYCTANTVNgeFwscNINaqzReYMx3u_aaR0HxhjLYCIssK2-mNDrY-XvsJtzOplGy3hXK13PBf9iY1AMmZVZcv_y4cfMg&s=10" },
+        { "name": "Ewan Mitchell",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSv9BzxqEBgBSgEaEV6J6ptbB9lIdPO-kAt-y0Dp05MLYkij_fCVte-k7wGKMsumRwPX112bMTJyc0fbE0dquaCW8RQS2D1qy75WBr8qEHA&s=10" }
       ],
       "seasons": [
         {
@@ -414,17 +494,23 @@
       "genre": "Sci-Fi Drama",
       "rating": "TV-MA",
       "ageRating": "18+",
-      "categories": ["Sci-Fi", "drama"],
+      "categories": ["Sci-Fi", "drama","Mystery"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/LfnO_bHVWHA"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Eiza González",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSTL1TAVIvh2FYN3F0SyBj96RNDSSWWRtr9wGdwUWqNSS0J3jdcfb1yorgV69SboUOXpIJiqzR4CWfxzEdXKSkOyWQQ90H1_sGgmacnS7gtbRq1y1ZLoPg9rlHrCWMvrKXklKXDe5NNGsv9&s=19" },
+        { "name": "Marlo Kelly",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcvRziTJQst8SzjNeAeaADWequSar12nv7lIPkcWCJ8XdIUhsb8ZJlsTVD2KafkXyBW7FAZSYbqCjvwa24c2w0WVh2lnHMHlsrCVq4rQdA-g&s=10" },
+        { "name": "Jess Hong",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqu6DsQai2mdlVbUfbiM-MFeQ2lZNEbyJ7FWsnPl9_VAFkSETFTpf9flyPSY5UNAVGnZVrYD-UimC87YoLszHIUiT7RRrIHNZWfq8PpQcT&s=10" },
+        { "name": "Liam Cunningham",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMzQCOTTT8d3dl9DSchocghPbCffHSox6W9tOVPaaenY3vzEei8JLosmHNfUoGXxFNBdhLeYaiaJ6vEJOmJT3xhRKPsAiLUAdeWl7m4kty&s=10" }
       ],
       "seasons": [
         {
@@ -452,9 +538,21 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
-      "cast": [],
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/kRDBWayvE5Y"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
+      "cast": [
+         { "name": "Sarah Catherine Hook",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMPQg9YyW9BzVKRKVbpZdfxywWMzVw8rgvHTYDVnTHT_tr36fu7VQw2Z3XQT0Y-RA8uuPTQWJxZPgANzCBArdfRzZVRl-Mlc0eNAn5frSKg&s=10" },
+        { "name": "Imani Lewis",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS84z2PnR6cwDnR5s7_K4gI0tKsaHvv6OZGn3WrB45-wXaIxoA-TAFfpI7Te_mAhvfg8f49DynWa0bqd3g2zx_wveBCBLnEM837N-RUIW3M_g&s=10" },
+        { "name": "Jonas Dylan Allen",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXt3D9tCGfctSfSEe918TP3332szWipD2tgNUkE8pAaNr1aFsNGRlXs6gj6mRZXuHR_qMcLzv8BK3-OlHIiWnVixsn5uw7ZYfMxK1k99UXw&s=10" },
+        { "name": "Jason R. Moore",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSkEtjnECG_2pLmQ_aJvfes1DyelWprCMuCu73IatEqidMiUGhgL52MC-gidKSJfcnu1ePRQRBmfygrJyDaEAdo1_vceen8_IFQ-_S7S1RUr1dTRXzJmAv2v3iqIAl8dj3KS_PDVG4MoI4&s=19" }
+
+      ],
       "seasons": [
         {
           "season": 1,
@@ -480,8 +578,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/YdHjbI8w9mI"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -505,8 +609,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+AANG.mp4",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/oZoZ1ivUdjU"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://archive.org/embed/avatar.-la-leyenda-de-aang.-leyendas/AVATAR.+LA+LEYENDA+DE+AANG.+AANG.mp4"
+      },
       "cast": [
         { "name": "Gordon Cormier",     "image": "https://m.media-amazon.com/images/M/MV5BNWNmYzYyMWMtNTE0MS00MGJjLWE5MGYtMWE2MjI5MDM4NGNmXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" },
         { "name": "Kiawentiio",     "image": "https://m.media-amazon.com/images/M/MV5BYWNiOWYxZWYtMzdmNi00YmYxLTgxMGYtMTlhYTVlOTYxMjk5XkEyXkFqcGc@._V1_CR20,83,1176,1764_QL75_UX280_CR0,24,280,280_.jpg" },
@@ -533,25 +643,31 @@
     {
       "id": 18,
       "title": "Sand-Man",
-      "type": "movie",
+      "type": "series",
       "image": "images/sadman.jpg",
-      "description": "A deeply personal story of loss, grief and unexpected redemption.",
+      "description": "Feeling a bit rudderless, Morpheus shadows his hard-working big sister, who offers him advice and encourages him to reconnect with an old acquaintance.",
       "year": 2023,
-      "duration": "1 hour 45 mins",
-      "genre": "Drama",
+      "duration": " 45 mins per episode",
+      "genre": "Mystery Adventure",
       "rating": "R",
       "ageRating": "18+",
-      "categories": ["popular", "drama"],
+      "categories": ["popular","adventure"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/Z6pdYkqeT7A"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Tom Sturridge", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lFTir2g48GXwCjXnbu0BDnrgZeKQJYVwSeiTinSaH_juDBiH3_h6YVRzDprghSQUC53tWK04UOI_ieXgcv_JllcHYBzU3PGs9GHgU6bEow&s=10" },
+        { "name": "Jenna Coleman", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQCt7mSSSA6yi5ru5-WqK9JCSHhEMCH0RpbHJDD2rf1gmaZvUcNk5d3PqfTQ4Fi-4xdmRU_j1c_hjwNTrMO94no92I9mHZvwk-wjmbGHh&s=10" },
+        { "name": "Gwendoline Christie", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqmp3z4m9-E1nGezkClCXYmilE968E9ThcDuYqNdmaby_zEgYb0oTw9RwW36Rqp2YRIz0hpK4fWnqd6v-6fNTGOR4C35GRjrt8Ma0GJQjW1Q&s=10" },
+        { "name": "Mason Alexander Park", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf_ONhBZDQUM2miKruBUGmWBqquIDQ0WedAfiYtkTCUkX0F0ls-GGLMSocXfuJFrPjyMvId1HUsZWK256QDa2HXBltqYzonwHG3MKXrDTfhA&s=10" }
       ],
       "seasons": []
     },
@@ -563,20 +679,26 @@
       "description": "Wednesday Addams investigates a murder spree while making new friends and enemies at Nevermore Academy.",
       "year": 2022,
       "duration": "45 mins per episode",
-      "genre": "Mystery Comedy",
+      "genre": "Fantasy Thriller",
       "rating": "TV-14",
       "ageRating": "14+",
-      "categories": ["popular", "comedy", "thriller"],
+      "categories": ["popular", "crime"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/ueCc-AYUMRs"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Jenna Ortega",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xr-NT-ih-EwOy7DQp4KRYKgMqixxUJgAH5B-_DX9rz3VD82iMUIlCJpZaiEpG2ri2ArK1B9D7IznBMenrgSNxTkBJ8onlY9GP8giPTdN&s=10" },
+        { "name": "Emma Myers", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg4kuVRBO_9X3gVb62hrzESYJFBxmLrb5tQqCNFBVov4cGz0GPP2ZK3ExvmklFo0MLQ331LLfWgAtt15ie90wvL9nVY4ekBeDcueF8sGI4&s=10" },
+        { "name": "Hunter Doohan", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_6hMtDPH0o_ArjxbMvZBkquXGLp7yWntz-WlgaWLwPUoKiv9HcmTyoQfQlzaJeev2A1y-iAuXOikvVuUZVYxpXyjQooO7R24lyjtLI5lrQ&s=10" },
+        { "name": "Percy Hynes White", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsEaK3rsQMHDf_Ioxg8mu_pVaRCHyPR6t9jh7GqbcKjux2qvdREqrP4qw6cTffE2F8JtNz8KU4Wa4SnZTvPE5aaqWXITvsQQDB5pX-I9b7&s=10" }
       ],
       "seasons": [
         {
@@ -591,7 +713,7 @@
     {
       "id": 20,
       "title": "Furies",
-      "type": "movie",
+      "type": "series",
       "image": "images/furies.jpg",
       "description": "A fierce female assassin takes on the criminal underworld.",
       "year": 2023,
@@ -603,13 +725,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/b9K-nKECgxw"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Lina El Arabi",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbixyUQsO6nNHR312JSRTXedgKmP6KlZTaZep4wZ5G2w4TJ4iHlchIBsnQzYfVdE-wak0jXYIJsIEYA2ysYTgIwXtDDfJPfKWDUegKPNs&s=10" },
+        { "name": "Marina Foïs", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTye5TeZjSohGKL0IZOIGejwltu9zPh7OL8eUuaHUnuqegOLHWgnAxofFuQDMOAkCkBNpG3i8ODvrRLt6V6O1_a42CPvrwJ3lo81KV2ZpPSG_1J_km_b5NgEtBW6_RCaiD-DmUaC35117dE&s=19" },
+        { "name": "Jeremy Nadeau", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWruUx3YAVCdcJVjwD6MCZW1nj-dg8MXyEmFA-yrYW05gbZQw8jy8XjRxwbRHTQxHqtuzpx4PnOr2LMEKJiDt4ekClpRsfR8gNMPj7nOR3&s=10" },
+        { "name": "Quentin Faure", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlsnaprsvy0ae76u4k4uYtPxXddVm1sdoUlE_umtsNNa6QhWRAUQy8EcKM4m-0KlKIpJhaARknzUrxQm20wUrkEykpcA4K5WCgkt_VYFKHvA&s=10" }
       ],
       "seasons": []
     },
@@ -628,13 +756,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/IN5TD4VRcSM"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Park Solomon", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjGGZb9u3AvvX1TjPM95nzub2_35Jkk0-66SyNNRvtmKeu8svgSNeTY9Y7G1pstngcSRP5P2y48kFfI37oJXFuuu1LLFDGzoWlnjyvaL5h&s=10" },
+        { "name": "Park Ji Hoo", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStLFbUIHcQ3xwvKMwWuaLvgru777PhFTYlzq-qJr0lEvQoW_oaIY_FupKzdRHFLlOUN7FBygBAzbtR6gejKQfXMwh7BSeii1BhV_T0sAYM&s=10" },
+        { "name": "Yoon Chan-young", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7VM4ExncmWBPnipK9BFKnWW-Io_vUaBhmx5SVR2fKrLyp15SlIOMzPmNnQ7s6PMvESmmduhFP8v6R3WDTX1tz-EifeNS7DZHDxEPR4Brvw&s=10" },
+        { "name": "Ha Seung Ri", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsg0QR69DXkktLwvuOZ-xEzF1kn23IC_Hz01BmnQQS0KCr-tb_mzmq4V8U-KAgv_aiNVOqCQyMadeiA-Pjuwq5Dg_SLJSs_L5Ms9sogenILQ&s=10" }
       ],
       "seasons": [
         {
@@ -657,17 +791,23 @@
       "genre": "Horror Thriller",
       "rating": "R",
       "ageRating": "18+",
-      "categories": ["popular", "horror", "thriller", "trending"],
+      "categories": ["popular", "horror", "thriller"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+     "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/bKGxHflevuk"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Michael B. Jordan", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR1t9zqLf2CuD4n_xmhdl-xB-k8yHdyjM7d8ZWi0DsvFrbkdUDZ5SSCi6V9KmpZQDorF5J1tbSXZ-hvQ1fqJjaFe4fMipJ2_vhxyNxt4VE8evfTyWa0K0sPHCnqi6aMHSveITxfon5oyFg&s=19" },
+        { "name": "Hailee Steinfeld", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblRVH2iYJy-tzWbwt4i9oLeO7sSkG5CQd2VEvhG6gAMwbq637UToBtTG9sImiRhRqdIOcgmFjZsp6VWeT-3IJkuV482iEw14JA-nAECGx&s=10" },
+        { "name": "Wunmi Mosaku", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6erCf4LKN60SAq2xrkUpdbN1hY3Ptqrwmn1Msfzg_cg_AUSfDq0g8TO-KHnwNPuv_aMl7HR88-PRePs-p3jKUyB4TS_BL6977eQLh0ZMd&s=10" },
+        { "name": "Miles Caton", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFCy0B6aB-02_TeDnxabJv9g_RjwZJ64leDqC7mO1gf-hp-Yp1vkWZ3gVf2TXJKre7KrpCE6utTKI4BlBGXqkg6dk3slD-DbZ_vsUdBwp05g&s=10" }
       ],
       "seasons": []
     },
@@ -686,13 +826,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/F8pum4jbpnw"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Taylor Polidore", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU26X7NPxsmWH-WguA9tq1YtcXy8LrhhQcRMi2RAzGrp8JOG38rN8u05ocbhJJ3wQE6v_PqSxy4eES02-Byd8rlTuAxxExvY4wogK9VeGx&s=10" },
+        { "name": "Crystle Stewart", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSkiIQEXk-snElo2jYI-IDPTLjbqLSrBNOIob4AfzVKxfkzrZ4p-qu1SlRJSEuayp9yX67FQCoc5vu9H8TX6QJLESBz9au3QuImS1cUlHiDsv_xIXiXwmzxplikJKIzm00YuyAWG_TdGyI&s=19" },
+        { "name": "Julian Horton", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZwpRYKrd3k4N8XlM3pD3OWgWcKbnb8Ymfre0dApm2yfSiD1ecGH_sB0SlkiwGGM_KI9MZFYdVSNElAK-H907AwLxw7PNgFHmIZv218nP5&s=10" },
+        { "name": "Ricco Ross", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRrE_VAZ73-etuf6QJcVF9yVDlG4JmUmE9qyls-uAx_S-5GN3nYZf9T6Qsf1spTJkOvcSccHzfIgXY9W_fICQzT2mkFXRUoZuFAbgiCWV3hLEwhyJAJZ2MjSpYF2jXwSB-fQCt2oI4fCz4&s=19" }
       ],
       "seasons": [
         {
@@ -719,13 +865,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/r3Z4tGN0i2I"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Zendaya","image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSGk8UXv9BrA6sJxZpKqhuaFuQDEJwJRFxE-GQ9QGbE0JD-xt0y_ONwiVCgPGM8B_Tek19tfHOt9zMECn4foBj5r_ZcSjXNbYwnkdLtETV57FqYJBLw-qWoFleMojjcd-IdzjQ4z1gbEhLK&s=19" },
+        { "name": "Sydney Sweeney","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zkpjbw25dmlOijrSIDjjU8x7NcynR6pkYwdby_DrCLWxlcF-gyhpkMUY9Qztbdy5khmbIgXt5jxMhMd7ggab4CizPDLkcpvXCvqOU50o&s=10" },
+        { "name": "Hunter Schafer", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQu6NJlM5PhxJVfJuD5mR9CNbz97Sozg9h0dJHwBrV0K75ogNgG92wYPhkrhDF8rN0JJrk7hweW2yoPmYCDnLJytJsZyeolYCKFVZ3sE6RFpwexCHJ9xLpPJED3lMUwMPrhwVmIdLB4Chc&s=19" },
+        { "name": "Jacob Elordi", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDQBe_uVs43_CFv2WtqBVCBFTforD7_Jj-NpfUuJEpZCMDnSnmzEG7uHnAEY3lURnySqUAo5RCcg12U6d_pm7yFPLMYKHcScp2rBcUCWhN&s=10" }
       ],
       "seasons": [
         {
@@ -758,13 +910,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/T-tsnIjKV58"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Antonia Gentry", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKBP6fR9iq8vQG-W6NfjIZWdu3A5kdyVAIIY7JuXFPkfeYHLhmYnwyTaHstJmIACla583KgXzePh5gSHSiXYRzwnYLq1ka9PV88JGA-Btjg&s=10" },
+        { "name": "Brianne Howey",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglIm9uJWQNNY3EuaSUwclkq2eKXszjShJ8o6mJ5wHPNbWrvIayT1q5X1Ztx7VoXP7Tg5EM6VFukMeUcc5fgJV48drvpRNPsm6I-VasTLPMg&s=10" },
+        { "name": "Felix Mallard",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBh3xhDjyO7iEgKxKndbtmMWjWecfmQuvBrUZYVyXjXoCZA1akYUzGK1amkhkptqnFrlIa8kNMwcOb9K5DSl-f4mimk8Zamx1m6IKcrRQEqQ&s=10" },
+        { "name": "Sara Waisglass",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFL11JPtt1VRh9n-jVik0LU9UtNKKYOt8ClMonbMKcHNESOsnyNtnufe5PjxoYqcpEShiNQ7JjxHkX1gVuK3buxzuOqy1wS9CM29YQuazTHQ&s=10" }
       ],
       "seasons": [
         {
@@ -791,13 +949,19 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/dXpa5PrtuP0"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Ayesha Madon", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQzO5VhsjpV4T-NqtysXfzm9K7ARF-a-oKva0Q9AsnHEDlZIZkIcSjCfdO4Nc7zmChJWlDHZTlnChtoB5B1mLyXDaJjDg306124WnpRHO&s=10" },
+        { "name": "Thomas Weatherall", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT0FKnjV3CCGoB-mYVAf8a5vj7yWg8WejvPy3usw8dzmD1RzH2ypM8pbkdjVofIEZhD3eZhEklG1qArczVxx3mZhWcbivItvDYldDthOUX&s=10" },
+        { "name": "Chloé Hayden", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwgCLI8lCh-wRqzvBj9Yn10_mltMaxO8CEHq3x7-kQ2dn7QuI5wAMnHk8KiGEB3hmxtZG-zFor3Ippfg8lbNe4Q4OyOHVSXZsn98V7SXBZ&s=10" },
+        { "name": "Josh Heuston", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvvWSpjXfY3cu53IZ7Ke1s5bw3lXOId0-rTd1kTEhp-Ddp5z3euxGRhP53EDqyvKJZDQFcSioLRdLn6TlILt8v2h0kUNXZ2f7RjcbTeUhuUg&s=10" }
       ],
       "seasons": [
         {
@@ -817,20 +981,26 @@
       "description": "A popular teen disappears, and an unpopular girl rises to take her place — but one is hiding a dark secret.",
       "year": 2022,
       "duration": "45 mins per episode",
-      "genre": "Thriller Drama",
+      "genre": " Drama",
       "rating": "TV-14",
       "ageRating": "14+",
-      "categories": ["drama", "thriller"],
+      "categories": ["drama", "romance"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/514IHapbK5c"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Sarah Catherine Hook", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMPQg9YyW9BzVKRKVbpZdfxywWMzVw8rgvHTYDVnTHT_tr36fu7VQw2Z3XQT0Y-RA8uuPTQWJxZPgANzCBArdfRzZVRl-Mlc0eNAn5frSKg&s=10" },
+        { "name": "Zac Burgess", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsxonC3hdFA63LYUPsL2aKGW7fM1jpa0NuaAgKGyeojtB_6Z3e7sy0UXBiolQ8CX07_lOuJqevnn797DHH9zJTvD5UtwQ7VQ2KM3He5Jfi5g&s=10" },
+        { "name": "Savannah Lee Smith", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZ2vmaUBEwX3VFxNm6RPRvtXv66POXgpHL_THpH2R1JJopTvGzpd57iswp9ypcqipX00OqZ8Ka7Cmg4p7OKEhHQPi0WaLDwEY-i0GB4QtOQ&s=10" },
+        { "name": "Claire Forlani", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOVLMYCA_OGq2MB_HQ6kLWKbAqyAsFkH14YaMrsmeH-Hr-LNmVQdM9xLNFFaSfsgBBTsFJigr0XLyVFGCZjDWN00we--Stxa2LSl9w8uM&s=10" }
       ],
       "seasons": [
         {
@@ -853,17 +1023,23 @@
       "genre": "Drama",
       "rating": "TV-14",
       "ageRating": "14+",
-      "categories": ["drama", "romance"],
+      "categories": ["drama", "romance","musical"],
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/BJYJksHREIc"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Azul Guaita", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHVRvYrp8rzfiK_LRr79e_3necez_ygG_m6y5Sg-GO8cJKsyOCaDcF-plkewKtrPDYtN4yWYT5QOJSxdB7S-hVKnzhot5z9Mekk5W1g2isw&s=10" },
+        { "name": "Lizeth Selene",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_0ul27nAVO9J7lcxRGn4SneddJntKpq8VJvmmU3OR_nOYxHhs8G00Wq-GTw_QnCH1XiBxDf5ZrWwNio9B42PctJNUv_YPHLU6XxFUqWWAg&s=10" },
+        { "name": "Andrea Chaparro", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl-aRWtApksiqxMfAUeGZ8OkdUZ8C6Wd24vk563dGB-d3dMVYn3Sc09fUZzjC-NsGjsRCA_SLtw4HbGSvOnZVv7mjcjeHi9qatNXh2u93m&s=10" },
+        { "name": "Franco Masini",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbt07CMKrWFKIMkf7GDFOylLjIgnU6EiXvlPVL4ZuDq0_7iNJUaEyNHZqQHeoVM3YJxEN2NJGqkEmeb8e09RQkLjO3-auIXZpxxzwd9jmKg&s=10" }
       ],
       "seasons": [
         {
@@ -889,8 +1065,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -922,8 +1104,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -954,8 +1142,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -986,8 +1180,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1019,8 +1219,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+     "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1051,8 +1257,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1083,8 +1295,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1115,8 +1333,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1147,8 +1371,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1179,8 +1409,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+     "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1204,8 +1440,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1229,8 +1471,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1254,8 +1502,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://youtube.com/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1279,8 +1533,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [ 
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1304,8 +1564,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1329,8 +1595,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1354,8 +1626,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1386,8 +1664,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1418,8 +1702,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1443,8 +1733,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1475,8 +1771,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1507,8 +1809,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1539,8 +1847,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1578,8 +1892,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1603,8 +1923,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1635,8 +1961,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1667,8 +1999,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1699,8 +2037,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1731,8 +2075,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1756,8 +2106,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1781,8 +2137,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1806,8 +2168,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1838,8 +2206,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1863,8 +2237,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1895,8 +2275,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1927,8 +2313,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1959,8 +2351,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+     "trailer": {
+      "local": "videos/michael-trailer.mp4",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -1984,8 +2382,14 @@
       "ranking": 1,
       "progress": 75,
       "newRelease": true,
-      "embed": "https://www.youtube.com/embed/nm4dHuyYrQk",
-      "video": "videos/predator.mp4",
+      "trailer": {
+      "local": "videos/predator.mp4",
+      "embed": "https://youtube.com/embed/43R9l7EkJwE"
+      },
+       "movie": {
+      "local": "",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "Elle Fanning",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPFJMATuk9ZTe_VwkuCNh1Pe8dfKE8jf5TOPgEWOH80JDQHxHlpZLVWDk2aJFc4SIyd4KPh5SXL6l897YZMUCpueR8IvUd0xYdmlY7zwg&s=10" },
         { "name": "Mike Faist",       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4MP8AZEkVwKEp2II5IOeIxYzGwF-VAf2Cgpz0jKgJ9IJgoC78n7264pY5zHQdOJxfFPoRcMSJcp1-YDFvMWBHWPsbN9RZwDC0Lbkwc2LNg&s=10" },
@@ -2009,8 +2413,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": false,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "videos/",
+      "embed": "https://youtube/embed/"
+      },
+       "movie": {
+      "local": "videos/michael-full.mp4",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [ 
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },
@@ -2041,8 +2451,14 @@
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
-      "embed": "https://archive.org/embed/YOUR_ITEM_ID",
-      "video": "",
+      "trailer": {
+      "local": "",
+      "embed": "https://archive.org/embed/TRAILER_ID"
+      },
+       "movie": {
+      "local": "",
+      "embed": "https://youtube.com/embed/MOVIE_ID"
+      },
       "cast": [
         { "name": "",     "image": "" },
         { "name": "",     "image": "" },

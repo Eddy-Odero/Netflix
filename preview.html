@@ -307,253 +307,290 @@
     </div>
   </div>
 
-  <script>
-    /* ── STATE ── */
-    let movie   = null;
-    let myList  = JSON.parse(localStorage.getItem('eduflix_mylist') || '[]');
-    let inList  = false;
-    let liked   = false;
-    let allMovies = [];
+ <script>
+  /* ── STATE ── */
+  let movie   = null;
+  let myList  = JSON.parse(localStorage.getItem('eduflix_mylist') || '[]');
+  let inList  = false;
+  let liked   = false;
+  let allMovies = [];
 
-    /* ── LOAD ── */
-    async function loadMovies() {
-      const paths = ['movies.json', 'files/movies.json', '../movies.json'];
-      for (const path of paths) {
-        try {
-          const res = await fetch(path);
-          if (!res.ok) continue;
-          const data = await res.json();
-          if (data.movies && data.movies.length) return data.movies;
-        } catch (e) {}
-      }
-      return [];
+  /* ── LOAD ── */
+  async function loadMovies() {
+    const paths = ['movies.json', 'files/movies.json', '../movies.json'];
+    for (const path of paths) {
+      try {
+        const res = await fetch(path);
+        if (!res.ok) continue;
+        const data = await res.json();
+        if (data.movies && data.movies.length) return data.movies;
+      } catch (e) {}
+    }
+    return [];
+  }
+
+  async function init() {
+    allMovies = await loadMovies();
+
+    const params = new URLSearchParams(window.location.search);
+    const id     = parseInt(params.get('id'));
+
+    movie = allMovies.find(m => m.id === (id || 1)) || allMovies[0];
+
+    if (!movie) {
+      document.getElementById('heroTitle').textContent = 'Movie not found';
+      return;
     }
 
-    async function init() {
-      allMovies = await loadMovies();
+    document.title = `${movie.title} — EDU-FLIX`;
+    inList = myList.includes(movie.id);
 
-      // Read ?id= from URL
-      const params = new URLSearchParams(window.location.search);
-      const id     = parseInt(params.get('id'));
+    renderHero();
+    renderDetails();
+    renderCast();
+    renderEpisodes();
+    renderMoreLikeThis();
+    setupButtons();
+  }
 
-      // Find movie — fall back to id 1 if none provided
-      movie = allMovies.find(m => m.id === (id || 1)) || allMovies[0];
+  /* ── HERO ── */
+  function renderHero() {
+    document.getElementById('heroTitle').textContent = movie.title;
+    document.getElementById('heroMeta').textContent =
+      `${movie.year} • ${movie.ageRating || movie.rating} • ${movie.duration} • ${movie.genre}`;
 
-      if (!movie) { document.getElementById('heroTitle').textContent = 'Movie not found'; return; }
+    document.getElementById('heroDesc').textContent = movie.description;
 
-      document.title = `${movie.title} — EDU-FLIX`;
-      inList = myList.includes(movie.id);
+    const img = document.getElementById('bgFallback');
+    img.src = movie.image;
+    img.alt = movie.title;
 
-      renderHero();
-      renderDetails();
-      renderCast();
-      renderEpisodes();
-      renderMoreLikeThis();
-      setupButtons();
+    const vid = document.getElementById('bgVideo');
+    const src = document.getElementById('bgVideoSrc');
+
+    // FIX: use trailer instead of video
+    const trailer = movie?.trailer?.local;
+
+    if (trailer) {
+      src.src = trailer;
+      vid.style.display = 'block';
+      vid.load();
+    } else {
+      vid.style.display = 'none';
     }
 
-    /* ── HERO ── */
-    function renderHero() {
-      document.getElementById('heroTitle').textContent = movie.title;
-      document.getElementById('heroMeta').textContent  =
-        `${movie.year} • ${movie.ageRating || movie.rating} • ${movie.duration} • ${movie.genre}`;
-      document.getElementById('heroDesc').textContent  = movie.description;
+    updateListBtn();
+  }
 
-      const img = document.getElementById('bgFallback');
-      img.src = movie.image; img.alt = movie.title;
+  /* ── DETAILS ── */
+  function renderDetails() {
+    document.getElementById('detailDesc').textContent = movie.description;
+    document.getElementById('detailChips').innerHTML =
+      [...movie.categories, movie.duration]
+        .map(c => `<div class="meta-chip">${c}</div>`).join('');
+  }
 
-      const vid = document.getElementById('bgVideo');
-      const src = document.getElementById('bgVideoSrc');
-      if (movie.video) {
-        src.src = movie.video;
-        vid.load();
-      } else {
-        vid.style.display = 'none';
-      }
+  /* ── CAST ── */
+  function renderCast() {
+    if (!movie.cast || !movie.cast.length) return;
 
-      // Update My List button
-      updateListBtn();
-    }
-
-    /* ── DETAILS ── */
-    function renderDetails() {
-      document.getElementById('detailDesc').textContent = movie.description;
-      document.getElementById('detailChips').innerHTML  =
-        [...movie.categories, movie.duration]
-          .map(c => `<div class="meta-chip">${c}</div>`).join('');
-    }
-
-    /* ── CAST ── */
-    function renderCast() {
-      if (!movie.cast || !movie.cast.length) return;
-      document.getElementById('castSection').style.display = 'block';
-      document.getElementById('castContainer').innerHTML =
-        movie.cast.map(c => `
-          <div class="cast-card">
-            <img src="${c.image}" alt="${c.name}"
-                 onerror="this.style.background='#333';this.removeAttribute('src')">
-            <p>${c.name}</p>
-          </div>`).join('');
-    }
-
-    /* ── EPISODES ── */
-    let activeSeason = 0;
-
-    function renderEpisodes() {
-      if (movie.type !== 'series' || !movie.seasons || !movie.seasons.length) return;
-
-      document.getElementById('episodesSection').style.display = 'block';
-
-      // Build season tabs
-      const tabs = document.getElementById('seasonTabs');
-      tabs.innerHTML = movie.seasons.map((s, i) => `
-        <button class="season-tab ${i === 0 ? 'active' : ''}"
-                onclick="switchSeason(${i})">
-          Season ${s.season}
-        </button>`).join('');
-
-      renderEpisodeList(0);
-    }
-
-    function switchSeason(index) {
-      activeSeason = index;
-      document.querySelectorAll('.season-tab').forEach((t, i) =>
-        t.classList.toggle('active', i === index));
-      renderEpisodeList(index);
-    }
-
-    function renderEpisodeList(seasonIndex) {
-      const season   = movie.seasons[seasonIndex];
-      const list     = document.getElementById('episodeList');
-
-      list.innerHTML = season.episodes.map(ep => `
-        <div class="episode-card" onclick="playEmbed('${ep.embed}')">
-          <div class="ep-thumb-wrap">
-            <img class="ep-thumb" src="${ep.thumb}" alt="S${season.season}E${ep.ep}"
-                 onerror="this.style.background='#333';this.removeAttribute('src')">
-            <div class="ep-play-overlay">
-              <button class="ep-play-icon">&#9654;</button>
-            </div>
-          </div>
-          <div class="ep-info">
-            <div class="ep-header">
-              <span class="ep-title">E${ep.ep}. ${ep.title}</span>
-              <span class="ep-duration">${ep.duration}</span>
-            </div>
-            <p class="ep-desc">${ep.description}</p>
-          </div>
+    document.getElementById('castSection').style.display = 'block';
+    document.getElementById('castContainer').innerHTML =
+      movie.cast.map(c => `
+        <div class="cast-card">
+          <img src="${c.image}" alt="${c.name}"
+               onerror="this.style.background='#333';this.removeAttribute('src')">
+          <p>${c.name}</p>
         </div>`).join('');
-    }
+  }
 
-    /* ── MORE LIKE THIS ── */
-    function renderMoreLikeThis() {
-      const related = allMovies
-        .filter(m => m.id !== movie.id &&
-          m.categories.some(c => movie.categories.includes(c)))
-        .slice(0, 8);
+  /* ── EPISODES ── */
+  let activeSeason = 0;
 
-      const container = document.getElementById('moreLikeThis');
-      container.innerHTML = related.map(m => `
+  function renderEpisodes() {
+    if (movie.type !== 'series' || !movie.seasons?.length) return;
+
+    document.getElementById('episodesSection').style.display = 'block';
+
+    const tabs = document.getElementById('seasonTabs');
+    tabs.innerHTML = movie.seasons.map((s, i) => `
+      <button class="season-tab ${i === 0 ? 'active' : ''}"
+              onclick="switchSeason(${i})">
+        Season ${s.season}
+      </button>`).join('');
+
+    renderEpisodeList(0);
+  }
+
+  function switchSeason(index) {
+    activeSeason = index;
+
+    document.querySelectorAll('.season-tab')
+      .forEach((t, i) => t.classList.toggle('active', i === index));
+
+    renderEpisodeList(index);
+  }
+
+  function renderEpisodeList(seasonIndex) {
+    const season = movie.seasons[seasonIndex];
+    const list   = document.getElementById('episodeList');
+
+    list.innerHTML = season.episodes.map(ep => `
+      <div class="episode-card" onclick="playEmbed('${ep.embed}')">
+        <div class="ep-thumb-wrap">
+          <img class="ep-thumb" src="${ep.thumb}"
+               onerror="this.style.background='#333';this.removeAttribute('src')">
+
+          <div class="ep-play-overlay">
+            <button class="ep-play-icon">&#9654;</button>
+          </div>
+        </div>
+
+        <div class="ep-info">
+          <div class="ep-header">
+            <span class="ep-title">E${ep.ep}. ${ep.title}</span>
+            <span class="ep-duration">${ep.duration}</span>
+          </div>
+          <p class="ep-desc">${ep.description}</p>
+        </div>
+      </div>`).join('');
+  }
+
+  /* ── MORE LIKE THIS ── */
+  function renderMoreLikeThis() {
+    const related = allMovies
+      .filter(m => m.id !== movie.id &&
+        m.categories.some(c => movie.categories.includes(c)))
+      .slice(0, 8);
+
+    document.getElementById('moreLikeThis').innerHTML =
+      related.map(m => `
         <div class="card" onclick="window.location.href='preview.html?id=${m.id}'">
           <img src="${m.image}" class="card-img" alt="${m.title}"
                onerror="this.style.background='#222';this.removeAttribute('src')">
+
           <div class="overlay-center">
             <button class="play-btn">▶</button>
           </div>
+
           <div class="overlay-bottom">
             <button class="info-btn">More Info</button>
           </div>
         </div>`).join('');
-    }
-
-    /* ── PLAYER MODAL ── */
-    function openModal()  { document.getElementById('playerModal').style.display = 'block'; }
-    function closePlayerModal() {
-      document.getElementById('playerModal').style.display = 'none';
-      const vid = document.getElementById('localPlayer');
-      vid.pause(); vid.currentTime = 0;
-      document.getElementById('localSrc').src = '';
-      document.getElementById('embedFrame').src = '';
-      document.getElementById('localPlayer').style.display  = 'none';
-      document.getElementById('embedFrame').style.display   = 'none';
-    }
-
-    function playLocal(src) {
-      document.getElementById('embedFrame').style.display  = 'none';
-      const vid = document.getElementById('localPlayer');
-      document.getElementById('localSrc').src = src;
-      vid.style.display = 'block';
-      vid.load();
-      vid.play().catch(() => {});
-      openModal();
-    }
-
-    function playEmbed(src) {
-      document.getElementById('localPlayer').style.display = 'none';
-      const frame = document.getElementById('embedFrame');
-      // append autoplay param
-      const sep = src.includes('?') ? '&' : '?';
-      frame.src = src + sep + 'autoplay=1';
-      frame.style.display = 'block';
-      openModal();
-    }
-
-    document.getElementById('modalClose').addEventListener('click', closePlayerModal);
-    document.getElementById('playerModal').addEventListener('click', e => {
-      if (e.target === document.getElementById('playerModal')) closePlayerModal();
-    });
-
-    /* ── HERO BUTTONS ── */
-   function setupButtons() {
-
-  const playBtn = document.getElementById('btnPlayMovie');
-  const trailerBtn = document.getElementById('btnTrailer');
-
-  if (playBtn) {
-    playBtn.addEventListener('click', () => {
-      const source = movie?.embed?.trim()
-        ? playEmbed(movie.embed)
-        : movie?.video?.trim()
-          ? playLocal(movie.video)
-          : alert('No movie source available');
-    });
   }
 
-  if (trailerBtn) {
-    trailerBtn.addEventListener('click', () => {
-      if (movie?.video?.trim()) {
-        playLocal(movie.video);
-      } else {
-        alert('No trailer file set yet.');
-      }
-    });
+  /* ── PLAYER MODAL ── */
+  function openModal() {
+    document.getElementById('playerModal').style.display = 'block';
   }
-      // My List
-      document.getElementById('btnMyList').addEventListener('click', () => {
-        inList = !inList;
-        if (inList) myList.push(movie.id);
-        else myList = myList.filter(x => x !== movie.id);
-        localStorage.setItem('eduflix_mylist', JSON.stringify(myList));
-        updateListBtn();
-      });
 
-      // Like
-      document.getElementById('btnLike').addEventListener('click', () => {
-        liked = !liked;
-        document.getElementById('btnLike').innerHTML = liked
-          ? `<i class="fas fa-thumbs-up"></i> Liked`
-          : `<i class="far fa-thumbs-up"></i> Like`;
+  function closePlayerModal() {
+    document.getElementById('playerModal').style.display = 'none';
+
+    const vid = document.getElementById('localPlayer');
+    vid.pause();
+    vid.currentTime = 0;
+
+    document.getElementById('localSrc').src = '';
+    document.getElementById('embedFrame').src = '';
+
+    document.getElementById('localPlayer').style.display = 'none';
+    document.getElementById('embedFrame').style.display = 'none';
+  }
+
+  function playLocal(src) {
+    document.getElementById('embedFrame').style.display = 'none';
+
+    const vid = document.getElementById('localPlayer');
+    document.getElementById('localSrc').src = src;
+
+    vid.style.display = 'block';
+    vid.load();
+    vid.play().catch(() => {});
+
+    openModal();
+  }
+
+  function playEmbed(src) {
+    document.getElementById('localPlayer').style.display = 'none';
+
+    const frame = document.getElementById('embedFrame');
+    const sep = src.includes('?') ? '&' : '?';
+
+    frame.src = src + sep + 'autoplay=1';
+    frame.style.display = 'block';
+
+    openModal();
+  }
+
+  document.getElementById('modalClose').addEventListener('click', closePlayerModal);
+  document.getElementById('playerModal').addEventListener('click', e => {
+    if (e.target === document.getElementById('playerModal')) closePlayerModal();
+  });
+
+  /* ── HERO BUTTONS (UPDATED FOR NEW JSON STRUCTURE) ── */
+  function setupButtons() {
+
+    const playBtn = document.getElementById('btnPlayMovie');
+    const trailerBtn = document.getElementById('btnTrailer');
+
+    // PLAY MOVIE (movie.movie)
+    if (playBtn) {
+      playBtn.addEventListener('click', () => {
+        const src =
+          movie?.movie?.embed?.trim() || movie?.movie?.local?.trim();
+
+        if (!src) return alert('No movie source available');
+
+        src.includes('youtube')
+          ? playEmbed(src)
+          : playLocal(src);
       });
     }
 
-    function updateListBtn() {
-      document.getElementById('btnMyList').innerHTML = inList
-        ? `<i class="fas fa-check"></i> Added`
-        : `<i class="fas fa-plus"></i> My List`;
+    // TRAILER (movie.trailer)
+    if (trailerBtn) {
+      trailerBtn.addEventListener('click', () => {
+        const src =
+          movie?.trailer?.embed?.trim() || movie?.trailer?.local?.trim();
+
+        if (!src) return alert('No trailer available');
+
+        src.includes('youtube')
+          ? playEmbed(src)
+          : playLocal(src);
+      });
     }
 
-    /* ── BOOT ── */
-    init();
-  </script>
+    // My List
+    document.getElementById('btnMyList').addEventListener('click', () => {
+      inList = !inList;
+
+      if (inList) myList.push(movie.id);
+      else myList = myList.filter(x => x !== movie.id);
+
+      localStorage.setItem('eduflix_mylist', JSON.stringify(myList));
+      updateListBtn();
+    });
+
+    // Like
+    document.getElementById('btnLike').addEventListener('click', () => {
+      liked = !liked;
+
+      document.getElementById('btnLike').innerHTML = liked
+        ? `<i class="fas fa-thumbs-up"></i> Liked`
+        : `<i class="far fa-thumbs-up"></i> Like`;
+    });
+  }
+
+  function updateListBtn() {
+    document.getElementById('btnMyList').innerHTML = inList
+      ? `<i class="fas fa-check"></i> Added`
+      : `<i class="fas fa-plus"></i> My List`;
+  }
+
+  /* ── BOOT ── */
+  init();
+</script>
 </body>
 </html>

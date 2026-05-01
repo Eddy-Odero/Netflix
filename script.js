@@ -35,11 +35,24 @@ function renderHero(movies) {
   if (duration) duration.textContent = hero.duration;
   if (genre) genre.textContent = hero.genre;
 
-  const video = document.getElementById("heroVideo");
-  if (video) {
-    const source = video.querySelector("source");
-    source.src = hero.video;
+  // ── BACKGROUND VIDEO FIX ──
+  const video  = document.getElementById('heroVideo');
+  const source = video?.querySelector('source');
+
+  // ✅ FIX: use HERO, not movie
+  const bgVideo = hero?.trailer?.local || null;
+
+  if (bgVideo && video && source) {
+    source.src = bgVideo;
     video.load();
+
+    video.style.display = 'block';
+
+    video.play().catch(() => {
+      // autoplay may fail on some browsers
+    });
+  } else if (video) {
+    video.style.display = 'none';
   }
 
   // optional: make buttons dynamic
