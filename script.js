@@ -14,6 +14,42 @@ function getByType(type) {
   return movies.filter(m => m.type === type);
 }
 
+function renderHero(movies) {
+  const hero = movies.find(m => m.ranking === 1) || movies[0];
+
+  const title = document.querySelector(".hero-title");
+  const desc = document.querySelector(".hero-description");
+  const type = document.querySelector(".hero-type");
+  const img = document.querySelector(".hero-img");
+  const rating = document.querySelector(".rating");
+  const year = document.querySelector(".year");
+  const duration = document.querySelector(".duration");
+  const genre = document.querySelector(".genre");
+
+  if (title) title.textContent = hero.title;
+  if (desc) desc.textContent = hero.description;
+  if (type) type.textContent = hero.type.toUpperCase();
+  if (img) img.src = hero.image;
+  if (rating) rating.textContent = hero.rating;
+  if (year) year.textContent = hero.year;
+  if (duration) duration.textContent = hero.duration;
+  if (genre) genre.textContent = hero.genre;
+
+  const video = document.getElementById("heroVideo");
+  if (video) {
+    const source = video.querySelector("source");
+    source.src = hero.video;
+    video.load();
+  }
+
+  // optional: make buttons dynamic
+  const playBtn = document.querySelector(".btn-play");
+  if (playBtn) {
+    playBtn.onclick = () => {
+      window.location.href = `preview.html?id=${hero.id}`;
+    };
+  }
+}
 // ── CARD FACTORY ────────────────────────────────────────
 function createMovieCard(movie) {
   const inList = myList.includes(movie.id);
@@ -375,6 +411,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   setupPromos();
   populateAllRows();
   initRowFades();
+  renderHero(movies);
 
   // Modal close
   const modalClose = document.getElementById('modalClose');
