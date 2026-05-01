@@ -1458,32 +1458,32 @@
     },
     {
       "id": 40,
-      "title": "Atlas",
+      "title": "Dune3",
       "type": "movie",
-      "image": "images/atlas.jpg",
-      "description": "A data analyst who distrusts AI must partner with a robot to stop an AI soldier bent on destroying humanity.",
+      "image": "images/dune.jpeg",
+      "description": "Emperor Paul Atreides faces the fallout from his ascent to power as political plots and a galaxy-wide holy war endanger the future only he can see.",
       "year": 2024,
-      "duration": "1 hour 58 mins",
+      "duration": "2 hour 58 mins",
       "genre": "Sci-Fi Action",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["movies", "action"],
+      "categories": ["movies", "action","trending","popular"],
       "ranking": 0,
       "progress": 0,
-      "newRelease": false,
+      "newRelease":true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://youtube.com/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/3aAvQxtvKiA"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Timothée Chalamet", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrT23iskNVY8eoI2IMf6aEqXOTueQSioSbJKAnVwWyyteBj5HjRlPIwL44pxR4g5xTXggg1k9mH8Mf2UwRowJJMDGGsszHeinlWUo-f7ef&s=10" },
+        { "name": "Florence Pugh", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2N5dvuwehw9jkKHXMB5LL-nkOIZTAxD7LGpWSrBOSlT_uDbhhjpV4FBypAvcFICeCoNm-zsD5cOeOyGd5_xQEZlMXU73aOS2svs7WJxZ&s=10" },
+        { "name": "Jason Momoa", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTEkkk8kCSKsXYOj6lDS9vxerZ9M93uyjIfqI3_53-k85xJu942EcQGDQAe5PjpKnr68I_VJAKQg7G9QR88tn-AnoAlU8cb3acszMjNtnvQBv42CvbrXMYPP0gL-xxwX7SlI68m4E7QtFw&s=19" },
+        { "name": "Anya Taylor-Joy",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJrXRNdtZGixa3Jwf_Zs3GSFHxQeb29OCtbbD2NJjWItGpJyaVMUK9hUPOuICM3My7D-AQR8ST13XhbHoh91Cs2HT-j19KjbbcEx656aAngA&s=10" }
       ],
       "seasons": []
     },
