@@ -320,7 +320,7 @@
       "description": "A group of young space colonists come face to face with the most terrifying life form in the universe.",
       "year": 2024,
       "duration": "1 hour 59 mins",
-      "genre": "Sci-Fi Horror",
+      "genre": " Horror",
       "rating": "R",
       "ageRating": "18+",
       "categories": [ "horror","sci-fi"],
@@ -2004,32 +2004,32 @@
     },
     {
       "id": 38,
-      "title": "G20",
+      "title": "Goat",
       "type": "movie",
-      "image": "images/g20.jpg",
-      "description": "A world leader must protect her family during a terrorist attack at the G20 summit.",
+      "image": "images/goat.jpg",
+      "description": "A young anthropomorphic goat named Will Harris dreams of playing roar-ball, a high-intensity, animalistic version of basketball dominated by much large.",
       "year": 2025,
       "duration": "1 hour 50 mins",
-      "genre": "Action Thriller",
+      "genre": "Commedy Drama",
       "rating": "PG-13",
       "ageRating": "PG-13",
-      "categories": ["movies", "action", "thriller"],
+      "categories": ["movies", "animation","sports"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
      "trailer": {
       "local": "videos/",
-      "embed": "https://youtube.com/embed/mhQcpvKHis4"
+      "embed": "https://youtube.com/embed/kmY-rYS7yng"
       },
        "movie": {
       "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "Viola Davis", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRTkbi8DOhpnAzbitUJYfqBwXlw3IUuzeHe-osBeUDvIS-CKzG9D89NJYqn3d607P7E15uSoF8rmZDrgs40NumzhRyKzrJNK8P6D_LtxpaGAp_er1dKeeMaik2EAkIn6RpbYhsJI-k_MMWT&s=19" },
-        { "name": "Antony Starr", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAM7dnNu1jAqMQN7YtztO9kdCnbHRxRSBwXcsmnJL81lGSJPXJt0-mm1wOfpYCh-4FMe54hE0iVA-3r7gUPbvyjVcoNqlqSsO6W__RHcH&s=10" },
-        { "name": "Marsai Martin", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO43g8gWQiwr9pz69J5faC_eQYgddqvSr1AecWY0Bb_FvkyoI6hSoQvMcXzNxuKIKZu_eo2w5zpUhloYwA6YrV0xtekRrhYWcQ9jpiWnQ&s=10" },
-        { "name": "Ramón Rodríguez",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpq6Lwz6CzAf2xnOBGNvpO9vPDL_l7Q64dMot-16rn9cIxfHU4h_ktKizKZ4VGb-0p9GjRAsZACMME4oBh7JyqT5vh0JIqj5cFniVUVx3y&s=10" }
+        { "name": "Stephen Curry", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSMpKCVlidqsFyubd4xPm0rM-c4sn6mDqwf5nQp_jNUjUucOKgMocJagplDol5ZaVOqN-5fqjQDvqPCw0Ci0e5M_geJJUfqEgq8-XOj-7taH_YKSpf9u8137YIyWJOFZUL46cwvJOFrwZRC&s=19" },
+        { "name": "Caleb McLaughlin", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhSvBMqb22a04q_UvVf12TB4HL3eP0LM2oAtXC5_V09vx5pojwkUHOVB1tHm7ayEY4fl9F4g-8lJPWgcjSxcnCnIhXALqztswHr2RnoiA4fg&s=10" },
+        { "name": "Gabrielle Union", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTjgT_iOh3nvFFmj_feNhBvAwQ8f-YDY96hpDV02o40sRlWpnKe-eY5AaDJHpKKd1Rzt_F23P2ef3zDJZgG5feBdwf0h-2ROInbn74dU1OPIZNkxp8cPJdRLP2IvIOlxbQUo8XPhjJB1bo&s=19" },
+        { "name": "Nicola Coughlan",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTShhVO-FzB90DIisbManSMc1wZ4JifIP5VQ-_13FQmI200uZMcT7cJBUYpfNGch1stVNJn1DirU56WroYspnVhDN-88_E1jSZrYtTgcfIh&s=10" }
       ],
       "seasons": []
     },
@@ -2714,7 +2714,6 @@
         { "name": "Eamon Farren",     "image": "https://m.media-amazon.com/images/M/MV5BOTNkMDYyN2ItNGQ3Mi00MmQ1LWFmZDgtMjJlZGM4ZTA1NWYzXkEyXkFqcGc@._V1_QL75_UY280_CR70,0,280,280_.jpg" },
         { "name": "Henry Cavill",     "image": "https://m.media-amazon.com/images/M/MV5BNWFmNmI2NmYtNDUyYi00MDZhLTk0ZmEtODY0MmM5NGQxMWEwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" }
       ],
-     "image": "images/witcher.jpg",
 "seasons": [
   {
     "season": 1,
@@ -2786,7 +2785,6 @@
         { "name": "Genesis Rodriguez", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2jhM38b1LHvz1-tYQHlhTlu6xDRWsTtDqElfHV0GfCFKfuyjMpNaVW0WD8oudeXOvbzh5NKqIHEIjC7Vb81HITKv71qbzQC_2MFqApjfT&s=10" },
         { "name": "Brittany Snow",   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF-7MP0YIkp3_bKWrUT0gTdCAs1XUnJcAcQ6WA4u3to_Ljr_kQtDDEcwIZVgREx3Rmwranp1cbejVjVTPE5g6EMrZbIkre0ea--ZJvfYkQZg&s=10" }
       ],
-     "image": "images/night.jpg",
 "seasons": [
   {
     "season": 1,
@@ -2849,7 +2847,6 @@
         { "name": "Clara Rosager", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBX536DGnwBffZxS18ORsoRxfPXD9g8D6u-mssDa0qVEQvQLkOTeXiUUnpP-LE3tJdOxsgS7xRpzKiqbJpLvbhBNESHe5-nd4hNYXs3zM&s=10" },
         { "name": "Mikkel Boe Folsgaard", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTDGa5R6o-yGgpyNZKs9pP0Nz9rC0H3JygLm9yYjqg1LzknZKt9zPVJO1aRxwxpWRF8SSP9me-jVEZNyLg4YjpyvKWMtYkFqJpHZV1mmUOsTQrmVcV8ezIX3PmFyJDcD56O3PAs7RpsDdI&s=19" }
       ],
-     "image": "images/therain.jpg",
 "seasons": [
   {
     "season": 1,
