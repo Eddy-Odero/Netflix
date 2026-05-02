@@ -1160,7 +1160,7 @@
         {
           "season": 1,
           "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "The wasteland story continues.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout2.jpg" }
+            {  }
           ]
         }
       ]
@@ -1666,7 +1666,7 @@
       "newRelease": true,
       "trailer": {
       "local": "videos/",
-      "embed": "https://youtube.com/embed/"
+      "embed": "https://youtube.com/embed/xS11-GIemXY"
       },
        "movie": {
       "local": "videos/",
@@ -2028,7 +2028,7 @@
       "type": "series",
       "image": "images/56.jpg",
       "description": "After a chance supermarket encounter, Oliver and Ciara embark on an intense relationship. When a savagely murdered corpse surfaces 56 days later.",
-      "year": 2019,
+      "year": 2026,
       "duration": "1 hour per episode",
       "genre": "Mystery ",
       "rating": "TV-MA",
@@ -2098,7 +2098,7 @@
       "image": "images/IT .jpg",
       "description": "A group of kids face their biggest fears when a shapeshifting monster emerges from the sewers of Derry.",
       "year": 2017,
-      "duration": "2 hours 15 mins",
+      "duration": "45 mins per episode",
       "genre": "Horror Drama",
       "rating": "R",
       "ageRating": "18+",
@@ -2224,7 +2224,7 @@
     },
     {
       "id": 62,
-      "title": "Terminal List",
+      "title": " The Terminal List",
       "type": "series",
       "image": "images/terminal list.jpg",
       "description": "A Navy SEAL returns home after his platoon is ambushed, questioning his own memories.",
@@ -2300,7 +2300,7 @@
     },
     {
       "id": 64,
-      "title": "The Jackal",
+      "title": "The Day of the Jackal",
       "type": "series",
       "image": "images/jackal.jpg",
       "description": "A mysterious assassin known as The Jackal is hired for a top-level kill.",
@@ -2343,7 +2343,7 @@
       "image": "images/blood.jpg",
       "description": "Kim Gun-woo, a promising young boxer, dreams of providing a better life for his single mother. However, his mother falls prey to Smile Capital, a ruthless loan shark organization led by Kim Myeong-gil.",
       "year": 2026,
-      "duration": "1 hour 28 mins",
+      "duration": "50 mins per episode",
       "genre": "Action",
       "rating": "R",
       "ageRating": "18+",
