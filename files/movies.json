@@ -597,16 +597,21 @@
         { "name": "Jess Hong",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqu6DsQai2mdlVbUfbiM-MFeQ2lZNEbyJ7FWsnPl9_VAFkSETFTpf9flyPSY5UNAVGnZVrYD-UimC87YoLszHIUiT7RRrIHNZWfq8PpQcT&s=10" },
         { "name": "Liam Cunningham",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMzQCOTTT8d3dl9DSchocghPbCffHSox6W9tOVPaaenY3vzEei8JLosmHNfUoGXxFNBdhLeYaiaJ6vEJOmJT3xhRKPsAiLUAdeWl7m4kty&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Countdown", "duration": "60 min", "description": "A mysterious countdown appears in the vision of scientists worldwide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
-            { "ep": 2, "title": "Red Coast", "duration": "55 min", "description": "The origins of the signal are traced to the Cultural Revolution.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
-            { "ep": 3, "title": "The Lord",  "duration": "57 min", "description": "The San-Ti reveal their intentions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Countdown", "duration": "62 min", "description": "A mysterious suicide during the Cultural Revolution sets off a chain of events across decades.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 2, "title": "Red Coast", "duration": "55 min", "description": "A secret military project sends a message into space with unexpected consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 3, "title": "Destroyer of Worlds", "duration": "58 min", "description": "Scientists begin experiencing impossible phenomena as reality starts breaking down.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 4, "title": "Our Lord", "duration": "59 min", "description": "A hidden organization reveals itself and recruits key scientists.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 5, "title": "Judgment Day", "duration": "61 min", "description": "A confrontation at sea exposes the scale of the extraterrestrial threat.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 6, "title": "The Stars Our Destination", "duration": "57 min", "description": "Humanity begins preparing for an inevitable cosmic encounter.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 7, "title": "Only Advance", "duration": "60 min", "description": "The strategy for survival against an alien civilization takes shape.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" },
+      { "ep": 8, "title": "Wallfacer", "duration": "65 min", "description": "A secret defense plan is initiated to counter the coming invasion.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/3body.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 15,
@@ -638,15 +643,21 @@
         { "name": "Jason R. Moore",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSkEtjnECG_2pLmQ_aJvfes1DyelWprCMuCu73IatEqidMiUGhgL52MC-gidKSJfcnu1ePRQRBmfygrJyDaEAdo1_vceen8_IFQ-_S7S1RUr1dTRXzJmAv2v3iqIAl8dj3KS_PDVG4MoI4&s=19" }
 
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "First Kill",  "duration": "44 min", "description": "Juliette targets Calliope for her first kill — but falls for her instead.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
-            { "ep": 2, "title": "First Blood", "duration": "42 min", "description": "Both families discover what happened and react with shock.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "First Blood", "duration": "52 min", "description": "Juliette, a vampire heir, and Calliope, a monster hunter, are forced into a fateful encounter.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 2, "title": "First Loves", "duration": "48 min", "description": "Juliette struggles with her first kill while Calliope hunts her next target.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 3, "title": "First Fight", "duration": "50 min", "description": "Tensions rise as secrets begin to surface in both families.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 4, "title": "First Date", "duration": "49 min", "description": "Juliette and Calliope grow closer despite their deadly destinies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 5, "title": "First Bloodline", "duration": "51 min", "description": "Family loyalties are tested as hidden truths come out.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 6, "title": "First Betrayal", "duration": "53 min", "description": "A betrayal changes everything between hunters and vampires.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 7, "title": "First Death", "duration": "54 min", "description": "Consequences of past actions begin to catch up with everyone.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" },
+      { "ep": 8, "title": "First Kill", "duration": "55 min", "description": "Season finale: love and duty collide in a deadly confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/firstkill.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 16,
@@ -677,7 +688,21 @@
         { "name": "Jojo Macari",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjGG2G_ruF2jQDgLlDkQJ0NW14a4_z9HwbIl_M0vE3PxZLnFBPzwkFKuDojPsnFd67v35u2bsS3FL_xvpU2IwOqEOIWgDKZa-XT_cZ-6fS&s=10" },
         { "name": "Sara Martins",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFiMMQ01o7x6TqFmxTtflMThgHwPvSMjVaHtf-ylfBDwLD514XXlRluZk8tpQcCRaUxPWdgZyyWAiZ3MMPPMiz1kSijUb79lNq7RGesTl3A&s=10" }
       ],
-      "seasons": []
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Rise or Die", "duration": "56 min", "description": "In ancient Rome, power, politics, and blood sport collide in the Colosseum.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 2, "title": "Let the Games Begin", "duration": "55 min", "description": "Gladiators are introduced into brutal combat for the entertainment of the masses.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 3, "title": "Blood and Sand", "duration": "57 min", "description": "Alliances form and break as survival becomes uncertain in the arena.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 4, "title": "The Price of Glory", "duration": "58 min", "description": "Political intrigue grows as senators and nobles manipulate the games.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 5, "title": "Fire in the Arena", "duration": "59 min", "description": "A violent uprising threatens to disrupt the spectacle of the Colosseum.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 6, "title": "The Emperor's Favor", "duration": "60 min", "description": "Favor from the emperor becomes more dangerous than the arena itself.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 7, "title": "Chains of Rome", "duration": "58 min", "description": "Gladiators confront the reality of freedom and survival.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" },
+      { "ep": 8, "title": "Those About to Die", "duration": "61 min", "description": "Season finale: fate is decided in a brutal and unforgettable clash.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/about.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 17,
@@ -729,7 +754,7 @@
       "id": 18,
       "title": "Sand-Man",
       "type": "series",
-      "image": "images/sadman.jpg",
+      "image": "images/sandman.jpg",
       "description": "Feeling a bit rudderless, Morpheus shadows his hard-working big sister, who offers him advice and encourages him to reconnect with an old acquaintance.",
       "year": 2023,
       "duration": " 45 mins per episode",
@@ -754,7 +779,40 @@
         { "name": "Gwendoline Christie", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqmp3z4m9-E1nGezkClCXYmilE968E9ThcDuYqNdmaby_zEgYb0oTw9RwW36Rqp2YRIz0hpK4fWnqd6v-6fNTGOR4C35GRjrt8Ma0GJQjW1Q&s=10" },
         { "name": "Mason Alexander Park", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf_ONhBZDQUM2miKruBUGmWBqquIDQ0WedAfiYtkTCUkX0F0ls-GGLMSocXfuJFrPjyMvId1HUsZWK256QDa2HXBltqYzonwHG3MKXrDTfhA&s=10" }
       ],
-      "seasons": []
+      "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Sleep of the Just", "duration": "54 min", "description": "Dream is captured, leaving the Dreaming in chaos.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 2, "title": "Imperfect Hosts", "duration": "45 min", "description": "Morpheus begins recovering his lost tools of power.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 3, "title": "Dream a Little Dream of Me", "duration": "46 min", "description": "A dangerous serial killer gains power from Dream’s realm.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 4, "title": "A Hope in Hell", "duration": "51 min", "description": "Dream travels to Hell to retrieve one of his stolen artifacts.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 5, "title": "24/7", "duration": "52 min", "description": "A diner becomes the center of a supernatural psychological experiment.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 6, "title": "The Sound of Her Wings", "duration": "39 min", "description": "Dream meets Death and begins to understand humanity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 7, "title": "The Doll's House", "duration": "48 min", "description": "A runaway dream creates chaos in the waking world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 8, "title": "Playing House", "duration": "46 min", "description": "The Corinthian continues his deadly mission in the real world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 9, "title": "Collectors", "duration": "50 min", "description": "Dream confronts his creation and the consequences of escape.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 10, "title": "Lost Hearts", "duration": "53 min", "description": "Season finale: Dream restores order to the Dreaming at great cost.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" }
+    ]
+  },
+  {
+      "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Season of Mists", "duration": "3 Jul 2025", "description": "When a gathering of the Endless exposes deep-seated grievances, Morpheus embarks on a mission to Hell to free the soul of a condemned mortal.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 2, "title": "The Ruler of Hell", "duration": "3 Jul 2025", "description": "Bequeathed the key to Hell, Morpheus throws a lavish banquet to determine which god, demon or faerie can be entrusted with its dark power.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 3, "title": "More Devils Than Vast Hell Can Hold", "duration": "3 Jul 2025", "description": "All the world's a stage as Morpheus summons a great dramatist to perform an enchanting play for a supernatural audience.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 4, "title": "Brief Lives", "duration": "3 Jul 2025", "description": "Morpheus grudgingly helps Delirium search for their vanished sibling in the waking world, where a deadly force lurks in the shadows.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 5, "title": "The Song of Orpheus", "duration": "3 Jul 2025", "description": "To honour a promise to one sibling, Morpheus must shatter a vow to another; in ancient Greece, a wedding-night tragedy turns a son against his father.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 6, "title": "Family Blood", "duration": "3 Jul 2025", "description": "Morpheus enlists an expert in the occult to smuggle a deeply personal relic out of Paris and help him and Delirium find the answers they seek.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 7, "title": "Time and Night", "duration": "24 Jul 2025", "description": "With the future of his realm at stake, Morpheus must appeal for help to an authority even greater than the Endless.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 8, "title": "Fuel for the Fire", "duration": "24 Jul 2025", "description": "Morpheus recruits a mortal agent for a dangerous mission in the waking world; a change of heart puts a pair of tricksters on a collision course.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 9, "title": "The Kindly Ones", "duration": "24 Jul 2025", "description": "Confined to his realm, Morpheus conjures up a new nightmare to do his bidding; the God of Deception deals roughly with an intrusive thorn in his side.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 10, "title": "Long Live the King", "duration": "24 Jul 2025", "description": "Fuelled by rage, a grieving mother unleashes her wrath upon the Dreaming; Morpheus confronts the Kindly Ones at the furthest reaches of his kingdom.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 11, "title": "A Tale of Graceful Ends", "duration": "24 Jul 2025", "description": "As deities, dreamers and demons unite to mark a momentous occasion, the Endless assemble for a family reunion unlike any other.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" },
+      { "ep": 12, "title": "Death: The High Cost of Living", "duration": "31 Jul 2025", "description": "A journalist overwhelmed by hopelessness has a life-altering 24 hours after crossing paths with Death on her day off.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/sandman.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 19,
@@ -786,14 +844,33 @@
         { "name": "Percy Hynes White", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsEaK3rsQMHDf_Ioxg8mu_pVaRCHyPR6t9jh7GqbcKjux2qvdREqrP4qw6cTffE2F8JtNz8KU4Wa4SnZTvPE5aaqWXITvsQQDB5pX-I9b7&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Wednesday's Child Is Full of Woe", "duration": "49 min", "description": "Wednesday is expelled and sent to Nevermore Academy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
-            { "ep": 2, "title": "Woe Is the Loneliest Number",     "duration": "44 min", "description": "Wednesday investigates a monster attack in Jericho.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Wednesday's Child Is Full of Woe", "duration": "50 min", "description": "Wednesday Addams is sent to Nevermore Academy after a mysterious incident at her old school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 2, "title": "Woe Is the Loneliest Number", "duration": "49 min", "description": "Wednesday investigates strange attacks while adjusting to life at Nevermore.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 3, "title": "Friend or Woe", "duration": "47 min", "description": "Wednesday struggles with friendship while uncovering more clues about the monster.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 4, "title": "Woe What a Night", "duration": "48 min", "description": "A school dance reveals hidden tensions and dangerous secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 5, "title": "You Reap What You Woe", "duration": "51 min", "description": "Wednesday gets closer to uncovering the truth behind the killings.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 6, "title": "Quid Pro Woe", "duration": "50 min", "description": "Wednesday digs deeper into Nevermore’s hidden history.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 7, "title": "If You Don't Woe Me by Now", "duration": "52 min", "description": "Secrets about Wednesday’s family begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 8, "title": "A Murder of Woes", "duration": "55 min", "description": "Season finale: Wednesday confronts the Hyde monster and uncovers the mastermind behind it all.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Here We Woe Again", "duration": "6 Aug 2025", "description": "After a productive summer break, Wednesday returns to Nevermore as a grudging campus celebrity and the target of a dangerous stalker.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 2, "title": "The Devil You Woe", "duration": "6 Aug 2025", "description": "Chaos reigns on campus as Nevermore celebrates its annual Prank Day; Wednesday confronts an old enemy and gains an unwanted ally.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 3, "title": "Call of the Woe", "duration": "6 Aug 2025", "description": "Stripped of both her ability and Goody's book, Wednesday is forced to do old-fashioned detective work on a school camping trip.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 4, "title": "If These Woes Could Talk", "duration": "6 Aug 2025", "description": "Fester and Thing assist Wednesday’s investigation while Bianca uncovers a hidden secret of her own.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 5, "title": "Hide and Woe Seek", "duration": "3 Sept 2025", "description": "With Tyler on the loose, Wednesday prepares for a dangerous Día de los Muertos confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 6, "title": "Woe Thyself", "duration": "3 Sept 2025", "description": "A supernatural encounter forces Wednesday and Enid to see each other in a new light.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 7, "title": "Woe Me the Money", "duration": "3 Sept 2025", "description": "As the school gala approaches, Wednesday investigates Dort while family tensions rise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" },
+      { "ep": 8, "title": "This Means Woe", "duration": "3 Sept 2025", "description": "Buried Addams family secrets surface as Wednesday races to stop a dark prophecy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wednesday.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 20,
@@ -824,7 +901,32 @@
         { "name": "Jeremy Nadeau", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWruUx3YAVCdcJVjwD6MCZW1nj-dg8MXyEmFA-yrYW05gbZQw8jy8XjRxwbRHTQxHqtuzpx4PnOr2LMEKJiDt4ekClpRsfR8gNMPj7nOR3&s=10" },
         { "name": "Quentin Faure", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlsnaprsvy0ae76u4k4uYtPxXddVm1sdoUlE_umtsNNa6QhWRAUQy8EcKM4m-0KlKIpJhaARknzUrxQm20wUrkEykpcA4K5WCgkt_VYFKHvA&s=10" }
       ],
-      "seasons": []
+      "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Fury Begins", "duration": "50 min", "description": "Lyna enters the criminal underworld of Paris after her father is murdered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 2, "title": "Blood Debt", "duration": "48 min", "description": "Lyna is drawn deeper into the Furies organization while searching for answers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 3, "title": "Rules of the Underworld", "duration": "52 min", "description": "Lyna learns the strict codes governing the Paris criminal network.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 4, "title": "Crossfire", "duration": "49 min", "description": "A betrayal forces Lyna to choose between revenge and survival.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 5, "title": "The Broker", "duration": "51 min", "description": "Lyna tracks down key figures controlling the criminal hierarchy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 6, "title": "Hidden Loyalties", "duration": "50 min", "description": "Trust becomes dangerous as alliances shift within the Furies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 7, "title": "No Way Back", "duration": "53 min", "description": "Lyna crosses a point of no return in her quest for justice.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 8, "title": "Furies", "duration": "55 min", "description": "Season finale: Lyna confronts the true power behind her father’s death.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Picking up Strays", "duration": "18 Mar 2026", "description": "With a new order in charge of the underworld, the Furies turn to unlikely allies to help eliminate the organization and take down its shadowy leader.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 2, "title": "How Do You Stop an Armored Van?", "duration": "18 Mar 2026", "description": "During an extraction mission, Lyna struggles to keep her link with Elie a secret while Selma revisits The Carny.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 3, "title": "You Missed the Deal of the Century", "duration": "18 Mar 2026", "description": "With Oz arriving in town, the crew prepares a major operation while trust inside the group fractures.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 4, "title": "A truce", "duration": "18 Mar 2026", "description": "Selma is forced into hiding while Lyna gains access to Damocles and confronts Orso.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 5, "title": "The Lie", "duration": "18 Mar 2026", "description": "Lyna races through Paris as Selma makes her intentions clear; Elie places his trust in Iris.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" },
+      { "ep": 6, "title": "I Can Always Kill You Tomorrow", "duration": "18 Mar 2026", "description": "Old alliances collapse as Lyna prepares for one final confrontation against the new order.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/furies.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 21,
@@ -855,15 +957,25 @@
         { "name": "Yoon Chan-young", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7VM4ExncmWBPnipK9BFKnWW-Io_vUaBhmx5SVR2fKrLyp15SlIOMzPmNnQ7s6PMvESmmduhFP8v6R3WDTX1tz-EifeNS7DZHDxEPR4Brvw&s=10" },
         { "name": "Ha Seung Ri", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsg0QR69DXkktLwvuOZ-xEzF1kn23IC_Hz01BmnQQS0KCr-tb_mzmq4V8U-KAgv_aiNVOqCQyMadeiA-Pjuwq5Dg_SLJSs_L5Ms9sogenILQ&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "A virus breaks out at Hyosan High School.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
-            { "ep": 2, "title": "Episode 2", "duration": "62 min", "description": "Survivors barricade themselves as the infection spreads.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "61 min", "description": "A science experiment at Hyosan High spirals out of control, triggering a zombie outbreak.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "65 min", "description": "Students struggle to survive as the infection spreads throughout the school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "62 min", "description": "Trapped inside, survivors begin forming alliances and making sacrifices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "63 min", "description": "The group attempts a risky escape plan through zombie-infested corridors.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "64 min", "description": "Outside the school, authorities struggle to contain the outbreak.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "61 min", "description": "Betrayals and emotional losses test the group’s survival instincts.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "66 min", "description": "The survivors attempt a dangerous breakout from the school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "68 min", "description": "New threats emerge as the infected evolve and adapt.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 9, "title": "Episode 9", "duration": "67 min", "description": "The military response intensifies while survivors search for safety.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 10, "title": "Episode 10", "duration": "70 min", "description": "Survivors face devastating losses as the outbreak worsens.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 11, "title": "Episode 11", "duration": "72 min", "description": "Final attempts to escape Hyosan bring emotional and physical collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" },
+      { "ep": 12, "title": "Episode 12", "duration": "75 min", "description": "Season finale: the aftermath of the outbreak reshapes the survivors’ lives forever.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/all of us.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 22,
@@ -926,14 +1038,41 @@
         { "name": "Ricco Ross", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRrE_VAZ73-etuf6QJcVF9yVDlG4JmUmE9qyls-uAx_S-5GN3nYZf9T6Qsf1spTJkOvcSccHzfIgXY9W_fICQzT2mkFXRUoZuFAbgiCWV3hLEwhyJAJZ2MjSpYF2jXwSB-fQCt2oI4fCz4&s=19" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "Choices are made that will change lives forever.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
-            { "ep": 2, "title": "Episode 2", "duration": "52 min", "description": "Consequences begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Pilot", "duration": "TBA", "description": "A young woman’s life takes a dramatic turn as she becomes entangled in a powerful and dangerous world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "TBA", "description": "New alliances begin to form as secrets from the past surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "TBA", "description": "Tensions rise as power struggles intensify.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "TBA", "description": "The protagonist is forced to make a life-changing decision.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "TBA", "description": "Dark truths are revealed within the elite world she has entered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "TBA", "description": "Relationships are tested as betrayal comes to light.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "TBA", "description": "The stakes rise as control over power shifts.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 8, "title": "Season Finale", "duration": "TBA", "description": "Season finale: everything changes as hidden agendas are revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Crowned in Beauty", "duration": "11 Sept 2025", "description": "Kimmie's sudden rise sends shockwaves through the Bellaire empire as Horace’s manoeuvres hit the family’s bottom line.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 2, "title": "When the Tables Turn", "duration": "11 Sept 2025", "description": "Kimmie, Rain and Sylvie enjoy their new lifestyle while rivalries escalate and Jules clashes with Angel.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 3, "title": "Blaze of Beauty", "duration": "11 Sept 2025", "description": "Sibling tensions explode while Norman handles unfinished business and Olivia disrupts dinner plans.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 4, "title": "The Next Chapter", "duration": "11 Sept 2025", "description": "A deadly twist tests Kimmie’s trust while Rain and others chase new opportunities.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 5, "title": "Hunter's Prey", "duration": "11 Sept 2025", "description": "Kimmie gets pulled deeper into the power game while personal vendettas escalate.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 6, "title": "The Enemy of My Enemy", "duration": "11 Sept 2025", "description": "Alliances shift as betrayal and rage spread across multiple fronts.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 7, "title": "Gloves Off", "duration": "11 Sept 2025", "description": "Power struggles intensify as Kimmie asserts dominance in the office war.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 8, "title": "Hold the Pleasantries", "duration": "11 Sept 2025", "description": "Boardroom tensions erupt into open conflict with serious consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 9, "title": "Toxic Vibes", "duration": "19 Mar 2026", "description": "A violent shock shakes Charles while Kimmie struggles to control the narrative.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 10, "title": "Playing for Keeps", "duration": "19 Mar 2026", "description": "A tense dinner exposes fractures in loyalty while ambition fuels chaos.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 11, "title": "Fed Up", "duration": "19 Mar 2026", "description": "Public breakdowns and secret threats push everyone to their limits.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 12, "title": "Flames of Fury", "duration": "19 Mar 2026", "description": "Old relationships fracture as new alliances form under pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 13, "title": "Boom!", "duration": "19 Mar 2026", "description": "A shocking revelation disrupts power structures and personal lives.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 14, "title": "Your Turn Is Coming", "duration": "19 Mar 2026", "description": "Plans unfold as betrayals surface and tensions escalate.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 15, "title": "The Power of Us", "duration": "19 Mar 2026", "description": "Revenge and reckoning reshape alliances in the fight for control.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" },
+      { "ep": 16, "title": "Queen's Gambit", "duration": "19 Mar 2026", "description": "Season finale: a final showdown at the shareholder summit changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/unnamed.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 24,
@@ -964,21 +1103,44 @@
         { "name": "Hunter Schafer", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQu6NJlM5PhxJVfJuD5mR9CNbz97Sozg9h0dJHwBrV0K75ogNgG92wYPhkrhDF8rN0JJrk7hweW2yoPmYCDnLJytJsZyeolYCKFVZ3sE6RFpwexCHJ9xLpPJED3lMUwMPrhwVmIdLB4Chc&s=19" },
         { "name": "Jacob Elordi", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDQBe_uVs43_CFv2WtqBVCBFTforD7_Jj-NpfUuJEpZCMDnSnmzEG7uHnAEY3lURnySqUAo5RCcg12U6d_pm7yFPLMYKHcScp2rBcUCWhN&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Pilot",           "duration": "60 min", "description": "Rue returns from rehab and meets Jules.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
-            { "ep": 2, "title": "Stuntin' Like...", "duration": "57 min", "description": "Rue tries to navigate life post-rehab.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
-          ]
-        },
-        {
-          "season": 2,
-          "episodes": [
-            { "ep": 1, "title": "Trying to Get to Heaven...", "duration": "75 min", "description": "Rue starts the new year with a dangerous secret.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Pilot", "duration": "55 min", "description": "Rue returns from rehab and struggles to find meaning while navigating teenage life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 2, "title": "Stuntin' Like My Daddy", "duration": "50 min", "description": "Jules settles into town while Rue spirals into old habits.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 3, "title": "Made You Look", "duration": "55 min", "description": "Secrets begin to surface as relationships become more complicated.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 4, "title": "Shook Ones Pt. II", "duration": "50 min", "description": "Nate’s violent tendencies escalate while Rue loses control.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 5, "title": "03 Bonnie and Clyde", "duration": "55 min", "description": "Romantic tensions and jealousy push relationships to breaking points.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 6, "title": "The Next Episode", "duration": "60 min", "description": "A chaotic carnival night changes everything between the characters.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 7, "title": "The Trials and Tribulations of Trying to Pee While Depressed", "duration": "55 min", "description": "Rue hits emotional rock bottom as her addiction worsens.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 8, "title": "And Salt the Earth Behind You", "duration": "65 min", "description": "Season finale: secrets explode and relationships collapse under pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Trying to Get to Heaven Before They Close the Door", "duration": "60 min", "description": "Rue’s relapse sets the tone for a chaotic new chapter.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 2, "title": "Out of Touch", "duration": "55 min", "description": "Jules struggles with her identity and relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 3, "title": "Ruminations: Big and Little Bullys", "duration": "60 min", "description": "Cal’s past is revealed, exposing dark secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 4, "title": "You Who Cannot See, Think of Those Who Can", "duration": "55 min", "description": "Nate’s family tensions escalate dangerously.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 5, "title": "Stand Still Like the Hummingbird", "duration": "60 min", "description": "Rue is forced to confront the consequences of her addiction.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 6, "title": "A Thousand Little Trees of Blood", "duration": "55 min", "description": "Violence erupts as secrets unravel in shocking ways.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 7, "title": "The Theater and Its Double", "duration": "60 min", "description": "Emotional confrontations push everyone to breaking points.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 8, "title": "All My Life, My Heart Has Yearned for a Thing I Cannot Name", "duration": "65 min", "description": "Season finale: relationships collapse and futures remain uncertain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Andale", "duration": "12 Apr 2026", "description": "Years after high school, Rue’s debts catch up with her while Cassie chases internet fame and Nate juggles family business pressures.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 2, "title": "America My Dream", "duration": "19 Apr 2026", "description": "Rue travels to Mexico confronting displacement while Jules navigates art school pressures and generational struggles.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "26 Apr 2026", "description": "Childhood friends wrestle with faith, redemption, and the problem of evil.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "3 May 2026", "description": "The group continues facing emotional and moral consequences of their choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "10 May 2026", "description": "New challenges intensify relationships and force difficult personal decisions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/euphoria.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 25,
@@ -1010,14 +1172,52 @@
         { "name": "Sara Waisglass",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFL11JPtt1VRh9n-jVik0LU9UtNKKYOt8ClMonbMKcHNESOsnyNtnufe5PjxoYqcpEShiNQ7JjxHkX1gVuK3buxzuOqy1wS9CM29YQuazTHQ&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Pilot",          "duration": "52 min", "description": "Georgia and Ginny arrive in Wellsbury for a fresh start.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
-            { "ep": 2, "title": "It's a Face, Not a Mask", "duration": "48 min", "description": "Ginny navigates her new school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Pilot", "duration": "59 min", "description": "Ginny and her mother Georgia settle into a new town with hidden secrets following them.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 2, "title": "It's a Face Not a Mask", "duration": "56 min", "description": "Ginny struggles to fit in while Georgia starts building a new life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 3, "title": "Next Level Rich People Shit", "duration": "58 min", "description": "Ginny is pulled into privileged social circles while Georgia’s past begins to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 4, "title": "Lydia Bennett is Hundo a Feminist", "duration": "55 min", "description": "Ginny navigates school pressure while Georgia manipulates situations to her advantage.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 5, "title": "Boo, Bitch", "duration": "57 min", "description": "Friendships and romances get complicated as secrets grow harder to hide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 6, "title": "I'm in Danger, Sweetie", "duration": "58 min", "description": "Georgia’s past threatens to catch up with her as tensions rise at home.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 7, "title": "Happy My Birthday to You", "duration": "60 min", "description": "A birthday celebration reveals emotional cracks in relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 8, "title": "Check One, Check Other", "duration": "57 min", "description": "Ginny discovers unsettling truths about her mother’s past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 9, "title": "Feelings Are Hard", "duration": "59 min", "description": "Emotional turmoil intensifies as Ginny struggles with identity and belonging.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 10, "title": "The Worst Betrayal Since Jordyn and Kylie", "duration": "62 min", "description": "Season finale: secrets explode and Ginny is forced to confront Georgia’s choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "TBA", "description": "Ginny and Georgia deal with the aftermath of season 1’s revelations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "TBA", "description": "New relationships and tensions emerge in Wellsbury.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "TBA", "description": "Georgia’s secrets begin affecting her present life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "TBA", "description": "Ginny struggles with emotional fallout and identity challenges.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "TBA", "description": "Tensions rise as hidden truths threaten stability.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "TBA", "description": "Relationships fracture under pressure from past decisions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "TBA", "description": "Georgia’s past continues to close in on her present life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "TBA", "description": "Major confrontations reshape family and friendships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 9, "title": "Episode 9", "duration": "TBA", "description": "Emotional consequences begin to unfold across relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 10, "title": "Season Finale", "duration": "TBA", "description": "Season finale: Ginny and Georgia face life-changing decisions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "5 Jun 2025", "description": "Georgia’s arrest shocks Wellsbury as her past threatens to be exposed; Ginny and Marcus reconnect while facing personal struggles.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 2, "title": "Beep Beep Freaking Beep", "duration": "5 Jun 2025", "description": "Georgia fights her legal battle strategy while Ginny finds a creative emotional outlet and Zion reflects on parenting choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "5 Jun 2025", "description": "At the spring dance, emotional wounds resurface while Austin and Paul face their own struggles.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "5 Jun 2025", "description": "Jury selection begins as Georgia’s instincts sharpen while Marcus faces a life-altering setback.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 5, "title": "Boom Goes the Dynamite", "duration": "5 Jun 2025", "description": "A courtroom revelation changes the trial while Ginny turns to a mysterious connection for escape.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 6, "title": "At Least It Can't Get Worse", "duration": "5 Jun 2025", "description": "Georgia hits rock bottom as political and social pressures mount around her family.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "5 Jun 2025", "description": "Ginny seeks access to her mother while Gil attempts to reconnect with Austin.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "5 Jun 2025", "description": "The prosecution wraps as Ginny and her father reconnect and new paths open for her.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 9, "title": "Episode 9", "duration": "5 Jun 2025", "description": "An unlikely courtroom ally emerges while school events expose hidden truths.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" },
+      { "ep": 10, "title": "Episode 10", "duration": "5 Jun 2025", "description": "Season finale: the trial concludes and Ginny begins following in Georgia’s footsteps.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ginny.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 26,
