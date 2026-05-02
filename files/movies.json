@@ -1473,7 +1473,7 @@
       "newRelease":true,
       "trailer": {
       "local": "videos/",
-      "embed": "https://youtube.com/embed/3aAvQxtvKiA"
+      "embed": "https://youtube.com/embed/3_9vCamtuPY"
       },
        "movie": {
       "local": "videos/",
@@ -1489,42 +1489,42 @@
     },
     {
       "id": 41,
-      "title": "Doomsday",
+      "title": "Mortal Kombat 2",
       "type": "movie",
-      "image": "images/doomsday.jpg",
-      "description": "A deadly plague breaks out and a team is sent in to find a cure.",
-      "year": 2024,
+      "image": "images/mortal.jpg",
+      "description": "Johnny Cage joins other fighters in the ultimate, no-holds-barred battle to defeat the dark rule of Shao Kahn, a powerful tyrant who threatens the very existence of the Earthrealm and its defenders.",
+      "year": 2026,
       "duration": "2 hours 5 mins",
-      "genre": "Action Thriller",
+      "genre": "Action Thriller Fantasy",
       "rating": "R",
       "ageRating": "18+",
-      "categories": ["movies", "action", "thriller"],
+      "categories": ["movies", "action", "thriller","sci-fi"],
       "ranking": 0,
       "progress": 0,
       "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://youtube.com/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/b24oG7qCwp4"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Karl Urban", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSHDNwOpY51h2aMaankxcStwBvlfoc1MEFXk90fN1T7aVxMW5FOc-m6VOYchdNBXQz5t0f9UVDYR4zSH3CplRuqEd3dQOb5uSgbtMxV-jHiPWgvh2YzOQ10iSVgPKrdU_TVOY-MGx2xJh0x&s=19" },
+        { "name": "Adeline Rudolph", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-d19lhdeVJpz8c484vSLW5kRc7sXKoAqfxI1EGs-7kTHO_rA437UvPtJkuNit_1Sh84IktlBHkWGX0gmcregsvFRp1_DZtOmAuVfLd791dA&s=10" },
+        { "name": "Jessica McNamee", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RCoqBGNcGOoGP228rAJ9pZI_67Ec0onnYD0-H4AnDCiQxY149ME167hAa0mB5_z-jMdYMehF86wgz9Ne1ykohhJVtyIQQkIEUlWWi5F_BQ&s=10" },
+        { "name": "Martyn Ford", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgWj1aYTW9hsuqsNSUAnKPtf-a52NXaAR73SsrD9n3OR8M-sPUXVEdL_nBYvEY5-9DmIo6G9akqAOtvQn7R1FCOygOPu8anpEhxWWmN1ER0w&s=10" }
       ],
       "seasons": []
     },
     {
       "id": 42,
-      "title": "Gladiator II",
+      "title": "War Machine",
       "type": "movie",
-      "image": "images/gladiator.jpg",
-      "description": "A young man fights his way to the Roman Colosseum seeking vengeance.",
-      "year": 2024,
+      "image": "images/machine.jpg",
+      "description": "During the final stage of US Army Ranger selection, an elite team's training exercise turns into a fight for survival against an unimaginable threat.",
+      "year": 2026,
       "duration": "2 hours 28 mins",
       "genre": "Action Drama",
       "rating": "R",
@@ -1534,18 +1534,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://archive.org/embed/AFuE1LRxm80"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [ 
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Alan Ritchson", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBzu3kywe_W_Qp5i3CvdlkBNGa9NicHkQCGsCJowZExVDdbXXBrq_-J_SyOt3xptwvSoWi3dgF4XWd_HeMks6dnGfMk4_UktZeeB-5-hC&s=10" },
+        { "name": "Dennis Quaid",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2udcTpBO4umhtK1Ht3da3y6Gs2SLaCJH-vfyhINV5avqhmdaW391u6EXMZF3ibuvpsIra7MpGfX-MifGGS5gGbNcISWF7CoOvk-n9RO3RA&s=10" },
+        { "name": "Jai Courtney", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3W3CAvNWAspo41VXwHxSbEni50V7VsDn33avoukuu1BB24mjZypgHD79SRaMPu1I7TSePFPqLKOI6hx61tpgDdu3P2lvA631ik-UJj7NY&s=10" },
+        { "name": "Keiynan Lonsdale", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdHZ4Y6T1Lv2rPIPZGxyJmMuKz-Y5zR81jkkfcfqp0HhNJ3Urz5hNLfBy4j3kJYaRI1AKYY6HBR586GUkQJP1H0gxl11ajsDfUkhlmzChb&s=10" }
       ],
       "seasons": []
     },
@@ -1565,18 +1565,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.co/embed/Y274jZs5s7s"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
-      "embed": "https://youtube.com/embed/MOVIE_ID"
+      "embed": "https://youtube.com/embed/RHH8iYlNeEM"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Chris Hemsworth",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ao9ihACz6DfNZiW5Ha9HvVMt-GLYsYK8aQNhxsdcWgYmU4IpD6Onx6OT8nd0NSEv8eF2YZjD2b4OqWER102SLP3AyfAF9BDeNzmmHrb7&s=10" },
+        { "name": "Golshifteh Farahani","image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTDxLoD0qbvaY5eeQl2OkXhOhCCp2tlcLUzCukiSgiOQll8bdp8CHEt7kcIPGkcqsHxGECXQBR8Df1_QLWGL4y9Wvf3wOPWx5ILn5uWzL622aOh3SX30stMuCAcxy5WOg88k5dLox2tYlc&s=19" },
+        { "name": "Sam Hargrave", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW79IGYXzsVGzjUGbzc-UrtWmOkIyP6axXr8OOqCRUpF84uUlcec68-uQlj0jBARIGc5vmhMZFaPtefqTl1Cg6jbsy40xi914NnWW2tKAQZw&s=10" },
+        { "name": "Randeep Hooda", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4GWCTv8XeEDmzTQg02hVb-Kny2LN9iXBZvBiW_e1gGQ0qqI9bwSvjIwEXbOSzy4S88NVLkI8mw8e6jaI4aSSWCkrD73t9osYup78sMZID9w&s=10" }
       ],
       "seasons": []
     },
@@ -1596,18 +1596,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://archive.org/embed/36PDeN9NRZ0"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Logan Marshall-Green", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbEwzP5xJ_G1XiHTmtiInGfDrFvtvm5cMHhMHJHmaHqnvqEE0_vIh2KJptU_D_bty0LiA1vVWftbBFWcJze_DWx7IH10Mc8WD0GGX0WIim&s=10" },
+        { "name": "Betty Gabriel",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5CBtmqlWX5w7jDWv3JLPBx2VLO4UOrCgBio8JY_A6IVBhGZvk66g1M-U3ctnQve_wYx9j4vqtRR1SIurB0VshNdWykLcRErTjH_XDwQP4YA&s=10" },
+        { "name": "Harrison Gilbertson",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALLaUr2daByHLakRbmAGaJIrmdZBbPWyEkVzs8C_4y_-WDvx3iOpyazU06GL_LxWNCPaPZdlWXou_Kjw6ML5KjBTBpznw4P9jTlA8-P0&s=10" },
+        { "name": "Melanie Vallejo", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIMuXoYvHiFDiXaES2ru2Rr7DTc2OSFW_4SMRAm3B-F2jrj7rFB71EGqLfeUWrlfC1naBIP7YCIVp4eceDJJWWPeOrXztn4lwi0ObY27OuqQ&s=10" }
       ],
       "seasons": []
     },
@@ -1627,18 +1627,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://archive.org/embed/0DAmWHxeoKw"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "", "image": "" },
+        { "name": "", "image": "" },
+        { "name": "", "image": "" },
+        { "name": "", "image": "" }
       ],
       "seasons": [
         {
