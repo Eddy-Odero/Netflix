@@ -1248,15 +1248,47 @@
         { "name": "Chloé Hayden", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwgCLI8lCh-wRqzvBj9Yn10_mltMaxO8CEHq3x7-kQ2dn7QuI5wAMnHk8KiGEB3hmxtZG-zFor3Ippfg8lbNe4Q4OyOHVSXZsn98V7SXBZ&s=10" },
         { "name": "Josh Heuston", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvvWSpjXfY3cu53IZ7Ke1s5bw3lXOId0-rTd1kTEhp-Ddp5z3euxGRhP53EDqyvKJZDQFcSioLRdLn6TlILt8v2h0kUNXZ2f7RjcbTeUhuUg&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A sex map causes chaos at Hartley High.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
-            { "ep": 2, "title": "Episode 2", "duration": "44 min", "description": "The fallout from the sex map continues.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "50 min", "description": "A scandalous map exposes hidden relationships at Hartley High, turning students against each other.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "48 min", "description": "Amid the fallout of the map, friendships are tested and new alliances form.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "49 min", "description": "Students face consequences as the school investigates the origin of the map.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "51 min", "description": "Romantic tensions rise while secrets continue to spread across campus.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "52 min", "description": "Characters confront personal trauma as relationships become more complicated.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "50 min", "description": "Truths begin to surface about who created the map and why.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "53 min", "description": "Emotional confrontations force students to reassess their friendships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "55 min", "description": "Season finale: the truth behind the map is revealed, changing everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "TBA", "description": "A new school year brings fresh drama and unresolved tension at Hartley High.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "TBA", "description": "Old relationships are tested as new conflicts emerge among students.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "TBA", "description": "The fallout from past events continues to shape student dynamics.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "TBA", "description": "Secrets resurface, creating new divisions within friendships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "TBA", "description": "Romantic entanglements grow more complicated under pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "TBA", "description": "A major confrontation forces several students to face consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "TBA", "description": "Emotional decisions reshape relationships across the school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "TBA", "description": "Season finale: tensions explode, setting up a new chapter at Hartley High.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Operation Headjob", "duration": "25 Mar 2026", "description": "As graduation looms, Hartley High students prank a rival school, but things turn dangerous when someone gets hurt.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 2, "title": "Somebody Nose", "duration": "25 Mar 2026", "description": "At Uni Day, guilt spreads while Harper uncovers a betrayal within the group.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 3, "title": "The Root Room", "duration": "25 Mar 2026", "description": "Amerie and Harper suspect a traitor while Missy’s birthday party goes awkwardly wrong.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 4, "title": "A Constitution for Cucking", "duration": "25 Mar 2026", "description": "A secret gig celebration turns tense as bullying and unexpected romance collide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 5, "title": "A Good Egg", "duration": "25 Mar 2026", "description": "Evidence from the carnival causes panic while confrontations erupt at school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 6, "title": "Cuckoo, B****es!", "duration": "25 Mar 2026", "description": "New suspects emerge as the group uncovers deeper secrets and growing distrust.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 7, "title": "For Whom the Hartley Bell Tolls", "duration": "25 Mar 2026", "description": "Police scrutiny intensifies as graduation approaches and hard choices are made.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" },
+      { "ep": 8, "title": "Destined", "duration": "25 Mar 2026", "description": "Schoolies trip forces the group to confront shocking truths and final decisions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/heartbreak.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 27,
@@ -1287,15 +1319,25 @@
         { "name": "Savannah Lee Smith", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZ2vmaUBEwX3VFxNm6RPRvtXv66POXgpHL_THpH2R1JJopTvGzpd57iswp9ypcqipX00OqZ8Ka7Cmg4p7OKEhHQPi0WaLDwEY-i0GB4QtOQ&s=10" },
         { "name": "Claire Forlani", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOVLMYCA_OGq2MB_HQ6kLWKbAqyAsFkH14YaMrsmeH-Hr-LNmVQdM9xLNFFaSfsgBBTsFJigr0XLyVFGCZjDWN00we--Stxa2LSl9w8uM&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "44 min", "description": "The game of manipulation begins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
-            { "ep": 2, "title": "Episode 2", "duration": "42 min", "description": "Stakes rise as secrets are uncovered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Welcome to the Game", "duration": "50 min", "description": "Elite students begin a dangerous social game of manipulation and power.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 2, "title": "Rules Are Meant to Break", "duration": "48 min", "description": "A risky wager sets off a chain of emotional manipulation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 3, "title": "Hearts as Weapons", "duration": "49 min", "description": "Romance becomes a tool for control and revenge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 4, "title": "Hidden Histories", "duration": "51 min", "description": "Past secrets threaten present alliances.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 5, "title": "Control and Consequence", "duration": "50 min", "description": "Power shifts as trust becomes unstable.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 6, "title": "The Breaking Point", "duration": "52 min", "description": "A betrayal forces everyone to rethink their alliances.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 7, "title": "Endgame Manipulation", "duration": "54 min", "description": "The manipulation reaches its most dangerous stage.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" },
+      { "ep": 8, "title": "Checkmate", "duration": "58 min", "description": "The final move exposes everything and changes all outcomes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cruel.jpg" }
+    ]
+  }
+]
+  }
+]
     },
     {
       "id": 28,
@@ -1326,14 +1368,38 @@
         { "name": "Andrea Chaparro", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl-aRWtApksiqxMfAUeGZ8OkdUZ8C6Wd24vk563dGB-d3dMVYn3Sc09fUZzjC-NsGjsRCA_SLtw4HbGSvOnZVv7mjcjeHi9qatNXh2u93m&s=10" },
         { "name": "Franco Masini",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbt07CMKrWFKIMkf7GDFOylLjIgnU6EiXvlPVL4ZuDq0_7iNJUaEyNHZqQHeoVM3YJxEN2NJGqkEmeb8e09RQkLjO3-auIXZpxxzwd9jmKg&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "40 min", "description": "New students arrive at Elite Way School.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+  "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Welcome to Elite Way", "duration": "48 min", "description": "Students arrive at Elite Way School and discover its strict social hierarchy and hidden rivalries.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 2, "title": "First Notes, First Fights", "duration": "47 min", "description": "Friendships and rivalries begin forming as the music program starts.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 3, "title": "Secrets in the Hallways", "duration": "49 min", "description": "A hidden group begins influencing student life behind the scenes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 4, "title": "Broken Harmonies", "duration": "50 min", "description": "Romance and competition collide as the band rivalry intensifies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 5, "title": "False Friends", "duration": "48 min", "description": "A betrayal shakes trust within the group.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 6, "title": "Pressure Notes", "duration": "51 min", "description": "Family expectations and identity struggles come to the surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 7, "title": "Clash of Voices", "duration": "52 min", "description": "Tensions rise as competition approaches its peak.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 8, "title": "Final Showdown", "duration": "55 min", "description": "The music competition changes everything at Elite Way School.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" }
+    ]
+  }
+]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "50 min", "description": "A new semester begins with rising pressure on the music students.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "48 min", "description": "Old rivalries return stronger as new talent enters the school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "49 min", "description": "The secret society’s influence grows deeper within the academy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "50 min", "description": "Relationships are tested as the band prepares for a major performance.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "51 min", "description": "A major conflict threatens to break the group apart.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "52 min", "description": "Students face consequences for past decisions while chasing success.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "53 min", "description": "Emotional revelations reshape friendships and ambitions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" },
+      { "ep": 8, "title": "Season Finale", "duration": "56 min", "description": "The final performance determines the future of the students and their music careers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/rebelde.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 29,
@@ -1365,14 +1431,61 @@
         { "name": "Akira Akbar", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbF5jt7YOE66U_V4qyWhhmEWdsicUvbnOe7ypFtlvkICmyhPbhVFHuckzVF-mZ1QwpX-MhQ9xsFhLGt4jAE20HDnTWWwPspeGVH_2BTR_Pw&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Dreams and Nightmares", "duration": "52 min", "description": "Will arrives in Bel-Air and faces a new world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
-            { "ep": 2, "title": "Strictly Business",     "duration": "48 min", "description": "Will tries to adapt to his new lifestyle.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Dreams and Nightmares", "duration": "60 min", "description": "Will’s life in West Philly changes after a dangerous incident sends him to Bel-Air.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 2, "title": "Keep Ya Head Up", "duration": "55 min", "description": "Will struggles to adjust to life in the Banks household.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 3, "title": "Yamacraw", "duration": "56 min", "description": "Tensions rise as Will tries to find his place in Bel-Air.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 4, "title": "Canvass", "duration": "54 min", "description": "Carlton and Will clash over identity and privilege.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 5, "title": "PA to LA", "duration": "57 min", "description": "Will reflects on his past while tensions grow.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 6, "title": "The Strength to Smile", "duration": "58 min", "description": "Family pressure and personal struggles collide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 7, "title": "Payback's a Bitch", "duration": "55 min", "description": "Past choices begin catching up with Will.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 8, "title": "No One Wins When the Family Feuds", "duration": "60 min", "description": "Family conflict reaches breaking point.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "A Fresh Start", "duration": "55 min", "description": "Will returns to new challenges as past tensions linger.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 2, "title": "Something for Nothing", "duration": "56 min", "description": "Carlton and Will’s rivalry deepens.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 3, "title": "Complicated", "duration": "54 min", "description": "Relationships inside the Banks family strain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 4, "title": "Don’t Kill My Vibe", "duration": "57 min", "description": "Will tries balancing loyalty and independence.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 5, "title": "Excessive Force", "duration": "58 min", "description": "A serious incident forces difficult truths.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 6, "title": "Let It Burn", "duration": "56 min", "description": "Emotional tensions explode in the family.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 7, "title": "Black Lotus", "duration": "55 min", "description": "Truths emerge that reshape relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 8, "title": "The Comeback", "duration": "60 min", "description": "Will faces a defining choice about his future.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Baby, I'm Back", "duration": "15 Aug 2024", "description": "Summer in Bel-Air brings big changes as the Banks family prepares for Juneteenth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 2, "title": "Pivot", "duration": "15 Aug 2024", "description": "Will and Carlton take unexpected jobs while adjusting to new pressures.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 3, "title": "True Colors", "duration": "15 Aug 2024", "description": "The launch of 'Blackccess' begins to reshape friendships and ambition.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 4, "title": "Out All Night", "duration": "22 Aug 2024", "description": "A crisis brings the group together while tensions grow.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 5, "title": "Getting Personal", "duration": "29 Aug 2024", "description": "Relationships strain under business and personal pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 6, "title": "Baggage", "duration": "5 Sept 2024", "description": "Family healing efforts reveal deeper emotional wounds.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 7, "title": "Black Lotus", "duration": "12 Sept 2024", "description": "Will is torn between his biological and chosen families.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 8, "title": "Gimme a Break", "duration": "19 Sept 2024", "description": "Secrets about 'Blackccess' cause conflict between Will and Carlton.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 9, "title": "Family Matters", "duration": "26 Sept 2024", "description": "The Banks family faces emotional fallout and hidden truths.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 10, "title": "Save the Best for Last", "duration": "5 Sept 2024", "description": "The family supports Hilary’s wedding while business tensions rise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" }
+    ]
+  },
+  {
+    "season": 4,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "24 Nov 2025", "description": "Will and Carlton begin their senior year and face their futures.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 2, "title": "Be a Kid", "duration": "24 Nov 2025", "description": "Homecoming week brings chaos and personal reflection.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 3, "title": "What Are You Doing for Thanksgiving?", "duration": "24 Nov 2025", "description": "The Banks family gathers as consequences of past decisions surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 4, "title": "Brother's Keeper", "duration": "12 Jan 2025", "description": "Will revisits basketball dreams while Phil faces a moral dilemma.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 5, "title": "Gorilla Glue and Duct Tape", "duration": "1 Dec 2025", "description": "Phil prepares Will and Carlton for life beyond Bel-Air.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 6, "title": "Your Crown is Waiting", "duration": "12 Aug 2025", "description": "Will and Carlton reflect on their futures and decisions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 7, "title": "Soulmates", "duration": "8 Dec 2025", "description": "Relationships are tested during senior lock-in.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" },
+      { "ep": 8, "title": "The Next Act", "duration": "8 Dec 2025", "description": "Graduation approaches as the Banks family prepares for major change.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/bell.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 30,
@@ -1404,13 +1517,67 @@
         { "name": "Jaren Lewison",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiB-UbdpA5kHJZ_ltf3cylzDjbHQ18KnuRs1C3U9GOCf24p9FFvYyCA0cBJCSx8wAXCE2t7CBvFE_NSsZtfXSIZGhS7AssZjJ4f3PqwfR8&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "...had to be on my best behavior", "duration": "28 min", "description": "Devi vows to reinvent herself and get a boyfriend.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Pilot", "duration": "28 min", "description": "Devi tries to reinvent her social life while dealing with grief and school pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 2, "title": "...Been a Bad Girl", "duration": "27 min", "description": "Devi navigates new crushes and reputation challenges.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 3, "title": "...Gotten Drunk with the Popular Kids", "duration": "28 min", "description": "A party pulls Devi into unexpected social territory.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 4, "title": "...Slept with the Popular Guy", "duration": "29 min", "description": "Romantic choices complicate friendships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 5, "title": "...Had an Indian Boyfriend", "duration": "27 min", "description": "Cultural expectations clash with teenage relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 6, "title": "...Had a Breakdown", "duration": "30 min", "description": "Emotions erupt as lies begin to collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 7, "title": "...Started a Nuclear War", "duration": "29 min", "description": "A school conflict escalates beyond control.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 8, "title": "...Had an Identity Crisis", "duration": "31 min", "description": "Devi questions who she really is.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 9, "title": "...Broken Up with My Best Friend", "duration": "30 min", "description": "Friendships are tested under emotional strain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 10, "title": "...Said Goodbye", "duration": "32 min", "description": "Devi faces the consequences of her actions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "...Been a Player", "duration": "30 min", "description": "Love triangles and school pressure intensify.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 2, "title": "...Had My First Kiss", "duration": "28 min", "description": "New relationships create emotional complications.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 3, "title": "...Had an Extramarital Affair", "duration": "29 min", "description": "Secrets spread across relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 4, "title": "...Had a Breakthrough", "duration": "30 min", "description": "Devi reflects on emotional growth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 5, "title": "...Lost My Virginity", "duration": "31 min", "description": "A major life moment changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 6, "title": "...Ruined a Person’s Life", "duration": "30 min", "description": "Guilt catches up with Devi.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 7, "title": "...Had a Dream Come True", "duration": "29 min", "description": "Hope returns in Devi’s life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 8, "title": "...Felt My Feelings", "duration": "32 min", "description": "Emotional truths reshape relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 9, "title": "...Had an Epic Fight", "duration": "30 min", "description": "Friendships reach breaking point.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 10, "title": "...Said I Love You", "duration": "33 min", "description": "Love and loss collide in the finale.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "...Started High School Again", "duration": "30 min", "description": "New school year brings new chaos.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 2, "title": "...Made a Mistake", "duration": "29 min", "description": "Devi’s choices create fallout.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 3, "title": "...Lost Control", "duration": "31 min", "description": "Emotions spiral out of control.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 4, "title": "...Got Caught", "duration": "30 min", "description": "Secrets are exposed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 5, "title": "...Made Things Worse", "duration": "29 min", "description": "Devi tries to fix her mistakes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 6, "title": "...Had Enough", "duration": "31 min", "description": "Emotional burnout hits.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 7, "title": "...Said the Wrong Thing", "duration": "30 min", "description": "Words have consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 8, "title": "...Found Myself", "duration": "32 min", "description": "Devi begins self-discovery.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 9, "title": "...Let Go", "duration": "31 min", "description": "Relationships evolve.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 10, "title": "...Moved Forward", "duration": "33 min", "description": "Devi embraces a new chapter.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" }
+    ]
+  },
+  {
+    "season": 4,
+    "episodes": [
+      { "ep": 1, "title": "...Lost My Virginity", "duration": "8 Jun 2023", "description": "Senior year begins with emotional chaos after an awkward moment.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 2, "title": "...Gotten Sweet Revenge", "duration": "8 Jun 2023", "description": "Devi investigates vandalism while tensions rise at school.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 3, "title": "...Liked a Bad Boy", "duration": "8 Jun 2023", "description": "Old feelings resurface as new relationships form.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 4, "title": "...Wrecked My Future", "duration": "8 Jun 2023", "description": "College dreams collide with romantic chaos.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 5, "title": "...Been to New Jersey", "duration": "8 Jun 2023", "description": "A school trip brings unexpected realizations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 6, "title": "...Had My Dreams Stolen", "duration": "8 Jun 2023", "description": "Early admissions bring surprising outcomes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 7, "title": "...Had an Identity Crisis", "duration": "8 Jun 2023", "description": "Paxton reflects on his future and past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 8, "title": "...Set My Mom Up", "duration": "8 Jun 2023", "description": "Devi meddles in her mother’s love life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 9, "title": "...Gone to Prom", "duration": "8 Jun 2023", "description": "Prom night forces hard truths.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" },
+      { "ep": 10, "title": "...Said Goodbye", "duration": "8 Jun 2023", "description": "Graduation weekend marks the end of an era.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/never.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 31,
@@ -1442,13 +1609,33 @@
         { "name": "Isabela Merced", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0tBXJwn38AbdbZB3L8YRd6GAjU0nn-kDvGYrOu_msOMpA70-Bbj7JjCK2MHTD4XHzX4EOp5IcJTVeMru2lPpXklTkB3bxZsmy3jwsL-f&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            {  }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "When You're Lost in the Darkness", "duration": "81 min", "description": "Joel is hired to smuggle Ellie out of a quarantine zone, beginning a dangerous journey.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 2, "title": "Infected", "duration": "53 min", "description": "Joel, Tess, and Ellie face the infected and escalating dangers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 3, "title": "Long, Long Time", "duration": "76 min", "description": "A standalone story of survival, love, and loss.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 4, "title": "Please Hold to My Hand", "duration": "45 min", "description": "Joel and Ellie travel through hostile territory.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 5, "title": "Endure and Survive", "duration": "59 min", "description": "A city under siege forces difficult choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 6, "title": "Kin", "duration": "59 min", "description": "Joel reconnects with his past while Ellie struggles with trust.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 7, "title": "Left Behind", "duration": "56 min", "description": "Ellie’s past reveals key emotional turning points.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 8, "title": "When We Are in Need", "duration": "51 min", "description": "Ellie faces a dangerous group led by a preacher.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 9, "title": "Look for the Light", "duration": "43 min", "description": "Joel and Ellie reach a life-altering destination.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Future Days", "duration": "13 Apr 2025", "description": "Five years after Salt Lake City, Ellie patrols with Dina while Joel tries to repair their relationship.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 2, "title": "Through the Valley", "duration": "20 Apr 2025", "description": "Abby weighs her choices as Jackson prepares for an incoming threat.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 3, "title": "The Path", "duration": "27 Apr 2025", "description": "Ellie begins her pursuit while tensions rise near Seattle.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 4, "title": "Day One", "duration": "4 May 2025", "description": "Ellie and Dina are caught in the war between WLF and Seraphites.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 5, "title": "Feel Her Love", "duration": "11 May 2025", "description": "The conflict escalates as hidden truths surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 6, "title": "The Price", "duration": "18 May 2025", "description": "Joel makes a difficult choice while Ellie receives an unexpected surprise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" },
+      { "ep": 7, "title": "Convergence", "duration": "25 May 2025", "description": "Ellie’s search leads toward a devastating confrontation in Seattle.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/last.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 32,
@@ -1480,14 +1667,46 @@
         { "name": "Josha Stradowski", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzOejEREcvSTGw8NbY4saPjbhWR5fQ46OgIb9qQ-L43JtJkyarjNuLTGx4FRr13gMEEcNIFa2SVFz5GqmykX_QMakGq1LR-uhIqvnSdbIgg&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Leavetaking",    "duration": "60 min", "description": "Moiraine arrives in the Two Rivers seeking the Dragon Reborn.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
-            { "ep": 2, "title": "Shadow's Waiting","duration": "55 min", "description": "The group flees toward Shadar Logoth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Leavetaking", "duration": "1 h 7 min", "description": "Moiraine searches for the Dragon Reborn and sets a dangerous journey in motion.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 2, "title": "Shadow's Waiting", "duration": "1 h 1 min", "description": "The group is forced to flee from dark forces.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 3, "title": "A Place of Safety", "duration": "1 h 2 min", "description": "The companions seek refuge while danger follows.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 4, "title": "The Dragon Reborn", "duration": "1 h 5 min", "description": "Secrets about the Dragon Reborn emerge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 5, "title": "Blood Calls Blood", "duration": "1 h 2 min", "description": "Internal conflict and external threats rise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 6, "title": "The Flame of Tar Valon", "duration": "1 h 0 min", "description": "Political tension grows inside the White Tower.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 7, "title": "The Dark Along the Ways", "duration": "1 h 3 min", "description": "The group faces terror within the Ways.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 8, "title": "The Eye of the World", "duration": "1 h 0 min", "description": "A final confrontation with the Dark One reshapes destiny.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "A Taste of Solitude", "duration": "1 h 1 min", "description": "Rand struggles with isolation as new threats emerge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 2, "title": "Strangers and Friends", "duration": "1 h 2 min", "description": "New alliances form across a fractured world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 3, "title": "What Might Be", "duration": "1 h 4 min", "description": "Prophecies begin shaping destiny.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 4, "title": "The Shadow's Trial", "duration": "1 h 0 min", "description": "A dangerous test exposes hidden truths.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 5, "title": "Damane", "duration": "1 h 1 min", "description": "Power and captivity shift the balance.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 6, "title": "Eyes Without Pity", "duration": "1 h 3 min", "description": "Political manipulation reaches a peak.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 7, "title": "Daes Dae'mar", "duration": "1 h 2 min", "description": "The Great Game of politics unfolds.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 8, "title": "What Was Meant to Be", "duration": "1 h 5 min", "description": "Fates collide in a season finale confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "To Race the Shadow", "duration": "13 Mar 2025", "description": "The group unites against Liandrin while Lanfear advances her plans.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 2, "title": "A Question of Crimson", "duration": "13 Mar 2025", "description": "Elayne returns home as political tensions rise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 3, "title": "Seeds of Shadow", "duration": "13 Mar 2025", "description": "Deadly missions and emotional struggles unfold.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 4, "title": "The Road to the Spear", "duration": "20 Mar 2025", "description": "Rand uncovers truths about his ancestral past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 5, "title": "Tel'aran'rhiod", "duration": "27 Mar 2025", "description": "Dreamworld training and rising threats collide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 6, "title": "The Shadow in the Night", "duration": "3 Apr 2025", "description": "Destinies approach their breaking point.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 7, "title": "Goldeneyes", "duration": "10 Apr 2025", "description": "Perrin embraces leadership in the Two Rivers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" },
+      { "ep": 8, "title": "He Who Comes With The Dawn", "duration": "17 Apr 2025", "description": "The Black Ajah confrontation changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wheel.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 33,
