@@ -63,30 +63,47 @@
         { "name": "Karen Fukuhara",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT5yjh0UdxX7C51oHdy0xZCm0JsSB7RS5HJkQ15SlrImJGgdxa82KBUIEX6yCk-cX4iTbqUj7uLvilRyijf8Z3NIOcaTpYdyWA2YZ2NQwUFfslmd9FJAvXij6yAsKVOh1MAOoIHoiuLWHtL&s=19" },
         { "name": "Jack Quaid",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRhsYSOhgKi5oj-FMYzc_VYBnT-qdjtD1zQXVcrXGDMAkvlZNMrC79vWHCrbU-yPRCB8YZqHkbBecY729_wF_I6Tl7ww9_QDb_KheiSh1SzTefspEq_NgQTY4Lk8fa_KAT_2Wwag3KTY7Pf&s=19" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The Name of the Game", "duration": "61 min", "description": "Hughie's life is turned upside down when a Supe kills his girlfriend.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
-            { "ep": 2, "title": "Cherry",               "duration": "57 min", "description": "Butcher recruits Hughie for a dangerous mission inside Vought.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
-            { "ep": 3, "title": "Get Some",             "duration": "60 min", "description": "The Boys dig deeper into Vought's secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
-          ]
-        },
-        {
-          "season": 2,
-          "episodes": [
-            { "ep": 1, "title": "The Big Ride",       "duration": "62 min", "description": "The Boys are on the run while a new Supe terrorizes the country.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
-            { "ep": 2, "title": "Proper Preparation", "duration": "58 min", "description": "Homelander tightens his grip on The Seven.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
-          ]
-        },
-        {
-          "season": 3,
-          "episodes": [
-            { "ep": 1, "title": "Payback",        "duration": "65 min", "description": "Butcher and the Boys get new government jobs hunting rogue Supes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
-            { "ep": 2, "title": "The Only Man...", "duration": "59 min", "description": "A dangerous new weapon could change everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Name of the Game", "duration": "61 min", "description": "Hughie's life is turned upside down when a Supe kills his girlfriend.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 2, "title": "Cherry", "duration": "57 min", "description": "Butcher recruits Hughie for a dangerous mission inside Vought.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 3, "title": "Get Some", "duration": "60 min", "description": "The Boys dig deeper into Vought's secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 4, "title": "The Female of the Species", "duration": "59 min", "description": "The Boys encounter a mysterious and powerful new ally.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 5, "title": "Good for the Soul", "duration": "60 min", "description": "The Seven face public scrutiny while The Boys plan their next move.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 6, "title": "The Innocents", "duration": "64 min", "description": "Secrets about Vought begin to surface as tensions rise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 7, "title": "The Self-Preservation Society", "duration": "60 min", "description": "The Boys must decide who they can trust.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 8, "title": "You Found Me", "duration": "67 min", "description": "Season finale: loyalties are tested in a brutal showdown.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "The Big Ride", "duration": "62 min", "description": "The Boys are on the run while a new Supe terrorizes the country.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 2, "title": "Proper Preparation and Planning", "duration": "58 min", "description": "Homelander tightens his grip on The Seven.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 3, "title": "Over the Hill with the Swords of a Thousand Men", "duration": "59 min", "description": "The Boys seek help while tensions rise within The Seven.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 4, "title": "Nothing Like It in the World", "duration": "62 min", "description": "A shocking truth about Compound V is revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 5, "title": "We Gotta Go Now", "duration": "60 min", "description": "Butcher faces his past as new threats emerge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 6, "title": "The Bloody Doors Off", "duration": "63 min", "description": "The Boys confront a powerful enemy in a deadly clash.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 7, "title": "Butcher, Baker, Candlestick Maker", "duration": "60 min", "description": "Secrets unravel as the stakes reach a breaking point.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 8, "title": "What I Know", "duration": "67 min", "description": "Season finale: the battle against Vought reaches its peak.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Payback", "duration": "65 min", "description": "Butcher and the Boys get new government jobs hunting rogue Supes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 2, "title": "The Only Man in the Sky", "duration": "59 min", "description": "A dangerous new weapon could change everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 3, "title": "Barbary Coast", "duration": "61 min", "description": "The team investigates a legendary Supe team from the past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 4, "title": "Glorious Five Year Plan", "duration": "63 min", "description": "Hughie struggles with power while Butcher takes risks.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 5, "title": "The Last Time to Look on This World of Lies", "duration": "64 min", "description": "Soldier Boy's past begins to unravel.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 6, "title": "Herogasm", "duration": "66 min", "description": "A chaotic and infamous gathering changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 7, "title": "Here Comes a Candle to Light You to Bed", "duration": "62 min", "description": "The team prepares for an all-out confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 8, "title": "The Instant White-Hot Wild", "duration": "64 min", "description": "Season finale: alliances shatter in an explosive ending.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 3,
@@ -148,21 +165,25 @@
         { "name": "Aaron Moten", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dm-hiLvZPI_lu6g9xOFLV51iTRvxSCC_rAKqqTWg5-mFdzOktuNANcUzf42bB9G54XVQWoFEjgthC8fcfi3sDRjMQZ3hmlivJpqET4cv&s=10" },
         { "name": "Moisés Arias",  "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTbg_MsUfB6KUrXYJ4qpeznbWhEYoQsGi5VW0U4HaikgmPBAjTdWRRMe6s8hwWmgmvPdy0Hg8JV5if1vNvad_YJyDUHimJ5q6OknZPHlF5e4IlhmNVSgp8sqBsurvqfbe9tzU1OxZMnFRvi&s=19" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The End",       "duration": "67 min", "description": "Lucy leaves the vault for the first time and encounters the wasteland.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 2, "title": "The Target",    "duration": "55 min", "description": "Lucy pursues her kidnapped father across a dangerous wasteland.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 3, "title": "The Head",      "duration": "57 min", "description": "A mysterious head holds secrets that could change everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 4, "title": "The Ghouls",    "duration": "52 min", "description": "The Cooper Howard story begins to unfold.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 5, "title": "The Past",      "duration": "59 min", "description": "Secrets from before the bombs dropped are revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 6, "title": "The Trap",      "duration": "54 min", "description": "Lucy and The Ghoul face a deadly trap set by Moldaver.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 7, "title": "The Radio",     "duration": "56 min", "description": "A radio signal may lead to salvation or destruction.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-            { "ep": 8, "title": "The Beginning", "duration": "61 min", "description": "All threads converge in the explosive season finale.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" }
-          ]
-        }
-      ]
+    "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The End", "duration": "60 min", "description": "A young woman leaves the safety of her vault to explore the dangerous wasteland.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 2, "title": "The Target", "duration": "58 min", "description": "Lucy begins her journey while a bounty hunter closes in on his target.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 3, "title": "The Head", "duration": "59 min", "description": "Secrets about the wasteland emerge as alliances begin to form.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 4, "title": "The Ghouls", "duration": "57 min", "description": "A mysterious ghoul reveals parts of his past in the pre-war world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 5, "title": "The Past", "duration": "60 min", "description": "Flashbacks uncover the truth behind Vault-Tec and the nuclear fallout.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 6, "title": "The Trap", "duration": "61 min", "description": "Danger escalates as characters are drawn into a deadly conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 7, "title": "The Radio", "duration": "59 min", "description": "A signal leads to unexpected revelations and betrayals.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 8, "title": "The Beginning", "duration": "62 min", "description": "Season finale: the truth about the wasteland changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": []
+  }
+]
     },
     {
       "id": 5,
@@ -194,22 +215,40 @@
         { "name": "Lauren Cohan","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5GbatXx9gAJsziyR49pGjEyfFQwdzdy-4lDQ3lMblQ3BiCgyzz6kZ3l7mx8sZ7XLJfAOdlR6xkPBcQreveXABJq5EXzErMsb3RrWjMGz&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "It's About Time",       "duration": "45 min", "description": "Mark Grayson discovers his superpowers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
-            { "ep": 2, "title": "Here Goes Nothing",     "duration": "44 min", "description": "Mark begins his superhero training.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
-            { "ep": 3, "title": "Who You Calling Ugly?", "duration": "47 min", "description": "Mark faces his first real villain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
-          ]
-        },
-        {
-          "season": 2,
-          "episodes": [
-            { "ep": 1, "title": "A Lesson for Your Next Life", "duration": "50 min", "description": "Mark deals with the fallout from the Guardians massacre.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
-            { "ep": 2, "title": "In About Six Hours",          "duration": "48 min", "description": "A new threat emerges from another dimension.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "It's About Time", "duration": "45 min", "description": "Mark Grayson discovers his superpowers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 2, "title": "Here Goes Nothing", "duration": "44 min", "description": "Mark begins his superhero training.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 3, "title": "Who You Calling Ugly?", "duration": "47 min", "description": "Mark faces his first real villain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 4, "title": "Neil Armstrong, Eat Your Heart Out", "duration": "46 min", "description": "Mark balances school life with his growing responsibilities.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 5, "title": "That Actually Hurt", "duration": "45 min", "description": "Mark pushes his limits against powerful enemies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 6, "title": "You Look Kinda Dead", "duration": "46 min", "description": "Dark secrets about Omni-Man begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 7, "title": "We Need to Talk", "duration": "48 min", "description": "Tensions rise as the truth about Omni-Man is revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 8, "title": "Where I Really Come From", "duration": "49 min", "description": "Season finale: Mark faces a devastating confrontation with his father.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "A Lesson for Your Next Life", "duration": "50 min", "description": "Mark deals with the fallout from the Guardians massacre.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 2, "title": "In About Six Hours", "duration": "48 min", "description": "A new threat emerges from another dimension.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 3, "title": "This Missive, This Machination!", "duration": "49 min", "description": "Mark encounters alternate versions of himself with dangerous consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 4, "title": "It's Been a While", "duration": "47 min", "description": "Mark reconnects with old allies while new threats loom.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 5, "title": "This Must Come as a Shock", "duration": "48 min", "description": "The Grayson family faces emotional and physical challenges.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 6, "title": "It's Not That Simple", "duration": "47 min", "description": "Mark struggles with the consequences of his actions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 7, "title": "I'm Not Going Anywhere", "duration": "49 min", "description": "Alliances are tested as a major conflict unfolds.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 8, "title": "I Thought You Were Stronger", "duration": "50 min", "description": "Season finale: Mark faces one of his toughest battles yet.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "TBA", "description": "Season 3 begins with new threats emerging.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "TBA", "description": "Mark continues facing escalating dangers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 6,
@@ -364,7 +403,19 @@
         { "name": "Finn Bennett",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpQu6mnYNPqRpS6w-FOAuKREkYPB1Cby9Tw1o4WN_1beO-rtzuqRFiTUZRktz21B_csDRQSFH-Wx6Rz8WcRKhobWEdncLTyDHJruSCcErKA&s=10" },
         { "name": "Rowan Robinson",  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdeG9Og7FSl33jVzbK5Xh89CW_2baRBa6IXrefRV8cRM5WQ_LhV1PIVBj7MxSO7mhkGQBQjET_e3XpLQ0pfKm7Z_P3jDVbjaYZqpJyN6-ODA&s=10" }
       ],
-      "seasons": []
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Hedge Knight", "duration": "18 Jan 2026", "description": "A century before the events of Game of Thrones, a knight and his unlikely squire embark on an adventure. Contains strong language.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/seven.jpg" },
+      { "ep": 2, "title": "Hard Salt Beef", "duration": "25 Jan 2026", "description": "Dunk appeals to various lords in order to gain entrance into the tournament, but Egg advises him to hold onto his pride. When the Targaryens arrive at Ashford, Dunk seizes his moment with Prince Baelor.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/seven.jpg" },
+      { "ep": 3, "title": "The Squire", "duration": "1 Feb 2026", "description": "Ser Duncan the Tall and his squire Egg wander into Westeros. The Targaryen line still holds the Iron Throne, great destinies, powerful foes, and dangerous exploits all await these friends.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/seven.jpg" },
+      { "ep": 4, "title": "Seven", "duration": "8 Feb 2026", "description": "Dunk angers the Targaryens and demands trial by combat; when Aerion calls for a trial of seven, Dunk must find six knights to join him in battle.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/seven.jpg" },
+      { "ep": 5, "title": "In the Name of the Mother", "duration": "15 Feb 2026", "description": "Dunk and his six knights face off against Aerion's forces in the trial of seven; Aerion knocks Dunk off his horse; Dunk sees flashbacks of his childhood on Flea Bottom.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/seven.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "22 Feb 2026", "description": "The people of Ashford mourn a significant loss following the tournament. Dunk reflects on his future and evaluates his responsibilities toward Egg, and decides whether to keep the boy as his squire.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/seven.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 11,
@@ -417,25 +468,45 @@
       "embed": "https://youtube.com/embed/CLJDR-vFUdY"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "Rebecca Ferguson",     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTNJvRa-EHDYyOuPM93Y9hohEli6lqltzW1j-qF4DQY9i4OWg5zkqhxGqxLNObXBQoIppwNrR2apKF6l8NmwQYxvf3BhtsuT7YsxzhpV1MSuWiuAuht_BTYjWSf3yRj3taFNSbQTNYl_tw&s=19" },
-        { "name": "Steve Zahn",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0eK9tT8paK5dcoAvGDlnC9IM1amCkTqeNHm_vrx4oc2okotpmJ7k8yQs5xYhfaUlBv3Zz3TNbHRbsWMyDSgC6PlbjfgeCxfKGNNnH3KxTHQ&s=10" },
-        { "name": "Rashida Jones",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVyE_1d4yVTy2kqFdcCUiRiDYWYlb4bK-OQ_e-8tjMaEbbUtXsZy4Qcz2y4LhAnKmdWu4jAzJx2kWtdsA14y8Jf3hU0IH0w7AAle1Ygh9jQ&s=10" },
-        { "name": "Iain Glen",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtqYykdQvU9SmXElaZ3aqtR_3-lwiuug4IeyDS-v6hXg9yAE0n0KFNKtGtCvOPM28Rynz2d9G2GqisGK2elplAi4H0IMXrtjrmVY9MnRwD&s=10" }
+        { "name": "Rebecca Ferguson", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTNJvRa-EHDYyOuPM93Y9hohEli6lqltzW1j-qF4DQY9i4OWg5zkqhxGqxLNObXBQoIppwNrR2apKF6l8NmwQYxvf3BhtsuT7YsxzhpV1MSuWiuAuht_BTYjWSf3yRj3taFNSbQTNYl_tw&s=19" },
+        { "name": "Steve Zahn", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0eK9tT8paK5dcoAvGDlnC9IM1amCkTqeNHm_vrx4oc2okotpmJ7k8yQs5xYhfaUlBv3Zz3TNbHRbsWMyDSgC6PlbjfgeCxfKGNNnH3KxTHQ&s=10" },
+        { "name": "Rashida Jones", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVyE_1d4yVTy2kqFdcCUiRiDYWYlb4bK-OQ_e-8tjMaEbbUtXsZy4Qcz2y4LhAnKmdWu4jAzJx2kWtdsA14y8Jf3hU0IH0w7AAle1Ygh9jQ&s=10" },
+        { "name": "Iain Glen", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtqYykdQvU9SmXElaZ3aqtR_3-lwiuug4IeyDS-v6hXg9yAE0n0KFNKtGtCvOPM28Rynz2d9G2GqisGK2elplAi4H0IMXrtjrmVY9MnRwD&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Freedom Day",    "duration": "57 min", "description": "Sheriff Holston makes a shocking decision.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
-            { "ep": 2, "title": "Holston's Pick", "duration": "52 min", "description": "Engineer Juliette investigates the sheriff's fate.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
-            { "ep": 3, "title": "Machines",       "duration": "55 min", "description": "Juliette uncovers a deeper conspiracy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Freedom Day", "duration": "50–60 min", "description": "Holston descends into the Silo and uncovers unsettling truths about its rules and society.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 2, "title": "Holston's Pick", "duration": "50–60 min", "description": "Juliette is chosen as the new sheriff, stepping into a dangerous investigation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 3, "title": "Machines", "duration": "50–60 min", "description": "Juliette investigates the Silo’s mechanical systems and hidden failures.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 4, "title": "Truth", "duration": "50–60 min", "description": "Secrets about past uprisings begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 5, "title": "The Janitor's Boy", "duration": "50–60 min", "description": "Juliette uncovers corruption within the Silo’s leadership.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 6, "title": "The Relic", "duration": "50–60 min", "description": "A forbidden artifact reveals shocking truths about the outside world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 7, "title": "The Flamekeepers", "duration": "50–60 min", "description": "Juliette discovers a hidden resistance movement.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 8, "title": "Hanna", "duration": "50–60 min", "description": "Juliette learns painful truths about her family’s past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 9, "title": "The Getaway", "duration": "50–60 min", "description": "Plans for escape begin as tensions rise inside the Silo.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 10, "title": "Outside", "duration": "50–60 min", "description": "Season finale: Juliette faces the truth about the outside world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "The Engineer", "duration": "15 Nov 2024", "description": "Under the assumption that she is by herself, Juliette takes refuge and hides away in a silo that was once destroyed by war.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 2, "title": "Order", "duration": "22 Nov 2024", "description": "In Silo 18, discomfort takes place when Juliette does something that nobody has ever done before.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 3, "title": "Solo", "duration": "27 Nov 2024", "description": "Bernard turns to Judge Meadows for help and Billings begins to wonder if he knows the truth. Juliette finally meets the man in the vault.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 4, "title": "The Harmonium", "duration": "6 Dec 2024", "description": "Juliette sets out on a dangerous mission to retrieve a suit to save her silo. Mechanical plans a meeting with Judge Meadows.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 5, "title": "Descent", "duration": "13 Dec 2024", "description": "Sims finds a new position and Juliette learns Solo is not being honest. Bernard and Lukas make an important discovery.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 6, "title": "Barricades", "duration": "20 Dec 2024", "description": "Bernard enacts a plan to root out Knox, Shirley and Walker while Billings takes a stand. Solo states his demands.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 7, "title": "The Dive", "duration": "27 Dec 2024", "description": "Lukas is assigned a mission while Juliette embarks on a perilous descent and confronts a new danger.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "3 Jan 2025", "description": "Juliette discovers something has happened to Solo. Bernard makes an offer to Walker while Lukas meets Quinn’s descendants.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/silo.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 13,
@@ -457,7 +528,7 @@
       "embed": "https://youtube.com/embed/5X1dMFuHZhc"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
@@ -466,22 +537,36 @@
         { "name": "Matt Smith",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_4N0g9_ncVrzqBwCYCTANTVNgeFwscNINaqzReYMx3u_aaR0HxhjLYCIssK2-mNDrY-XvsJtzOplGy3hXK13PBf9iY1AMmZVZcv_y4cfMg&s=10" },
         { "name": "Ewan Mitchell",     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSv9BzxqEBgBSgEaEV6J6ptbB9lIdPO-kAt-y0Dp05MLYkij_fCVte-k7wGKMsumRwPX112bMTJyc0fbE0dquaCW8RQS2D1qy75WBr8qEHA&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The Heirs of the Dragon", "duration": "66 min", "description": "King Viserys hosts a tournament to celebrate the birth of his heir.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
-            { "ep": 2, "title": "The Rogue Prince",        "duration": "54 min", "description": "Daemon steals a dragon egg and threatens open conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" }
-          ]
-        },
-        {
-          "season": 2,
-          "episodes": [
-            { "ep": 1, "title": "A Son for a Son",    "duration": "60 min", "description": "The Dance of Dragons begins in earnest.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
-            { "ep": 2, "title": "Rhaenyra the Cruel", "duration": "58 min", "description": "Rhaenyra faces the consequences of Blood and Cheese.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Heirs of the Dragon", "duration": "66 min", "description": "Viserys hosts a great council to choose his heir while tensions rise in the realm.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 2, "title": "The Rogue Prince", "duration": "54 min", "description": "Daemon takes Dragonstone while Viserys considers a political marriage.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 3, "title": "Second of His Name", "duration": "63 min", "description": "War in the Stepstones escalates as alliances shift.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 4, "title": "King of the Narrow Sea", "duration": "61 min", "description": "Daemon returns to court, sparking rumors and tension.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 5, "title": "We Light the Way", "duration": "59 min", "description": "Political alliances are sealed through marriage and betrayal.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 6, "title": "The Princess and the Queen", "duration": "70 min", "description": "Ten years later, tensions between Rhaenyra and Alicent explode.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 7, "title": "Driftmark", "duration": "58 min", "description": "A tragic death deepens the divide between the Greens and Blacks.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 8, "title": "The Lord of the Tides", "duration": "68 min", "description": "Succession crisis intensifies as Viserys struggles to maintain peace.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 9, "title": "The Green Council", "duration": "57 min", "description": "After Viserys' death, the Greens move quickly to secure the throne.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 10, "title": "The Black Queen", "duration": "63 min", "description": "Rhaenyra is crowned as war between the factions becomes inevitable.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "A Son for a Son", "duration": "65 min", "description": "After tragedy, both sides prepare for full-scale war.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 2, "title": "Rhaenyra the Cruel", "duration": "58 min", "description": "Political fallout spreads across Westeros after shocking events.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 3, "title": "The Burning Mill", "duration": "60 min", "description": "Clashes erupt between rival houses as the Dance of the Dragons intensifies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 4, "title": "The Red Dragon and the Gold", "duration": "62 min", "description": "A major battle shifts the balance of power in the war.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 5, "title": "Regent", "duration": "59 min", "description": "Power struggles emerge within the Greens and Blacks.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 6, "title": "Smallfolk", "duration": "60 min", "description": "The war begins to affect the common people of Westeros.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 7, "title": "The Red Sowing", "duration": "64 min", "description": "Dragon seeds are sought to strengthen Rhaenyra’s forces.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" },
+      { "ep": 8, "title": "The Queen Who Never Was", "duration": "66 min", "description": "Season finale: alliances fracture and dragons take center stage in war.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/house.jpeg" }
+    ]
+  }
+]
     },
     {
       "id": 14,
