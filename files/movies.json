@@ -1535,7 +1535,7 @@
       "newRelease": false,
       "trailer": {
       "local": "videos/",
-      "embed": "https://archive.org/embed/AFuE1LRxm80"
+      "embed": "https://youtube.com/embed/AFuE1LRxm80"
       },
        "movie": {
       "local": "videos/",
@@ -1597,7 +1597,7 @@
       "newRelease": false,
       "trailer": {
       "local": "videos/",
-      "embed": "https://archive.org/embed/36PDeN9NRZ0"
+      "embed": "https://youtube.com/embed/36PDeN9NRZ0"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
@@ -1628,17 +1628,17 @@
       "newRelease": false,
       "trailer": {
       "local": "videos/",
-      "embed": "https://archive.org/embed/0DAmWHxeoKw"
+      "embed": "https://youtube.com/embed/0DAmWHxeoKw"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "", "image": "" },
-        { "name": "", "image": "" },
-        { "name": "", "image": "" },
-        { "name": "", "image": "" }
+        { "name": "Elliot Page", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKESki19GNhAn4Sp_RGRTJzHLpSuAk-0BvpiHt7KDnUDV4T1l29pldz-tH92R-GCDRlagYeaRAblKAXzkAYIj5LCKV0O1AaIORguRsMKa9A&s=10" },
+        { "name": "Aidan Gallagher", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqI9fmor854V2guMG2sdqRK3JCPjqpZ8bt5VB8vujxQo7nBaYySUAmttkuYK2mPZKxiWPZl_CZFVjAKa3WERUAo7l0f6tcU8uozw2hLyWWqw&s=10" },
+        { "name": "Tom Hopper", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbeu9siTmyeU_NdShP2VN1RTxCnlodT0NVe8IVMOwuXWCzus67CH6ZACkmRfndAmSO6ls9E_68Qqcdw3FymDjE1_Z7itcu39GzaY729VbaVw&s=10" },
+        { "name": "Robert Sheehan", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQUOCDtgXTNjTl1SVFbT9optz270AiS_WTFj_Qrx_WJASR965YX29PD_RW6iRBcgVUsczL1yPNaUtcM-HLZ-L-8Gqe2E5Ide3jWfRuR-E&s=10" }
       ],
       "seasons": [
         {
@@ -1665,18 +1665,18 @@
       "progress": 0,
       "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Jennifer Holland", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkRx3Em3nDBGcau9S89wBG9s9x47fFY9OeJbEnQH_5-bA5ufI8uBRduxzbWM_e6usU-tZeo4oqu00uxTuz_CgLEfN0mQrjY4dR7XskPTWj&s=10" },
+        { "name": "Freddie Stroma", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwzf_j1U-hzs-BjL4q8b0siItkNV--b__scZ7gKzcP_-pTa7n2RZN_THFN2d-YInqiNVXyfCq4FvqImJoGowIDhx2Qhb8ned0JhHe9OMd&s=10" },
+        { "name": "John Cena", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9tLjQ4X0W8hU7KKbKpCy6tpL4ucb2q5RXT77pr9FvpJNSG2gNVwewtH9wxb334AE-cyt_qG5r_8tdKWpJSKkNGcTgiGXbNyVr7b0li-Pjg&s=10" },
+        { "name": "Sol Rodríguez", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__X7hwLP-XWjtOY4e12mZfXZ4K24T5_nZr1LmVk2cXw7uDtMKauaw4OkZQZTcJiSNIOAhayNdFKl7WkToYJuAY96kTNjuQDgR2x895VP_&s=10" }
       ],
       "seasons": [
         {
@@ -1703,18 +1703,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/IiMinixSXII"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Sophia Lillis","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZL96i9FBSQ-KWRN1qVBQROn1ZU4tWt1-QnQ7W_INw-fzH2o0hGqvFsIAhNgmfqNJgnAq63iMW5Jg9O_58oVqs4rQnB0wFP-YNeJgVXpX&s=10" },
+        { "name": "Chris Pine", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG4389tjHU4pl9fJ2F0iklZMrwqKNKE43tcSy6gQtI9R8PQz2fkJUPw_OUFj1fe-EST5sqzoZpBOxTIvKQgedKdwBXOPY7WQl6r_ZyD6HxoQ&s=10" },
+        { "name": "Daisy Head","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-1j9HbZANvq7WCEjpE00f2lBuOGPYk8RRpVFBm5sU7DzhyrT5CWYSiLnOGGebB1vflAY2V2Xr2WK0G5tFuIZE1_N5hxQFWfukE0wNSjMVJA&s=10" },
+        { "name": "Michelle Rodriguez","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTno0ZzjuNjlJoVmhj13eFRsGqTtHU1HqhijGT3MTL6zNdNYac2k2tSGt4KOd3Ge3L7u7BOBmDDtEHkr1zqKnyRA9tFC32IfBk7xTBmWk5tyw&s=10" }
       ],
       "seasons": []
     },
@@ -1734,18 +1734,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://archive.org/embed/Ades3pQbeh8"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Inaki Godoy", "image": "https://m.media-amazon.com/images/M/MV5BMjExNzQzZDctZTlhMy00Njk2LWJiMDEtZjc1YzNiNTFiNDNkXkEyXkFqcGc@._V1_QL75_UX280_CR0,24,280,280_.jpg" },
+        { "name": "Emily Rudd", "image": "https://m.media-amazon.com/images/M/MV5BNjdjMDgyM2YtYzcyMy00YzI4LTgzNTUtZDViZmMzNTNkNjVmXkEyXkFqcGc@._V1_QL75_UY280_CR35,0,280,280_.jpg" },
+        { "name": "Mackenyu", "image": "https://m.media-amazon.com/images/M/MV5BNTA2ZjkxZjEtMjU5My00ZTc2LWE4MWYtYjg3N2I4MzFkMjY1XkEyXkFqcGc@._V1_CR123,0,1510,2265_QL75_UX280_CR0,24,280,280_.jpg" },
+        { "name": "Jaccob Romero", "image": "https://m.media-amazon.com/images/M/MV5BYzU0NTM2NWYtMGM2Yi00ODQzLTkxNTktYmE5Y2M4MDA0N2EwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" }
       ],
       "seasons": [
         {
@@ -1772,18 +1772,18 @@
       "progress": 0,
       "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/wHuWmjXsReU"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Ben Kingsley", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJdhAZ9i1K76-nSAeTKg-VHyH80baHazrHterkjwjBdHcSgfXRPlbXFQ05M_ImHYrJsRAdlOXqofq_oQ7X5m4L5O2pGQ8a1BOuM0UQR2t&s=10" },
+        { "name": "Joe Pantoliano", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQol0GXvkz8er6HStIr4i1-Jai7aeAJOndy2ZbwJ9sUhqFQ2SErdq6Lv_VMOeEd0HcIYi6jQtSj4ssfsN4NMbKfQqdhqTpCXKMK02iEmhiTOA&s=10" },
+        { "name": "Olivia Thirlby", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScYI5YcYjf_NqnSUjyN91ZSm2329NLUD7McmPuhZwRBsWZIOQ1qUFEtiatwJV3syep7uTwhEo9_3Hee58Ixews5Um2uuaIh7mrb85y3roK&s=10" },
+        { "name": "Josh Gad", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQkgbM1CAxcfxmXYVwx03N8BZTIp9FiBoqahVHW79LVw096NORgiKBYOB03IL5TOmQu6iySY5cUTbXFqS6-sgHtQRZKTFTg_DVGWE4I9y6bKciyFCTNadRUDJuCLA3GGjh1cjuULwNh0is&s=19" }
       ],
       "seasons": [
         {
@@ -1810,18 +1810,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/LBrRQUtIqww"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "LBrRQUtIqww", "image": "data:image/webp;base64,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" },
+        { "name": "Leah Sava Jeffries", "image": "data:image/webp;base64,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" },
+        { "name": "Dior Goodjohn", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTufC6WBWcJtTvftrzCMPhfnnA-PbidR9vJUYnL-mNnTYJtu6o6mhQvKIOB-qYaLJnuNtXrvWH4YnJaqsdI7qj6Bsyz5XelccIijfi8GNrjqg&s=10" },
+        { "name": "Aryan Simhadri", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPNVS-fSIOcTWsf6camgeVbsQpeBFABxFY7OnO_mEEnBmQnAQreROXmi0f23ys-XSBDP5e2Eg2SVsd8VbK5Ae1AOpCPhGthgYVlYuReYb&s=10" }
       ],
       "seasons": [
         {
@@ -1848,18 +1848,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/v99ooSjCVhg"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Penn Badgley", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKXExRakFukNuA6IcVQFnMg8uzk7gD8lbsvxduA6vJIVLd2brUxhuFU4zAg_t1-QvS4JC4MPRI4VitZtHy6ttHWkVqbnQ1n_z_agyCKnUidw&s=10" },
+        { "name": "Victoria Pedretti", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQLp1XswC3ojMwCC8ZZWLf4CX_ORXzFHVjZz6iu_MOWjTZWfUgMQ17Vd9bNSgnBV2DLVLfhattTetfVe4mR24Fd03ShYMC_LezwudOTr1ONa0rJXEC4SgLF6mRyxgJsOsmviWMF63_qg0Q1&s=19" },
+        { "name": "Tati Gabrielle", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgcGwY-R07OFC8JM1h6gI6p7wZlktCvNvTmnwlhtlBkbnvYoNdZ3Vnl7rCEAQSf2MvPZ7Yu_4yCg6PjehzuwINJ4qtmG5QSsmYEZ_d3v_&s=10" },
+        { "name": "Jenna Ortega","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xr-NT-ih-EwOy7DQp4KRYKgMqixxUJgAH5B-_DX9rz3VD82iMUIlCJpZaiEpG2ri2ArK1B9D7IznBMenrgSNxTkBJ8onlY9GP8giPTdN&s=10" }
       ],
       "seasons": [
         {
@@ -1893,18 +1893,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/zAGVQLHvwOY"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Joaquin Phoenix", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3JhZb__Eh5kWJktboT7EtLDmGfH9UP7w9ufOcWyVogsuAOiH5RBotbyThCUfKYgDy2XxhbLMGRXrdE7vNM6a4XNA3WAIDYO_psdKEBjye2A&s=10" },
+        { "name": "Robert De Niro", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZt2NWRAdvs9D_EdCQOFKZFpIp1k0EJMI4M5ZaNDv3Ct-nEttWtF2c63dsv4c8nkJub2zhsaPHBYAB1KVnHj790mG0NoNr-ShkwD3w3I6FtQ&s=10" },
+        { "name": "Zazie Beetz", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRukbDGY_jzEsqEucQt5jhSou4ttokDikeY7Gkn8s2PWtVn_2L07zLX9E1Qtv_u0G0oKqNjEzvB5hiyp-Cb3cbphJrtFftSwWRNJD98P-BUrw&s=10" },
+        { "name": "Dante Pereira-Olson",  "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRNV0ESHRQ1JJmtT5KyEHbKNdyapeYqNmGFA29UpNOuhkQrRSTV-cnPODIyiyAwQpFRQzzEaBUEvuTTu3jSD7CJ5XrR6WjBg9d0t79pjcag9SIxScIAMmTNYAnN43ag7QKmv-sv2mmz8ng&s=19" }
       ],
       "seasons": []
     },
@@ -1925,17 +1925,17 @@
       "newRelease": false,
       "trailer": {
       "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "embed": "https://youtube.com/embed/ndl1W4ltcmg"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Freya Alla", "image": "https://m.media-amazon.com/images/M/MV5BMTlkZjc5ZTktM2QzZS00MmJlLTk3ODMtZjc1MTBhOTIxMGQ4XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" },
+        { "name": "Anya Chalotra",     "image": "https://m.media-amazon.com/images/M/MV5BNjMzMTI1ODctOGEyMC00MjkzLThmMDEtYWY2MGQ1NzdmMGJmXkEyXkFqcGc@._V1_QL75_UY280_CR71,0,280,280_.jpg" },
+        { "name": "Eamon Farren",     "image": "https://m.media-amazon.com/images/M/MV5BOTNkMDYyN2ItNGQ3Mi00MmQ1LWFmZDgtMjJlZGM4ZTA1NWYzXkEyXkFqcGc@._V1_QL75_UY280_CR70,0,280,280_.jpg" },
+        { "name": "Henry Cavill",     "image": "https://m.media-amazon.com/images/M/MV5BNWFmNmI2NmYtNDUyYi00MDZhLTk0ZmEtODY0MmM5NGQxMWEwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" }
       ],
       "seasons": [
         {
@@ -1962,18 +1962,18 @@
       "progress": 0,
       "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/YDbnY9Obsfs"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Gabriel Basso", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XNodyJ175Vx7_P0HR5WaedL-GAqe4O-aYjmywONmAl8ytK8zhB9Cjnwh-LxS3TJST4qURWzCYPLNH8L6qjZ_ubBGuj4l9akgAWhVlDXj&s=10" },
+        { "name": "Luciane Buchanan","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH88y71Th-34AgSvST2yXmte_NwPi-rDfQ6mG_r1y50lddXDpSvJk6sr_FghBWrjoNEdi80RT-bOH5bxMQ1tQvLsahNDB2RdV3IayscJg9-g&s=10" },
+        { "name": "Genesis Rodriguez", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2jhM38b1LHvz1-tYQHlhTlu6xDRWsTtDqElfHV0GfCFKfuyjMpNaVW0WD8oudeXOvbzh5NKqIHEIjC7Vb81HITKv71qbzQC_2MFqApjfT&s=10" },
+        { "name": "Brittany Snow",   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF-7MP0YIkp3_bKWrUT0gTdCAs1XUnJcAcQ6WA4u3to_Ljr_kQtDDEcwIZVgREx3Rmwranp1cbejVjVTPE5g6EMrZbIkre0ea--ZJvfYkQZg&s=10" }
       ],
       "seasons": [
         {
@@ -2001,17 +2001,17 @@
       "newRelease": false,
       "trailer": {
       "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "embed": "https://archive.org/embed/st6r-8mLW_o"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Lucas Lynggaard Tønnesen", "image": "data:image/webp;base64,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Om5zOm1ldGEvIj4KCTxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CgkJPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpJcHRjNHhtcENvcmU9Imh0dHA6Ly9pcHRjLm9yZy9zdGQvSXB0YzR4bXBDb3JlLzEuMC94bWxucy8iICAgeG1sbnM6R2V0dHlJbWFnZXNHSUZUPSJodHRwOi8veG1wLmdldHR5aW1hZ2VzLmNvbS9naWZ0LzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGx1cz0iaHR0cDovL25zLnVzZXBsdXMub3JnL2xkZi94bXAvMS4wLyIgIHhtbG5zOmlwdGNFeHQ9Imh0dHA6Ly9pcHRjLm9yZy9zdGQvSXB0YzR4bXBFeHQvMjAwOC0wMi0yOS8iIHhtbG5zOnhtcFJpZ2h0cz0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3JpZ2h0cy8iIGRjOlJpZ2h0cz0iMjAyNiBJc2EgRm9sdGluIiBwaG90b3Nob3A6Q3JlZGl0PSJHZXR0eSBJbWFnZXMiIEdldHR5SW1hZ2VzR0lGVDpBc3NldElEPSIyMjYyMTgzOTYwIiB4bXBSaWdodHM6V2ViU3RhdGVtZW50PSJodHRwczovL3d3dy5nZXR0eWltYWdlcy5jb20vZXVsYT91dG1fbWVkaXVtPW9yZ2FuaWMmYW1wO3V0bV9zb3VyY2U9Z29vZ2xlJmFtcDt1dG1fY2FtcGFpZ249aXB0Y3VybCIgcGx1czpEYXRhTWluaW5nPSJodHRwOi8vbnMudXNlcGx1cy5vcmcvbGRmL3ZvY2FiL0RNSS1QUk9ISUJJVEVELUVYQ0VQVFNFQVJDSEVOR0lORUlOREVYSU5HIiA+CjxkYzpjcmVhdG9yPjxyZGY6U2VxPjxyZGY6bGk+SXNhIEZvbHRpbjwvcmRmOmxpPjwvcmRmOlNlcT48L2RjOmNyZWF0b3I+PGRjOmRlc2NyaXB0aW9uPjxyZGY6QWx0PjxyZGY6bGkgeG1sOmxhbmc9IngtZGVmYXVsdCI+QkVSTElOLCBHRVJNQU5ZIC0gRkVCUlVBUlkgMTc6IERhbmlzaCBhY3RvciBMdWNhcyBMeW5nZ2FhcmQgVMO4bm5lc2VuIGF0dGVuZHMgdGhlIFRoZSBXZWlnaHQgcHJlbWllcmUgZHVyaW5nIHRoZSA3NnRoIEJlcmxpbmFsZSBJbnRlcm5hdGlvbmFsIEZpbG0gRmVzdGl2YWwgQmVybGluIGF0IFpvbyBQYWxhc3Qgb24gRmVicnVhcnkgMTcsIDIwMjYgaW4gQmVybGluLCBHZXJtYW55LiAoUGhvdG8gYnkgSXNhIEZvbHRpbi9HZXR0eSBJbWFnZXMpPC9yZGY6bGk+PC9yZGY6QWx0PjwvZGM6ZGVzY3JpcHRpb24+CjxwbHVzOkxpY2Vuc29yPjxyZGY6U2VxPjxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPjxwbHVzOkxpY2Vuc29yVVJMPmh0dHBzOi8vd3d3LmdldHR5aW1hZ2VzLmNvbS9kZXRhaWwvMjI2MjE4Mzk2MD91dG1fbWVkaXVtPW9yZ2FuaWMmYW1wO3V0bV9zb3VyY2U9Z29vZ2xlJmFtcDt1dG1fY2FtcGFpZ249aXB0Y3VybDwvcGx1czpMaWNlbnNvclVSTD48L3JkZjpsaT48L3JkZjpTZXE+PC9wbHVzOkxpY2Vuc29yPgoJCTwvcmRmOkRlc2NyaXB0aW9uPgoJPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0idyI/PgoA" },
+        { "name": "Alba August", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSh-Vm_Nl4XnWlxf0a3j5GhamEFgciau8vpIcT-p4zRKPof9o1fSudzuFkaCOF2jsMOJn9NzAn4H-_B4o7CvzMJA0OxNSgKtVPHyXiv6drD4BdVimHJYW4I0MGxy4gSsFDjnCaNcXei7YWA&s=19" },
+        { "name": "Clara Rosager", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBX536DGnwBffZxS18ORsoRxfPXD9g8D6u-mssDa0qVEQvQLkOTeXiUUnpP-LE3tJdOxsgS7xRpzKiqbJpLvbhBNESHe5-nd4hNYXs3zM&s=10" },
+        { "name": "Mikkel Boe Folsgaard", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTDGa5R6o-yGgpyNZKs9pP0Nz9rC0H3JygLm9yYjqg1LzknZKt9zPVJO1aRxwxpWRF8SSP9me-jVEZNyLg4YjpyvKWMtYkFqJpHZV1mmUOsTQrmVcV8ezIX3PmFyJDcD56O3PAs7RpsDdI&s=19" }
       ],
       "seasons": [
         {
@@ -2024,32 +2024,32 @@
     },
     {
       "id": 56,
-      "title": "The OA",
+      "title": "56 Days",
       "type": "series",
-      "image": "images/oa.jpg",
-      "description": "A young woman reappears after missing for seven years, with new abilities and hidden knowledge.",
+      "image": "images/56.jpg",
+      "description": "After a chance supermarket encounter, Oliver and Ciara embark on an intense relationship. When a savagely murdered corpse surfaces 56 days later.",
       "year": 2019,
       "duration": "1 hour per episode",
-      "genre": "Mystery Thriller",
+      "genre": "Mystery ",
       "rating": "TV-MA",
       "ageRating": "18+",
       "categories": ["thriller", "drama"],
       "ranking": 0,
       "progress": 0,
-      "newRelease": false,
+      "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/FSlfvTfGAA4"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Dove Cameron", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGK4arZvCjAl0f2W3JcCqRVY02TlP8CYQ_EXul_4mg5r0obPjW47EPj5Jbxevap7zooCey_zzTiI25H7fq9dkxYVFvGHOdlabgW05bYrM&s=10" },
+        { "name": "Avan Jogia", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTmlKJMLthm8QgwvC5FXaiAnb4hTpQJx6SxH981Yo1oCI6MFp42sl8ZVD4oixrk-pRZPD5RoMtDhIsJSXRHdd6cCs31_2o2_5UigI2qDJvxbf1zI7WINlAuyyLA891VeW4QtxzuW3SjjxU&s=19" },
+        { "name": "Jesse James Keitel", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY_ltupHUyznKxcbb_3UqL3c3O_ATe7Ue83v7IyP7l1yJH3guZQZrcEgSQdmPpsaOYpOVDj7uWfyjq6CIJbfBWlqtK9KluTc3DoO1rYlYEQ&s=10" },
+        { "name": "Karla Souza", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJX_DNniLBbNve0UpH2HpIoi1rF06unvrmFtWO2JZAAvam1Pf_nNgi-pfYLtn4EQvyEyGmnX1X_JULYWabgB5NZLSKSPJNTa88BU3XdpF&s=10" }
       ],
       "seasons": [
         {
@@ -2062,32 +2062,32 @@
     },
     {
       "id": 57,
-      "title": "After",
+      "title": "swapped",
       "type": "movie",
-      "image": "images/after.jpg",
-      "description": "A young woman falls for a guy with a dark secret while attending college.",
+      "image": "images/swapped.jpg",
+      "description": "A tiny woodland creature and a majestic bird suddenly swap bodies, forcing them to team up to survive the wildest adventure of their lives.",
       "year": 2022,
       "duration": "1 hour 45 mins",
-      "genre": "Romance Drama",
-      "rating": "R",
+      "genre": "Commedy Drama",
+      "rating": "13",
       "ageRating": "18+",
-      "categories": ["thriller", "drama"],
+      "categories": ["adventure", "drama","animation"],
       "ranking": 0,
       "progress": 0,
-      "newRelease": false,
+      "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/UFALf0pKTPQ"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Michael B. Jordan", "image": "https://m.media-amazon.com/images/M/MV5BMjExOTY3NzExM15BMl5BanBnXkFtZTgwOTg1OTAzMTE@._V1_QL75_UX280_CR0,25,280,280_.jpg" },
+        { "name": "Juno Temple", "image": "https://m.media-amazon.com/images/M/MV5BMDQ0YWFkYjUtMTkwNy00M2Q5LWFmYjItNWMwOTRiNzIwZmNjXkEyXkFqcGc@._V1_QL75_UY280_CR70,0,280,280_.jpg" },
+        { "name": "Justina Machado",  "image": "https://m.media-amazon.com/images/M/MV5BMTc1MDU4OTU2OV5BMl5BanBnXkFtZTcwODUxMzYyMQ@@._V1_QL75_UX280_CR0,10,280,280_.jpg" },
+        { "name": "Nate Torrence", "image": "https://m.media-amazon.com/images/M/MV5BNzllOWJkMWItZjJhYS00Zjk2LTg3NzktMzk3MTkwZTU3M2Q2XkEyXkFqcGc@._V1_QL75_UX280_CR0,12,280,280_.jpg" }
       ],
       "seasons": []
     },
@@ -2107,18 +2107,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/oKa6u7LT0qE"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Bill Skarsgård", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrK-yp1OgPGr8MT9BMOTVM-c8TNRRckKTi1LiTJdEIbV0kqTORDFUMT-70jeSpaYSeYR_0AO6XgdVDav3lIuiW37QB3MAsJNTFldscD-yV&s=10" },
+        { "name": "Clara Stack", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdDuH_LXjCUkQtGvP6Lcc3w6XsrCZj9skuUq8Bt0BD1WUG8AnRf6HJqCBOLNlUmmWYW66FpT77DJK6w6AdT24Zzrp4yIyfvJNE7deMYaF&s=10" },
+        { "name": "Amanda Christine", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLc5TfL3XFqAyCy8Q8wGMkInrmjR7NLCTFBeQ4lRQ9eh8a9v-pj1_h9q1Bg98Wr54ZSB0CqbMHMG7N38TjPBV_qq-eZl0q6RnFIjiiBimw&s=10" },
+        { "name": "Matilda Lawler", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT066U8fqY7CQ5x1rFlh3WoQYflCaJesR0_ZgnjC2hYPr1McbJunRtmb42e0P2AyLXVHZIQ0JeuvukWS5jF4ATAhtB_quOwQ_yRuCmwSSgoKQ&s=10" }
       ],
       "seasons": []
     },
@@ -2138,18 +2138,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://archive.org/embed/3eGP6im8AZA"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Mason Thames", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9ptnu-Mk-qmCd-INPSCIW1-aa1m4uQkZvSoOi7G35k3VXFGtShB2BlwSAmpQs-jf3EEa_XeFLcX73QjugChdrrLQydChvhDMA9_DqAm0&s=10" },
+        { "name": "Ethan Hawke", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWzHdxRllHiqCV30PAJ-1Eae7ksuGbOzwToEu4YTf73KwP0r11wBAQXeV4A9W-AhvNvIE4LkheROhYAx3umaMy8jVT-Py7rWMHxz6Su75&s=10" },
+        { "name": "Miguel Mora", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0F5ezfzrII-qgpxPF00so9qgb60GeGX26vcRVMB86gcDssjXUzuSPHCcof2rPbRHRdTDE5ghighHXgXs3CobsudkJIKLSEa-xZNpiCg5sVg&s=10" },
+        { "name": "Madeleine McGraw","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQye2zp7zXwpXGDMtsqYuRcosjsThIPXaOf9yY58n_dnhYO_3L9zW78FFMI-2Xebr3ST_kU2XhUE5wv5F-V3gxueDU147_7mfHUSVXVR1WV&s=10" }
       ],
       "seasons": []
     },
@@ -2169,18 +2169,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/Jpie-fec5qY"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Kevin Conroy","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJJO2Uau4bkgDDrm3QOlDvc20Hqr-rVRIHiKYdmPWLccZ8Sj5U59y-9BDC-6GWHUOqFiOv-FLO3sSWQPg4tFgbypx6eeFgTQUOLoG0iorWA&s=10" },
+        { "name": "Johnny Yong Bosch","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkq0bzwotmVw5TdLgCYwFNRmx7y0RUAL65urii6VwbQ4vsb9ZYx1qO63ClVdg_c_oqVcXx-XBsFrmgJhiWLCLpjMK3h3R93sTiucFDrXe8Wg&s=10" },
+        { "name": "Scout Taylor-Compton","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXoZkuN09obRfVPFBIx2BcMbUdzMZL0PsrtO8ueoTM9jfY2wIM-mdDSetdIb5ghV3pT2glG09SzlVbwkfA67fg6yrrkPWh4Ez9vMg4gwbB&s=10" },
+        { "name": "Hoon Lee","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSrB3ekgWXKkalx88SyNedCG5wywKau0QBa_QLbZXRw5Od2i0uQfSQtsVHtz752tSAz2ExxBTm5o8difGHlkyuyt3X1ha89b6R2zfrTDW40A&s=10" }
       ],
       "seasons": [
         {
@@ -2207,18 +2207,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/A4U2pMRV9_k"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Thomasin McKenzie","image": "data:image/webp;base64,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" },
+        { "name": "M. Night Shyamalan", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcStVasKH8Y1omWGre_YzZKV4_ts4Wzp_Nhx33NfIyKc9yaXxv1AVPHtN8JQ0iSGLOX7MG6MnjyOXpdSpGzDupPKkbsWo64NbLrBSXmkmvrat4Mt0BMM2M6yMYw1a602kY7-QB_Kg1yBiMJD&s=19" },
+        { "name": "Aaron Pierre", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3giu3BIs0y51_k2TlOL90oCWBWb73sfgbk5nHfRlZb9jQpTjW6FEwPXMMTLILKz26HQeut6eHK_yT-59pjriMW6vmlroSFs-YVODNyYWg&s=10" },
+        { "name": "Alexa Swinton", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr-NVrtfgPDFg_izOgYiY7L5-9qde_UjEwlO2zs2KlrQL6OdJ_PX4x9tt3QuBe_ryxEQ2vQ-84hdfiMUiOMCKp-X8AsXZIf1-W_gdzCQDRNg&s=10" }
       ],
       "seasons": []
     },
@@ -2238,18 +2238,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/x9FvvsC0B5Q"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Chris Pratt", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSs1ASXAMT554VsTujZlrpqVhs5yN3FEbr7Bozsi1C7uUeahg4bK2Knm6XzeYGx5O-so2wlmRmB_V-NsvfRNNDWOUpiiVur9z5GqUZ7EE2K8tDdRCDZTde3hPggdv_chZenfw9bLbh32zk&s=19" },
+        { "name": "Taylor Kitsch","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9VWVuIzcJeAPVZPcxsxXqjDiYFcpqaeBgAMWhWosGGkFuQ2GTPLN3XIqZ1Zk3u-BCNI4tXwClMNy9mXbkEAPu3CVL2WEtUdwqdbQtNlFr&s=10" },
+        { "name": "Constance Wu","image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQiV9bR_pakKls72VOFRDNEWt9qTHqnlFy-Z9W2Od_VNnRMFjpPoR7dfxZJt91FcapD7PiVl_ptJSQ-ZInJrZiEwzAnD5E0yqutSz3EDSmzX85z1h28RD8eF5U-ESALpAdA2EBDF7EgReuH&s=19" },
+        { "name": "Riley Keough", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ08MesBi0jrrDRUXGqbn9FJ5LyxGa2HxAdH5ZNblzwm86HKR_cdEw5dfkFIxApu8dwy6wLLj3C06ZvWTIfksDI-UZvY1UTrAU30XXlxlu&s=10" }
       ],
       "seasons": [
         {
@@ -2276,18 +2276,18 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/MBOhKd6cIak"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Priyanka Chopra", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OJ4j4P84rozjRYUtIlvHxgecSdI3J3pjrqu1XvyXjUdWAwSzut13YbqPxoV5zkCLePf6QYzp5Ke6iccH3y4jX5teNd9FC86vOXFhnSso&s=10" },
+        { "name": "Richard Madden", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb2iKug1XxXMVIMTG0khB7foh0AigWNrfyxHoBHt2Bf0xQ9Ni9wKmh1EBJwjPb483FayQhdpJmFsWfBpcgomgEjhXOi4dlRL708Cm6TzPA&s=10" },
+        { "name": "Stanley Tucci", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIvkuINB9IBzUQUbha7e5fD1l3HxyWd5-1BeWyvTP4MJ3dofdqG10pD1W_7FC52dHQMnOjRGNRK7qTJkIdgfQA7ieK9ylZD75CXAl8g43&s=10" },
+        { "name": "Ashleigh Cummings", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqwLukfawSJNjy_-gOvkB0p7pudrlU2hVAssE1nz3vNSZeohFfTQZUuKdZZC9DqugQ1Ipano1xTKAeffIitg2ZtE0WX7NU1aUX8j76mMjOA&s=10" }
       ],
       "seasons": [
         {
@@ -2314,18 +2314,18 @@
       "progress": 0,
       "newRelease": true,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/shsIx-ZVL0E"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Eddie Redmayne", "image": "data:image/webp;base64,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" },
+        { "name": "Lashana Lynch", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLLTPslbIFcnVh7J6NQbhTiXiBiQOjlg4cajNUufkoeVEstKbmZdAOuzJZBUXAuBehksoJGpYpvQi7KFnXFUe0CG2Hh5Oh60llQc2KoQZ1g&s=10" },
+        { "name": "Úrsula Corberó","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzibMWrRHriJfssfO7J-KWpczVxOOAwCquS8ywW3bp7ho9ZyOtxlvZBrcCkXqYUkhRaQ4PRUUUj_C2DnQ1Q_1RasKw-ALiWEWHI9eSS11K&s=10" },
+        { "name": "Eleanor Matsuura", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8F2dzFhupWv-iuyrzRxXEwd3EomQAFJbo4z1YGQSHo0ccWDTZOIWBOXXXiaBFMQphXImpO6cJ1U0rxLpm9VgfoVVBYHFWW8YtZw2z-og&s=10" }
       ],
       "seasons": [
         {
@@ -2352,18 +2352,18 @@
       "progress": 0,
       "newRelease": false,
      "trailer": {
-      "local": "videos/michael-trailer.mp4",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "local": "videos/",
+      "embed": "https://youtube.com/embed/eyiR8pO50JE"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Kim Sae-ron", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33Qw8CDtz0l5ijeTFx_yqpH7G-SFRGu3LCDgcidWYYXN3yZhkbHXhXeOBawiQpSC6mvF2DI9LjS8id3Em-SRFyspQSSSDUvbdIC2VQ_8S&s=10" },
+        { "name": "Woo Do-hwan","image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS4Tyk1tIjLapaCvdoPZvm9WxRjYDENAopj_91_IkHvMn9laPvVOIk_P-NlFSv2hdF7SPyOatqg4vH4lmF4FXS71YhqK5UJU4uIxmVrcyeKQT7MUmISoQAzatRBdUXhjsie7r2G19wg5s3c&s=19" },
+        { "name": "Jung Ji-Hoon", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRNVVaUs-IFSlIwhpz6MLAYvXBaw-Mb8v0cnG2smf7KdUSeU2mzi4D3MnSu6uSXLluzvf7Bb7SPun50k4M118E8Z8LLpkGEOxH76COiiriVlIUBZElS-H1f_kC5QYdZFZBu1mlPInmjcn4&s=19" },
+        { "name": "Park Hoon", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQmmhjC11vC_aAEbUfvKDuhGJApxjxehmnyZvaone0oxnWNEctGRrFPHvZKaebPkus0GGKqPV80VzrYY7Imo2oOF8PhCt2SkV-Luxj38dJfKy8JhQ5l8_yvk0GaL5_uiepL9Yndqd0XoN8&s=19" }
       ],
       "seasons": []
     },
@@ -2415,17 +2415,17 @@
       "newRelease": false,
       "trailer": {
       "local": "videos/",
-      "embed": "https://youtube/embed/"
+      "embed": "https://youtube/embed/TWnmI3lGGhs"
       },
        "movie": {
       "local": "videos/michael-full.mp4",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [ 
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Esmé Creed-Miles", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTki_8qKdVSiA4wrTX2gDeMqEI0KWqrOPUtEjREwLwQRompnFUmCuBQYDoBbIisW4fSvbf9dXRUNPbgZk0p5u58IBLcLXLVPQtt6z7F0j6z_A&s=10" },
+        { "name": "Mireille Enos", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_iMo-FYwO57TmzjgMDJF_c6PB0tEjcPJNDhtvfGN2YQI90vSHzsQrdDvblOKk7oHyi9fgUPW-sQHb3vqa7JlzttR3cuJdGtP-v2_xyz2e&s=10" },
+        { "name": "Joel Kinnaman", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT7ywaudq26XuAiW5z2Un1sHm5LYTneEY4XzQrQvgOWKyfx_GAwogBXDgFcw3lJ4G6XCg_hWsNY9onSTPoHuJf5OMXSUGB7MDSd_tfFJd0kwF_CqX33Wu8jSWc---YuYaAW7A-MPm5iQl4K&s=19" },
+        { "name": "Ray Liotta", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tQ9_6YULyJQjJCsRTDXCqr7EcngALAxhB7YtCF0bIfpDEPCl6iFxTEuMJbI1mSyulPyk40B5ZQAtkQ9nFqujAQYFCoOrvjNSOKRcdtnQwA&s=10" }
       ],
       "seasons": [
         {
@@ -2453,17 +2453,17 @@
       "newRelease": true,
       "trailer": {
       "local": "",
-      "embed": "https://archive.org/embed/TRAILER_ID"
+      "embed": "https://youtbe.com/embed/S7AErSAxxJ8"
       },
        "movie": {
       "local": "",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" },
-        { "name": "",     "image": "" }
+        { "name": "Lorenzo Cervasio", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNtf0gC_fJpo7QgT1afhvYPuzQK9W-eu1fhhi1sWN-y0OzX4ncfGDX9ro0GcJwVtJUhcmIsBjdK9_6YY9tls0hnmCus7NS5GHhSjsCKTDdgQ&s=10" },
+        { "name": "Matilda De Angelis", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXmcsurVwPrfcPO7k7J5uw70DXRH2NRBPukcohOJ90yyz_KJvayTq7tdkDWn9CQdGNuogzC6iK0s5kuZgK9ZkPWfrn9SUdpI90D2wXcscNhA&s=10" },
+        { "name": "Maurizio Lombardi", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfjWVqYsNtHzQGJgH5LntjVgbBZLta89iL9BEPrkYLyuto8VDoW_y-yca2Dz-vX3j2VEwH6KhUdPeBz_tCghn7CSDb-394O6eJlveA4_v3&s=10" },
+        { "name": "Daniele Paoloni", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTun1POa23Fu7HB2e1v20NhJC-hx3mrtI6ZBMe6dna_UpsOU2MXLOk1BEk2x9tL-uL9DbQJ6CHx2KG1FZS8R9t7uz6XagPmx4v2ElBIQ-Kv&s=10" }
       ],
       "seasons": [
         {
