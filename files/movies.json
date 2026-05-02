@@ -1737,14 +1737,34 @@
         { "name": "Markella Kavenagh", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gQXr2rgRE1kbXXMJmIspZWkTGhKMoF9IivnaG3I4n8jexpT1xJtmfrZw--UppzPtRFkrxKot6N102tdlyvYfxLUe95oha35kn44_CYfsSg&s=10" },
         { "name": "Charlie Vickers", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwe7HTyrUXh55ZtDME1qAS8KgtAFeaaOGV-JvUWVIcvR0PHEIPtoQUGx7Zeza1bJt67mdhZYRQqvHrDmNxnZ3Bus0NpV_8O2tPXh6VhvyY9Q&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "A Shadow of the Past", "duration": "60 min", "description": "Galadriel pursues a dark threat across Middle-earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" }
-          ]
-        }
-      ]
+    "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "A Shadow of the Past", "duration": "1 h 5 min", "description": "Galadriel investigates signs that Sauron may still be alive while new journeys begin across Middle-earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 2, "title": "Adrift", "duration": "1 h 7 min", "description": "Stranded at sea, Galadriel and new allies face uncertain dangers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 3, "title": "Adar", "duration": "1 h 4 min", "description": "Arondir discovers a dark force rising in the Southlands.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 4, "title": "The Great Wave", "duration": "1 h 12 min", "description": "Númenor faces political unrest as fate shifts across kingdoms.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 5, "title": "Partings", "duration": "1 h 9 min", "description": "Alliances fracture as war approaches.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 6, "title": "Udûn", "duration": "1 h 8 min", "description": "A brutal battle erupts in the Southlands.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 7, "title": "The Eye", "duration": "1 h 11 min", "description": "The aftermath of war reshapes Middle-earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 8, "title": "Alloyed", "duration": "1 h 14 min", "description": "The origins of the Rings begin to take form.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Elven Kings Under the Sky", "duration": "1 h 3 min", "description": "Sauron manipulates new identities while forging influence in Middle-earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 2, "title": "Where the Stars are Strange", "duration": "1 h 5 min", "description": "The Elves and Men face growing corruption and deception.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 3, "title": "The Eagle and the Sceptre", "duration": "1 h 6 min", "description": "Power struggles intensify in Númenor.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 4, "title": "Eldest", "duration": "1 h 8 min", "description": "Ancient beings and dark forces begin to converge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 5, "title": "Halls of Stone", "duration": "1 h 7 min", "description": "Dwarven ambitions collide with rising darkness.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 6, "title": "Where Is He?", "duration": "1 h 6 min", "description": "The search for Sauron accelerates across realms.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 7, "title": "Doomed to Die", "duration": "1 h 10 min", "description": "Fates are sealed as war approaches once again.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" },
+      { "ep": 8, "title": "Shadow and Flame", "duration": "1 h 12 min", "description": "The truth of Sauron’s rise becomes undeniable.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/ringsofpower.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 34,
@@ -1775,14 +1795,34 @@
         { "name": "Tamzin Merchant", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYttswMsaL2jWMwRevS4pAQVqrb7zh_FYQ6dB7nBUiz2zxwnMClLreMKtqVIN-KtjnXKmd7iexymGDDS-j3aS66-ZDIrB8hRQv3cMMQ17UrQ&s=10" },
         { "name": "David Gyasi", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS73Gdz9uttATDXZgO4GiypIXAIaU2zRNCczShGKdZnK087mKZibrdXlpvi7WvKM68bVn9voJJ3wDpqAh09b3EYBW9xD-tkOwTwPf69BzXH0NtuFTq_sqLnv_cLV_krPz_S2Bqt7gkyzFA&s=19" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Some Dark God Wakes", "duration": "59 min", "description": "A detective investigates a series of murders in the Row.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Some Dark God Wakes", "duration": "1 h 0 min", "description": "A series of brutal murders in the Burgue forces Inspector Rycroft Philostrate to reopen old wounds involving fae refugees.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 2, "title": "Aisling", "duration": "56 min", "description": "Philo investigates the past of a murdered fae singer tied to powerful secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 3, "title": "Kingdoms of the Moon", "duration": "1 h 2 min", "description": "Political tensions rise between humans and fae as unrest spreads.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 4, "title": "The Joining of Unlike Things", "duration": "58 min", "description": "Philo’s investigation uncovers hidden truths about the fae killings.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 5, "title": "Grieve No More", "duration": "1 h 1 min", "description": "Vignette’s past catches up with her as tensions escalate in the Row.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 6, "title": "Unaccompanied Fae", "duration": "1 h 0 min", "description": "The fae face increasing persecution as political intrigue deepens.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 7, "title": "The World to Come", "duration": "1 h 2 min", "description": "Philo confronts his identity while tensions erupt across the city.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 8, "title": "The Gloaming", "duration": "1 h 5 min", "description": "Revelations reshape alliances and threaten fragile peace.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Fight or Flight", "duration": "56 min", "description": "Philo is pulled back into conflict as tensions between humans and fae explode.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 2, "title": "New Dawn", "duration": "58 min", "description": "Power shifts as rebellion grows in the shadows.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 3, "title": "The Martyr's Hand", "duration": "1 h 0 min", "description": "Political manipulation deepens across factions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 4, "title": "An Unkindness of Ravens", "duration": "1 h 2 min", "description": "Dark alliances form as war approaches.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 5, "title": "Traps", "duration": "57 min", "description": "Deception spreads as trust breaks between key players.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 6, "title": "Original Sins", "duration": "1 h 1 min", "description": "Secrets from the past reshape current conflicts.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 7, "title": "Kindred", "duration": "1 h 3 min", "description": "Unexpected alliances form in a fractured world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" },
+      { "ep": 8, "title": "Carnival Row", "duration": "1 h 10 min", "description": "The final confrontation determines the fate of humans and fae.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/carnival.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 35,
@@ -1814,13 +1854,50 @@
         { "name": "Laura Birn", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5oRJrZEpqlWKkpaCog3KMDXgz-guqD6xP35cUgACJYFIXI8EsoGs2C7SlgqcDYA9wXlIlFWx1MK2BrR90VnCMVHftPHJD6OlLR0GtEPBJwQ&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The Emperor's Peace", "duration": "59 min", "description": "Hari Seldon predicts the fall of the Galactic Empire.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Emperor's Peace", "duration": "1 h 5 min", "description": "Hari Seldon’s psychohistory predicts the fall of the Galactic Empire, forcing his exile and the creation of the Foundation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 2, "title": "Preparing to Live", "duration": "1 h 1 min", "description": "The Foundation begins its mission to preserve knowledge as the Empire weakens.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 3, "title": "The Mathematician's Ghost", "duration": "1 h 3 min", "description": "Salvor Hardin uncovers hidden dangers threatening Terminus.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 4, "title": "Barbarians at the Gate", "duration": "1 h 2 min", "description": "Political unrest spreads as the Empire tightens control.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 5, "title": "Upon Awakening", "duration": "1 h 1 min", "description": "Gaal Dornick’s visions of the future reshape her destiny.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 6, "title": "Death and the Maiden", "duration": "1 h 4 min", "description": "The Cleonic dynasty faces internal instability.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 7, "title": "Mysteries and Martyrs", "duration": "1 h 5 min", "description": "Religious and political tensions escalate across the galaxy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 8, "title": "The Missing Piece", "duration": "1 h 6 min", "description": "Seldon’s plan begins to unravel as hidden truths surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 9, "title": "The First Crisis", "duration": "1 h 7 min", "description": "Multiple factions collide as predicted collapse begins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 10, "title": "The Leap", "duration": "1 h 10 min", "description": "The Foundation takes its first decisive step toward survival.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "In Seldon's Shadow", "duration": "1 h 2 min", "description": "The galaxy reacts to the Foundation’s growing influence.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 2, "title": "A Glimpse of Darkness", "duration": "1 h 3 min", "description": "New threats emerge as visions of the future destabilize reality.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 3, "title": "When a Book Finds You", "duration": "1 h 4 min", "description": "Hidden knowledge resurfaces, shifting galactic power.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 4, "title": "The Outside", "duration": "1 h 5 min", "description": "Hari Seldon’s influence expands beyond known limits.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 5, "title": "The Sighted and the Seen", "duration": "1 h 6 min", "description": "Prophecy and manipulation blur reality across worlds.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 6, "title": "Why the Gods Made Me", "duration": "1 h 7 min", "description": "Empire struggles with identity and control.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 7, "title": "A Necessary Death", "duration": "1 h 8 min", "description": "Sacrifices are made to preserve the greater plan.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 8, "title": "Creation Myths", "duration": "1 h 10 min", "description": "Truth and myth collide as the galaxy nears collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "A Song for the End of Everything", "duration": "11 Jul 2025", "description": "The Mule emerges as a terrifying new force threatening Empire and Foundation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "18 Jul 2025", "description": "Gaal and Hari continue their plans while prophecy shakes the Empire.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 3, "title": "When a Book Finds You", "duration": "25 Jul 2025", "description": "Factions unite as the Mule expands influence.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 4, "title": "The Stress of Her Regard", "duration": "1 Aug 2025", "description": "Demerzel struggles with conflicting programming.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 5, "title": "Where Tyrants Spend Eternity", "duration": "8 Aug 2025", "description": "Empire and Foundation enter deeper conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 6, "title": "The Shape of Time", "duration": "15 Aug 2025", "description": "The Vault opens as the Mule advances his plan.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 7, "title": "Foundation's End", "duration": "22 Aug 2025", "description": "New Terminus collapses into chaos.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 8, "title": "Skin in the Game", "duration": "29 Aug 2025", "description": "Survivors face the aftermath of destruction.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 9, "title": "The Paths That Choose Us", "duration": "5 Sept 2025", "description": "Gaal confronts the Mule as Empire fractures.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" },
+      { "ep": 10, "title": "The Darkness", "duration": "12 Sept 2025", "description": "The Second Foundation faces the Mule as Empire suffers collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/foundation.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 36,
@@ -1838,11 +1915,11 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/dfXRud1AIiw"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
@@ -1851,14 +1928,32 @@
         { "name": "Sadie Soverall", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbapDlYC3UPW_fC7ml5ppVjmjULCTd5LS76rgIj0kFhvwcP0-VfB6iLPGnaL__aoqjC1ohKX75HnKfSs3Yko5wzh57Chzodi_yRFpYQWVt&s=10" },
         { "name": "Freddie Thorp", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQBrz7nwPtT5XZ2DFqRT1TqErI4HUINnqRAB102conEYUoFVIet4PUrZsik7JBDVfdgDCo7UWFlgK7O3DuLOLKSmCWzWNgY4P8PYKE9Gr93g&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "To the Waters and the Wild", "duration": "44 min", "description": "Bloom arrives at Alfea and discovers she has fire powers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "To the Waters and the Wild", "duration": "52 min", "description": "Bloom arrives at Alfea and begins discovering the truth about her powers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 2, "title": "No Strangers Here", "duration": "47 min", "description": "Bloom struggles to control her abilities while secrets at Alfea deepen.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 3, "title": "Heavy Mortal Hopes", "duration": "50 min", "description": "The Winx girls uncover dangerous truths about the Burned Ones.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 4, "title": "Some Wrecked Angel", "duration": "49 min", "description": "Bloom’s past begins to catch up with her as tensions rise.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 5, "title": "Without a Heart for a Wandering Star", "duration": "53 min", "description": "The group takes risks to uncover the truth behind the school’s secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 6, "title": "Sparks", "duration": "51 min", "description": "Relationships strain as new threats approach Alfea.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Low-Flying Panic Attack", "duration": "49 min", "description": "A new headmistress brings strict changes to Alfea.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 2, "title": "Taken by the Wind", "duration": "50 min", "description": "Bloom’s powers become unstable as dark forces grow.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 3, "title": "Your Newfound Popularity", "duration": "52 min", "description": "Secrets and rivalries threaten the unity of the Winx.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 4, "title": "An Hour Before the Devil Fell", "duration": "51 min", "description": "Danger rises as hidden enemies reveal themselves.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 5, "title": "Are You a Good Witch or a Bad Witch?", "duration": "53 min", "description": "Bloom is forced to confront her origins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 6, "title": "Poor Unfortunate Souls", "duration": "52 min", "description": "Dark magic spreads through Alfea as loyalties break.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 7, "title": "All the Wild Witches", "duration": "54 min", "description": "The Winx prepare for a final confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" },
+      { "ep": 8, "title": "All the Rage", "duration": "55 min", "description": "The battle for Alfea reaches its climax.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fate.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 37,
@@ -1876,11 +1971,11 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/xLTdy6PfotA"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
@@ -1889,14 +1984,23 @@
         { "name": "Daniel Sharman", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNO7Lx_Vj3RtCetfSrZSR02F8lyu8Cz0Q72h71bAau2EkhaTMwfl1FRSF3Nwxy4952ZZ_AHuQPblyl0p_3petuK1446rqwnRjGZcf2AzQ1kw&s=10" },
         { "name": "Shalom Brune-Franklin", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgWpIkUzg9WlQjjc5ONnv62h__PpqZWSQrhVDvP386Q3nNSCK8mcTIDLl3n4MiqD2DxJIl4AYocCmbi6BUBluvbx2FJTumCUWy6uqm5Sx&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Nimue", "duration": "50 min", "description": "Nimue is tasked with returning a sword to Merlin.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Red Lake", "duration": "56 min", "description": "Nimue discovers her connection to an ancient sword and a dying world that fears her kind.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 2, "title": "The Joining", "duration": "55 min", "description": "Nimue and Arthur’s paths begin to intertwine as destiny takes shape.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 3, "title": "Alone", "duration": "54 min", "description": "Nimue faces betrayal and begins to understand the burden of her power.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 4, "title": "The Sisters of the Winter Wood", "duration": "57 min", "description": "A deadly encounter forces Nimue to question allies and enemies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 5, "title": "The Joining of the Wolves", "duration": "58 min", "description": "Arthur’s past catches up with him as conflict grows across the land.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 6, "title": "The Changeling", "duration": "56 min", "description": "Secrets about the sword’s origin begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 7, "title": "Bring Us in Good Ale", "duration": "59 min", "description": "Rebellion spreads as Nimue embraces her destiny.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 8, "title": "The Fey Queen", "duration": "1 h 0 min", "description": "Nimue’s transformation culminates as war erupts across the realm.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 9, "title": "Poisoned Cup", "duration": "58 min", "description": "Trust breaks as alliances shift and betrayal spreads.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" },
+      { "ep": 10, "title": "The Sacrifice", "duration": "1 h 2 min", "description": "Nimue makes a final choice that changes the fate of her world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cursed.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 38,
@@ -2144,14 +2248,55 @@
         { "name": "Tom Hopper", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbeu9siTmyeU_NdShP2VN1RTxCnlodT0NVe8IVMOwuXWCzus67CH6ZACkmRfndAmSO6ls9E_68Qqcdw3FymDjE1_Z7itcu39GzaY729VbaVw&s=10" },
         { "name": "Robert Sheehan", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQUOCDtgXTNjTl1SVFbT9optz270AiS_WTFj_Qrx_WJASR965YX29PD_RW6iRBcgVUsczL1yPNaUtcM-HLZ-L-8Gqe2E5Ide3jWfRuR-E&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "We Only See Each Other at Weddings and Funerals", "duration": "55 min", "description": "The siblings reunite after their father's death.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "We Only See Each Other at Weddings and Funerals", "duration": "1 h 0 min", "description": "The estranged Hargreeves siblings reunite after their adoptive father’s death and learn the apocalypse is near.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 2, "title": "Run Boy Run", "duration": "56 min", "description": "Klaus tries to cope with his abilities while Number Five returns from the future.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 3, "title": "Extra Ordinary", "duration": "57 min", "description": "The siblings uncover secrets about their father and their powers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 4, "title": "Man on the Moon", "duration": "55 min", "description": "Luther’s past on the moon is revealed while tensions rise within the family.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 5, "title": "Number Five", "duration": "58 min", "description": "Five reveals critical details about the coming apocalypse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 6, "title": "The Day That Wasn't", "duration": "59 min", "description": "The team begins to unravel the cause of the apocalypse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 7, "title": "The Day That Was", "duration": "1 h 1 min", "description": "Family secrets and betrayals surface as time runs out.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Right Back Where We Started", "duration": "1 h 2 min", "description": "The siblings are scattered in 1960s Dallas after escaping the apocalypse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 2, "title": "The Frankel Footage", "duration": "56 min", "description": "Five works to reunite the family while avoiding temporal threats.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 3, "title": "The Swedish Job", "duration": "58 min", "description": "Assassins track the Hargreeves siblings across timelines.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 4, "title": "The Majestic 12", "duration": "57 min", "description": "Conspiracy deepens as the siblings uncover government secrets.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 5, "title": "Valhalla", "duration": "59 min", "description": "Klaus forms a cult while tensions rise in the timeline.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 6, "title": "A Light Supper", "duration": "1 h 0 min", "description": "Family conflict peaks as betrayal threatens their mission.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 7, "title": "Öga for Öga", "duration": "1 h 2 min", "description": "The siblings confront their enemies in a violent showdown.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 8, "title": "The Seven Stages", "duration": "1 h 1 min", "description": "The family prepares for another impending apocalypse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Meet the Family", "duration": "1 h 3 min", "description": "The Hargreeves encounter an alternate timeline version of their family.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 2, "title": "World’s Biggest Ball of Twine", "duration": "58 min", "description": "Reality begins to collapse as paradoxes grow.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 3, "title": "Pocket Full of Lightning", "duration": "59 min", "description": "The Sparrow Academy clashes with the Umbrellas.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 4, "title": "Kugelblitz", "duration": "1 h 0 min", "description": "A destructive anomaly threatens all timelines.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 5, "title": "Kindest Cut", "duration": "58 min", "description": "Loyalties shift as the Kugelblitz grows stronger.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 6, "title": "Marigold", "duration": "59 min", "description": "Hidden origins of the Hargreeves powers are revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 7, "title": "Auf Wiedersehen", "duration": "1 h 1 min", "description": "Sacrifices are made to prevent total collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" }
+    ]
+  },
+  {
+    "season": 4,
+    "episodes": [
+      { "ep": 1, "title": "The Final Timeline", "duration": "55 min", "description": "The siblings adjust to a reality where their powers no longer exist.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 2, "title": "Unraveling", "duration": "56 min", "description": "Strange events suggest the timeline is still unstable.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 3, "title": "The Clean Slate", "duration": "58 min", "description": "The Hargreeves confront their final chance to fix reality.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 4, "title": "Oblivion Protocol", "duration": "1 h 0 min", "description": "A final plan is set in motion to reset the universe.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" },
+      { "ep": 5, "title": "Goodbye, Umbrella Academy", "duration": "1 h 5 min", "description": "The family makes their ultimate sacrifice to restore balance.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/umbrela.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 46,
@@ -2183,13 +2328,32 @@
         { "name": "Sol Rodríguez", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__X7hwLP-XWjtOY4e12mZfXZ4K24T5_nZr1LmVk2cXw7uDtMKauaw4OkZQZTcJiSNIOAhayNdFKl7WkToYJuAY96kTNjuQDgR2x895VP_&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Better Goff Dead", "duration": "45 min", "description": "Peacemaker is released from hospital and recruited for a secret mission.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "A Whole New Whirled", "duration": "47 min", "description": "Christopher Smith recovers from his mission while being recruited for a secret government project.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 2, "title": "Best Friends, For Never", "duration": "46 min", "description": "Peacemaker struggles to adapt as the team investigates a mysterious alien threat.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 3, "title": "Better Goff Dead", "duration": "48 min", "description": "The team closes in on their targets while Peacemaker’s past resurfaces.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 4, "title": "The Choad Less Traveled", "duration": "47 min", "description": "Conflicts rise within the team as loyalties are tested.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 5, "title": "Monkey Dory", "duration": "49 min", "description": "Peacemaker begins questioning the morality of his mission.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 6, "title": "Murn After Reading", "duration": "50 min", "description": "The truth about the alien invasion becomes clearer.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 7, "title": "Stop Dragon My Heart Around", "duration": "52 min", "description": "The team prepares for an all-out confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 8, "title": "It's Cow or Never", "duration": "55 min", "description": "The final battle determines the fate of Earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "The Peace Continues", "duration": "48 min", "description": "Peacemaker struggles with new responsibilities after the fallout of Season 1.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 2, "title": "Old Habits", "duration": "47 min", "description": "Christopher is forced to confront his violent past once again.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 3, "title": "Broken Helmets", "duration": "49 min", "description": "The team investigates a new covert threat to global security.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 4, "title": "The Cost of Peace", "duration": "50 min", "description": "Peacemaker questions whether peace is worth the cost he's paying.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 5, "title": "No More Blood", "duration": "51 min", "description": "A betrayal forces the team to rethink their mission.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 6, "title": "Freedom Isn’t Free", "duration": "52 min", "description": "The final mission pushes the team to their limits.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" },
+      { "ep": 7, "title": "Last Peacekeeper", "duration": "53 min", "description": "Peacemaker faces the consequences of his choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/peace.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 47,
@@ -2251,14 +2415,34 @@
         { "name": "Mackenyu", "image": "https://m.media-amazon.com/images/M/MV5BNTA2ZjkxZjEtMjU5My00ZTc2LWE4MWYtYjg3N2I4MzFkMjY1XkEyXkFqcGc@._V1_CR123,0,1510,2265_QL75_UX280_CR0,24,280,280_.jpg" },
         { "name": "Jaccob Romero", "image": "https://m.media-amazon.com/images/M/MV5BYzU0NTM2NWYtMGM2Yi00ODQzLTkxNTktYmE5Y2M4MDA0N2EwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Romance Dawn", "duration": "65 min", "description": "Luffy sets sail to become King of the Pirates.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepiece.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Romance Dawn", "duration": "64 min", "description": "Monkey D. Luffy begins his journey to become King of the Pirates and forms his first alliances.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 2, "title": "The Man in the Straw Hat", "duration": "55 min", "description": "Luffy teams up with Zoro while escaping Marine forces.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 3, "title": "Tell No Tales", "duration": "58 min", "description": "The crew uncovers danger hiding in Syrup Village.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 4, "title": "The Pirates Are Coming", "duration": "62 min", "description": "Usopp joins the fight to defend his home from pirates.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 5, "title": "Eat at Baratie!", "duration": "60 min", "description": "The Straw Hats meet Sanji at the floating restaurant Baratie.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 6, "title": "The Chef and the Chore Boy", "duration": "59 min", "description": "Sanji’s past is revealed during a pirate attack.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 7, "title": "The Girl with the Sawfish Tattoo", "duration": "61 min", "description": "Nami’s connection to Arlong is revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 8, "title": "Worst in the East", "duration": "65 min", "description": "The crew faces Arlong in a decisive battle for freedom.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "The Beginning and the End", "duration": "", "description": "The Straw Hats enter a new phase of their journey as larger forces begin to move.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 2, "title": "Good Whale Hunting", "duration": "", "description": "The crew faces unexpected dangers at sea.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 3, "title": "Whisky Business", "duration": "", "description": "A mysterious island hides dangerous enemies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 4, "title": "Big Trouble in Little Garden", "duration": "", "description": "The crew encounters giants on a prehistoric island.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 5, "title": "Wax On, Wax Off", "duration": "", "description": "A powerful enemy forces the crew to adapt quickly.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 6, "title": "Nami Deerest", "duration": "", "description": "Nami’s past creates tension within the crew.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 7, "title": "Reindeer Shames", "duration": "", "description": "A new ally appears as the crew approaches a frozen kingdom.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" },
+      { "ep": 8, "title": "Deer and Loathing in Drum Kingdom", "duration": "", "description": "The Straw Hats face a tyrant while searching for a healer.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/onepeace.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 49,
@@ -2289,14 +2473,21 @@
         { "name": "Olivia Thirlby", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScYI5YcYjf_NqnSUjyN91ZSm2329NLUD7McmPuhZwRBsWZIOQ1qUFEtiatwJV3syep7uTwhEo9_3Hee58Ixews5Um2uuaIh7mrb85y3roK&s=10" },
         { "name": "Josh Gad", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQkgbM1CAxcfxmXYVwx03N8BZTIp9FiBoqahVHW79LVw096NORgiKBYOB03IL5TOmQu6iySY5cUTbXFqS6-sgHtQRZKTFTg_DVGWE4I9y6bKciyFCTNadRUDJuCLA3GGjh1cjuULwNh0is&s=19" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "Simon Williams discovers he has superpowers and tries to balance his acting career.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonder.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "TBA", "description": "Introduction to Simon Williams and the world of Hollywood superheroes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "TBA", "description": "Simon navigates fame, identity, and the blurred line between acting and heroism.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "TBA", "description": "A deeper conspiracy begins to form around the entertainment industry and superpowered individuals.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "TBA", "description": "Simon is forced to confront what it truly means to be a hero.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "TBA", "description": "Tensions rise as reality and performance begin to collide.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "TBA", "description": "Simon faces consequences from both his personal and heroic identities.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "TBA", "description": "A major turning point forces Simon into a dangerous public revelation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "TBA", "description": "The season concludes as Simon must decide what kind of hero he wants to become.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/wonderman.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 50,
@@ -2327,14 +2518,34 @@
         { "name": "Dior Goodjohn", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTufC6WBWcJtTvftrzCMPhfnnA-PbidR9vJUYnL-mNnTYJtu6o6mhQvKIOB-qYaLJnuNtXrvWH4YnJaqsdI7qj6Bsyz5XelccIijfi8GNrjqg&s=10" },
         { "name": "Aryan Simhadri", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPNVS-fSIOcTWsf6camgeVbsQpeBFABxFY7OnO_mEEnBmQnAQreROXmi0f23ys-XSBDP5e2Eg2SVsd8VbK5Ae1AOpCPhGthgYVlYuReYb&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "I Accidentally Vaporize My Pre-Algebra Teacher", "duration": "45 min", "description": "Percy discovers he is a demigod.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "I Accidentally Vaporize My Pre-Algebra Teacher", "duration": "1 h 0 min", "description": "Percy discovers he is a demigod and is pulled into the hidden world of gods and monsters.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 2, "title": "I Become Supreme Lord of the Bathroom", "duration": "45 min", "description": "Camp Half-Blood introduces Percy to his new reality among demigods.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 3, "title": "We Visit the Garden Gnome Emporium", "duration": "46 min", "description": "Percy, Annabeth, and Grover begin their quest across the mortal world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 4, "title": "I Plunge to My Death", "duration": "50 min", "description": "The trio faces growing danger as they travel deeper into prophecy territory.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 5, "title": "A God Buys Us Cheeseburgers", "duration": "48 min", "description": "Ares manipulates Percy, pushing the quest into darker territory.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 6, "title": "We Take a Zebra to Vegas", "duration": "49 min", "description": "The group is lured into distractions in Las Vegas while on their mission.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 7, "title": "We Find Out the Truth, Sort Of", "duration": "52 min", "description": "Clues about Zeus’s stolen lightning bolt begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 8, "title": "The Prophecy Comes True", "duration": "55 min", "description": "Percy faces his destiny as the conflict among gods escalates.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "I Play Dodgeball with Cannibals", "duration": "", "description": "Percy, Annabeth, Grover, and Clarisse journey through the Sea of Monsters to save Camp Half-Blood.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 2, "title": "Demon Pigeons Attack", "duration": "", "description": "The group faces new threats while searching for Grover.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 3, "title": "We Board the Princess Andromeda", "duration": "", "description": "The heroes encounter unexpected enemies aboard a cursed cruise ship.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 4, "title": "Clarisse Blows Up Everything", "duration": "", "description": "A quest involving Clarisse forces the group into difficult moral choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 5, "title": "We Check In to C.C.'s Spa and Resort", "duration": "", "description": "Percy and Annabeth confront illusions and personal flaws in the Sea of Monsters.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 6, "title": "Nobody Gets the Fleece", "duration": "", "description": "A desperate plan is made to recover the Golden Fleece and save their friends.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 7, "title": "I Go Down With the Ship", "duration": "", "description": "Percy faces Kronos’ influence while Annabeth fights for survival aboard the Princess Andromeda.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" },
+      { "ep": 8, "title": "The Fleece Works Its Magic Too Well", "duration": "", "description": "The final battle unfolds as Kronos’ army threatens Camp Half-Blood.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/percy.jpeg" }
+    ]
+  }
+]
     },
     {
       "id": 51,
@@ -2365,21 +2576,83 @@
         { "name": "Tati Gabrielle", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgcGwY-R07OFC8JM1h6gI6p7wZlktCvNvTmnwlhtlBkbnvYoNdZ3Vnl7rCEAQSf2MvPZ7Yu_4yCg6PjehzuwINJ4qtmG5QSsmYEZ_d3v_&s=10" },
         { "name": "Jenna Ortega","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xr-NT-ih-EwOy7DQp4KRYKgMqixxUJgAH5B-_DX9rz3VD82iMUIlCJpZaiEpG2ri2ArK1B9D7IznBMenrgSNxTkBJ8onlY9GP8giPTdN&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Pilot",             "duration": "44 min", "description": "Joe meets Beck and becomes obsessed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
-            { "ep": 2, "title": "The Last Nice Guy",  "duration": "45 min", "description": "Joe digs deeper into Beck's life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
-          ]
-        },
-        {
-          "season": 4,
-          "episodes": [
-            { "ep": 1, "title": "Joe Takes a Holiday", "duration": "56 min", "description": "Joe starts a new life in London under a new identity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Pilot", "duration": "52 min", "description": "Joe Goldberg meets Beck and becomes dangerously obsessed with her.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45–55 min", "description": "Joe begins manipulating Beck’s life while hiding his identity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45–55 min", "description": "Joe eliminates obstacles blocking his path to Beck.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45–55 min", "description": "Beck grows closer to Joe as danger surrounds her unknowingly.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45–55 min", "description": "Joe tightens his control over Beck’s relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45–55 min", "description": "Beck starts uncovering disturbing truths about those around her.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "45–55 min", "description": "Joe’s past begins to catch up with him.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "45–55 min", "description": "Beck gets closer to the truth behind Joe.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 9, "title": "Episode 9", "duration": "45–55 min", "description": "Joe escalates his control as pressure builds.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 10, "title": "Episode 10", "duration": "55 min", "description": "A shocking conclusion changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "A Fresh Start", "duration": "26 Dec 2019", "description": "Joe arrives in LA as Will, trying to escape his past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 2, "title": "Just the Tip", "duration": "26 Dec 2019", "description": "Joe learns Will Bettelheim isn’t what he seems.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 3, "title": "What Are Friends For?", "duration": "26 Dec 2019", "description": "Joe struggles between obsession and restraint.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 4, "title": "The Good, the Bad, & the Hendy", "duration": "26 Dec 2019", "description": "Joe’s life collides with Love and Forty’s world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 5, "title": "Have a Good Wellkend, Joe!", "duration": "26 Dec 2019", "description": "A wellness trip exposes deeper family tensions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 6, "title": "Farewell, My Bunny", "duration": "26 Dec 2019", "description": "Suspicion grows as Joe feels he is being watched.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 7, "title": "Ex-istential Crisis", "duration": "26 Dec 2019", "description": "Joe spirals after emotional turmoil and mistakes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 8, "title": "Fear and Loathing in Beverly Hills", "duration": "26 Dec 2019", "description": "A chaotic night pushes tensions to breaking point.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 9, "title": "P.I. Joe", "duration": "26 Dec 2019", "description": "Joe tries to uncover the truth behind recent events.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 10, "title": "Love, Actually", "duration": "26 Dec 2019", "description": "Love reveals her true nature in a shocking twist.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "And They Lived Happily Ever After", "duration": "15 Oct 2021", "description": "Joe struggles with fatherhood and a new obsession.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 2, "title": "So I Married an Axe Murderer", "duration": "15 Oct 2021", "description": "Joe and Love attempt couples therapy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 3, "title": "Missing White Woman Syndrome", "duration": "15 Oct 2021", "description": "Media attention begins closing in.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 4, "title": "Hands Across Madre Linda", "duration": "15 Oct 2021", "description": "Plans unravel as violence escalates.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 5, "title": "Into the Woods", "duration": "15 Oct 2021", "description": "Joe joins a hunting trip with local husbands.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 6, "title": "W.O.M.B.", "duration": "15 Oct 2021", "description": "Family pressures and personal revelations grow.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 7, "title": "We're All Mad Here", "duration": "15 Oct 2021", "description": "Joe targets Marienne’s ex while chaos spreads.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 8, "title": "Swing and a Miss", "duration": "15 Oct 2021", "description": "Joe’s plans begin collapsing under pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 9, "title": "Red Flag", "duration": "15 Oct 2021", "description": "Joe takes drastic action to get what he wants.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 10, "title": "What is Love?", "duration": "15 Oct 2021", "description": "A deadly confrontation changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+    ]
+  },
+  {
+    "season": 4,
+    "episodes": [
+      { "ep": 1, "title": "Joe Takes a Holiday", "duration": "9 Feb 2023", "description": "Joe starts over in London among elite socialites.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 2, "title": "Portrait of the Artist", "duration": "9 Feb 2023", "description": "Joe hunts his stalker using unexpected allies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 3, "title": "Eat the Rich", "duration": "9 Feb 2023", "description": "A killer targeting the wealthy changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 4, "title": "Hampsie", "duration": "9 Feb 2023", "description": "Joe is trapped with no escape during a weekend getaway.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 5, "title": "The Fox and the Hound", "duration": "9 Mar 2023", "description": "Joe is forced into a deadly game.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 6, "title": "Best of Friends", "duration": "9 Mar 2023", "description": "A scapegoat hunt begins as chaos unfolds.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 7, "title": "Good Man, Cruel World", "duration": "9 Mar 2023", "description": "Joe receives a tempting new offer.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 8, "title": "Where Are You Going, Where Have You Been", "duration": "9 Mar 2023", "description": "Joe struggles with fractured memories.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 9, "title": "She's Not There", "duration": "9 Mar 2023", "description": "Joe tries to fix past mistakes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 10, "title": "The Death of Jonathan Moore", "duration": "9 Mar 2023", "description": "Joe attempts a final reset of his life.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+    ]
+  },
+  {
+    "season": 5,
+    "episodes": [
+      { "ep": 1, "title": "The Luckiest Guy in NY", "duration": "24 Apr 2025", "description": "Joe and Kate attempt a fresh start in New York.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 2, "title": "Blood Will Have Blood", "duration": "24 Apr 2025", "description": "Family tensions erupt over shocking accusations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 3, "title": "Impostor Syndrome", "duration": "24 Apr 2025", "description": "Joe’s secrets begin surfacing again.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 4, "title": "My Fair Maddie", "duration": "24 Apr 2025", "description": "Corporate power struggles intensify.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 5, "title": "Last Dance", "duration": "24 Apr 2025", "description": "Joe searches for a missing person.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 6, "title": "The Dark Face of Love", "duration": "24 Apr 2025", "description": "A viral video threatens Joe’s future.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 7, "title": "#JoeGoldberg", "duration": "24 Apr 2025", "description": "Joe fights public perception.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 8, "title": "Folie a Deux", "duration": "24 Apr 2025", "description": "Relationships are tested under pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 9, "title": "Trial of the Furies", "duration": "24 Apr 2025", "description": "Joe faces legal and financial collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" },
+      { "ep": 10, "title": "Finale", "duration": "24 Apr 2025", "description": "Joe’s story reaches its final turning point.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/you.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 52,
@@ -2441,14 +2714,48 @@
         { "name": "Eamon Farren",     "image": "https://m.media-amazon.com/images/M/MV5BOTNkMDYyN2ItNGQ3Mi00MmQ1LWFmZDgtMjJlZGM4ZTA1NWYzXkEyXkFqcGc@._V1_QL75_UY280_CR70,0,280,280_.jpg" },
         { "name": "Henry Cavill",     "image": "https://m.media-amazon.com/images/M/MV5BNWFmNmI2NmYtNDUyYi00MDZhLTk0ZmEtODY0MmM5NGQxMWEwXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,280_.jpg" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The End's Beginning", "duration": "60 min", "description": "Geralt of Rivia encounters a cursed princess.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" }
-          ]
-        }
-      ]
+     "image": "images/witcher.jpg",
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "Geralt of Rivia, a monster hunter, struggles to find his place in a chaotic world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "60 min", "description": "Ciri’s life in Cintra collapses as war breaks out.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "60 min", "description": "Yennefer’s origin story unfolds as she is trained in magic.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "60 min", "description": "Geralt’s path begins to intertwine with destiny.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "60 min", "description": "Political tensions rise across the Continent.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "60 min", "description": "Geralt faces consequences of a powerful curse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "60 min", "description": "Ciri’s destiny begins to take shape.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "60 min", "description": "Fates collide as war erupts across the kingdoms.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "Geralt takes Ciri to Kaer Morhen for protection.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "60 min", "description": "Ciri begins training with the Witchers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "60 min", "description": "Yennefer struggles with the loss of her powers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "60 min", "description": "A dangerous secret is uncovered at Kaer Morhen.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "60 min", "description": "Geralt hunts a powerful creature tied to Ciri.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "60 min", "description": "Political forces close in on Ciri.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "60 min", "description": "Yennefer makes a dangerous sacrifice.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "60 min", "description": "Destiny reaches a breaking point across the Continent.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "Geralt, Yennefer, and Ciri are finally united but hunted.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "60 min", "description": "The trio seeks refuge while enemies close in.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "60 min", "description": "Magic and politics collide in dangerous ways.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "60 min", "description": "Ciri’s powers begin to awaken fully.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "60 min", "description": "A betrayal threatens the group’s survival.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "60 min", "description": "Geralt faces a deadly moral choice.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "60 min", "description": "The Conjunction of the Spheres draws near again.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "60 min", "description": "A climactic battle reshapes destiny across the Continent.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/witcher.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 54,
@@ -2479,14 +2786,39 @@
         { "name": "Genesis Rodriguez", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2jhM38b1LHvz1-tYQHlhTlu6xDRWsTtDqElfHV0GfCFKfuyjMpNaVW0WD8oudeXOvbzh5NKqIHEIjC7Vb81HITKv71qbzQC_2MFqApjfT&s=10" },
         { "name": "Brittany Snow",   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF-7MP0YIkp3_bKWrUT0gTdCAs1XUnJcAcQ6WA4u3to_Ljr_kQtDDEcwIZVgREx3Rmwranp1cbejVjVTPE5g6EMrZbIkre0ea--ZJvfYkQZg&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The Reach", "duration": "55 min", "description": "Peter Sutherland answers a hotline call that changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" }
-          ]
-        }
-      ]
+     "image": "images/night.jpg",
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "FBI agent Peter Sutherland is drawn into a conspiracy after answering a mysterious emergency call.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "52 min", "description": "Peter is tasked with protecting Rose Larkin after a deadly attack on her family.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "53 min", "description": "The pair go on the run as they uncover deeper government involvement.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "56 min", "description": "A growing conspiracy inside the government begins to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "54 min", "description": "Peter infiltrates deeper into the conspiracy while Rose decodes vital information.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "55 min", "description": "The Night Action program’s secrets begin to unravel.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "58 min", "description": "Trust breaks down as allies become uncertain.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "57 min", "description": "A betrayal shifts the direction of the investigation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 9, "title": "Episode 9", "duration": "59 min", "description": "Peter closes in on the mastermind behind the conspiracy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 10, "title": "Episode 10", "duration": "60 min", "description": "The conspiracy reaches its explosive conclusion.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Call Tracking", "duration": "23 Jan 2025", "description": "After a failed mission in Bangkok, Peter tracks a suspected rogue agent while Rose receives a disturbing call.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 2, "title": "Disconnected", "duration": "23 Jan 2025", "description": "Peter and Rose reunite and race against time as new threats emerge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 3, "title": "Government Property", "duration": "23 Jan 2025", "description": "An investigation into Foxglove leads to dangerous complications.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 4, "title": "Desperate Measures", "duration": "23 Jan 2025", "description": "An embassy infiltration raises suspicion and escalates tension.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 5, "title": "A Family Matter", "duration": "23 Jan 2025", "description": "Hidden agendas emerge as covert operations unfold in Iran.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 6, "title": "A Good Agent", "duration": "23 Jan 2025", "description": "Rose faces moral conflict while Peter becomes the hunted.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 7, "title": "Tilt", "duration": "23 Jan 2025", "description": "A deadly lead puts Rose in danger while Peter interrogates Solomon.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 8, "title": "Divergence", "duration": "23 Jan 2025", "description": "Peter makes a risky deal while loyalties fracture.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 9, "title": "Cultural Exchange", "duration": "23 Jan 2025", "description": "A high-security breach pushes everything to the edge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" },
+      { "ep": 10, "title": "Buyer's Remorse", "duration": "23 Jan 2025", "description": "A final race to stop catastrophe as the conspiracy collapses.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/night.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 55,
@@ -2504,11 +2836,11 @@
       "progress": 0,
       "newRelease": false,
       "trailer": {
-      "local": "videos/michael-trailer.mp4",
+      "local": "videos/m",
       "embed": "https://archive.org/embed/st6r-8mLW_o"
       },
        "movie": {
-      "local": "videos/michael-full.mp4",
+      "local": "videos/",
       "embed": "https://youtube.com/embed/MOVIE_ID"
       },
       "cast": [
@@ -2517,14 +2849,44 @@
         { "name": "Clara Rosager", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBX536DGnwBffZxS18ORsoRxfPXD9g8D6u-mssDa0qVEQvQLkOTeXiUUnpP-LE3tJdOxsgS7xRpzKiqbJpLvbhBNESHe5-nd4hNYXs3zM&s=10" },
         { "name": "Mikkel Boe Folsgaard", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTDGa5R6o-yGgpyNZKs9pP0Nz9rC0H3JygLm9yYjqg1LzknZKt9zPVJO1aRxwxpWRF8SSP9me-jVEZNyLg4YjpyvKWMtYkFqJpHZV1mmUOsTQrmVcV8ezIX3PmFyJDcD56O3PAs7RpsDdI&s=19" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Stay Inside", "duration": "44 min", "description": "A virus carried by rain kills most of Scandinavia's population.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" }
-          ]
-        }
-      ]
+     "image": "images/therain.jpg",
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A deadly virus carried by rainfall wipes out most of Scandinavia. Two siblings emerge from shelter six years later.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45 min", "description": "The siblings begin searching for safety and other survivors.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45 min", "description": "Trust becomes dangerous as new survivors are encountered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45 min", "description": "The group learns more about the origins of the virus.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45 min", "description": "Survival becomes more complicated as resources run low.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45 min", "description": "Secrets from the past begin to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "45 min", "description": "The group faces betrayal and external threats.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "45 min", "description": "A major revelation changes everything about the virus survival strategy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "The group attempts to adapt to a more structured survivor society.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45 min", "description": "New alliances form under pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45 min", "description": "Conflicts emerge within the survivor group.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45 min", "description": "A mission outside the safe zone turns dangerous.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45 min", "description": "The truth about immunity research begins to surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45 min", "description": "A major turning point reshapes survival plans.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A new phase of the virus forces the group into difficult choices.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45 min", "description": "The survivors split over how to rebuild society.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45 min", "description": "Old enemies resurface in the new world order.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45 min", "description": "A risky plan to end the virus is set in motion.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45 min", "description": "Sacrifices are made as the truth is uncovered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45 min", "description": "The final confrontation decides the fate of humanity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/therain.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 56,
@@ -2555,14 +2917,21 @@
         { "name": "Jesse James Keitel", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeY_ltupHUyznKxcbb_3UqL3c3O_ATe7Ue83v7IyP7l1yJH3guZQZrcEgSQdmPpsaOYpOVDj7uWfyjq6CIJbfBWlqtK9KluTc3DoO1rYlYEQ&s=10" },
         { "name": "Karla Souza", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJX_DNniLBbNve0UpH2HpIoi1rF06unvrmFtWO2JZAAvam1Pf_nNgi-pfYLtn4EQvyEyGmnX1X_JULYWabgB5NZLSKSPJNTa88BU3XdpF&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Homecoming", "duration": "71 min", "description": "Prairie Johnson returns after missing for seven years.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/oa.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A couple meets during the early days of lockdown in Dublin, forming a fast and intense relationship.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45 min", "description": "Their relationship deepens as the outside world shuts down completely.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45 min", "description": "Small inconsistencies in their stories begin to raise questions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45 min", "description": "Detectives investigate a mysterious death linked to the couple.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45 min", "description": "Flashbacks reveal hidden tensions behind their romance.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45 min", "description": "The timeline shifts between lockdown intimacy and present-day investigation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "45 min", "description": "Secrets begin to unravel as evidence builds against one of them.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "45 min", "description": "The truth behind the 56 days together is finally revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/56.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 57,
@@ -2624,7 +2993,21 @@
         { "name": "Amanda Christine", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLc5TfL3XFqAyCy8Q8wGMkInrmjR7NLCTFBeQ4lRQ9eh8a9v-pj1_h9q1Bg98Wr54ZSB0CqbMHMG7N38TjPBV_qq-eZl0q6RnFIjiiBimw&s=10" },
         { "name": "Matilda Lawler", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT066U8fqY7CQ5x1rFlh3WoQYflCaJesR0_ZgnjC2hYPr1McbJunRtmb42e0P2AyLXVHZIQ0JeuvukWS5jF4ATAhtB_quOwQ_yRuCmwSSgoKQ&s=10" }
       ],
-      "seasons": []
+      "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "A new wave of disappearances begins in Derry, Maine as strange events unsettle the town.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "54 min", "description": "A group of locals start noticing disturbing patterns tied to the town’s past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "56 min", "description": "Unexplained sightings and fear spread as Derry’s history begins to resurface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "58 min", "description": "The town’s dark influence grows stronger, affecting both children and adults.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "57 min", "description": "Clues point toward an ancient evil beneath Derry.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "59 min", "description": "A group uncovers the cyclical nature of disappearances tied to fear itself.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "60 min", "description": "The entity behind the terror begins to reveal itself more directly.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "62 min", "description": "A confrontation with the source of Derry’s horror changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/IT.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 59,
@@ -2686,14 +3069,34 @@
         { "name": "Scout Taylor-Compton","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXoZkuN09obRfVPFBIx2BcMbUdzMZL0PsrtO8ueoTM9jfY2wIM-mdDSetdIb5ghV3pT2glG09SzlVbwkfA67fg6yrrkPWh4Ez9vMg4gwbB&s=10" },
         { "name": "Hoon Lee","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSrB3ekgWXKkalx88SyNedCG5wywKau0QBa_QLbZXRw5Od2i0uQfSQtsVHtz752tSAz2ExxBTm5o8difGHlkyuyt3X1ha89b6R2zfrTDW40A&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "60 min", "description": "Twelve contestants meet and the first round begins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" }
-          ]
-        }
-      ]
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A demon hunter for hire takes on a job that drags him into a larger supernatural conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45 min", "description": "A mysterious organization begins tracking demonic activity tied to Dante.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45 min", "description": "Dante confronts a powerful demon with connections to his past.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45 min", "description": "The balance between human and demon worlds begins to break down.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45 min", "description": "Vergil’s influence begins to surface through demonic disturbances.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45 min", "description": "Dante uncovers a conspiracy involving demon experimentation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "45 min", "description": "A powerful artifact capable of opening Hell’s gates is revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "45 min", "description": "Dante faces a major demonic invasion threatening humanity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "A new wave of stronger demons emerges across the world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "45 min", "description": "Dante is forced to work with unlikely allies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "45 min", "description": "Vergil reappears with his own agenda.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "45 min", "description": "A war between demon factions escalates.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "45 min", "description": "Dante learns the truth about his family’s origins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "45 min", "description": "The human world begins to collapse under demonic pressure.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "45 min", "description": "A final key to opening the demon realm is discovered.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "45 min", "description": "Dante and Vergil face off as the fate of both worlds hangs in balance.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/devil.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 61,
@@ -2755,20 +3158,27 @@
         { "name": "Constance Wu","image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQiV9bR_pakKls72VOFRDNEWt9qTHqnlFy-Z9W2Od_VNnRMFjpPoR7dfxZJt91FcapD7PiVl_ptJSQ-ZInJrZiEwzAnD5E0yqutSz3EDSmzX85z1h28RD8eF5U-ESALpAdA2EBDF7EgReuH&s=19" },
         { "name": "Riley Keough", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ08MesBi0jrrDRUXGqbn9FJ5LyxGa2HxAdH5ZNblzwm86HKR_cdEw5dfkFIxApu8dwy6wLLj3C06ZvWTIfksDI-UZvY1UTrAU30XXlxlu&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Context", "duration": "58 min", "description": "Commander James Reece returns home after a mission goes wrong.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" }
-          ]
-        }
-      ]
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "The Engram", "duration": "55 min", "description": "Navy SEAL James Reece survives a failed mission that leaves his team dead under suspicious circumstances.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 2, "title": "Encoding", "duration": "52 min", "description": "Reece begins uncovering inconsistencies in the mission and suspects a conspiracy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 3, "title": "Consolidation", "duration": "54 min", "description": "Reece returns home while dealing with memory gaps and mounting paranoia.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 4, "title": "Detachment", "duration": "56 min", "description": "Evidence suggests Reece’s unit was deliberately sabotaged.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 5, "title": "Disruption", "duration": "58 min", "description": "Reece targets individuals connected to the conspiracy behind the operation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 6, "title": "Transference", "duration": "57 min", "description": "The scope of the conspiracy expands beyond what Reece expected.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 7, "title": "Extinction", "duration": "59 min", "description": "Reece closes in on those responsible while being hunted himself.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" },
+      { "ep": 8, "title": "Reclamation", "duration": "60 min", "description": "The truth behind the mission is revealed, forcing a final confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/terminal list.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 63,
       "title": "Citadel",
       "type": "series",
-      "image": "images/cintadel.jpg",
+      "image": "images/citadel.jpg",
       "description": "Elite spies lose their memories after their agency is destroyed by a global syndicate.",
       "year": 2023,
       "duration": "1 hour per episode",
@@ -2793,14 +3203,21 @@
         { "name": "Stanley Tucci", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIvkuINB9IBzUQUbha7e5fD1l3HxyWd5-1BeWyvTP4MJ3dofdqG10pD1W_7FC52dHQMnOjRGNRK7qTJkIdgfQA7ieK9ylZD75CXAl8g43&s=10" },
         { "name": "Ashleigh Cummings", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqwLukfawSJNjy_-gOvkB0p7pudrlU2hVAssE1nz3vNSZeohFfTQZUuKdZZC9DqugQ1Ipano1xTKAeffIitg2ZtE0WX7NU1aUX8j76mMjOA&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "The Human Enigma", "duration": "60 min", "description": "Two former spies are pulled back into action.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cintadel.jpg" }
-          ]
-        }
-      ]
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "50 min", "description": "Eight years after the fall of Citadel, elite agents Mason Kane and Nadia Sinh are pulled back into a global spy conspiracy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "48 min", "description": "Mason begins recovering fragmented memories of his past life as a Citadel agent.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "52 min", "description": "Nadia and Mason uncover traces of a powerful syndicate manipulating global intelligence agencies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "54 min", "description": "A mission reveals betrayals within Citadel’s former leadership.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "56 min", "description": "The pair is forced to question everything they know about their past identities.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "55 min", "description": "A hidden Citadel archive reveals the origins of the enemy organization.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "57 min", "description": "Trust breaks down as the truth about Mason’s erased memories surfaces.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "60 min", "description": "A final confrontation exposes the collapse of Citadel and its global consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadel.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 64,
@@ -2831,14 +3248,21 @@
         { "name": "Úrsula Corberó","image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzibMWrRHriJfssfO7J-KWpczVxOOAwCquS8ywW3bp7ho9ZyOtxlvZBrcCkXqYUkhRaQ4PRUUUj_C2DnQ1Q_1RasKw-ALiWEWHI9eSS11K&s=10" },
         { "name": "Eleanor Matsuura", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8F2dzFhupWv-iuyrzRxXEwd3EomQAFJbo4z1YGQSHo0ccWDTZOIWBOXXXiaBFMQphXImpO6cJ1U0rxLpm9VgfoVVBYHFWW8YtZw2z-og&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "The Jackal accepts a dangerous new contract.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" }
-          ]
-        }
-      ]
+"seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "A master assassin known as the Jackal is hired for a high-profile political hit that draws the attention of European intelligence agencies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "54 min", "description": "An intelligence officer begins tracking the Jackal’s carefully hidden identity across Europe.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "56 min", "description": "The Jackal changes identities while closing in on his target under increasing surveillance.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "57 min", "description": "A near miss exposes cracks in the Jackal’s plan as intelligence agencies tighten the net.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "58 min", "description": "The hunter and hunted begin closing in on each other through overlapping investigations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "56 min", "description": "The Jackal adapts his strategy as global pressure forces a change in his approach.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "59 min", "description": "A key intelligence leak narrows the search, putting both sides at risk.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "60 min", "description": "The final confrontation approaches as the Jackal prepares to complete his mission or disappear forever.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/jackal.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 65,
@@ -2869,7 +3293,33 @@
         { "name": "Jung Ji-Hoon", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRNVVaUs-IFSlIwhpz6MLAYvXBaw-Mb8v0cnG2smf7KdUSeU2mzi4D3MnSu6uSXLluzvf7Bb7SPun50k4M118E8Z8LLpkGEOxH76COiiriVlIUBZElS-H1f_kC5QYdZFZBu1mlPInmjcn4&s=19" },
         { "name": "Park Hoon", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQmmhjC11vC_aAEbUfvKDuhGJApxjxehmnyZvaone0oxnWNEctGRrFPHvZKaebPkus0GGKqPV80VzrYY7Imo2oOF8PhCt2SkV-Luxj38dJfKy8JhQ5l8_yvk0GaL5_uiepL9Yndqd0XoN8&s=19" }
       ],
-      "seasons": []
+      "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "55 min", "description": "Two young boxers enter the world of illegal loan sharks after trying to help a struggling victim.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "56 min", "description": "They begin working under a former moneylender to take down a powerful loan shark syndicate.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "54 min", "description": "A confrontation reveals the brutality of the loan shark network.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "57 min", "description": "The criminal empire tightens its grip, escalating the conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "58 min", "description": "Trust is tested as betrayal surfaces within the group.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "55 min", "description": "The team prepares for a final confrontation against the loan shark boss.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "59 min", "description": "A large-scale fight breaks out between rival factions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "60 min", "description": "The final showdown determines the fate of the loan shark empire.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "3 Apr 2026", "description": "Kim Gun-woo prepares for a major fight while Im Baek-jeong begins hunting him from the shadows.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "3 Apr 2026", "description": "Gun-woo protects his mother while Baek-jeong’s men close in.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "3 Apr 2026", "description": "Gun-woo uncovers the deeper structure of IKFC and Baek-jeong’s manipulation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "3 Apr 2026", "description": "Baek-jeong escalates attacks on Gun-woo’s allies, prompting a counterstrike plan.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "3 Apr 2026", "description": "Gun-woo commits to confronting Baek-jeong directly.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "3 Apr 2026", "description": "A weakness in Baek-jeong’s operation is discovered as authorities close in.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "3 Apr 2026", "description": "A final coordinated strike sets the stage for the last battle.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/blood.jpg" }
+    ]
+  }
+]
     },
     {
     "id": 66,
@@ -2931,20 +3381,51 @@
         { "name": "Joel Kinnaman", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT7ywaudq26XuAiW5z2Un1sHm5LYTneEY4XzQrQvgOWKyfx_GAwogBXDgFcw3lJ4G6XCg_hWsNY9onSTPoHuJf5OMXSUGB7MDSd_tfFJd0kwF_CqX33Wu8jSWc---YuYaAW7A-MPm5iQl4K&s=19" },
         { "name": "Ray Liotta", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tQ9_6YULyJQjJCsRTDXCqr7EcngALAxhB7YtCF0bIfpDEPCl6iFxTEuMJbI1mSyulPyk40B5ZQAtkQ9nFqujAQYFCoOrvjNSOKRcdtnQwA&s=10" }
       ],
-      "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Forest", "duration": "50 min", "description": "Hanna lives in the Polish wilderness with her father.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" }
-          ]
-        }
-      ]
+     "seasons": [
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "50 min", "description": "A teenage girl raised in isolation is forced to flee after her secret training program is exposed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "49 min", "description": "Hanna begins adapting to the outside world while being pursued by CIA operatives.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "52 min", "description": "Erik struggles to protect Hanna as fragments of her past begin resurfacing.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "51 min", "description": "Marissa investigates the covert program responsible for Hanna’s creation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "53 min", "description": "Hanna uncovers disturbing truths about her origin and abilities.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "54 min", "description": "A confrontation forces Hanna to question who she can trust.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "55 min", "description": "CIA pressure increases as Hanna’s past catches up to her.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "56 min", "description": "The truth behind the Utrax program is revealed in a final confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" }
+    ]
+  },
+  {
+    "season": 2,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "52 min", "description": "Hanna infiltrates a Utrax facility under a new identity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "50 min", "description": "She gathers intelligence while blending in with other recruits.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "53 min", "description": "Marissa continues tracking the program’s global operations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "54 min", "description": "Hanna uncovers deeper truths behind Utrax recruitment.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "55 min", "description": "Utrax prepares its next phase of operations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "56 min", "description": "Hanna plans an escape with unexpected allies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "57 min", "description": "A coordinated strike targets Utrax leadership.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 8, "title": "Episode 8", "duration": "58 min", "description": "Hanna confronts the system that created her.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" }
+    ]
+  },
+  {
+    "season": 3,
+    "episodes": [
+      { "ep": 1, "title": "Résistance", "duration": "24 Nov 2021", "description": "Hanna returns to The Meadows undercover while Marissa investigates a CIA-linked target in Vienna.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 2, "title": "Grape Vines and an Orange Tree", "duration": "24 Nov 2021", "description": "Marissa recognizes The Chairman, forcing both sides into sabotage attempts under suspicion.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 3, "title": "Nadiya", "duration": "24 Nov 2021", "description": "Hanna and Marissa head toward Vienna while searching for Abbas.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 4, "title": "Look Me in the Eye", "duration": "24 Nov 2021", "description": "They infiltrate Pioneer HQ and uncover how assassination targets are selected.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 5, "title": "Eyeliner", "duration": "24 Nov 2021", "description": "Hanna is captured while Marissa struggles with encrypted evidence.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" },
+      { "ep": 6, "title": "Do Not Sleep", "duration": "24 Nov 2021", "description": "They return to Pioneer HQ to unlock evidence and rescue Abbas and his daughter.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/hanna.jpg" }
+    ]
+  }
+]
     },
     {
       "id": 68,
       "title": "Citadel: Diana",
       "type": "series",
-      "image": "images/cintadeldiana.jpg",
+      "image": "images/citadeldiana.jpg",
       "description": "The Italian chapter of the Citadel spy universe follows agent Diana Cavalieri.",
       "year": 2024,
       "duration": "45 mins per episode",
@@ -2970,13 +3451,18 @@
         { "name": "Daniele Paoloni", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTun1POa23Fu7HB2e1v20NhJC-hx3mrtI6ZBMe6dna_UpsOU2MXLOk1BEk2x9tL-uL9DbQJ6CHx2KG1FZS8R9t7uz6XagPmx4v2ElBIQ-Kv&s=10" }
       ],
       "seasons": [
-        {
-          "season": 1,
-          "episodes": [
-            { "ep": 1, "title": "Episode 1", "duration": "45 min", "description": "Agent Diana Cavalieri is pulled into a web of international espionage.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/cintadeldiana.jpg" }
-          ]
-        }
-      ]
+  {
+    "season": 1,
+    "episodes": [
+      { "ep": 1, "title": "Episode 1", "duration": "52 min", "description": "Diana, a covert Citadel agent embedded deep within enemy territory, begins to question her allegiance after a mission goes wrong.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadeldiana.jpg" },
+      { "ep": 2, "title": "Episode 2", "duration": "51 min", "description": "Diana is forced to complete a high-risk extraction while evading internal surveillance from Manticore-linked operatives.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadeldiana.jpg" },
+      { "ep": 3, "title": "Episode 3", "duration": "53 min", "description": "Fragments of Diana’s erased past begin resurfacing, revealing her connection to Citadel’s collapse.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadeldiana.jpg" },
+      { "ep": 4, "title": "Episode 4", "duration": "54 min", "description": "A compromised operation exposes Diana to both Citadel remnants and Manticore enforcers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadeldiana.jpg" },
+      { "ep": 5, "title": "Episode 5", "duration": "55 min", "description": "Diana discovers a hidden Citadel intelligence node that could shift global power balances.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadeldiana.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "60 min", "description": "In a final confrontation, Diana must choose between exposing the truth or preserving what remains of Citadel’s legacy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/citadeldiana.jpg" }
+    ]
+  }
+]
     }
   ],
   "users": [
