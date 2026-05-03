@@ -3562,7 +3562,7 @@
   "newRelease": false,
   "trailer": {
     "local": "videos/",
-    "embed": "https://youtube.com/embed/EXAMPLE"
+    "embed": "https://youtube.com/embed/rUSdnuOLebE"
   },
   "movie": {
     "local": "videos/gorge.mp4",
@@ -3575,6 +3575,146 @@
     { "name": "Sope Dirisu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tISMV7yj9puBUSdT8YEmwJ95VnM0bbQwfuy5Nd2jHfpDw2NOQgEzE6KZ_-SZz3zQABgLOE57RbcXnDsnrPJrGKJQfhki5BsG7GHBHpXmJw&s=10" }
   ],
   "seasons": []
+},
+{
+  "id": 71,
+  "title": "Mickey 17",
+  "type": "movie",
+  "image": "images/mickey17.jpg",
+  "description": "An expendable worker on a colonization mission is repeatedly regenerated after death.",
+  "year": 2025,
+  "duration": "2 hours 19 mins",
+  "genre": "Sci-Fi Drama",
+  "rating": "R",
+  "ageRating": "18+",
+  "categories": ["new", "sci-fi"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": false,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/embed/osYpGSz_0i4"
+  },
+  "movie": {
+    "local": "videos/mickey17.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+  "cast": [
+    { "name": "Robert Pattinson", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSNc0Lmgit9HRFaMszQxmiA6xeIco9szBOQ8xk0JMcpq_FqonqE64STJGgJKOEHvn1fM3BJsHakGS0fQQAS6p-jMTYBAWricvkcTz9VT6YU2eEDqcPI4t5R4Ljfp1qehFIBK8iOGhJgw9Q&s=19" },
+    { "name": "Naomi Ackie", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQHBWfPm-45BoM99ecjJdkUCZC5jElruztLiJR-5NPG5kk-fNf3o-HNpXXd90T27MsTXwNrNEmgHWW8qfUcN9OyzfH-yfy8dH_P5hdIO_0ya4XQ0f_IO737qvmOVuYzFljOa7RmclsXZ3dL&s=19" },
+    { "name": "Steven Yeun", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rI_jR6fj_gKPXehEN7DCoYqLBq0S7TEOU5B95yu71d62W6X8FSvy3dyMhRywk3U_V2tvfn3To0ynYThhROX5wKqPb50VTOzCgJMeo_3xiQ&s=10" },
+    { "name": "Mark Ruffalo", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRv889iYXMFcHYfphk9Kj5PkOOYVaw-G1ch-jvMYnqKmDapspS3xPSATjePDNvLnDRYGtVsYeZ2h32cwus7pwajqIQn3ycRAAPJXVnYUsqwbNDlpzqeDsdzFeFAYEoZwttFC2bb_SxXqRWD&s=19" }
+  ],
+  "seasons": []
+},
+{
+  "id": 72,
+  "title": "A Quiet Place: Day One",
+  "type": "movie",
+  "image": "images/quietplace.jpg",
+  "description": "The terrifying first days of the alien invasion unfold in New York City.",
+  "year": 2025,
+  "duration": "1 hour 55 mins",
+  "genre": "Horror Thriller",
+  "rating": "PG-13",
+  "ageRating": "13+",
+  "categories": ["new", "horror"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": true,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/embed/YPY7J-flzE8"
+  },
+  "movie": {
+    "local": "videos/quietplace.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+  "cast": [
+    { "name": "Lupita Nyong'o", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLdqjslCHYhHpX5iMS5w2JhVRkjkYYtpE3SFJU_qJw8ZTKlvvS-klTu-40p2BViHpN9zIOijtBCmB1nmPJCTQaXPOGUz7-oJefiPlGW4KHaw&s=10" },
+    { "name": "Joseph Quinn", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSGa82xjmPOEUtGfU7LKiSvk1AKCV0439qfyhwaPeq--7W5K8s_-hSQm2iTIf8e3364hEYbA5EiHCLlU6EMnK_udg_tMHF35XYhSENthi&s=10" },
+    { "name": "Alex Wolff", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUeJa0z291LRKeddVbedSecrQwdhfGi-JJqJ6v2fs-mUmNXx5vRfZoo_Wcr2ZhHX0sOirS0Ntbb0TWy6llbtzMkfqCwXCP1mG7a_mrqSpU&s=10" },
+    { "name": "Thea Butler", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQudBTaTWtTHD3JLx8WP8HvmC5C1dh9LKA9UXbv7y2ziAlaHimzpQ2AisZiF2FWnLqTvLbNfdEfDMDiyPTDRvEJ3ItBpgwUaGTobST7YpCa&s=10" }
+  ],
+  "seasons": []
+},
+  {
+  "id": 73,
+  "title": "The Penguin",
+  "type": "series",
+  "image": "images/penguin.jpg",
+  "description": "Oswald Cobblepot rises through Gotham’s criminal underworld after the fall of Falcone.",
+  "year": 2025,
+  "duration": "50–60 mins",
+  "genre": "Crime Drama",
+  "rating": "TV-MA",
+  "ageRating": "18+",
+  "categories": ["new", "crime"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": true,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/DQghiGQi6Lo"
+  },
+  "cast": [
+    { "name": "Colin Farrell", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-GKWJiKBNKyi_jaJ2ZLeYj-QKJSkGBfnNhP9XxytA3dY9I9lCcNzMa16M9_wqRIH_T1ZK0BOX93Yln59wqqEA6QIakLdDNmqFhUsmiukk6g&s=10" },
+    { "name": "Cristin Milioti", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHNmUjliI_PrVeCBhmdILPI-U78oKLIbffUFzVHqrTHuQhko_YQyrYbr3BQIZ3KB7zrDEiFQ6-mV8o2VMZsCNSmNl30F_t3EV7j0ACHKqelA&s=10" },
+    { "name": "Rhenzy Feliz", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSbmI48TKq9aPztVVFx5r4eD5qzwTtGKVcCmuD9_7pc82OnV1GCInMxhMNq7_mD9omVn0vd8SlsdJSOlzruVxqRdxy-3IhQaOTeREbFL5mK5HoTEBlrLpsy2fZyVpkBJVmPGieyMxuVGQA&s=19" },
+    { "name": "Clancy Brown", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSCHAbVGC68eecYFxeeUx5iF0M88KzffQ2QYyfGvrfc45Qj6zNXja_SyWftWidJMmPCmopRXDymrO3uAkiQ8uS2_pOF_4Ok24cyMOTjTvT&s=10" }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        { "ep": 1, "title": "Aftermath", "duration": "2025", "description": "Oz begins his rise in Gotham.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/penguin.jpg" },
+        { "ep": 2, "title": "Power Plays", "duration": "2025", "description": "Alliances form.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/penguin.jpg" },
+        { "ep": 3, "title": "Blood Ties", "duration": "2025", "description": "Family secrets surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/penguin.jpg" },
+        { "ep": 4, "title": "The Deal", "duration": "2025", "description": "A risky deal changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/penguin.jpg" },
+        { "ep": 5, "title": "Betrayal", "duration": "2025", "description": "Trust is broken.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/penguin.jpg" },
+        { "ep": 6, "title": "Empire", "duration": "2025", "description": "Oz claims his throne.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/penguin.jpg" }
+      ]
+    }
+  ]
+},
+  {
+  "id": 74,
+  "title": "Alien: Earth",
+  "type": "series",
+  "image": "images/alienearth.jpg",
+  "description": "The xenomorph threat reaches Earth in a terrifying new chapter.",
+  "year": 2026,
+  "duration": "50–60 mins",
+  "genre": "Sci-Fi Horror",
+  "rating": "TV-MA",
+  "ageRating": "18+",
+  "categories": [ "horror", "sci-fi"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": true,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/ZbsiKjVAV28"
+  },
+  "cast": [
+    { "name": "Sydney Chandler", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUvPpmNCjCNmSITdep7HnyIV4q5ua33TXhGmUkUE7Qo-2vqtvM94S3xaYnQxVpI0YxWgHyGNSj_cslT05d806XwhKVC8b5j99jpZrp57So&s=10" },
+    { "name": "Alex Lawther", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9lQisWskTJzaCTKuPP7TJFILf6x5y6N1TXWu4Y9uvaSVmI27wBGTQQyNuFM6ba48_L1FXO8qMVK654KRcu06GHCuTvk15jaiHUHuvXEnu&s=10" },
+    { "name": "Essie Davis", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRta1vmFDscqwLygeuhXVM_oLuSRr5ME5OOZLpZGwUX1zH9_Q5hKNuh_LBGeOkiTm_7P-pFhc-cxnoZr_HeOqsIfSnRjP-U5bYK4rp4scSSvsAwha-AbhTrt7U7iCwICcCN6GXVolKUm5tj&s=19" },
+    { "name": "Samuel Blenkin", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTabw_p_fNLL-_xhV48oQmXQxySTs0oXMWVqrdECME0QRTfMCkDS6j98O96_mdoZNygGEdgz_91yaDCis8wfvlIUGGs8gPmp6xEy4Xp6BYf&s=10" }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        { "ep": 1, "title": "Arrival", "duration": "2026", "description": "A ship crash brings horror to Earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/alienearth.jpg" },
+        { "ep": 2, "title": "Containment", "duration": "2026", "description": "The outbreak spreads.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/alienearth.jpg" },
+        { "ep": 3, "title": "Host", "duration": "2026", "description": "The creature evolves.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/alienearth.jpg" },
+        { "ep": 4, "title": "Escape", "duration": "2026", "description": "Survivors flee.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/alienearth.jpg" },
+        { "ep": 5, "title": "Hive", "duration": "2026", "description": "The truth is revealed.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/alienearth.jpg" },
+        { "ep": 6, "title": "Extinction", "duration": "2026", "description": "Final stand.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/alienearth.jpg" }
+      ]
+    }
+  ]
 }
   ],
   "users": [
