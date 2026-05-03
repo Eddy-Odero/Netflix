@@ -102,6 +102,31 @@
       { "ep": 7, "title": "Here Comes a Candle to Light You to Bed", "duration": "62 min", "description": "The team prepares for an all-out confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
       { "ep": 8, "title": "The Instant White-Hot Wild", "duration": "64 min", "description": "Season finale: alliances shatter in an explosive ending.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
     ]
+  },
+    {
+    "season": 4,
+    "episodes": [
+      { "ep": 1, "title": "Department of Dirty Tricks", "duration": "13 Jun 2024", "description": "Homelander faces judgment as tensions rise and the public prepares for fallout from the trial.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 2, "title": "Life Among the Septics", "duration": "13 Jun 2024", "description": "TruthCon exposes bizarre conspiracies as paranoia spreads across Vought’s influence network.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 3, "title": "We'll Keep the Red Flag Flying Here", "duration": "13 Jun 2024", "description": "Vought propaganda ramps up with a spectacle designed to influence public opinion.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 4, "title": "Wisdom of the Ages", "duration": "20 Jun 2024", "description": "A live Vought broadcast targets Starlight while narratives are manipulated in real time.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 5, "title": "Beware of the Jabberwock, My Son", "duration": "27 Jun 2024", "description": "Hughie deals with family struggles while the Boys pursue a dangerous anti-Supe weapon.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 6, "title": "Dirty Business", "duration": "4 Jul 2024", "description": "A suspicious rehabilitation facility reveals deeper layers of Vought’s operations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 7, "title": "The Insider", "duration": "11 Jul 2024", "description": "Propaganda reaches children as Vought escalates influence through media manipulation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 8, "title": "Season Four Finale", "duration": "18 Jul 2024", "description": "The Boys attempt to stop a political assassination as Butcher makes a final desperate move against Homelander.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+    ]
+  },
+  {
+    "season": 5,
+    "episodes": [
+      { "ep": 1, "title": "Fifteen Inches of Sheer Dynamite", "duration": "8 Apr 2026", "description": "New tensions erupt as control measures tighten and rebellion brews beneath Vought’s surface.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 2, "title": "Teenage Kix", "duration": "8 Apr 2026", "description": "A VoughtNews report fuels paranoia while young Supes face scrutiny and manipulation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 3, "title": "Every One of You Sons of B...", "duration": "15 Apr 2026", "description": "Vought intensifies propaganda while chaos builds among rival factions.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 4, "title": "King of Hell", "duration": "22 Apr 2026", "description": "Homelander consolidates power as opposition groups struggle to respond.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 5, "title": "One-Shots", "duration": "29 Apr 2026", "description": "A VoughtNews exposé targets Hollywood figures suspected of rebellion ties.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 6, "title": "Episode 6", "duration": "6 May 2026", "description": "New developments escalate tensions between Vought and its enemies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" },
+      { "ep": 7, "title": "Episode 7", "duration": "13 May 2026", "description": "The conflict intensifies as both sides prepare for a decisive confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/theboys.jpg" }
+    ]
   }
 ]
     },
@@ -165,23 +190,32 @@
         { "name": "Aaron Moten", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dm-hiLvZPI_lu6g9xOFLV51iTRvxSCC_rAKqqTWg5-mFdzOktuNANcUzf42bB9G54XVQWoFEjgthC8fcfi3sDRjMQZ3hmlivJpqET4cv&s=10" },
         { "name": "Moisés Arias",  "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTbg_MsUfB6KUrXYJ4qpeznbWhEYoQsGi5VW0U4HaikgmPBAjTdWRRMe6s8hwWmgmvPdy0Hg8JV5if1vNvad_YJyDUHimJ5q6OknZPHlF5e4IlhmNVSgp8sqBsurvqfbe9tzU1OxZMnFRvi&s=19" }
       ],
-    "seasons": [
+      "seasons": [
   {
     "season": 1,
     "episodes": [
-      { "ep": 1, "title": "The End", "duration": "60 min", "description": "A young woman leaves the safety of her vault to explore the dangerous wasteland.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 2, "title": "The Target", "duration": "58 min", "description": "Lucy begins her journey while a bounty hunter closes in on his target.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 3, "title": "The Head", "duration": "59 min", "description": "Secrets about the wasteland emerge as alliances begin to form.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 4, "title": "The Ghouls", "duration": "57 min", "description": "A mysterious ghoul reveals parts of his past in the pre-war world.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 5, "title": "The Past", "duration": "60 min", "description": "Flashbacks uncover the truth behind Vault-Tec and the nuclear fallout.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 6, "title": "The Trap", "duration": "61 min", "description": "Danger escalates as characters are drawn into a deadly conflict.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 7, "title": "The Radio", "duration": "59 min", "description": "A signal leads to unexpected revelations and betrayals.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
-      { "ep": 8, "title": "The Beginning", "duration": "62 min", "description": "Season finale: the truth about the wasteland changes everything.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" }
+      { "ep": 1, "title": "The End", "duration": "2024", "description": "Lucy leaves Vault 33 to rescue her father, entering the dangerous wasteland for the first time.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 2, "title": "The Target", "duration": "2024", "description": "Lucy encounters survivors and raiders while Maximus begins his journey within the Brotherhood of Steel.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 3, "title": "The Head", "duration": "2024", "description": "The Ghoul’s past is revealed as Lucy continues searching for answers about her father.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 4, "title": "The Ghouls", "duration": "2024", "description": "Lucy faces harsh realities of the wasteland while alliances begin to shift.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 5, "title": "The Past", "duration": "2024", "description": "Flashbacks reveal pre-war secrets tied to Vault-Tec and Cooper Howard.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 6, "title": "The Trap", "duration": "2024", "description": "Lucy is caught in a dangerous situation while Maximus faces consequences within the Brotherhood.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 7, "title": "The Radio", "duration": "2024", "description": "Signals from the wasteland lead to shocking discoveries about Vault-Tec operations.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 8, "title": "The Beginning", "duration": "2024", "description": "Secrets about Vault-Tec and the origin of the nuclear war come to light in a dramatic finale.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" }
     ]
   },
   {
     "season": 2,
-    "episodes": []
+    "episodes": [
+      { "ep": 1, "title": "The Innovator", "duration": "16 Dec 2025", "description": "In 2077, Cooper tries to escape with his daughter; in 2296, Lucy and the Ghoul uncover experiments while searching for Hank.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 2, "title": "The Golden Rule", "duration": "24 Dec 2025", "description": "A mysterious merchant arrives in Shady Sands while Maximus’s father discovers implanted technology.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 3, "title": "The Profligate", "duration": "31 Dec 2025", "description": "Lucy is taken to a Legion camp and witnesses the harsh treatment of slaves.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 4, "title": "The Demon in the Snow", "duration": "7 Jan 2026", "description": "Vault 33 faces crisis while Lucy and the Ghoul encounter a deadly creature.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 5, "title": "The Wrangler", "duration": "14 Jan 2026", "description": "Cooper retrieves a device in 2077 while Lucy navigates New Vegas and Hank makes a desperate move.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 6, "title": "The Other Player", "duration": "21 Jan 2026", "description": "Vault-Tec conspiracies deepen as Lucy uncovers shocking truths about Hank.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 7, "title": "The Handoff", "duration": "28 Jan 2026", "description": "Plans collide as Lucy infiltrates a facility and tensions explode during a wedding confrontation.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" },
+      { "ep": 8, "title": "A Strip", "duration": "3 Feb 2026", "description": "The Legion advances on New Vegas while Lucy and the Ghoul uncover dark family secrets tied to Vault-Tec.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/fallout.jpg" }
+    ]
   }
 ]
     },
@@ -241,11 +275,30 @@
       { "ep": 8, "title": "I Thought You Were Stronger", "duration": "50 min", "description": "Season finale: Mark faces one of his toughest battles yet.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
     ]
   },
-  {
+   {
     "season": 3,
     "episodes": [
-      { "ep": 1, "title": "Episode 1", "duration": "TBA", "description": "Season 3 begins with new threats emerging.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
-      { "ep": 2, "title": "Episode 2", "duration": "TBA", "description": "Mark continues facing escalating dangers.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+      { "ep": 1, "title": "You're Not Laughing Now", "duration": "6 Feb 2025", "description": "Mark returns stronger, preparing to face new enemies seeking revenge.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 2, "title": "A Deal With the Devil", "duration": "6 Feb 2025", "description": "Mark confronts powerful foes while Cecil reflects on his past and Eve makes a major decision.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 3, "title": "You Want a Real Costume, Right?", "duration": "6 Feb 2025", "description": "Mark struggles to guide Oliver while Debbie navigates family changes.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 4, "title": "You Were My Hero", "duration": "13 Feb 2025", "description": "Mark helps strangers against a new villain while Nolan deals with his identity.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 5, "title": "This Was Supposed to Be Easy", "duration": "20 Feb 2025", "description": "Mark and Eve start a business while Debbie worries about Oliver growing too fast.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 6, "title": "All I Can Say Is I'm Sorry", "duration": "27 Feb 2025", "description": "Mark faces a morally complex challenge while Rae and Rex discuss a major decision.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 7, "title": "What Have I Done?", "duration": "6 Mar 2025", "description": "Earth’s heroes unite against an overwhelming threat.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 8, "title": "I Thought You'd Never Shut Up", "duration": "13 Mar 2025", "description": "Mark confronts a powerful stranger as the world begins to recover.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
+    ]
+  },
+  {
+    "season": 4,
+    "episodes": [
+      { "ep": 1, "title": "Making the World a Better Place", "duration": "18 Mar 2026", "description": "Mark faces new and returning threats while trying to protect Earth.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 2, "title": "I'll Give You the Grand Tour", "duration": "18 Mar 2026", "description": "Old enemies resurface, forcing Mark back into action as tensions rise among allies.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 3, "title": "I Gotta Get Some Air", "duration": "18 Mar 2026", "description": "Consequences of past actions weigh heavily as Mark struggles with responsibility.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 4, "title": "Hurm", "duration": "25 Mar 2026", "description": "A new threat emerges while Mark learns unexpected lessons about heroism.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 5, "title": "Give Us a Moment", "duration": "1 Apr 2026", "description": "A dangerous mission shakes Mark’s personal life and relationships.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 6, "title": "You Look Horrible", "duration": "8 Apr 2026", "description": "Family bonds are tested as alliances shift across the galaxy.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 7, "title": "Don't Do Anything Rash", "duration": "15 Apr 2026", "description": "A major confrontation spirals out of control with unpredictable consequences.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" },
+      { "ep": 8, "title": "Don't Leave Me Hanging Here", "duration": "22 Apr 2026", "description": "Mark faces his darkest fears in a life-changing finale.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/invincible.jpg" }
     ]
   }
 ]
@@ -2967,7 +3020,7 @@
       "type": "movie",
       "image": "images/IT .jpg",
       "description": "A group of kids face their biggest fears when a shapeshifting monster emerges from the sewers of Derry.",
-      "year": 2017,
+      "year": 2026,
       "duration": "45 mins per episode",
       "genre": "Horror Drama",
       "rating": "R",
@@ -3460,7 +3513,69 @@
     ]
   }
 ]
-    }
+    },
+    {
+  "id": 69,
+  "title": "Kingdom of the Planet of the Apes",
+  "type": "movie",
+  "image": "images/apes2025.jpg",
+  "description": "A new ape leader builds his empire while a young ape questions everything he’s been taught.",
+  "year": 2025,
+  "duration": "2 hours 25 mins",
+  "genre": "Sci-Fi Action",
+  "rating": "PG-13",
+  "ageRating": "13+",
+  "categories": [ "sci-fi", "action","adventure"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": false,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/embed/XtFI7SNtVpY"
+  },
+  "movie": {
+    "local": "videos/apes.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+  "cast": [
+    { "name": "Owen Teague", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKS3BvefGKeFWFX74QXuxhUkgvGTFOHDWABIf4YIxb9fNSID2IRXs_rzvWmzSX_D3CmUXUTa3z1rhJUU9qTRbTzpKbxt-e1oh_kYy1ESHv&s=10" },
+    { "name": "Freya Allan", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOMYympIWenMXigWWcG1mGx-9J73Nf3bR5oICBZgLC46DkTZYizEPiAWOA5dx9yOz_UvquhKD_5L9NW-7yHvsoL2cnJ2vXdQsTXfo2vtJD&s=10" },
+    { "name": "Kevin Durand", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMFr2LLk1A1DoH4q2j1hM5fydp0uisrKHbC9SFCvJ0hk0vpi0A7QgkgGxkzR8d5XWwV-8cRzAd29hEo9ZV39IDVbt1FCojovY5Bq0sG673YzAwUF4ARBAS4GQsV2ybgNkU7VsELVm1qgfW&s=19" },
+    { "name": "Peter Macon", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTummGMwSZlASJluHEP65L2p_j0ByNrYDh39M2dsc596bM517qnLxZoHOFcse4En9TY6OI9HfsQoRR2cecojH48guVgElR3Xj53LmHWIZoq&s=10" }
+  ],
+  "seasons": []
+},
+{
+  "id": 70,
+  "title": "The Gorge",
+  "type": "movie",
+  "image": "images/gorge.jpg",
+  "description": "Two operatives guard opposite sides of a mysterious gorge hiding a deadly secret.",
+  "year": 2026,
+  "duration": "2 hours 10 mins",
+  "genre": "Sci-Fi Thriller",
+  "rating": "PG-13",
+  "ageRating": "13+",
+  "categories": ["horror", "thriller"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": false,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/embed/EXAMPLE"
+  },
+  "movie": {
+    "local": "videos/gorge.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+  "cast": [
+    { "name": "Anya Taylor-Joy", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJrXRNdtZGixa3Jwf_Zs3GSFHxQeb29OCtbbD2NJjWItGpJyaVMUK9hUPOuICM3My7D-AQR8ST13XhbHoh91Cs2HT-j19KjbbcEx656aAngA&s=10" },
+    { "name": "Miles Teller", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRTewtKdlYT9mE2yNbsSNWsoihZkFr3iJ19Z7Fy9nqruNetcw51O85yn2nYlmYiRB_rBw98eQgnqoRba2AxctDocx7AwGHCt7kCwC92KIp5BI7JkXeFbFUtW7JK4-96iO85_DU0Zn6UCZc&s=19" },
+    { "name": "Sigourney Weaver", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_YKuKnKVBDiR0Vn07xIxVw042JIhEKbafGmAqmZZ7zEjpce0wHstlN_9SldbvZ2Rhnyy0_IIK8g2dCtOQzuF2gIupoHv95MKc1V6TErulg&s=10" },
+    { "name": "Sope Dirisu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tISMV7yj9puBUSdT8YEmwJ95VnM0bbQwfuy5Nd2jHfpDw2NOQgEzE6KZ_-SZz3zQABgLOE57RbcXnDsnrPJrGKJQfhki5BsG7GHBHpXmJw&s=10" }
+  ],
+  "seasons": []
+}
   ],
   "users": [
     {
