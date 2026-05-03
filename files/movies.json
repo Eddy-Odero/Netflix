@@ -3181,7 +3181,7 @@
     },
     {
       "id": 62,
-      "title": " The Terminal List",
+      "title": "The Terminal List",
       "type": "series",
       "image": "images/terminal list.jpg",
       "description": "A Navy SEAL returns home after his platoon is ambushed, questioning his own memories.",
@@ -3715,6 +3715,107 @@
       ]
     }
   ]
+},
+{
+  "id": 75,
+  "title": "Daredevil: Born Again",
+  "type": "series",
+  "image": "images/daredevil.jpg",
+  "description": "Matt Murdock returns to face Wilson Fisk in a darker, more brutal New York.",
+  "year": 2025,
+  "duration": "45–60 mins",
+  "genre": "Action Crime",
+  "rating": "TV-MA",
+  "ageRating": "18+",
+  "categories": ["new", "action", "crime"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": true,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/embed/7xALolZzhSM"
+  },
+  "cast": [
+    { "name": "Charlie Cox", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQC_HqW95ZuZUXVBPyJJKtci1A7-uZA0dXZMr0K1vsCinkm1iwqXxVDm04F2plsOp6sGjXoSZ8_lax2fz3GtdVJnwnpD_n4FWl25H-7-OAYq1ksSfalZfqP_7ePp4_-Dm1UYaYX0P1jeAc&s=19" },
+    { "name": "Vincent D'Onofrio", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT-1t4yXt9X1q_N-6Z_Jtve3jRCXu9dItIHuag9wZ79JPnMafuqBU0BaL6ZTeMa4OEzvVguBn1OM5M4PYjrZLaMYW-jVoYXEkEuBs-hgJvXEsUlkOyfeIBL_Ivqw9y19n-MEpUpttjXEVA4&s=19" },
+    { "name": "Jon Bernthal", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeUMVW_dNlsU5khRRNHBrhbQFJKayX90M43VZLpqvIgkVCRjW29Ea2uJXkVB3pH-kldNJnIpkRvxA_vhlG3GGF1rojQYYoLTRNTCxFhJ_5w&s=10" },
+    { "name": "Deborah Ann Woll", "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRe5mVBloZCdnjUfcnhKMmINPFZ4pEaGTClOwKmAkTsZv4CS9AWRT6I37dKRoZYMINjr8i-al8wGX0tMs2uMlWTEkjM8JOweg7d0fJo07EE4F4geA1JRCbd0nJ5Ny5jUIqZ4zMwb_dt0no&s=19" }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        { "ep": 1, "title": "Return to Hell's Kitchen", "duration": "2025", "description": "Matt returns.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/daredevil.jpg" },
+        { "ep": 2, "title": "Kingpin Rising", "duration": "2025", "description": "Fisk regains power.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/daredevil.jpg" },
+        { "ep": 3, "title": "Broken Faith", "duration": "2025", "description": "Matt struggles.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/daredevil.jpg" },
+        { "ep": 4, "title": "Punishment", "duration": "2025", "description": "Frank returns.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/daredevil.jpg" },
+        { "ep": 5, "title": "Crossfire", "duration": "2025", "description": "War begins.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/daredevil.jpg" },
+        { "ep": 6, "title": "Born Again", "duration": "2025", "description": "Final showdown.", "embed": "https://archive.org/embed/YOUR_EP", "thumb": "images/daredevil.jpg" }
+      ]
+    }
+  ]
+},
+{
+  "id": 76,
+  "title": "Karate Kid",
+  "type": "movie",
+  "image": "images/karatekid.jpg",
+  "description": "A young martial artist finds a new mentor and faces powerful rivals.",
+  "year": 2025,
+  "duration": "1 hour 58 mins",
+  "genre": "Action Drama",
+  "rating": "PG-13",
+  "ageRating": "13+",
+  "categories": ["new", "action"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": false,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/embed/LhRXf-yEQqA"
+  },
+  "movie": {
+    "local": "videos/karate.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+  "cast": [
+    { "name": "Jackie Chan", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XbCvZ5bQR_SWo0Xfx500QwqpCSNC-mvSXr57P9oiuk0d-XqubdrE2RxQe41YxQuGYxsPk1PDK3qYWtNQga5onFexO2WF7lV6DucnGw7anA&s=10" },
+    { "name": "Ralph Macchio", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1AGscpL98H1qCOPetbGeRyW1avUBKVSeCoplJWOqGw5IBfDsZ_1vlaZg5H7utz_9GgWSjmYmdIloeywPwSTMM8GhB_oAyaAZLhTG9qZJnw&s=10" },
+    { "name": "Ben Wang", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJGfnETgYMLLHFCJ7GTJEhQRSzM2G0vtWztdk6q9tjS5KaZa9CgYt_0Y_lWImBya60WTu9oxDe4X8afP0uitEFauhC-B0qRXsEkobTA05Pg&s=10" },
+    { "name": "Ming-Na Wen", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLmrZFHP6jCcwzRARQxMJxcBgManZAheGtSEL7M1tIriRQRYsy8q2QI77TKKe_SLVfseHVsm0OUrfER3USiDmBLZ_P4Hv2y1rIR1UWeFk&s=10" }
+  ],
+  "seasons": []
+},
+{
+  "id": 77,
+  "title": "Tron: Ares",
+  "type": "movie",
+  "image": "images/tronares.jpg",
+  "description": "A highly advanced program is sent from the digital world into the real world on a dangerous mission.",
+  "year": 2025,
+  "duration": "2 hours 5 mins",
+  "genre": "Sci-Fi Action",
+  "rating": "PG-13",
+  "ageRating": "13+",
+  "categories": ["new", "sci-fi", "action"],
+  "ranking": 0,
+  "progress": 0,
+  "newRelease": true,
+  "trailer": {
+    "local": "videos/",
+    "embed": "https://youtube.com/YShVEXb7-ic"
+  },
+  "movie": {
+    "local": "videos/tron.mp4",
+    "embed": "https://youtube.com/embed/MOVIE_ID"
+  },
+  "cast": [
+    { "name": "Jared Leto", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNL3mdsrvSnqAv34jHgoVkmVio_YBJGUWdTiOLq9Y1pheUemIagbdwkXWErbrlcL1JQs2-_6eqQffrPqO0-IVAZJ5eODHhM1LIV93PdU4Y&s=10" },
+    { "name": "Greta Lee", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFTFWsQ2UziLiUcgHojIS7w0_HaHREu9gCZEI6dXn7JTJEVSvymE9oFHD9sjiXVaNjQ4Zv0lTABJGWpSTH62I1aSc3fKIMUAZWnoWvcjT&s=10" },
+    { "name": "Evan Peters", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQRTBsHUiIKSVRv4RZLorAdIIdoWJn-j8rn4MAJXpK5sWcfQ462rQy7UA2CSTaUOrFdvzRGmuVVs2zYMEYQW49xgNFTBdqYsCEKp_MIiTqOQ&s=10" },
+    { "name": "Jodie Turner-Smith", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQhF3a0jO3sUMdqiw7oib3nWCN9WJJAtPyYB8SqwIV1cdnmhJijkvDEJYtXHWXKB2mwEFbuog6hpIz_wUH_8WFS_v6tNjEZbr97qX6Jduz&s=10" }
+  ],
+  "seasons": []
 }
   ],
   "users": [
