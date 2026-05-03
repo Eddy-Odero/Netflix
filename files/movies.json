@@ -3655,7 +3655,7 @@
   "newRelease": true,
   "trailer": {
     "local": "videos/",
-    "embed": "https://youtube.com/DQghiGQi6Lo"
+    "embed": "https://youtube.com/embed/DQghiGQi6Lo"
   },
   "cast": [
     { "name": "Colin Farrell", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-GKWJiKBNKyi_jaJ2ZLeYj-QKJSkGBfnNhP9XxytA3dY9I9lCcNzMa16M9_wqRIH_T1ZK0BOX93Yln59wqqEA6QIakLdDNmqFhUsmiukk6g&s=10" },
@@ -3694,7 +3694,7 @@
   "newRelease": true,
   "trailer": {
     "local": "videos/",
-    "embed": "https://youtube.com/ZbsiKjVAV28"
+    "embed": "https://youtube.com/embed/ZbsiKjVAV28"
   },
   "cast": [
     { "name": "Sydney Chandler", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUvPpmNCjCNmSITdep7HnyIV4q5ua33TXhGmUkUE7Qo-2vqtvM94S3xaYnQxVpI0YxWgHyGNSj_cslT05d806XwhKVC8b5j99jpZrp57So&s=10" },
@@ -3803,7 +3803,7 @@
   "newRelease": true,
   "trailer": {
     "local": "videos/",
-    "embed": "https://youtube.com/YShVEXb7-ic"
+    "embed": "https://youtube.com/embed/9KVG_X_7Naw"
   },
   "movie": {
     "local": "videos/tron.mp4",
