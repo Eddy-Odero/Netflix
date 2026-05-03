@@ -856,14 +856,30 @@
   });
 
   /* ── SIDEBAR TYPE ── */
-  document.querySelectorAll('[data-filter="type"]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('[data-filter="type"]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.type = btn.dataset.value;
-      render();
+ document.querySelectorAll('[data-filter="type"]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    // update sidebar UI
+    document.querySelectorAll('[data-filter="type"]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // update state
+    state.type = btn.dataset.value;
+
+    // 🔥 sync navbar with sidebar
+    if (state.type === 'movie' || state.type === 'series') {
+      state.tab = state.type;
+    } else {
+      state.tab = 'all';
+    }
+
+    // update navbar UI
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.tab === state.tab);
     });
+
+    render();
   });
+});
 
   /* ── YEAR ── */
   document.getElementById('yearRange').addEventListener('input', e => {
