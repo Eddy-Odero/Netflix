@@ -1,7 +1,3 @@
-/* ==========================================================
-   EDU-FLIX — script.js
-   Works with movies.json to populate all rows in main.html
-========================================================== */
 
 let movies = [];
 let myList = JSON.parse(localStorage.getItem('eduflix_mylist') || '[]');
@@ -39,7 +35,6 @@ function renderHero(movies) {
   const video  = document.getElementById('heroVideo');
   const source = video?.querySelector('source');
 
-  // ✅ FIX: use HERO, not movie
   const bgVideo = hero?.trailer?.local || null;
 
   if (bgVideo && video && source) {
@@ -56,6 +51,12 @@ function renderHero(movies) {
   }
 
   // optional: make buttons dynamic
+  const infoBtn = document.querySelector(".btn-info");
+  if (infoBtn) {
+    infoBtn.onclick = () => {
+      showDetails(hero.id); 
+    };
+  }
   const playBtn = document.querySelector(".btn-play");
   if (playBtn) {
     playBtn.onclick = () => {
@@ -81,7 +82,7 @@ function createMovieCard(movie) {
 
       ${progressBar}
 
-      <!-- ✅ CENTER PLAY BUTTON -->
+      <!-- CENTER PLAY BUTTON -->
       <div class="overlay-center">
         <button class="play-btn"
           onclick="event.stopPropagation(); window.location.href='preview.html?id=${movie.id}'">
@@ -89,7 +90,7 @@ function createMovieCard(movie) {
         </button>
       </div>
 
-      <!-- ✅ BOTTOM INFO BUTTON -->
+      <!-- BOTTOM INFO BUTTON -->
       <div class="overlay-bottom">
         <button class="info-btn"
           onclick="event.stopPropagation(); showDetails(${movie.id})">
@@ -131,7 +132,7 @@ function populateList(listId, items) {
   const el = document.getElementById(listId);
   if (!el) return;
 
-  const limitedItems = items.slice(0, 12); // ✅ limit to 12
+  const limitedItems = items.slice(0, 12); 
 
   el.innerHTML = limitedItems.length
     ? limitedItems.map(createMovieCard).join('')
@@ -195,9 +196,8 @@ function showDetails(movieId) {
   const tagsEl   = g('modalTags');
   const listBtn  = g('modalList');
   const likeBtn  = g('modalLike');
-  const playBtn  = g('modalPlay'); // ✅ NOW here
+  const playBtn  = g('modalPlay'); 
 
-  // ✅ FIX: assign click AFTER movie exists
   if (playBtn) {
     playBtn.onclick = () => {
       window.location.href = `preview.html?id=${movie.id}`;
@@ -382,7 +382,6 @@ function populateAllRows() {
   populateList('popular',   getByCategory('popular'));
   populateList('new',       getByCategory('drama')); // only if "drama" exists
 
-  // ✅ FIXED
   populateList('tvshows',   getByType('series'));
   populateList('movies',    getByType('movie'));
 
@@ -406,14 +405,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       const data = await res.json();
       if (data.movies && data.movies.length) {
         movies = data.movies;
-        console.log('✅ Loaded movies from:', path);
+        console.log(' Loaded movies from:', path);
         break;
       }
     } catch (e) { /* try next path */ }
   }
 
   if (!movies.length) {
-    console.error('❌ Could not load movies.json. Check the file path.');
+    console.error(' Could not load movies.json. Check the file path.');
     return;
   }
 
@@ -433,9 +432,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (modal) modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
 
   // Hero More Info button → show details for movie id 1
-  document.querySelectorAll('.btn-info').forEach(btn => {
-    if (!btn.id) btn.addEventListener('click', () => showDetails(1));
-  });
+
 
   // Header buttons
   const notifBtn   = document.querySelector('.header-btn');

@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -581,23 +580,23 @@ body {
 /* Ensure row is relative so arrows can be positioned */
 .movie-row {
   position: relative;
-  overflow: hidden; /* prevent hover expansion from escaping */
+  overflow: hidden;
 }
 
 /* Cards hover scaling */
 .movie-card:hover {
   transform: scale(1.05) translateY(-8px);
-  z-index: 5; /* card raises, but below arrows */
+  z-index: 5; 
 }
 
 /* Fades */
 .row-fade {
-  z-index: 6; /* above cards */
+  z-index: 6;
 }
 
 /* Arrows */
 .row-fade .scroll-btn {
-  z-index: 10; /* absolute top layer */
+  z-index: 10; 
   pointer-events: auto;
 }
 
@@ -664,7 +663,7 @@ body {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%; /* stretch almost full width */
+  width: 90%; 
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -1228,8 +1227,8 @@ body {
     
 }
 .footer {
-  background-color:black; /* Netflix black */
-  color: #b3b3b3;            /* Netflix light gray */
+  background-color:black;
+  color: #b3b3b3;           
   padding: 40px 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 13px;

@@ -3839,8 +3839,8 @@
     { "id": 8, "name": "Horror",    "key": "horror"    },
     { "id": 9, "name": "Action",    "key": "action"    },
     { "id": 10, "name": "Crime",    "key": "crime"    },
-    { "id": 11, "name": "Romance",    "key": "romance"    },
-    { "id": 12, "name": "Historical",    "key": "historical"   },
+    { "id": 11, "name": "Romance",  "key": "romance"    },
+    { "id": 12, "name": "Historical",  "key": "historical"   },
     { "id": 9, "name": "Mystery",    "key": "mystery"    }
   ]
 }

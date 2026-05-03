@@ -591,7 +591,7 @@
       <i class="fas fa-sliders-h"></i> Filters
     </button>
 
-    <!-- ✅ TABS — My List added -->
+    <!-- TABS — My List added -->
     <div class="tabs">
       <button class="tab-btn active" data-tab="all">All</button>
       <button class="tab-btn" data-tab="movie">Movies</button>
@@ -786,7 +786,7 @@
           <img src="${m.image}" alt="${m.title}" loading="lazy"
                onerror="this.style.background='#222';this.removeAttribute('src')">
           ${badge}
-          <!-- ✅ My List toggle button -->
+          <!--  My List toggle button -->
           <button
             class="card-list-btn ${inList ? 'in-list' : ''}"
             onclick="toggleList(${m.id}, event)"
@@ -925,7 +925,7 @@
     backdrop.classList.remove('open');
   });
 
-  /* ── ✅ HASH ROUTING — reads URL hash on load and activates matching tab ── */
+  /* ── HASH ROUTING — reads URL hash on load and activates matching tab ── */
   function activateFromHash() {
     const hash = window.location.hash.replace('#', '').toLowerCase();
     if (!hash) return;
